@@ -1,0 +1,20 @@
+---
+title: Leaving the walled gardens
+date: '2014-08-01 16:06:48 +0000'
+
+tags:
+- crapification of everything
+- gmail
+- kindle
+---
+Google, Amazon, Facebook, and the other huge Internet giants may have adhered to some kind of "do not be evil" policy in their early years, but as with all companies that exceed a certain size, they inevitably become evil.  This is the natural course of large corporations and bureacracies.  Even though the individuals that comprise such an organization may not be evil for the most part, the organization itself has a life of its own, and that life form inevitably becomes evil as it attempts to grow and exterminate its competitors.
+
+So in a feeble attempt to disassociate myself with evil, I've closed two of my social media accounts (Facebook and LinkdeIn), and am now in the process of freeing myself from Google and Amazon.
+
+Google is the easier of the two to leave behind.  Its search features can be used without being tracked by visiting [Start Page](https://startpage.com/).  Or if you want to try a different non-tracking search engine, [DuckDuckGo](https://duckduckgo.com/) is a decent alternative that sometimes gives more relevant results for certain searches.  There are also some free alternatives to Gmail, and the one I'm trying now, [Zoho Mail](https://personal.zoho.com), seems to work well with POP3 and fetchmail; I haven't used the email web app much and don't really care about it.  Google+ always seemed pointless, a kind of Facebook-like "me too" product, so I would not miss it.
+
+Amazon is a little more difficult to give up than Google.  They have sold me a device that I would have a hard time giving up: the Kindle.  Kindles are evil because the ebook sales model is evil: unlike with a real book, you don't actually own any ebooks you buy from Amazon.  You can't give them away or sell them, and they are unreadable on any non-Amazon device or app.  To be fair, the problem here is not exclusively Amazon; the problem is DRM (digital rights management), an easily subverted form of copy protection and encryption that encumbers most ebooks sold today, whether by Amazon or any other ebook producer.  If book publishers didn't insist upon DRM in ebooks, and followed the lead of the technical book publishers Pragmatic Programmers and O'Reilly, ebooks wouldn't be tied to a particular ebook platform, and purchasers could enjoy the same freedoms that they enjoy with printed books.
+
+My Kindle is an ancient generation 2 device, about four years old.  I keep waiting for it to break, to give me a chance to look for an alternative.  The only viable one right now seems to be the Kobo Aura HD, but customer reviews (on Amazon, ironically) indicate that while the hardware is great, the firmware falls behind the Kindle in some important ways, especially in the dictionary feature (dictionary lookups don't work on books not purchased from the Kobo storefront).  I use the dictionary *a lot* on the Kindle, and would hate to downgrade to something less functional. (Update: it appears that the [dictionary does work now](http://www.mobileread.com/forums/showthread.php?t=211403).) Furthermore, non-Amazon ebooks, which typically use the ePub standard, are nearly always encumbered with DRM, just as with Kindle books. This makes propaganda about the "openness" of ePub seem pointless.  The file format might be "open", but the Adobe encryption layered on top is not.  So I'm stuck with the Kindle until the DRM madness goes away or Kobo fixes their devices.
+
+Amazon is also useful for buying products of all types, from electric fence chargers to table saws.  But there are plenty of alternative online retailers, some of which offer better prices.  For used books, Alibris is a decent alternative, and for new books there are independent booksellers, many of which, like Powell's in Portland OR, have decent web sites.  I find that most of the time nowadays I hardly need to buy anything on Amazon; I just use their reviews to help with product selection, then buy the product elsewhere.

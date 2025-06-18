@@ -1,0 +1,56 @@
+baseURL: https://www.bloovis.com/
+languageCode: en-us
+title: bloovis.com
+theme: hextra
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: false
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - name: Posts
+      pageRef: /posts/
+      weight: 1
+    - name: Pages
+      pageRef: /pages/
+      weight: 2
+    - name: Photos
+      weight: 3
+      pageRef: /photos/
+    - name: Source code
+      weight: 4
+      pageRef: /fossil/
+    - name: About
+      pageRef: /about/
+      weight: 5
+    - name: Search
+      weight: 6
+      params:
+        type: search
+
+params:
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
