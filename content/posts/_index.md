@@ -2,6 +2,8 @@
 title: "Posts"
 cascade:
   type: blog
+sidebar:
+  exclude: true
 ---
 
 <div style="text-align: center; margin-top: 1em;">

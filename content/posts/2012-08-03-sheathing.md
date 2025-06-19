@@ -7,7 +7,7 @@ tags:
 ---
 
 We are now more than half way through installing the
-[sheathing](/gallery/FirstDay%20Cottage/P7300776.JPG)
+[sheathing](/gallery/firstday-cottage/P7300776.JPG)
 on the two story section.  The sheathing is made up of 1x8 tongue and
 groove pine boards that are nailed between posts.  This part is fun
 because it goes up quickly, and because it isn't quite as fiddly as

@@ -7,5 +7,5 @@ tags:
 - photo
 ---
 
-![Shack](/gallery/Spring 2020/IMG_20200601_121942.jpg)
+![Shack](/gallery/spring-2020/IMG_20200601_121942.jpg)
 Graffiti on abandoned shack.

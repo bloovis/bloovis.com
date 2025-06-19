@@ -15,12 +15,12 @@ So we spent lots of money on crushed stone to be used liberally under
 and around the foundation.
 
 The first step was to
-[mark out the corners](/gallery/FirstDay%20Cottage/IMG_20120430_061321.jpg) of
+[mark out the corners](/gallery/firstday-cottage/IMG_20120430_061321.jpg) of
 the future house after the excavator (a neighbor who owns lots of
 machinery) had scraped a small amount of dirt away from the site.
 Then the excavator dug the hole and the foundation crew came in to
 pour the footings, and then a few days later,
-[set up forms](/gallery/FirstDay%20Cottage/IMG_20120505_101511.jpg) for
+[set up forms](/gallery/firstday-cottage/IMG_20120505_101511.jpg) for
 pouring the walls.  At this stage we had to make sure that all of the
 planned exit holes (for plumbing and electrical) had their locations
 figured out so that the foundation crew knew where to put paint cans
@@ -37,17 +37,17 @@ basement slab.  My partner spent many hours raking the crushed stone
 so it was level and ready for the slab.
 
 The foundation crew came back a few days later and laid down
-[blue board](/gallery/FirstDay%20Cottage/IMG_20120516_073753.jpg)
+[blue board](/gallery/firstday-cottage/IMG_20120516_073753.jpg)
 (2 inch styrofoam) on top of the crushed stone.  Then the plumber
 returned to lay down
-[radiant heating tubes](/gallery/FirstDay%20Cottage/IMG_20120517_061553.jpg),
+[radiant heating tubes](/gallery/firstday-cottage/IMG_20120517_061553.jpg),
 stapled to the foam.  We are not sure how or whether we're going to
 use radiant heat in the basement, but we thought it best to plan for
 the possibility.  So we have five radiant zones plumbed in case we
 need them. 
 
 Finally the foundation crew came back one last time to pour the
-[basement slab](/gallery/FirstDay%20Cottage/IMG_20120518_084443.jpg).
+[basement slab](/gallery/firstday-cottage/IMG_20120518_084443.jpg).
 But before they could do that, we had to cut and place a sill plate (a
 pressure treated 2x10) on the edge of the foundation at the walkout
 basement end.  You can see the sill plate in the foreground; it's

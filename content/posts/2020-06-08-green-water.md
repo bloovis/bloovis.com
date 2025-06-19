@@ -7,5 +7,5 @@ tags:
 - photo
 ---
 
-![Greening up](/gallery/Spring 2020/IMG_20200605_120351.jpg)
+![Greening up](/gallery/spring-2020/IMG_20200605_120351.jpg)
 Green-tinted pool at Texas Falls.

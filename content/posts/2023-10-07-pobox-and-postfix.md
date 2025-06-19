@@ -42,6 +42,14 @@ SMTP servers.
 
 ## Receiving email
 
+I tried two methods for filtering incoming connections: SPF, and
+Postfix's own IP address filtering.  Later, I discovered that
+my fiddling with SPF was completely erroneous and unnecessary.  I left the SPF section in for posterity,
+but you can skip it.
+
+
+### SPF
+
 The first requirement for receiving email with Postfix was to block
 connections from servers that are not associated with pobox.com.
 At first I used [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
@@ -80,7 +88,9 @@ package on Ubuntu/Mint.  Then add the following lines to `/etc/postfix/master.cf
     policy-spf  unix  -       n       n       -       -       spawn
          user=nobody argv=/usr/bin/policyd-spf
 
-But it turns out that I probably didn't need to use an SPF record, because
+### Postfix IP address filtering
+
+Eventually I discovered that I didn't need to use an SPF record, because
 Postfix has its own filtering mechanism using `mynetworks`.  In `/etc/postfix/main.cf`, I 
 added the following line:
 

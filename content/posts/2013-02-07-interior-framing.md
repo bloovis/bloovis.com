@@ -9,9 +9,9 @@ tags:
 For the last month or so, we've been working on the interior framing:
 putting up the walls for the various rooms in the house.  So far we've
 done the
-[basement stairs](/gallery/FirstDay%20Cottage/IMG_20130203_140736.jpg), the
+[basement stairs](/gallery/firstday-cottage/IMG_20130203_140736.jpg), the
 kitchen pantry, the
-[downstairs bedroom and bathroom](/gallery/FirstDay%20Cottage/IMG_20130203_140813.jpg),
+[downstairs bedroom and bathroom](/gallery/firstday-cottage/IMG_20130203_140813.jpg),
 and the wall for the upstairs guest room.  What's left is the upstairs
 bathroom, which is going to be bit tricky due to the sloped ceiling,
 which comes down to about 4.5 feet at the outside wall.

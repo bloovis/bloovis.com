@@ -7,6 +7,8 @@ tags:
 - photo
 ---
 
-![Backhoe](/gallery/Spring 2020/IMG_20200604_085436.jpg)
+<!--more-->
+
 The cab of an abandoned backhoe.  You can tell from the depth of the leaf
 litter next to the wheel that it's been there a long time.
+![Backhoe](/gallery/spring-2020/IMG_20200604_085436.jpg)

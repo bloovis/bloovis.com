@@ -7,7 +7,7 @@ tags:
 ---
 
 At the beginning of last week, we spent a couple of days raising the
-[rafter goal posts](/gallery/FirstDay%20Cottage/P8070797.JPG) for
+[rafter goal posts](/gallery/firstday-cottage/P8070797.JPG) for
 the one story section of the house.  We'd already built the components
 (posts and rafters) over the previous week or two.  Raising the one
 story rafters is a bit like raising the goal posts for the two story
@@ -39,5 +39,5 @@ the spacing between rafters correct.
 Getting the final bit of the house frame up gave us a huge sense of
 accomplishment, and we took it easy for a day or two afterwards.  Then
 we started the big push to get the whole house
-[sheathed](/gallery/FirstDay%20Cottage/IMG_20120813_131304.jpg) so
+[sheathed](/gallery/firstday-cottage/IMG_20120813_131304.jpg) so
 we can get the roof on as soon as possible.

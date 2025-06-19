@@ -39,12 +39,15 @@ kdelibs3-arts-3.5.1-49.35
 sled-kde-user_en-10.1-0.11
 kdemultimedia3-3.5.1-20.15
 kdeutils3-laptop-3.5.1-25.14
-kdeutils3-3.5.1-25.14```
+kdeutils3-3.5.1-25.14
+```
+
 I didn't have to select all of these packages manually; some were pulled in via dependencies.
 
 Once KDE was installed, it still wasn't presented as an option at the login screen.  I had to edit `/etc/sysconfig/displaymanager` and change DISPLAYMANAGER to "kdm".  Then rebooting brought up the proper login screen.
 
 Then I discovered that KMail wasn't able to send mail via authenticated SMTP.  After some frustrating Google searches, I discovered that I needed to install the following Cyrus packages (as printed by `rpm -qa | grep cyrus`):
+
 ```
 cyrus-sasl-plain-2.1.21-18.4
 cyrus-sasl-crammd5-2.1.21-18.4
@@ -52,5 +55,7 @@ cyrus-sasl-digestmd5-2.1.21-18.4
 cyrus-sasl-gssapi-2.1.21-18.4
 cyrus-sasl-2.1.21-18.4
 cyrus-sasl-saslauthd-2.1.21-18.4
-cyrus-sasl-otp-2.1.21-18```
+cyrus-sasl-otp-2.1.21-18
+```
+
 Finally, there was a strange problem running Yast from the KDE menus: nothing seemed to happen after I typed the root password, although running it manually from a terminal window logged in as root worked fine.  It appears that running Yast via kdesu is not always reliable.  To work around this, I created a desktop icon that runs `gnomesu yast2`, and that works every time.  But strangely, now I can't reproduce the problem with kdesu.  So this problem still remains to be diagnosed.

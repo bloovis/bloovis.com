@@ -43,7 +43,7 @@ We already had a hole in the basement slab that was originally meant
 for a shower drain, and which went right down to the crushed ledge
 gravel under the slab.  This was the perfect place to start the pipe.
 We capped off the opening and
-[ran the pipe through the cap](/gallery/FirstDay%20Cottage/IMG_2931.JPG),
+[ran the pipe through the cap](/gallery/firstday-cottage/IMG_2931.JPG),
 caulking liberally to avoid leaks. 
 
 Then the problem was deciding where to run the pipe up the side of the
@@ -60,17 +60,17 @@ as well as potentially unsafe.
 The most workable solution was to put the pipe up the gable end of the
 one-story section, which has a walkout basement.  This required
 installing a
-[40 foot length of pipe](/gallery/FirstDay%20Cottage/IMG_2932.JPG) along
+[40 foot length of pipe](/gallery/firstday-cottage/IMG_2932.JPG) along
 the basement ceiling.  The pipe is sloped slightly downward towards
 the slab hole, so that any moisture will tend to head back to the
 gravel.  Then the
-[pipe exits the basement](/gallery/FirstDay%20Cottage/IMG_2933.JPG)
+[pipe exits the basement](/gallery/firstday-cottage/IMG_2933.JPG)
 through a hole bored just above the basement door.
 
 Outside the house sits the
-[fan](/gallery/FirstDay%20Cottage/IMG_2935.JPG),
+[fan](/gallery/firstday-cottage/IMG_2935.JPG),
 which pulls air from the pipe in the basement and sends it up the
-[exterior pipe](http://localhost:1313/gallery/FirstDay%20Cottage/IMG_2934.JPG).
+[exterior pipe](http://localhost:1313/gallery/firstday-cottage/IMG_2934.JPG).
 The top of the pipe has two 45 degree joints that allowed us to avoid having to cut a hole in the roof.  The electrical work was straightforward and simple.
 
 The system definitely works: after about five days of running the fan

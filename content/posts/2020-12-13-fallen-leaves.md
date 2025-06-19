@@ -7,5 +7,5 @@ tags:
 - photo
 ---
 
-![Fallen leaves](/gallery/Fall 2020/_DSF3574.JPG)
+![Fallen leaves](/gallery/fall-2020/_DSF3574.JPG)
 Fallen leaves on hill above my house, two months ago.

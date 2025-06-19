@@ -16,7 +16,7 @@ Before any of this work could be done, we had a coating specialist
 come out and seal the below-grade part of the foundation with a sticky
 black rubberized tar substance, on top of which was placed a 2-inch
 thick compressed
-[fiberglass matting](/gallery/FirstDay%20Cottage/P6200729.JPG)
+[fiberglass matting](/gallery/firstday-cottage/P6200729.JPG)
 that acts as a drainage board.
 
 Then we laid down the perimeter French drain pipe next to the
@@ -24,7 +24,7 @@ foundation footings.  These are four inch wide plastic pipes with
 holes on the side facing down.  These pipes go all the way around the
 foundation and exit at one runout pipe.  They had to be joined to the
 basement floor drain pipe, using a
-[rather complicated set of joints](/gallery/FirstDay%20Cottage/P6200727.JPG).
+[rather complicated set of joints](/gallery/firstday-cottage/P6200727.JPG).
 We had originally planned to put a second set of French drain pipes on
 top of the footings, but drainage board left no room for that.
 

@@ -7,7 +7,7 @@ tags:
 ---
 
 Yesterday we put up the
-[last piece of siding](/gallery/FirstDay%20Cottage/IMG_20121210_093801.jpg),
+[last piece of siding](/gallery/firstday-cottage/IMG_20121210_093801.jpg),
 ending a six-week slog and a race against winter. We got it done just
 in time; last night it snowed a little and now it's raining steadily.
 This was a huge milestone, and we can finally relax a little knowing
@@ -20,7 +20,7 @@ close, but most people would never notice these flaws.
 
 There is still some more work to do on the outside of the house,
 mainly trim boards along the eaves and gables, and
-[corner boards](/gallery/FirstDay%20Cottage/IMG_20121210_093725.jpg),
+[corner boards](/gallery/firstday-cottage/IMG_20121210_093725.jpg),
 but that shouldn't take too long, and some of it can wait until next
 spring.  Now we're gearing up to do the interior work, and there's
 certainly lots of that ahead, but we don't feel the same pressure to

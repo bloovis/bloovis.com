@@ -16,7 +16,7 @@ site, the screen went black. <!--more--> The system still seemed to be
 responsive, and I was able to reboot it using Ctrl-Alt-Del (which
 brings up a shutdown dialog) and Alt-S (which selects Shut Down). 
 
-After rebooting, I took a look at `/var/log/syslog``` and saw that there had been a GPU hang.  Some web searching led me to a [known bug](https://bugs.freedesktop.org/show_bug.cgi?id=80568) that described the problem and some workarounds.  I pieced together the solution from several comments on the bug: it involves installing a 3.19 Ubuntu kernel and a cutting edge X server.
+After rebooting, I took a look at `/var/log/syslog` and saw that there had been a GPU hang.  Some web searching led me to a [known bug](https://bugs.freedesktop.org/show_bug.cgi?id=80568) that described the problem and some workarounds.  I pieced together the solution from several comments on the bug: it involves installing a 3.19 Ubuntu kernel and a cutting edge X server.
 
 First, fetch and install a recent kernel (note that the wget commands are split into two lines for clarity):
 

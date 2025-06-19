@@ -10,7 +10,7 @@ Before we could make any progress on the house this week, we had to
 work on getting the utility pipes up the hill from the old house near
 the road to the new house site 300 feet up the hill.  The excavator
 dug the trench a while back, which then got
-[filled with pipes](/gallery/FirstDay%20Cottage/P5280660.JPG).
+[filled with pipes](/gallery/firstday-cottage/P5280660.JPG).
 We laid down the green (SDR-35) septic drain pipe ourselves, with
 cleanouts every 80 feet.  Our electrician laid down the pipes for the
 electric service, phone, and future fiber and cable.  (We don't have
@@ -20,7 +20,7 @@ arrive within the next couple of years and wanted to plan for it.
 The septic system is a bit unusual.  There's already a septic tank and
 leach field down by the old house, but 300 feet seemed too long for a
 pipe running down to it from the new house.  So we had a
-[new septic tank installed](/gallery/FirstDay%20Cottage/P6010667.JPG)
+[new septic tank installed](/gallery/firstday-cottage/P6010667.JPG)
 up by the new house.  Its outlet runs down to the hill to the old tank in
 the green pipe shown above.
 

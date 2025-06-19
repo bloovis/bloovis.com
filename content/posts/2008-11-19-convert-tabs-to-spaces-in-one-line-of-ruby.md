@@ -7,7 +7,14 @@ tags:
 - software
 - microemacs
 ---
+
 Here's a one-liner Ruby script that converts tabs to spaces:
+
 ```
-ruby -pe 'gsub(/([^\t]*)(\t)/) { $1 + " " * (8 - $1.length % 8) }'```
+ruby -pe 'gsub(/([^\t]*)(\t)/) { $1 + " " * (8 - $1.length % 8) }
+```
+
 I'm in the early stages of rewriting a tiny editor, MicroEMACS, in Ruby, and needed a tab converter.  I was sure I'd seen this somewhere before, but couldn't find it with Google, so rewrote it from scratch.
+
+(*Update 2025*: I never rewrote the editor in Ruby.  Instead, I added
+the ability to extend the editor with commands written in Ruby.)

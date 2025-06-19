@@ -17,12 +17,15 @@ After the usual poking about with Google, I discovered that the problem is due t
 I found the source for libxine on the [xine download page](http://xinehq.de/index.php/download).  The file I downloaded, `xine-lib-1.1.4.tar.bz2`, is no longer available, but I would guess that later versions would also work.  The numbering scheme is confusing; version 1.1.4 of the source is used to build version 1.16 of the binary library.
 
 Once I had the source code, I unpacked it and built and installed the library using the following commands:
+
 ```
 tar xvfj xine-lib-1.1.4.tar.bz2
 cd xine-lib-1.1.4
 ./configure --prefix=/usr
 make
-make install # run this as root```
+make install # run this as root
+```
+
 After that, the audio sync problem was gone.
 
 On both of these systems, I had to install some X11 development packages (header files and libraries) before libxine would build.  I have forgotten exactly which packages these were, but clues can be gotten by looking at the compiler error messages, and seeing which header files are missing.  I installed these extra packages from synaptic, the standard package management program on both systems.

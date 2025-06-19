@@ -7,7 +7,7 @@ tags:
 ---
 
 Last week we start preparing for the raising of the twelve
-"[goal posts](/gallery/FirstDay%20Cottage/P7050741.JPG)",
+"[goal posts](/gallery/firstday-cottage/P7050741.JPG)",
 which are the combined beam/post assemblies that serve as the support
 for the walls, second floor, and roof of the two-story section of the
 house.  First we assembled the 24 posts, each of which is a sandwich
@@ -34,3 +34,4 @@ helpers during this house-building process.  Each person has
 experience that is useful, but this house is not like anything our
 helpers have seen before.  So in a way, this house-building is a
 two-way education for both ourselves and our helpers.
+

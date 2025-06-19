@@ -19,11 +19,11 @@ an industrial look more suited for clothing stores.  After a long
 search, we came across a monorail system made by [Tech
 Lighting](http://www.techlighting.com/Products), which is pretty slim,
 and has some whimsical fixtures as a nice bonus.  We installed one of
-these systems in the [kitchen over the main counter](http://localhost:1313/gallery/FirstDay%20Cottage/IMG_2924.JPG)
+these systems in the [kitchen over the main counter](http://localhost:1313/gallery/firstday-cottage/IMG_2924.JPG)
 area.  The
 fixtures include a couple of
-[dragonflies](/gallery/FirstDay%20Cottage/IMG_2925.JPG)
-and three [metal men](/gallery/FirstDay%20Cottage/IMG_2926.JPG).
+[dragonflies](/gallery/firstday-cottage/IMG_2925.JPG)
+and three [metal men](/gallery/firstday-cottage/IMG_2926.JPG).
 
 For the living room areas of the great room and the sink island, we
 chose some pendants made by a [forge in
@@ -31,7 +31,7 @@ Vermont](http://www.hubbardtonforge.com/).  They were expensive, but
 nothing else we looked at seemed as attractive.  Most lighting
 companies use unnecessary frills to make their products look fancy,
 but we wanted something simple.  We
-[suspended the lights from the rafters](/gallery/FirstDay%20Cottage/IMG_2927.JPG),
+[suspended the lights from the rafters](/gallery/firstday-cottage/IMG_2927.JPG),
 with the electrical boxes hidden in wooden supports that we attached
 to the collar ties. 
 

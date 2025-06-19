@@ -12,36 +12,60 @@ There are a number of ways to encrypt a file system on Linux, and the choices of
 First I created a 100 MB file and filled it with random data:
 ```
 dd if=/dev/zero of=private bs=100M count=1
-shred -n 1 -v private```
-I created a loopback device that referred to this file:
+shred -n 1 -v private
 ```
-losetup /dev/loop0 private```
+
+I created a loopback device that referred to this file:
+
+```
+losetup /dev/loop0 private
+```
+
 I loaded various kernel modules required for encryption:
+
 ```
 modprobe dm-mod
 modprobe dm-crypt
 modprobe aes
 modprobe sha256
-modprobe sha1```
+modprobe sha1
+```
+
 I created an encrypted mapping for the device:
+
 ```
-cryptsetup -v --key-size 256 luksFormat /dev/loop0```
+cryptsetup -v --key-size 256 luksFormat /dev/loop0
+```
+
 At the prompt, I entered a passphrase (which would be used later to open the device).  I verified that the encryption setup had succeeded using:
+
 ```
-cryptsetup -v luksDump /dev/loop0```
+cryptsetup -v luksDump /dev/loop0
+```
+
 I opened the encrypted device, and at the prompt typed same the passphrase I had entered earlier:
+
 ```
-cryptsetup luksOpen /dev/loop0 private```
+cryptsetup luksOpen /dev/loop0 private
+```
+
 This created a mapping device at `/dev/mapper/private`. The next step was to create a file system:
+
 ```
-mkfs.ext3 /dev/mapper/private```
+mkfs.ext3 /dev/mapper/private
+```
+
 Finally, I mounted  the file sytem at `/mnt:`
+
 ```
 mkdir /mnt/private
-mount /dev/mapper/private /mnt/private```
+mount /dev/mapper/private /mnt/private
+```
+
 At this point, I now had a 100MB encrypted directory, mounted at `/mnt/private` and backed by the file `~/private`.
 
 To unmount the file system and close the encrypted device, I did this:
 ```
 umount /mnt/private
-cryptsetup luksClose private```
+cryptsetup luksClose private
+```

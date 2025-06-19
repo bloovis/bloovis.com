@@ -13,19 +13,30 @@ I first used the Software Management tool in Yast2 to delete the existing Ruby p
 ```
 ./configure
 make
-make install```
+make install
+```
+
 This process didn't build or install the tk extension, which I use in a couple of my Ruby scripts to build simple GUIs.  To build that, I first needed to use the Software Management tool in yast2 to install the tcl-devel and tk-devel packages.  Then I built and installed the tk extension using these commands:
+
 ```
 cd ext/tk
 ruby extconf.rb
 make install
 cd tkutil
 ruby extconf.rb
-make install```
+make install
+```
+
 Then I downloaded the latest version (1.1.1) of Rubygems  [here](http://rubyforge.org/frs/?group_id=126), and installed it using this command:
+
 ```
-ruby setup.rb```
+ruby setup.rb
+```
+
 Finally, I was able to install the latest Rails using  Rubygems:
+
 ```
-gem install rails```
+gem install rails
+```
+
 This installed all of the packages that Rails depends on, such as ActiveRecord.

@@ -8,7 +8,7 @@ tags:
 ---
 
 After switching back to Firefox for Linux Mint (version 135),
-I noticed right away that doesn't disable the screensaver
+I noticed right away that it doesn't disable the screensaver
 when watching videos (e.g., YouTube).  This appears to be
 an old problem that was never fixed.  It's a confusing
 problem on Mint with the Mate desktop, because there are two parts of the screensaver

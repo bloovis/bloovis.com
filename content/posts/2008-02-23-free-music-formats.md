@@ -33,7 +33,9 @@ Date=1970
 Rhapsody in B minor Op. 79 #1
 Rhapsody in G minor Op. 79 #2
 Intermezzo in E flat Op. 117 #1
-...```
+...
+```
+
 The first step in ripping a CD is to create an album file for it.  There are several online databases of track information that can be used; I use freedb.org.  The script [cdmakealbum](http://www.bloovis.com/downloads/cdmakealbum) reads the track data from a CD, queries freedb.org for a matching record, and writes a corresponding album file to standard output.  I usually hand-edit the resulting album files to correct mistakes or to suit my aesthetic and organizational preferences.
 
 The second step is to rip the CD to FLAC files and tag them based on the information in the album file.  The script [ripalbum](http://www.bloovis.com/downloads/ripalbum) does this. It keeps the files separate by using a two-level directory hierarchy (artist name, album name).

@@ -72,5 +72,5 @@ of time and aggravation.
 
 The scripts are `oggalbum` (which writes tags to music files) and
 `oggmakealbum` (which reads tags from music files).  You can
-find them in my git repository [here](https://gitlab.com/bloovis/scripts),
+find them in my Github mirror repository [here](https://github.com/bloovis/scripts.mirror),
 along with some brief instructions in the README.

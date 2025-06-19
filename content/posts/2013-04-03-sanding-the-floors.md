@@ -14,7 +14,7 @@ route and painted the floors, but we like the natural wood look and
 decided to do the extra effort to preserve that look.
 
 The first step was to rent a
-[drum sander](/gallery/FirstDay%20Cottage/IMG_20130228_153906.jpg)
+[drum sander](/gallery/firstday-cottage/IMG_20130228_153906.jpg)
 to take off the worst of the discoloration and smooth out the transitions
 between planks.  This kind of sander is generally not recommended for
 pine floors, but the suggested alternative, a three-disk rotary
@@ -41,7 +41,7 @@ sheet or screen sander, which came in either 13 inch or 17 inch sizes,
 but we were concerned about controlling such a large device for the
 fine work.  So we hand sanded the floor for two weeks, getting
 ourselves and interior of the house covered in a
-[fine layer of dust](/gallery/FirstDay%20Cottage/IMG_20130321_090334.jpg).
+[fine layer of dust](/gallery/firstday-cottage/IMG_20130321_090334.jpg).
 The quarter sheet sander was not able to collect any dust at all, but the
 rotary sander did a pretty good job, collecting maybe half of the
 generated dust.
@@ -49,7 +49,7 @@ generated dust.
 Finally, we had to spend several days vacuuming the floors, walls, and
 beams to get rid of the layer of dust that coated everything.  We
 didn't sand where the kitchen cabinets will be, and the
-[difference](/gallery/FirstDay%20Cottage/IMG_20130324_155737.jpg)
+[difference](/gallery/firstday-cottage/IMG_20130324_155737.jpg)
 is quite striking.  The floor looks good now, and is smooth to the
 touch and to bare feet.
 

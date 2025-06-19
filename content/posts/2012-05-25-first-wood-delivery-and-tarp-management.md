@@ -12,7 +12,7 @@ rather than one huge one.  This load had enough material to build the
 floors and walls.  The truck was fairly large and wouldn't have been
 able to turn around at our house site, which is about 300 feet up a
 driveway from the road.  So the driver
-[unloaded the wood](/gallery/FirstDay%20Cottage/IMG_20120518_083140.jpg)
+[unloaded the wood](/gallery/firstday-cottage/IMG_20120518_083140.jpg)
 using a cute little three-wheeled forklift that was carried on the back of the
 truck.  It took the driver about 1.5 hours to get the wood (and a
 couple of stacks of foam insulation) up to the house site, where we
@@ -21,7 +21,7 @@ and feed stores.  We had 11 palettes and we could have used a couple
 more.
 
 After the truck left, we scrambled to put
-[tarps over the two wood piles](/gallery/FirstDay%20Cottage/IMG_20120524_072321.jpg);
+[tarps over the two wood piles](/gallery/firstday-cottage/IMG_20120524_072321.jpg);
 we didn't bother to tarp the foam.  A fellow who built a similar FirstDay
 a few miles away told us he had spent a lot of time doing tarp
 management, and we are too.  I've never liked the way tarps are
@@ -30,7 +30,7 @@ the grommets, which inevitably rip out.  So I did things a little
 differently.
 
 First I built a
-[20x20 tarp tent](/gallery/FirstDay%20Cottage/IMG_20120524_072219.jpg)
+[20x20 tarp tent](/gallery/firstday-cottage/IMG_20120524_072219.jpg)
 to shelter some of the nicer wood that will be used later in the parts of
 the house that will be visible from the interior.  Because the tarp
 doesn't rest directly on the wood, moisture won't collect and cause

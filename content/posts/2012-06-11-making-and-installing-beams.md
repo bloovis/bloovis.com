@@ -14,11 +14,11 @@ fabrication to be done.  It was a rainy week and we didn't have a
 sheltered work area near the house site, so we took a couple of days
 to disassemble a 22x14 hoop greenhouse down by the road and move it up
 close to the house site.  This gave us a good dry place to
-[build and store beams](/gallery/FirstDay%20Cottage/P6070681.JPG).
+[build and store beams](/gallery/firstday-cottage/P6070681.JPG).
 
 The next step was to install the beams on the sill plates.  We started
 with the
-[one story section](/gallery/FirstDay%20Cottage/P6090685.JPG)
+[one story section](/gallery/firstday-cottage/P6090685.JPG)
 because it was simpler than the two story section.  The beams are
 about 40 inches apart (on center) on average, but we made adjustments
 here and there to account for slight variations in their width.
@@ -38,7 +38,7 @@ First, five of the beams had ends that were not supported by
 foundation walls, at the junction between the one story section and
 the two story section.  For those five beam ends that were placed in
 this gap, we had to make
-[support posts](/gallery/FirstDay%20Cottage/P6110701.JPG)
+[support posts](/gallery/firstday-cottage/P6110701.JPG)
 and brace them to keep them from falling over.  This took a lot of careful
 measuring and planning, and some tricky work with ladders to set beams
 on the posts.  We stretched a string across the gap as a continuation

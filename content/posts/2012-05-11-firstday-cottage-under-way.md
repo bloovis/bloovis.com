@@ -20,7 +20,7 @@ see at the FirstDay web site (linked above).  We wanted it to have a
 long window-filled section that faced south, for maximum solar gain in
 winter.  You can see the architect's rendition of the south side of
 the house in
-[this drawing](/gallery/FirstDay%20Cottage/south-elevation.jpg).
+[this drawing](/gallery/firstday-cottage/south-elevation.jpg).
 
 The construction finally started a couple of weeks ago with the
 foundation digging.  The foundation is now half done. I'll post

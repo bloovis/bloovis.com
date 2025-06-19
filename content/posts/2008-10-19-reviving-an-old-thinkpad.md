@@ -29,7 +29,8 @@ The main post-installation problem was that sound didn't work.  The 380Z has an 
 ```
 alias snd-card-0 cs4232 
 alias sound-slot-0 cs4232 
-options cs4232 io=530 irq=5 dma=0 dma2=0```
+options cs4232 io=530 irq=5 dma=0 dma2=0
+```
 I verified these settings by running the ThinkPad's DOS-based configuration utility, PS2.EXE.  I also found it necessary to run `aumix` after booting to bring up the speaker and PCM levels to audibility.
 
 Another problem with the installation is that graphics acceleration was not enabled; this was very apparent when scrolling or moving windows.  The solution was to run the PCLinuxOS Control Center, select "Hardware" and "Set up the graphical server", and change the resolution bit depth from 24 bits to 16 bits.  This is apparently required to work around a limitation of the NeoMagic graphics chip in the 380Z.

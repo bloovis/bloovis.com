@@ -31,9 +31,9 @@ menu:
     - name: Pages
       pageRef: /pages/
       weight: 2
-    - name: Photos
+    - name: Gallery
       weight: 3
-      pageRef: /photos/
+      pageRef: /gallery/
     - name: Source code
       weight: 4
       pageRef: /fossil/
@@ -46,6 +46,12 @@ menu:
         type: search
 
 params:
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+
   # Search
   search:
     enable: true
