@@ -10,7 +10,10 @@ What with all the excitement and alarm about artificial intelligence
 these days, I thought I would fight back with a plea for Artificial
 Stupidity.  Specifically, I believe we can do better than the stupidity
 of the writing on most mainstream media by using computer-generated
-stupidity.  You can get an idea of the possibilities here by
+stupidity.
+<!--more-->
+
+You can get an idea of the possibilities here by
 playing around with the [Postmodern Generator](https://www.elsewhere.org/journal/pomo/)
 (reload the page to get new nonsense).
 

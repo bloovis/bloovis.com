@@ -11,6 +11,7 @@ The Brave browser is constantly writing large amounts of data to its cache,
 which is a concern when your storage device is an SSD.  The solution is
 to put Brave's cache on a RAM disk, i.e., a tmpfs device on Linux.  Some
 Linux distros, like Arch, mount `/tmp` as tmpfs, but Linux Mint 21 does not.
+<!--more-->
 
 ## Mount /tmp as tmpfs
 

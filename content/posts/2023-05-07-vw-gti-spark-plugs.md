@@ -2,7 +2,6 @@
 title: Replacing VW MK7 GTI Spark Plugs
 date: '2023-05-07 18:33:00'
 draft: false
-description: Working with VW MK7 GTI spark plugs and ignition coil packs
 tags:
 - vw
 ---

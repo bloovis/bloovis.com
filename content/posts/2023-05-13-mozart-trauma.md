@@ -6,10 +6,9 @@ tags:
 - music
 ---
 
-(Sarcasm is *OFF* for this post.)
-
 I often joke with friends that I gave up the piano at age 13 due to Mozart Trauma.
 There were other factors, but this was actually the big one.
+<!--more-->
 
 I started playing at 10, and I can't remember exactly why, except that my mother
 (who'd once been quite a good pianist) seemed to think I needed lessons.

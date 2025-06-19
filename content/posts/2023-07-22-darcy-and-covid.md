@@ -12,7 +12,9 @@ the always excellent Rudolph Rigger offered this quote from Mr. Darcy in *Pride 
 > My good opinion once lost is lost forever.
 
 This is a stance that I've been going back and forth on for the last two-plus
-years.  Because I refused to take any mRNA injections:
+years.
+<!--more-->
+Because I refused to take any mRNA injections:
 
 * My (former?) best friend called me a murderer and conspiracy theorist.
 * My mother (who is healthy enough to jog four miles every morning)

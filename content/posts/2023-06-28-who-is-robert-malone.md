@@ -10,6 +10,7 @@ A very good question, that!  Thank you for asking!  Or maybe not... this
 question seems to have become a quagmire of muck for the swamp creatures
 inhabiting the Medical Freedom Movement, or whatever we are calling
 ourselves now.
+<!--more-->
 
 Nevertheless, I shall attempt to answer this question.  What I'm
 about to say is my theory, which belongs to me, which I possess

@@ -13,6 +13,7 @@ titled
 It gives data on the "[c]ompleted primary series and updated (bivalent) booster
 data as of April 11, 2023".  There are a number of interesting things to note
 about this data.
+<!--more-->
 
 First, we can see that Pfizer makes up the majority of the jabs: 60% in total:
 

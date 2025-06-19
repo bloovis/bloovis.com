@@ -9,8 +9,9 @@ tags:
 
 For the last couple of months, I've gradually been weaning myself from some
 Big Tech services, and reimplementing these services on my own Linux VPS
-(virtual private server) on Linode.  I now have a server that I use
-for:
+(virtual private server) on Linode.
+<!--more-->
+I now have a server that I use for:
 
 1. Running my [email client](https://www.bloovis.com/cgit/sup-notmuch/about/).
 

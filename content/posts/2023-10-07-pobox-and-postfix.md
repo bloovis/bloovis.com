@@ -1,6 +1,6 @@
 ---
 title: Using Pobox.com with Postfix
-date: '2023-10-08 14:44:00 +0000'
+date: '2023-10-07 14:44:00 +0000'
 
 tags:
 - linux

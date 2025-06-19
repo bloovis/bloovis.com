@@ -20,9 +20,9 @@ hidden, I never linked to it anywhere on the public web (I shared
 it on a private forum).  After three years
 of secrecy, I'm now going
 to put this blog on display for all to read.  You can find the archive
-of posts [here](https://wordblast.nfshost.com/archive/index.html).
+of posts [here](https://wordblast.bloovis.com/).
 A good place to start there would be the
-[Book-Throwing Incident](https://wordblast.nfshost.com/2019/05/31/book-throwing-incident.html).
+[Book-Throwing Incident](https://wordblast.bloovis.com/2019/05/31/book-throwing-incident.html).
 That was the event that told me I
 needed to get serious about escaping;
 it took me another year and half to do that.

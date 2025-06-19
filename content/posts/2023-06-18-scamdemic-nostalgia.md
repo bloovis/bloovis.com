@@ -10,6 +10,7 @@ The last three-plus years sure were fun, weren't they?  I'll bet we all
 have fond memories of the wacky stuff people were doing then.  I sure miss those
 times.  Don't you?  Here are some of the happenings from that time that I still remember
 with great fondness.
+<!--more-->
 
 **Fear and Loathing on the Hiking Trail:** In September 2020, I was out hiking
 on my favorite trail in the nearby Green Mountain National Forest.  I hadn't

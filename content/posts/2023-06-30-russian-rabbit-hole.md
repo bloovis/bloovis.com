@@ -11,7 +11,10 @@ Recently I decided to descend somewhat tentatively down a very big
 rabbit hole, perhaps the biggest of all: Russia.  One of the guides
 I've chosen to lead me on this journey is the writer who goes by
 the alias Edward Slavsquat.  He is a self-exiled American
-who has lived in Russia for quite a few years.  You can read about him on
+who has lived in Russia for quite a few years.
+<!--more-->
+
+You can read about him on
 his Substack [here](https://edwardslavsquat.substack.com/p/russia-beyond-the-headlines).
 I recommend that you start reading his dispatches from the Evil Empire,
 as an antidote to the safe, effective, and unbiased coverage of Russia
