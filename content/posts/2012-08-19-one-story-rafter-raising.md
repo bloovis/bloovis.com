@@ -16,7 +16,7 @@ We'd already built the components
 (posts and rafters) over the previous week or two.  Raising the one
 story rafters is a bit like raising the goal posts for the two story
 section: nail the rafters to the posts flat on the deck, then raise
-them and drop them into the post holes along the edge of the deck.  We
+the assembled units and drop them into the post holes along the edge of the deck.  We
 had two or three helpers each day.  It's best to have two people on
 each side as you walk the rather top-heavy assembly along the deck to
 the post holes.  We raised the first three with only three people,

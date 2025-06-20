@@ -23,7 +23,7 @@ result is a finish that shows off the beauty of the wood, and is
 just a bit shiny,
 but not thick and glossy like a restaurant table.
 
-![[just a bit shiny](/gallery/firstday-cottage/IMG_20130513_113750_hu_10f42570f1711c8a.jpg)](/gallery/firstday-cottage/IMG_20130513_113750.jpg)
+[![just a bit shiny](/gallery/firstday-cottage/IMG_20130513_113750_hu_10f42570f1711c8a.jpg)](/gallery/firstday-cottage/IMG_20130513_113750.jpg)
 
 Each step we take towards finishing the house makes it feel more like
 a home and less like a camping lean-to.  Somehow, for me, the finished

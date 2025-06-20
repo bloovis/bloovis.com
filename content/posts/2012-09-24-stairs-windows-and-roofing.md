@@ -41,7 +41,7 @@ and bottom.
 We were terrified by the prospect of putting up windows on the second
 floor, because that would involve pushing the windows into the
 openings from outside by two people on ladders.  The bigger windows
-are very heavy and the job just seemed to dangerous. We were saved by
+are very heavy and the job just seemed too dangerous. We were saved by
 our neighbor, the fellow who did the excavation work for the
 foundation.  He brought over his excavator machine with a bucket
 loader, and raised the bucket up to the second floor.
