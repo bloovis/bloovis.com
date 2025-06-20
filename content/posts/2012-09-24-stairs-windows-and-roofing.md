@@ -17,8 +17,10 @@ pieces.  Sometimes the 3-4-5 triangle rule seems to work, and
 sometimes not quite.
 
 So we were a bit discouraged until two weekends ago, when two friends
-showed up and helped us install the two
-[pre-fab staircases](/gallery/firstday-cottage/IMG_20121025_074420.jpg).
+showed up and helped us install the two pre-fab staircases.
+
+[![pre-fab staircases](/gallery/firstday-cottage/IMG_20121025_074420_hu_6ac5a08004e66475.jpg)](/gallery/firstday-cottage/IMG_20121025_074420.jpg)
+
 Each one weighs 180 pounds, so we were told, and it's not really
 possible for two people to lower or lift them into place.  But with
 four people it went pretty smoothly.  Fortunately the opening we'd
@@ -43,21 +45,24 @@ are very heavy and the job just seemed to dangerous. We were saved by
 our neighbor, the fellow who did the excavation work for the
 foundation.  He brought over his excavator machine with a bucket
 loader, and raised the bucket up to the second floor.
-[I stood on the bucket](/gallery/firstday-cottage/P9190857.JPG)
+I stood on the bucket
 while people inside passed the window out to me.  This worked amazingly
 well, but we got a bit dizzy with success and forgot to level one of
 the windows we installed this way, so we'll have to remove and
 reinstall that window.
 
+[![bucket window lift](/gallery/firstday-cottage/P9190857_hu_91c9a5df01325547.JPG)](/gallery/firstday-cottage/P9190857.JPG)
+
 We have also started on putting the metal roof up, and finished one
-side of the two story section yesterday.  We
-[rented scaffolds](/gallery/firstday-cottage/P9220875.JPG)
+side of the two story section yesterday.  We rented scaffolds
 to do this job, because once again, trying to push heavy objects (metal
 roofing sheets) up ladders would have been too dangerous.  It really
 helps to have a third person on the ground for this job, and we're
 extremely grateful for the help we got this last weekend for this.
 We're going to make a push to have all the metal up by the end of the
 week. 
+
+[![scaffolds](/gallery/firstday-cottage/P9220875_hu_805fd33855287766.JPG)](/gallery/firstday-cottage/P9220875.JPG)
 
 There's still a lot to do after the roofing, and it's clear that we
 might not have the house ready to be moved into by winter.  But we

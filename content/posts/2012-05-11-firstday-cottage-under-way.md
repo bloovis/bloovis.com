@@ -19,8 +19,9 @@ Our cottage is going to be a variant on a T-shaped model that you can
 see at the FirstDay web site (linked above).  We wanted it to have a
 long window-filled section that faced south, for maximum solar gain in
 winter.  You can see the architect's rendition of the south side of
-the house in
-[this drawing](/gallery/firstday-cottage/south-elevation.jpg).
+the house in this drawing:
+
+[![south elevation](/gallery/firstday-cottage/south-elevation_hu_37599a0ac5a3e5bb.jpg).](/gallery/firstday-cottage/south-elevation.jpg)
 
 The construction finally started a couple of weeks ago with the
 foundation digging.  The foundation is now half done. I'll post

@@ -7,8 +7,11 @@ tags:
 ---
 
 Our first full day of doing our own work on the house involved
-installing
-[sill plates](/gallery/firstday-cottage/IMG_20120524_072422.jpg).
+installing sill plates:
+<!--more-->
+
+[![sill plates](/gallery/firstday-cottage/IMG_20120524_072422_hu_9e73830c1bc79075.jpg)](/gallery/firstday-cottage/IMG_20120524_072422.jpg)
+
 These are pressure-treated 2x10s that rest on top of the foundation
 walls, with thin foam sill seals sandwiched between the concrete and
 the wood.  The plates are 16 feet long, except where we had to cut

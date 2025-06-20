@@ -7,5 +7,7 @@ tags:
 - photo
 ---
 
-![Robert Frost cabin](/gallery/spring-2020/IMG_20200513_133103.jpg)
 Exterior of Robert Frost cabin, Ripton.
+<!--more-->
+
+[![Robert Frost cabin](/gallery/spring-2020/IMG_20200513_133103_hu_acdf76310ac2cf8d.jpg)](/gallery/spring-2020/IMG_20200513_133103.jpg)

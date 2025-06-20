@@ -7,10 +7,14 @@ tags:
 ---
 
 Last week we start preparing for the raising of the twelve
-"[goal posts](/gallery/firstday-cottage/P7050741.JPG)",
+"goal posts",
 which are the combined beam/post assemblies that serve as the support
 for the walls, second floor, and roof of the two-story section of the
-house.  First we assembled the 24 posts, each of which is a sandwich
+house.
+
+[![goal posts](/gallery/firstday-cottage/P7050741_hu_6f794d729496cfea.JPG)](/gallery/firstday-cottage/P7050741.JPG)
+
+First we assembled the 24 posts, each of which is a sandwich
 of three 2x4s, the center one being longer since its ends serve as
 tenons for the joints at the floor and roof.  This was a fairly
 straightforward job that took a couple of days.

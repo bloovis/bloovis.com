@@ -15,18 +15,21 @@ stone around.
 Before any of this work could be done, we had a coating specialist
 come out and seal the below-grade part of the foundation with a sticky
 black rubberized tar substance, on top of which was placed a 2-inch
-thick compressed
-[fiberglass matting](/gallery/firstday-cottage/P6200729.JPG)
+thick compressed fiberglass matting
 that acts as a drainage board.
+
+[![fiberglass matting](/gallery/firstday-cottage/P6200729_hu_99d67145e7f1d1dc.JPG)](/gallery/firstday-cottage/P6200729.JPG)
 
 Then we laid down the perimeter French drain pipe next to the
 foundation footings.  These are four inch wide plastic pipes with
 holes on the side facing down.  These pipes go all the way around the
 foundation and exit at one runout pipe.  They had to be joined to the
 basement floor drain pipe, using a
-[rather complicated set of joints](/gallery/firstday-cottage/P6200727.JPG).
+rather complicated set of joints.
 We had originally planned to put a second set of French drain pipes on
 top of the footings, but drainage board left no room for that.
+
+[![joints](/gallery/firstday-cottage/P6200727_hu_dd44678433810d37.JPG)](/gallery/firstday-cottage/P6200727.JPG)
 
 Then we had to lay down water pipes from the spring. This was tedious
 work that involved making a bed of dirt under the easily damaged black

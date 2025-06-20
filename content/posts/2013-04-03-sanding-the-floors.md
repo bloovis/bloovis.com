@@ -13,10 +13,13 @@ last summer before we got the roof on.  We could have gone the easy
 route and painted the floors, but we like the natural wood look and
 decided to do the extra effort to preserve that look.
 
-The first step was to rent a
-[drum sander](/gallery/firstday-cottage/IMG_20130228_153906.jpg)
+The first step was to rent a drum sander
 to take off the worst of the discoloration and smooth out the transitions
-between planks.  This kind of sander is generally not recommended for
+between planks.
+
+[![drum sander](/gallery/firstday-cottage/IMG_20130228_153906_hu_b506552c67db1bf6.jpg)](/gallery/firstday-cottage/IMG_20130228_153906.jpg)
+
+This kind of sander is generally not recommended for
 pine floors, but the suggested alternative, a three-disk rotary
 sander, didn't work for us: it didn't start when the temperature was
 near freezing, was hard to steer, and made a striped pattern on the
@@ -40,18 +43,21 @@ sander, to do the final sanding.  We had thought about using a rental
 sheet or screen sander, which came in either 13 inch or 17 inch sizes,
 but we were concerned about controlling such a large device for the
 fine work.  So we hand sanded the floor for two weeks, getting
-ourselves and interior of the house covered in a
-[fine layer of dust](/gallery/firstday-cottage/IMG_20130321_090334.jpg).
+ourselves and interior of the house covered in a fine layer of dust.
+
+[![fine layer of dust](/gallery/firstday-cottage/IMG_20130321_090334_hu_9a0ffa72ee5ce092.jpg)](/gallery/firstday-cottage/IMG_20130321_090334.jpg)
+
 The quarter sheet sander was not able to collect any dust at all, but the
 rotary sander did a pretty good job, collecting maybe half of the
 generated dust.
 
 Finally, we had to spend several days vacuuming the floors, walls, and
 beams to get rid of the layer of dust that coated everything.  We
-didn't sand where the kitchen cabinets will be, and the
-[difference](/gallery/firstday-cottage/IMG_20130324_155737.jpg)
-is quite striking.  The floor looks good now, and is smooth to the
-touch and to bare feet.
+didn't sand where the kitchen cabinets will be, and the difference
+is quite striking.
 
-The next step will be the multiple coats of polyurethane.  We'll wait
+[![difference](/gallery/firstday-cottage/IMG_20130324_155737_hu_fee26308179587d5.jpg)](/gallery/firstday-cottage/IMG_20130324_155737.jpg)
+
+The floor looks good now, and is smooth to the
+touch and to bare feet.  The next step will be the multiple coats of polyurethane.  We'll wait
 for warmer weather, which should arrive soon.

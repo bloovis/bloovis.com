@@ -7,8 +7,12 @@ tags:
 ---
 
 After a week and half of part-time work, we now have about 25 feet of
-[siding boards](/gallery/firstday-cottage/IMG_20121025_074336.jpg)
-put up.  The going is pretty slow sometimes because of the difficulty of
+siding boards put up.
+<!--more-->
+
+[![siding boards](/gallery/firstday-cottage/IMG_20121025_074336_hu_228ed7a496105c54.jpg)](/gallery/firstday-cottage/IMG_20121025_074336.jpg)
+
+The going is pretty slow sometimes because of the difficulty of
 cutting the boards to fit around the windows.  After a few mistakes
 and a fair amount of fiddling with test boards, we now have a pretty
 decent method for doing the difficult bits, but it still takes lots of

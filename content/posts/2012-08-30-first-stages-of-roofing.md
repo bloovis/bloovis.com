@@ -29,7 +29,10 @@ the two story roof.  The metal roofing hasn't arrived yet, so we
 tarped the roof while we're waiting.
 
 This week we have been working on installing the
-[roof on the one story section](/gallery/firstday-cottage/IMG_20120830_083536.jpg).
+roof on the one story section.
+
+[![one story roof](/gallery/firstday-cottage/IMG_20120830_083536_hu_4bd5a8705f1feda4.jpg)](/gallery/firstday-cottage/IMG_20120830_083536.jpg)
+
 This has been much easier than the two story section, for several
 reasons.  First, we know better what we're doing, and have streamlined
 the process a bit (for example, we measure, cut, and start nails in

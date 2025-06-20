@@ -42,9 +42,10 @@ needed to install a system.
 We already had a hole in the basement slab that was originally meant
 for a shower drain, and which went right down to the crushed ledge
 gravel under the slab.  This was the perfect place to start the pipe.
-We capped off the opening and
-[ran the pipe through the cap](/gallery/firstday-cottage/IMG_2931.JPG),
+We capped off the opening and ran the pipe through the cap,
 caulking liberally to avoid leaks. 
+
+[![pipe in basement floor](/gallery/firstday-cottage/IMG_2931_hu_f9b74a7d9186df97.JPG)](/gallery/firstday-cottage/IMG_2931.JPG)
 
 Then the problem was deciding where to run the pipe up the side of the
 house.  We wanted the pipe to terminate at least 12 inches above the
@@ -59,19 +60,29 @@ as well as potentially unsafe.
 
 The most workable solution was to put the pipe up the gable end of the
 one-story section, which has a walkout basement.  This required
-installing a
-[40 foot length of pipe](/gallery/firstday-cottage/IMG_2932.JPG) along
-the basement ceiling.  The pipe is sloped slightly downward towards
-the slab hole, so that any moisture will tend to head back to the
-gravel.  Then the
-[pipe exits the basement](/gallery/firstday-cottage/IMG_2933.JPG)
-through a hole bored just above the basement door.
+installing a 40 foot length of pipe along
+the basement ceiling:
 
-Outside the house sits the
-[fan](/gallery/firstday-cottage/IMG_2935.JPG),
-which pulls air from the pipe in the basement and sends it up the
-[exterior pipe](/gallery/firstday-cottage/IMG_2934.JPG).
-The top of the pipe has two 45 degree joints that allowed us to avoid having to cut a hole in the roof.  The electrical work was straightforward and simple.
+[![40 foot length of pipe](/gallery/firstday-cottage/IMG_2932_hu_b7d161de2c9d8b6c.JPG)](/gallery/firstday-cottage/IMG_2932.JPG)
+
+The pipe is sloped slightly downward towards
+the slab hole, so that any moisture will tend to head back to the
+gravel.  Then the pipe exits the basement
+through a hole bored just above the basement door:
+
+[![pipe exits the basement](/gallery/firstday-cottage/IMG_2933_hu_e2bae98c5bc7000.JPG)](/gallery/firstday-cottage/IMG_2933.JPG)
+
+Outside the house sits the fan:
+
+[![fan](/gallery/firstday-cottage/IMG_2935_hu_3a382e5e2feb55a.JPG)](/gallery/firstday-cottage/IMG_2935.JPG)
+
+The fan pulls air from the pipe in the basement and sends it up the
+exterior pipe.  The top of the pipe has two 45 degree joints that
+allowed us to avoid having to cut a hole in the roof:
+
+[![exterior pipe](/gallery/firstday-cottage/IMG_2934_hu_1706fdd582bde99a.JPG)](/gallery/firstday-cottage/IMG_2934.JPG)
+
+The electrical work was straightforward and simple.
 
 The system definitely works: after about five days of running the fan
 continuously, the radon level in the basement dropped to .9 pCI/L.  As

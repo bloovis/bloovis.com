@@ -11,28 +11,37 @@ we're within 100 miles of them, we're getting two or three deliveries
 rather than one huge one.  This load had enough material to build the
 floors and walls.  The truck was fairly large and wouldn't have been
 able to turn around at our house site, which is about 300 feet up a
-driveway from the road.  So the driver
-[unloaded the wood](/gallery/firstday-cottage/IMG_20120518_083140.jpg)
+driveway from the road.  So the driver unloaded the wood
 using a cute little three-wheeled forklift that was carried on the back of the
-truck.  It took the driver about 1.5 hours to get the wood (and a
+truck:
+
+[![wood delivery truck](/gallery/firstday-cottage/IMG_20120518_083140_hu_5eba062390f3b44a.jpg)](/gallery/firstday-cottage/IMG_20120518_083140.jpg)
+
+It took the driver about 1.5 hours to get the wood (and a
 couple of stacks of foam insulation) up to the house site, where we
 had him stack it on palettes we had scrounged from various hardware
 and feed stores.  We had 11 palettes and we could have used a couple
 more.
 
-After the truck left, we scrambled to put
-[tarps over the two wood piles](/gallery/firstday-cottage/IMG_20120524_072321.jpg);
-we didn't bother to tarp the foam.  A fellow who built a similar FirstDay
+After the truck left, we scrambled to put tarps over the two wood piles;
+we didn't bother to tarp the foam:
+
+[![tarps over the two wood piles](/gallery/firstday-cottage/IMG_20120524_072321_hu_8f52509fce153fcb.jpg)](/gallery/firstday-cottage/IMG_20120524_072321.jpg)
+
+A fellow who built a similar FirstDay
 a few miles away told us he had spent a lot of time doing tarp
 management, and we are too.  I've never liked the way tarps are
 typically used, with heavy weights to secure the ends or ropes tied to
 the grommets, which inevitably rip out.  So I did things a little
 differently.
 
-First I built a
-[20x20 tarp tent](/gallery/firstday-cottage/IMG_20120524_072219.jpg)
+First I built a 20x20 tarp tent
 to shelter some of the nicer wood that will be used later in the parts of
-the house that will be visible from the interior.  Because the tarp
+the house that will be visible from the interior:
+
+[![20x20 tarp tent](/gallery/firstday-cottage/IMG_20120524_072219_hu_bf92f975808d3424.jpg)](/gallery/firstday-cottage/IMG_20120524_072219.jpg)
+
+Because the tarp
 doesn't rest directly on the wood, moisture won't collect and cause
 mold.  The tarp tent design was based on a backpacking tarp kit that I
 had made a few years back, with clove hitches around the end poles and

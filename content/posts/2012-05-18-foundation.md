@@ -14,14 +14,19 @@ required extra care because our hillside has a very high water table.
 So we spent lots of money on crushed stone to be used liberally under
 and around the foundation.
 
-The first step was to
-[mark out the corners](/gallery/firstday-cottage/IMG_20120430_061321.jpg) of
+The first step was to mark out the corners of
 the future house after the excavator (a neighbor who owns lots of
-machinery) had scraped a small amount of dirt away from the site.
+machinery) had scraped a small amount of dirt away from the site:
+
+[![mark out the corners](/gallery/firstday-cottage/IMG_20120430_061321_hu_94e70cc334624e70.jpg)](/gallery/firstday-cottage/IMG_20120430_061321.jpg)
+
 Then the excavator dug the hole and the foundation crew came in to
-pour the footings, and then a few days later,
-[set up forms](/gallery/firstday-cottage/IMG_20120505_101511.jpg) for
-pouring the walls.  At this stage we had to make sure that all of the
+pour the footings, and then a few days later, set up forms for
+pouring the walls:
+
+[![foundation forms](/gallery/firstday-cottage/IMG_20120505_101511_hu_4a2645f5cb91eb04.jpg) ](/gallery/firstday-cottage/IMG_20120505_101511.jpg)
+
+At this stage we had to make sure that all of the
 planned exit holes (for plumbing and electrical) had their locations
 figured out so that the foundation crew knew where to put paint cans
 in the walls.  These cans would be punched out later, after the
@@ -36,18 +41,25 @@ back and brought loads of crushed stone into the site under the future
 basement slab.  My partner spent many hours raking the crushed stone
 so it was level and ready for the slab.
 
-The foundation crew came back a few days later and laid down
-[blue board](/gallery/firstday-cottage/IMG_20120516_073753.jpg)
-(2 inch styrofoam) on top of the crushed stone.  Then the plumber
-returned to lay down
-[radiant heating tubes](/gallery/firstday-cottage/IMG_20120517_061553.jpg),
-stapled to the foam.  We are not sure how or whether we're going to
+The foundation crew came back a few days later and laid down blue board
+(2 inch styrofoam) on top of the crushed stone:
+
+[![blue board](/gallery/firstday-cottage/IMG_20120516_073753_hu_533975a2f728b174.jpg)](/gallery/firstday-cottage/IMG_20120516_073753.jpg)
+
+Then the plumber returned to lay down radiant heating tubes,
+stapled to the foam:
+
+[![radiant heating tubes](/gallery/firstday-cottage/IMG_20120517_061553_hu_2ac0531ae8364d4c.jpg)](/gallery/firstday-cottage/IMG_20120517_061553.jpg)
+
+We are not sure how or whether we're going to
 use radiant heat in the basement, but we thought it best to plan for
 the possibility.  So we have five radiant zones plumbed in case we
 need them. 
 
-Finally the foundation crew came back one last time to pour the
-[basement slab](/gallery/firstday-cottage/IMG_20120518_084443.jpg).
+Finally the foundation crew came back one last time to pour the basement slab:
+
+[![basement slab](/gallery/firstday-cottage/IMG_20120518_084443_hu_cfa4b16e2113eac.jpg)](/gallery/firstday-cottage/IMG_20120518_084443.jpg)
+
 But before they could do that, we had to cut and place a sill plate (a
 pressure treated 2x10) on the edge of the foundation at the walkout
 basement end.  You can see the sill plate in the foreground; it's
