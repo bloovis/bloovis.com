@@ -11,7 +11,10 @@ Yesterday we put up the
 ending a six-week slog and a race against winter. We got it done just
 in time; last night it snowed a little and now it's raining steadily.
 This was a huge milestone, and we can finally relax a little knowing
-that the house is weather-proof now.  This step was by far the longest
+that the house is weather-proof now.
+<!--more-->
+
+This step was by far the longest
 one in the house construction, and we were pretty tired of it at the
 end.  But as with all the stages of this project, we have a great
 sense of satisfaction, and it looks pretty good.  We tend to notice

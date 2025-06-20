@@ -19,6 +19,7 @@ because you violated the [FPF Covid-19 Content Policy](https://frontporchforum.c
 There is no recourse, because the policy is entirely arbitrary.  FPF merely
 has to claim that you are providing "false or misleading" information in order
 to justify shutting you down.
+<!--more-->
 
 Below are three posts that I submitted to FPF.  The first was approved, and
 the second and third were were censored.  All three deal with the insanity

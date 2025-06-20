@@ -15,5 +15,5 @@ rough opening is.  We're using leftover pine sheathing to make the
 boards, and each board has to be cut and ripped to a custom size
 (because of slight variations in rough opening size).  We're also
 sanding each visible surface and
-[applying a couple of coats of PolyWhey](http://localhost:1313/gallery/firstday-cottage/IMG_20130513_113933.jpg) for
+[applying a couple of coats of PolyWhey](/gallery/firstday-cottage/IMG_20130513_113933.jpg) for
 moisture protection.

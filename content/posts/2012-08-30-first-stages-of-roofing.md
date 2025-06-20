@@ -8,7 +8,7 @@ tags:
 
 We've spent the past two weeks working on getting the roof up on the
 house.  We started on the two story section.  First, we sheathed the
-roof, using the same boards we used to sheath the wall.  These boards
+roof, using the same boards we used to sheath the walls.  These boards
 become the high ceilings in the one story section and in the second
 floor of the two story section.  We placed the boards so that the
 beveled edges face the inside, the opposite of what we did with the

@@ -8,7 +8,10 @@ tags:
 
 We spent a lot of time and effort figuring out what kind of lighting
 we wanted for the kitchen and living room, the 15x30 one story "great
-room" with cathedral ceilings.  For kitchen work, track lighting with
+room" with cathedral ceilings.
+<!--more-->
+
+For kitchen work, track lighting with
 spot bulbs looked like it would provide enough light.  But most track
 lighting that you see in big box stores is ugly and bulky, because
 it's typically a 120 volt system, and all that dangerous voltage has
@@ -19,7 +22,7 @@ an industrial look more suited for clothing stores.  After a long
 search, we came across a monorail system made by [Tech
 Lighting](http://www.techlighting.com/Products), which is pretty slim,
 and has some whimsical fixtures as a nice bonus.  We installed one of
-these systems in the [kitchen over the main counter](http://localhost:1313/gallery/firstday-cottage/IMG_2924.JPG)
+these systems in the [kitchen over the main counter](/gallery/firstday-cottage/IMG_2924.JPG)
 area.  The
 fixtures include a couple of
 [dragonflies](/gallery/firstday-cottage/IMG_2925.JPG)

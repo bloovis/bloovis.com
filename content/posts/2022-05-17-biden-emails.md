@@ -13,7 +13,7 @@ it's possible to download them to one's own computer and examine them
 at leisure, without using the very overloaded site, and without requiring
 a network connection.  I accomplished this using the mail indexer
 [notmuch](https://notmuchmail.org/),
-and my own fork of the [sup email client](https://gitlab.com/bloovis/sup-notmuch)
+and my own fork of the [sup email client](https://github.com/bloovis/sup-notmuch.mirror)
 that uses notmuch as a backend.
 
 <!--more-->
@@ -100,7 +100,7 @@ While notmuch is certainly powerful, it will probably be more convenient to
 use an email client to view the emails.  Earlier I mentioned that I
 was using a notmuch-enabled version of the sup email client.  Setup
 for sup is rather involved, so I won't repeat the instructions here; see the
-README [here](https://gitlab.com/bloovis/sup-notmuch).
+README [here](https://github.com/bloovis/sup-notmuch.mirror).
 
 As an experiment, I also tried using the neomutt mail client, which has
 support for notmuch.  But it was not usable with the large Biden email

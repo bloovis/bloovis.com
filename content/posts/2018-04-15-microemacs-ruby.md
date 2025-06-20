@@ -73,9 +73,8 @@ class and method names, so that the user doesn't always have to
 be prompted to enter them.  The commands can also determine the location
 of the Rails root directory, in case the editor is run from a subdirectory.
 
-See the chapter 23 ("Ruby Extensions)
-of the [PDF documentation](https://gitlab.com/bloovis/micro-emacs/blob/master/doc/microemacs.pdf)
-at the [Gitlab project](https://gitlab.com/bloovis/micro-emacs)
+See the section [Ruby Extensions](https://www.bloovis.com/fossil/home/marka/fossils/pe/doc/trunk/www/ruby.md)
+at my [Fossil repository](https://www.bloovis.com/fossil/home/marka/fossils/pe/doc/trunk/README.md)
 for more information and some example code.
 
 In the writing of the new code, I was helped greatly by the excellent

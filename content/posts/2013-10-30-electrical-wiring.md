@@ -12,6 +12,7 @@ house habitable inside.  We worked 12 hour days for months to get the
 electricals, plumbing, cabinets, countertops and shelving installed.
 It's mostly done now and we're able to relax a little and enjoy
 [the house and its surroundings](/gallery/firstday-cottage/IMG_20131011_074148.jpg).
+<!--more-->
 
 The electrical wiring was one of our challenges this summer.  Because
 there's no drywall to cover up wiring, there are two approaches you

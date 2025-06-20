@@ -11,6 +11,7 @@ The apt-based package managers and update managers in Ubuntu and Linux Mint will
 to repository servers in order to download several packages simultaneously.  Unfortunately, the multiple connections
 cause our old DSL modem (a Westell 6100) to hang.  At a former workplace, similar problems
 occurred with the corporate firewall.
+<!--more-->
 
 The fix is decribed in [this post](http://askubuntu.com/questions/88731/can-the-update-manager-download-only-a-single-package-at-a-time).
 As root, create the file `/etc/apt/apt.conf.d/75download` with the following single line:

@@ -11,6 +11,8 @@ tags:
 For a while now I've been publishing my free software projects
 on Github.  But last month [Microsoft purchased Github](https://gizmodo.com/microsoft-buys-github-and-some-people-are-pissed-1826533362),
 and that alarmed me.
+<!--more-->
+
 Traditionally, Microsoft has been the mortal enemy of free software, and Linux
 in particular.  The company now claims to be the friend of free software,
 but trusting Microsoft, whose mission is total monopoly power,

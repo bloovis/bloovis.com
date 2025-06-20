@@ -6,6 +6,10 @@ tags:
 - rants
 ---
 
+Here's a little program to generate a very sincere, heartfelt public
+response to a tragedy.
+<!--more-->
+
     #include <signal.h>
     #include <stdio.h>
     #include <unistd.h>

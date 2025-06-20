@@ -8,8 +8,12 @@ tags:
 - software
 - ubuntu
 ---
-Each time I install Linux Mint on a new machine, or upgrade an installation, I have to perform a set of tweaks to get the system to look and behave the way I want.  After doing these tweaks yet again over the weekend, I decided to write them down for posterity.
 
+Each time I install Linux Mint on a new machine, or upgrade an
+installation, I have to perform a set of tweaks to get the system to
+look and behave the way I want.  After doing these tweaks yet again
+over the weekend, I decided to write them down for posterity.
+<!--more-->
 
 * Before IBM introduced the PS/2 in the mid-80s, the Control key on terminals and PCs was always where God intended it: next to the A key.  The PS/2 keyboard moved the Control key to a very inconvenient location on the bottom left corner of the keyboard.  All other PC makers copied this incredible blunder.  Finger tendons have suffered ever since, especially those of Emacs users.  To fix this: Menu / Control Center / Assistive Technologies / Keyboard Accessibility / Layouts / Options / Ctrl key position / Swap Ctrl and CapsLock.
 * Make bash the default shell:` sudo dpkg-reconfigure dash`, answer No.

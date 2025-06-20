@@ -70,7 +70,7 @@ through a hole bored just above the basement door.
 Outside the house sits the
 [fan](/gallery/firstday-cottage/IMG_2935.JPG),
 which pulls air from the pipe in the basement and sends it up the
-[exterior pipe](http://localhost:1313/gallery/firstday-cottage/IMG_2934.JPG).
+[exterior pipe](/gallery/firstday-cottage/IMG_2934.JPG).
 The top of the pipe has two 45 degree joints that allowed us to avoid having to cut a hole in the roof.  The electrical work was straightforward and simple.
 
 The system definitely works: after about five days of running the fan

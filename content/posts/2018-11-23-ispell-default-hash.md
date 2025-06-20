@@ -10,6 +10,7 @@ tags:
 
 For some reason, one of my Linux Mint 18.1 machines was not able to run
 ispell, which gave this error message:
+<!--more-->
 
     Can't open /usr/lib/ispell/default.hash
 

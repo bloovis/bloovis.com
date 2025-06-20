@@ -13,7 +13,10 @@ tags:
 Over the years, one persistent problem with using HP printers in Linux Mint
 has been the conflict between the drivers provided by CUPS (the standard Linux printing
 system), and HPLIP (the HP software that provides proprietary drivers for some
-of the company's printers).  My old P1006 printer (which uses a USB connection) requires the use of HPLIP,
+of the company's printers).
+<!--more-->
+
+My old P1006 printer (which uses a USB connection) requires the use of HPLIP,
 because CUPS does not contain the required drivers.  However, when the printer
 is first plugged into a system running Linux Mint (and, presumably, Ubuntu),
 CUPS automatically installs its own incorrect driver for the P1006 after a few seconds.  Then if you

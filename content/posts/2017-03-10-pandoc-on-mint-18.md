@@ -14,6 +14,9 @@ I use Pandoc instead of a word processor to prepare printed documents.  Installi
 it on Linux Mint 18 reminded me that in order to create PDF files,
 you need to install more than Pandoc itself.  Here is what I had to do
 to install Pandoc and the Latex files it requires:
+<!--more-->
 
-    sudo apt-get install pandoc lmodern texlive-latex-recommended \
-                         texlive-latex-extra texlive-fonts-recommended
+```
+sudo apt-get install pandoc lmodern texlive-latex-recommended \
+                     texlive-latex-extra texlive-fonts-recommended
+```

@@ -7,6 +7,9 @@ tags:
 - cervantes
 ---
 
+Cervantes on the weapons of war:
+<!--more-->
+
 "Happy were those blessed times that lacked the horrifying fury of the
 diabolical instruments of artillery, whose inventor, in my opinion, is in
 hell, receiving the reward for his accursed invention, which allows an ignoble

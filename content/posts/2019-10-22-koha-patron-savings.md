@@ -17,6 +17,7 @@ to the HTML for the issue slip.  The code works by adding up the replacement cos
 for each item in the checkout list.  For an item that has no replacement cost
 in its item record, the code uses the default replacement cost associated
 with that item's type.
+<!--more-->
 
 This solution works well, but in our library we wanted the default replacement costs
 to be associated with shelving locations, not item types.  We have minimized the item
