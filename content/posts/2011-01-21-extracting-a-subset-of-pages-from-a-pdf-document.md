@@ -11,7 +11,7 @@ For an upcoming plane trip, I wanted to extract one chapter from an Intel IA32 A
 
 Finally, I stumbled on this [article in Linux Journal](http://www.linuxjournal.com/content/tech-tip-extract-pages-pdf), which shows how to use gs (Ghostscript) to extract pages.  This works well enough with Intel's manuals, though it does change various Microsoft fonts to their more standard equivalents.  Here's a slightly modified version of the article's script:
 
-<pre class="brush: plain">
+```bash
 #!/bin/sh
 
 # this script take 3 arguments:
@@ -32,4 +32,4 @@ gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER \
        -dLastPage=$last \
        -sOutputFile="${input%.pdf}_p$first-p$last.pdf" \
        $input
-</pre>
+```

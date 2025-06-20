@@ -18,9 +18,9 @@ lsmod | grep iwlwifi
 
 The temporary fix, which will not survive a reboot, is:
 
-<pre class="brush: plain">sudo rmmod iwlwifi
+```
 sudo modprobe iwlwifi 11n_disable=1
-</pre>
+```
 
 If that works, apply the permanent solution.  Become root with `sudo su`.  Create the file `/etc/modprobe.d/iwlwifi-disable11n.conf` with the following one-line contents: 
 

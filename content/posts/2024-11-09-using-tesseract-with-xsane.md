@@ -25,7 +25,7 @@ tesseract, or as a prefix to the tesseract command.
 
 There are many xsane-to-tesseract scripts on the internet; here is mine:
 
-```
+```ruby
 #!/usr/bin/env ruby
 
 $VERBOSE = true

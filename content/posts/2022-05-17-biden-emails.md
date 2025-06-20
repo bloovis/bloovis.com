@@ -44,18 +44,20 @@ by a decimal number.  This will cause notmuch to ignore those emails,
 so it's necessary to remove the offending lines.  The following shell
 script will do the job:
 
-    #!/bin/sh
-    if [ $# -eq 0 ]
-    then
-      echo usage $0 files ...
-      exit 1
-    fi
-    for file in "$@" ; do
-      if head -1 "$file" | hd | grep -q " ff fe " ; then
-        echo "fixing $file"
-        sed -i '1d' "$file"
-      fi
-    done
+```bash
+#!/bin/sh
+if [ $# -eq 0 ]
+then
+  echo usage $0 files ...
+  exit 1
+fi
+for file in "$@" ; do
+  if head -1 "$file" | hd | grep -q " ff fe " ; then
+    echo "fixing $file"
+    sed -i '1d' "$file"
+  fi
+done
+```
 
 Now it's time to configure notmuch.  Run the command `notmuch setup`.
 Give it the full path to the maildir you created before (`/home/SOMEBODY/bidenemails`

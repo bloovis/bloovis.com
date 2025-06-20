@@ -20,25 +20,27 @@ On Mint 17, to make the fix run automatically after a resume, become root (`sudo
 and create the executable script `/usr/lib/pm-utils/sleep.d/48sound`
 with the following contents:
 
-    #!/bin/sh
-    # sound - play a sound after resume to unblock sound device.
+```bash
+#!/bin/sh
+# sound - play a sound after resume to unblock sound device.
 
-    # . "${PM_FUNCTIONS}"
+# . "${PM_FUNCTIONS}"
 
-    case $1 in
-            hibernate|suspend)
-                    ;;
+case $1 in
+	hibernate|suspend)
+		;;
 
-            thaw|resume)
-                    /usr/bin/play -q /usr/share/sounds/linuxmint-gdm.wav
-                    echo "48sound resuming!" >/tmp/sound.log
-                    ;;
+	thaw|resume)
+		/usr/bin/play -q /usr/share/sounds/linuxmint-gdm.wav
+		echo "48sound resuming!" >/tmp/sound.log
+		;;
 
-            *) exit $NA
-                    ;;
-    esac
+	*) exit $NA
+		;;
+esac
 
-    exit 0
+exit 0
+```
 
 Make the script executable using `chmod +x /usr/lib/pm-utils/sleep.d/48sound`.
 
@@ -46,13 +48,15 @@ On Mint 18 and later, suspend is handled by systemd and the above script won't r
 Instead, create the executable script `/lib/systemd/system-sleep/sound`
 as root with the following contents:
 
-    #!/bin/sh
-    
-    case $1 in
-      post)
-        /usr/bin/play -q /usr/share/sounds/linuxmint-gdm.wav
-        ;;
-    esac
+```bash
+#!/bin/sh
+
+case $1 in
+  post)
+    /usr/bin/play -q /usr/share/sounds/linuxmint-gdm.wav
+    ;;
+esac
+```
 
 Use `chmod +x /lib/systemd/system-sleep/sound` to make the script executable.
 

@@ -8,7 +8,7 @@ tags:
 ---
 When I received a new license plate three years ago, I was delighted to learn that its numeric portion, 827, was a prime number that was also the sum of consecutive primes (103 + 107 + 109 +113 + 127 + 131 + 137).  Then a couple of days ago, while staring at a friend's license plate and wondering if it was also a prime (it wasn't), I decided to find out if there were other license plates that had the same property as my 827.  Without Googling the answer, I wrote the little program below.  The results were quite interesting, especially for 863, which can be summed four different ways.
 
-<pre class="brush: plain">
+```ruby
 #!/usr/bin/ruby
 
 # Prints primes that are sums of consecutive primes.
@@ -52,4 +52,4 @@ list.each do |x|
   x[1].each {|n| print " #{n}" }
   puts ""
 end
-</pre>
+```

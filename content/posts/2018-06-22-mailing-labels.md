@@ -34,36 +34,38 @@ where each of the three cells is printed on a separate line in the label.
 
 I wrote the following script to convert the former into the latter:
 
-    #!/usr/bin/env ruby
-    
-    require 'csv'
-    
-    # Check arguments. First is input file.  Second is output file.
-    if ARGV.length < 2
-       puts "usage: labels.rb inputfile.csv outputfile.csv"
-       exit 1
-    end
-    
-    input_file = ARGV[0]
-    output_file = ARGV[1]
-    if File.exist?(output_file)
-      puts "#{output_file} exists; will not overwrite."
-      exit 1
-    end
-    
-    out = CSV.open(output_file, "wb", { force_quotes: true })
-    
-    CSV.foreach(input_file) do |row|
-      firstname = row[0]
-      lastname  = row[1]
-      address   = row[2]
-      city      = row[3]
-      state     = row[4]
-      zipcode   = row[5]
-      out << [ "#{firstname} #{lastname}", address, "#{city}, #{state} #{zipcode}" ]
-    end
-    
-    out.close
+```ruby
+#!/usr/bin/env ruby
+
+require 'csv'
+
+# Check arguments. First is input file.  Second is output file.
+if ARGV.length < 2
+   puts "usage: labels.rb inputfile.csv outputfile.csv"
+   exit 1
+end
+
+input_file = ARGV[0]
+output_file = ARGV[1]
+if File.exist?(output_file)
+  puts "#{output_file} exists; will not overwrite."
+  exit 1
+end
+
+out = CSV.open(output_file, "wb", { force_quotes: true })
+
+CSV.foreach(input_file) do |row|
+  firstname = row[0]
+  lastname  = row[1]
+  address   = row[2]
+  city      = row[3]
+  state     = row[4]
+  zipcode   = row[5]
+  out << [ "#{firstname} #{lastname}", address, "#{city}, #{state} #{zipcode}" ]
+end
+
+out.close
+```
 
 Now that I had a CSV file in the correct format, I used labelnation to generate
 a Postscript file for Avery 5160, the label type we use:

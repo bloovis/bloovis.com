@@ -41,7 +41,7 @@ using:
 In case the script disappears from Github, here it
 is in its entirety.
 
-```
+```python
 #!/usr/bin/env python3
 
 # Firefox-DPMS

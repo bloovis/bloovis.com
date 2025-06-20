@@ -10,6 +10,8 @@ If you should ever doubt that the "vaccines" are safe and effective,
 please download and run this program to remind yourself to
 Trust The Science™:
 
-    #!/usr/bin/env ruby
-    while true; puts "The vaccine is safe and effective"; end
+```ruby
+#!/usr/bin/env ruby
+while true; puts "The vaccine is safe and effective"; end
+```
 
