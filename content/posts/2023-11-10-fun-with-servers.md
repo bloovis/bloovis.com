@@ -5,11 +5,16 @@ date: '2023-11-10 06:33:00 +0000'
 tags:
 - linux
 - software
+- ubuntu
+- git
+- xbrowsersync
+- vaultwarden
+- fossil
 ---
 
 For the last couple of months, I've gradually been weaning myself from some
 Big Tech services, and reimplementing these services on my own Linux VPS
-(virtual private server) on Linode.
+(virtual private server) on Linode, running Ubuntu Server 22.04.
 <!--more-->
 I now have a server that I use for:
 
@@ -29,6 +34,8 @@ the [Pobox](/posts/2023-10-07-pobox-and-postfix/) redirection service.
 6. My own implementation of the [xBrowserSync API service](/posts/2023-11-04-implementing-xbrowsersync-api/).
 
 7. My [Git repositories](/posts/2023-11-09-publishing-with-cgit/), formerly hosted on Gitlab.
+
+8. My [Fossil repositories](/fossil/), which replaced my Git repositories recently.
 
 This sort of thing is not for the faint of heart, but I learned a lot
 in the process and gained more control over the things I use on the internet.

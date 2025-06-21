@@ -5,6 +5,9 @@ date: '2023-11-04 06:39:00 +0000'
 tags:
 - linux
 - software
+- xbrowsersync
+- android
+- crystal
 ---
 
 For about a year, I've used the Brave browser, mostly due to its built-in

@@ -5,6 +5,7 @@ date: '2023-10-03 11:41:00 +0000'
 tags:
 - linux
 - software
+- notmuch
 ---
 
 I've spent most of the last two days struggling to get first [chasquid](https://blitiri.com.ar/p/chasquid/)

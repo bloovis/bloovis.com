@@ -5,6 +5,8 @@ date: '2023-03-01 20:40:00 +0000'
 tags:
 - biden
 - ukraine
+- software
+- notmuch
 ---
 
 Earlier I described a [procedure for importing the Hunter Biden emails](/posts/2022-05-17-biden-emails/)

@@ -5,6 +5,8 @@ date: '2023-11-09 08:59:00 +0000'
 tags:
 - linux
 - software
+- git
+- ubuntu
 ---
 
 As part of my continuing work to free myself from Big Tech, I recently

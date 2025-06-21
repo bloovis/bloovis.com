@@ -5,6 +5,8 @@ date: '2023-10-06 06:00:00 +0000'
 tags:
 - linux
 - software
+- bitwarden
+- vaultwarden
 ---
 
 *Update*: the newer version of the Bitwarden Android app requires

@@ -5,6 +5,7 @@ date: '2023-12-30 08:03:00 +0000'
 tags:
 - linux
 - software
+- ubuntu
 ---
 
 One of the common uses of Google's "free" services is the appointment

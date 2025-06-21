@@ -5,6 +5,7 @@ tags:
 - linux
 - software
 - fossil
+- git
 ---
 
 This article describes the procedure I used to convert

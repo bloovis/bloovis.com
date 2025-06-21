@@ -5,6 +5,8 @@ date: '2022-05-17 13:15:00 +0000'
 tags:
 - biden
 - ukraine
+- software
+- notmuch
 ---
 
 Now that the [Hunter Biden emails](http://www.bidenlaptopemails.com/)

@@ -5,6 +5,7 @@ date: '2023-10-07 14:44:00 +0000'
 tags:
 - linux
 - software
+- ubuntu
 ---
 
 As part of my plan to reduce my dependence on Big Tech, I recently
