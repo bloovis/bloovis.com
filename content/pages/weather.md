@@ -3,8 +3,8 @@ title: "Local Rainfall, Temperatures, and Snowfall"
 date: 2020-12-05
 ---
 
-<img src="/images/rain.png"/>
+![Rain/melted snow](/images/rain.png)
 
-<img src="/images/temp.png"/>
+![Temperature](/images/temp.png)
 
-<img src="/images/snow.png"/>
+![Snow depth](/images/snow.png)
