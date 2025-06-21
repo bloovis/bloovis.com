@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  border-radius:.25rem;
+  margin:2rem 1rem;
+  padding:.5rem 0;
+  align-items:center;
+  justify-content:center;
+  /*background-color:#eee;*/
+  border-style: solid;
+  border-width: 1px;
+}
+
+.pagination li {
+  border-radius:.25rem
+}
+
+.page-item {
+  padding: 5px;
+  display: inline;
+}
+
+.pagination li.disabled a:hover,
+.pagination li.disabled a:active,
+.pagination li.disabled a:focus {
+  /*color:#757575;*/
+  text-decoration:none
+}
+
+.pagination a {
+  font-size:1.25rem;
+  padding:.5rem .75rem
+}
+
+li.active {
+  color: #26a69a;
+}
