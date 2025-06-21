@@ -4,7 +4,6 @@ date: '2022-11-09 07:55:00'
 tags:
 - linux
 - linux mint
-- thinkpad
 - ubuntu
 - printers
 ---
