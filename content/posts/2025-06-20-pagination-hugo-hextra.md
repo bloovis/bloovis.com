@@ -4,6 +4,7 @@ date: '2025-06-20'
 tags:
 - linux
 - software
+- hugo
 ---
 
 I recently switched this blog to use the Hugo [Hextra theme](https://github.com/imfing/hextra).

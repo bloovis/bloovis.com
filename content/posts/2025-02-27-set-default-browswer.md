@@ -4,6 +4,7 @@ date: '2025-02-27 15:53:00 +0000'
 tags:
 - software
 - linux
+- firefox
 ---
 
 I've been using [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)

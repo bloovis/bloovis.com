@@ -11,6 +11,7 @@ You'll probably regret having ended up here, but just in case,
 here's what you'll find:
 
 * [Posts](/posts/): my worthless blog, ignored by all since 2008
+* [Tags](/tags): posts grouped by tags
 * [Pages](/pages/): some non-blog documents, including *The Annotated Lamb Lies Down on Broadway*
 * [Gallery](/gallery/): my artless photographs
 * [Source code repositories](/fossil/): my useless open source projects

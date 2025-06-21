@@ -28,20 +28,23 @@ menu:
     - name: Posts
       pageRef: /posts/
       weight: 1
+    - name: Tags
+      pageRef: /tags/
+      weight: 2
     - name: Pages
       pageRef: /pages/
-      weight: 2
-    - name: Gallery
       weight: 3
+    - name: Gallery
       pageRef: /gallery/
-    - name: Source code
       weight: 4
+    - name: Source code
       pageRef: /fossil/
+      weight: 5
     - name: About
       pageRef: /about/
-      weight: 5
-    - name: Search
       weight: 6
+    - name: Search
+      weight: 7
       params:
         type: search
 
@@ -60,3 +63,12 @@ params:
     flexsearch:
       # index page by: content | summary | heading | title
       index: content
+
+  blog:
+    list:
+      displayTags: false
+    single:
+      displayTags: true
+
+  toc:
+    displayTags: true

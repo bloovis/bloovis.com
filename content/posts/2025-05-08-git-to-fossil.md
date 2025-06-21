@@ -4,6 +4,7 @@ date: '2025-05-08 09:45:00 +0000'
 tags:
 - linux
 - software
+- fossil
 ---
 
 This article describes the procedure I used to convert
