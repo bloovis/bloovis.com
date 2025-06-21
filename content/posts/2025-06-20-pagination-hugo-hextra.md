@@ -51,48 +51,46 @@ produced the desired pagination controls at the bottom of the page,
 but its appearance was unsatisfactory, with each control on a separate line.
 To fix this, I added some custom CSS that reproduced the appearance of
 the pagination controls in the previous theme I'd been using.  It's
-probably not as clean as it should be, but it does seem to work:
+probably not as clean as it should be, but it does seem to work.
 
-```diff
-diff --git a/assets/css/custom.css b/assets/css/custom.css
-index e69de29..53ba2a4 100644
---- a/assets/css/custom.css
-+++ b/assets/css/custom.css
-@@ -0,0 +1,36 @@
-+.pagination {
-+  display: flex;
-+  border-radius:.25rem;
-+  margin:2rem 1rem;
-+  padding:.5rem 0;
-+  align-items:center;
-+  justify-content:center;
-+  /*background-color:#eee;*/
-+  border-style: solid;
-+  border-width: 1px;
-+}
-+
-+.pagination li {
-+  border-radius:.25rem
-+}
-+
-+.page-item {
-+  padding: 5px;
-+  display: inline;
-+}
-+
-+.pagination li.disabled a:hover,
-+.pagination li.disabled a:active,
-+.pagination li.disabled a:focus {
-+  /*color:#757575;*/
-+  text-decoration:none
-+}
-+
-+.pagination a {
-+  font-size:1.25rem;
-+  padding:.5rem .75rem
-+}
-+
-+li.active {
-+  color: #26a69a;
-+}
+At the project top level directory, create the directory `assets/css`,
+then copy the following to `assets/css/custom.css`
+
+```css {filename="assets/css/custom.css"}
+.pagination {
+  display: flex;
+  border-radius:.25rem;
+  margin:2rem 1rem;
+  padding:.5rem 0;
+  align-items:center;
+  justify-content:center;
+  /*background-color:#eee;*/
+  border-style: solid;
+  border-width: 1px;
+}
+
+.page-item {
+  padding: 5px;
+  display: inline;
+}
+
+.pagination li {
+  border-radius:.25rem
+}
+
+.pagination li.active {
+  color: #26a69a;
+}
+
+.pagination li.disabled a:hover,
+.pagination li.disabled a:active,
+.pagination li.disabled a:focus {
+  /*color:#757575;*/
+  text-decoration:none
+}
+
+.pagination a {
+  font-size:1.25rem;
+  padding:.5rem .75rem
+}
 ```

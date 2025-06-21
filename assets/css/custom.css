@@ -10,13 +10,17 @@
   border-width: 1px;
 }
 
+.page-item {
+  padding: 5px;
+  display: inline;
+}
+
 .pagination li {
   border-radius:.25rem
 }
 
-.page-item {
-  padding: 5px;
-  display: inline;
+.pagination li.active {
+  color: #26a69a;
 }
 
 .pagination li.disabled a:hover,
@@ -29,8 +33,4 @@
 .pagination a {
   font-size:1.25rem;
   padding:.5rem .75rem
-}
-
-li.active {
-  color: #26a69a;
 }
