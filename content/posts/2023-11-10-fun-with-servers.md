@@ -13,7 +13,7 @@ Big Tech services, and reimplementing these services on my own Linux VPS
 <!--more-->
 I now have a server that I use for:
 
-1. Running my [email client](https://www.bloovis.com/cgit/sup-notmuch/about/).
+1. Running my [email client](https://www.bloovis.com/fossil/home/marka/fossils/sup-notmuch/doc/trunk/README.md).
 
 2. This blog, formerly hosted on [NearlyFreeSpeech](https://www.nearlyfreespeech.net/),
 a very fine BSD-based hosting service.
