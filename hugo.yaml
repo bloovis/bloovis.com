@@ -40,11 +40,17 @@ menu:
     - name: Source code
       pageRef: /fossil/
       weight: 5
+    - name: Scamdemic
+      pageRef: /scamdemic/
+      weight: 6
+    - name: Verbal Abuse
+      pageRef: /abuse/
+      weight: 7
     - name: About
       pageRef: /about/
-      weight: 6
+      weight: 8
     - name: Search
-      weight: 7
+      weight: 9
       params:
         type: search
 

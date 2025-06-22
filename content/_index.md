@@ -16,5 +16,10 @@ here's what you'll find:
 * [Gallery](/gallery/): my artless photographs
 * [Source code repositories](/fossil/): my useless open source projects
 
+There are also two sub-blogs here:
+
+* [Verbal Abuse](/abuse/): My experience with verbal abuse in my marriage
+* [Scamdemic](/scamdemic): My mostly sarcastic writings about the Great Covid Psyop
+
 If you dislike what you see here, and want to tell me about it,
 you can find my email address in the [About](/about/) page.
