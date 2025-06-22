@@ -3,8 +3,8 @@ title: No Big Deal
 date: '2019-06-30 12:52:00 +0000'
 
 tags:
-- verbal_abuse
-- double_standard
+- verbal abuse
+- double standard
 ---
 
 Frequently my wife tries to get reassurance from me that her abuse

@@ -3,7 +3,7 @@ title: Interior framing
 date: '2013-02-07 15:05:09 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 For the last month or so, we've been working on the interior framing:

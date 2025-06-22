@@ -3,7 +3,7 @@ title: Tools for housebuilding
 date: '2014-03-05 20:30:47 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 We started building our house two summers ago using the tools we already had lying around: some hammers, a primitive Makita chop saw, and an aging cordless drill and circular saw set.  We also borrowed an old and somewhat weak table saw from a neighbor.  Pretty quickly we realized that we needed better tools to make the building process go more quickly.  This was important because building in Vermont is a race against time and the weather: the house had to be closed in before winter.
 

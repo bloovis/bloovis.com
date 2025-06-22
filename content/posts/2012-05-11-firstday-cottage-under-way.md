@@ -3,7 +3,7 @@ title: FirstDay Cottage under way
 date: '2012-05-11 19:49:03 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Last summer we had planned to start building a new [FirstDay

@@ -3,7 +3,7 @@ title: Radon mitigation
 date: '2013-12-16 19:11:43 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Last summer we borrowed a radon tester from a friend and left it in

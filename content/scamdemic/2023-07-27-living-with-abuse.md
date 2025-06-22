@@ -3,7 +3,7 @@ title: Living With Verbal Abuse
 date: '2023-07-27 13:04:00'
 draft: false
 tags:
-- abuse
+- verbal abuse
 - covid19
 ---
 
@@ -20,9 +20,9 @@ hidden, I never linked to it anywhere on the public web (I shared
 it on a private forum).  After three years
 of secrecy, I'm now going
 to put this blog on display for all to read.  You can find the archive
-of posts [here](https://wordblast.bloovis.com/).
+of posts [here](/abuse/).
 A good place to start there would be the
-[Book-Throwing Incident](https://wordblast.bloovis.com/2019/05/31/book-throwing-incident.html).
+[Book-Throwing Incident](/abuse/2019-05-31-book-throwing-incident/).
 That was the event that told me I
 needed to get serious about escaping;
 it took me another year and half to do that.

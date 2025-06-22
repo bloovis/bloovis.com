@@ -3,7 +3,7 @@ title: Applying polyurethane to the floors
 date: '2013-05-13 22:44:31 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 After we sanded the floors, we were getting ready to apply the satin

@@ -3,7 +3,7 @@ title: Defensiveness
 date: '2019-06-04 05:31:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - put-downs
 - defensiveness
 ---

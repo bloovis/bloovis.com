@@ -5,7 +5,7 @@ date: '2019-06-16 09:30:00 +0000'
 tags:
 - impatience
 - control
-- double_standard
+- double standard
 ---
 
 My partner and I both get impatient with each other at times.

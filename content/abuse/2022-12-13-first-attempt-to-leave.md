@@ -3,7 +3,7 @@ title: My First Attempt to Leave
 date: '2022-12-13 21:36:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - leaving
 ---
 

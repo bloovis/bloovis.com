@@ -3,7 +3,7 @@ title: Foundation
 date: '2012-05-18 16:44:17 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Getting the foundation installed was a pretty stressful job.  Nearly

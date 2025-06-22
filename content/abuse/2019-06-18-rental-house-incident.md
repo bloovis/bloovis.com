@@ -3,7 +3,7 @@ title: The Rental House Incident
 date: '2019-06-18 05:22:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - incidents
 - punishment
 - control

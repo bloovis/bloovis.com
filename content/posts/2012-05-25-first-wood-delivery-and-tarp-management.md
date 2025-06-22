@@ -3,7 +3,7 @@ title: First wood delivery and tarp management
 date: '2012-05-25 22:33:14 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 A week ago our first load of wood from FirstDay showed up.  Because

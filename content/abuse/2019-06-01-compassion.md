@@ -3,7 +3,7 @@ title: Compassion
 date: '2019-06-01 05:44:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - reasons
 ---
 

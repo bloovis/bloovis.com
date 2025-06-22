@@ -3,7 +3,7 @@ title: Stairs, windows, and roofing
 date: '2012-09-24 11:40:43 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 The last three weeks have been pretty busy and we have made quite a

@@ -3,7 +3,7 @@ title: Aligning the goal posts
 date: '2012-07-23 20:24:38 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 After the chaotic day when the goal posts were assembled and raised,

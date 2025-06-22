@@ -5,7 +5,7 @@ date: '2019-06-10 13:57:00 +0000'
 tags:
 - sex
 - shame
-- verbal_abuse
+- verbal abuse
 - celibacy
 ---
 

@@ -5,7 +5,7 @@ date: '2019-06-07 07:29:00 +0000'
 tags:
 - power
 - balance
-- verbal_abuse
+- verbal abuse
 ---
 
 This post is about something that is only indirectly related to verbal abuse:

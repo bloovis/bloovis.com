@@ -3,7 +3,7 @@ title: The siding is done (mostly)
 date: '2012-12-10 21:06:58 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Yesterday we put up the last piece of siding,

@@ -3,7 +3,7 @@ title: Sanding the floors
 date: '2013-04-03 19:55:11 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 After we finished most of the interior walls, we spent over a month

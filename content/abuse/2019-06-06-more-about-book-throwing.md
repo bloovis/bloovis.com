@@ -3,7 +3,7 @@ title: More About the Book-Throwing Incident
 date: '2019-06-06 05:11:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - incidents
 - physical_abuse
 - counselors

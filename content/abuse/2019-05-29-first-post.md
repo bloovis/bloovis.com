@@ -4,7 +4,7 @@ date: '2019-05-29 13:41:00 +0000'
 
 tags:
 - gaslighting
-- verbal_abuse
+- verbal abuse
 - teddy
 ---
 

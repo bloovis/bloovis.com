@@ -3,7 +3,7 @@ title: First siding boards are up
 date: '2012-10-25 18:21:11 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 After a week and half of part-time work, we now have about 25 feet of

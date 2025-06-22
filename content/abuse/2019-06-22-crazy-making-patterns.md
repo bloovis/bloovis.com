@@ -3,7 +3,7 @@ title: Crazy-making Patterns
 date: '2019-06-22 21:52:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - crazy_making
 ---
 

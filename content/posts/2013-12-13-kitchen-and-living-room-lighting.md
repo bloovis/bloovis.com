@@ -3,7 +3,7 @@ title: Kitchen and living room lighting
 date: '2013-12-13 18:58:55 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 We spent a lot of time and effort figuring out what kind of lighting

@@ -3,7 +3,7 @@ title: Making and installing beams
 date: '2012-06-11 23:38:57 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 The last week and half has been taken up with making the floor beams

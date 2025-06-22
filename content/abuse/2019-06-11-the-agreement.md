@@ -3,9 +3,9 @@ title: The Agreement
 date: '2019-06-11 10:28:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - agreement
-- double_standard
+- double standard
 ---
 
 > If the verbally abusive man cannot begin taking the necessary steps to change,

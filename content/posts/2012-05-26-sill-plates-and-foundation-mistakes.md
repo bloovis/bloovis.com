@@ -3,7 +3,7 @@ title: Sill plates and foundation mistakes
 date: '2012-05-26 11:16:44 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Our first full day of doing our own work on the house involved

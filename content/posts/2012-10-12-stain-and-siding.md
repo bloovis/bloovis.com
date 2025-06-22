@@ -3,7 +3,7 @@ title: Stain and siding
 date: '2012-10-12 00:01:26 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 We started working on the siding today, after spending more time than

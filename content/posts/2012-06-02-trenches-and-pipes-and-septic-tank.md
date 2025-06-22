@@ -3,7 +3,7 @@ title: Trenches and pipes and septic tank
 date: '2012-06-02 16:42:26 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Before we could make any progress on the house this week, we had to

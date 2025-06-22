@@ -3,7 +3,7 @@ title: Plumbing headaches
 date: '2014-02-05 15:02:51 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 The electrical work we did last summer was fun, but the plumbing was

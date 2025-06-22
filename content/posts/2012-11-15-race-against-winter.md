@@ -3,7 +3,7 @@ title: Race against winter
 date: '2012-11-15 21:06:21 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 We're now in a race to see if we get all the siding up before real

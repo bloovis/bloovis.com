@@ -3,10 +3,10 @@ title: The Tyranny of Togetherness
 date: '2019-06-15 05:00:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - control
 - balance
-- double_standard
+- double standard
 ---
 
 Before I did any reading about control and verbal abuse, I came up with

@@ -3,7 +3,7 @@ title: The Bicycle Ride Incident
 date: '2019-08-25 05:24:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - incidents
 ---
 

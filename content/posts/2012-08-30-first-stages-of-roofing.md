@@ -3,7 +3,7 @@ title: First stages of Roofing
 date: '2012-08-30 13:13:05 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 We've spent the past two weeks working on getting the roof up on the

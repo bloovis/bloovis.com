@@ -3,7 +3,7 @@ title: Making window sills
 date: '2013-05-13 22:52:30 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 The rough openings around the windows are ugly and need to be trimmed,

@@ -3,7 +3,7 @@ title: The Surgery Incident
 date: '2019-11-20 16:20:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - incidents
 ---
 

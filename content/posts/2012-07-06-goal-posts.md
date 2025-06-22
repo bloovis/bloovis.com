@@ -3,7 +3,7 @@ title: Goal posts
 date: '2012-07-06 12:58:20 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Last week we start preparing for the raising of the twelve

@@ -3,7 +3,7 @@ title: The Backpacking Incidents
 date: '2020-11-19 22:06:00 +0000'
 
 tags:
-- verbal_abuse
+- verbal abuse
 - incidents
 ---
 

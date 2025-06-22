@@ -3,7 +3,7 @@ title: Sheathing
 date: '2012-08-03 11:17:10 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 We are now more than half way through installing the sheathing

@@ -3,7 +3,7 @@ title: One story rafter raising
 date: '2012-08-19 10:11:35 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 At the beginning of last week, we spent a couple of days raising the

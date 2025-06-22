@@ -3,7 +3,7 @@ title: Electrical wiring
 date: '2013-10-30 14:38:54 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 It's been a long time since I wrote any updates about our house.

@@ -3,7 +3,7 @@ title: Roofing is done
 date: '2012-10-10 16:54:07 +0000'
 
 tags:
-- firstday
+- firstday cottage
 ---
 
 Last week we had two mornings when it wasn't raining, so we used those
