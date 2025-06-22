@@ -70,3 +70,4 @@ params:
   blog:
     list:
       displayTags: true
+      pageSize: 10
