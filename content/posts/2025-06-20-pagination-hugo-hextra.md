@@ -18,43 +18,75 @@ of all 283 posts for this blog appeared on one page.
 
 After examining the official Hugo documentation for
 [pagination](https://gohugo.io/templates/pagination/),
-I was able to apply the following simple patch to the theme:
+I was able to apply a simple patch to the theme's layout,
+and create some custom CSS for the pagination controls.
+
+## Configuration
+
+In order to enable pagination and specify the number of posts to appear
+on one page in the blog listing, create a configuration parameter
+in `hugo.yaml` called `blog.list.pageSize`.  If present, this variable specifies the
+number of posts that should appear on a page in the post listing.
+If it is not present, the post listing will not be paginated.
+
+Here is how I specified a page size of 10 posts in `hugo.yaml`:
+
+```yaml
+params:
+  blog:
+    list:
+      displayTags: true
+      pageSize: 10
+```
+## Layout
+
+At the project top level directory, copy the theme's `layouts/blog/list.html`
+to the project's own layout:
+
+```bash
+mkdir layouts/blog
+cp themes/hextra/layouts/blog/list.html layouts/blog/list.html
+```
+
+Then apply the following patch to `layouts/blog/list.html`:
 
 ```diff
-diff --git a/layouts/blog/list.html b/layouts/blog/list.html
-index 5527ba8..064920e 100644
---- a/layouts/blog/list.html
-+++ b/layouts/blog/list.html
-@@ -8,7 +8,8 @@
+--- themes/hextra/layouts/blog/list.html	2025-06-21 16:30:19.640005204 -0700
++++ layouts/blog/list.html	2025-06-22 05:08:24.840819850 -0700
+@@ -8,6 +8,10 @@
          {{ if .Title }}<h1 class="hx:text-center hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>{{ end }}
          <div class="content">{{ .Content }}</div>
          {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
--        {{- range $pages }}
-+        {{- $paginator := .Paginate $pages 10 }}
-+        {{- range $paginator.Pages }}
++        {{- if site.Params.blog.list.pageSize -}}
++          {{- $paginator := .Paginate $pages site.Params.blog.list.pageSize -}}
++          {{- $pages = $paginator.Pages -}}
++        {{- end -}}
+         {{- range $pages }}
            <div class="hx:mb-10">
              <h3><a style="color: inherit; text-decoration: none;" class="hx:block hx:font-semibold hx:mt-8 hx:text-2xl " href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-             {{ if site.Params.blog.list.displayTags }}
-@@ -23,6 +24,7 @@
+@@ -23,6 +27,9 @@
              <p class="hx:opacity-50 hx:text-sm hx:mt-4 hx:leading-7">{{ partial "utils/format-date" .Date }}</p>
            </div>
          {{ end -}}
-+        {{ partial "pagination.html" . }}
++        {{- if site.Params.blog.list.pageSize -}}
++          {{ partial "pagination.html" . }}
++        {{- end -}}
        </main>
      </article>
      <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>
 ```
 
-This produced pages of 10 posts each on the post list page (the hardcoded 10
-should probably be a paramater in `hugo.yaml`).  It also
-produced the desired pagination controls at the bottom of the page,
-but its appearance was unsatisfactory, with each control on a separate line.
-To fix this, I added some custom CSS that reproduced the appearance of
-the pagination controls in the previous theme I'd been using.  It's
-probably not as clean as it should be, but it does seem to work.
+Given the configuration above, this produces pages of 10 posts each on the post list page.
+It also produced the desired pagination controls at the bottom of the page,
+but its appearance is unsatisfactory, with each control on a separate line.
+
+## Custom CSS
+
+To fix the appearance of the controls, I added some custom CSS that reproduced the appearance of
+the pagination controls in the previous theme I'd been using.
 
 At the project top level directory, create the directory `assets/css`,
-then copy the following to `assets/css/custom.css`
+then copy the following to `assets/css/custom.css`:
 
 ```css {filename="assets/css/custom.css"}
 .pagination {
@@ -93,4 +125,9 @@ then copy the following to `assets/css/custom.css`
   font-size:1.25rem;
   padding:.5rem .75rem
 }
+
 ```
+
+Here is what the pagination controls should look like now:
+
+![pagination controls](/images/pagination-controls.png)
