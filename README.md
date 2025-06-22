@@ -8,5 +8,5 @@ run this command to initialize the theme, which is a git submodule:
     git submodule update --init
 
 Note that this repository does not include the source for the
-gallery portion of the web site.  At some point, I will provide
-the source for the gallery, but without the image files.
+gallery portion of the web site.  See my `gallery` repository
+for that source.
