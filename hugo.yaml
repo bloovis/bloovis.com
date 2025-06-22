@@ -50,7 +50,11 @@ menu:
 
 params:
   navbar:
-    displayLogo: false
+    logo:
+      path: /images/linux.svg
+      width: 64
+      height: 64
+    displayLogo: true
 
   footer:
     enable: true
