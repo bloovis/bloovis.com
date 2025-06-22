@@ -49,6 +49,9 @@ menu:
         type: search
 
 params:
+  navbar:
+    displayLogo: false
+
   footer:
     enable: true
     displayCopyright: true
