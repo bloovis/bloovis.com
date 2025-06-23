@@ -18,8 +18,13 @@ here's what you'll find:
 
 There are also two sub-blogs here:
 
-* [Verbal Abuse](/abuse/): My experience with verbal abuse in my marriage
-* [Scamdemic](/scamdemic): My mostly sarcastic writings about the Great Covid Psyop
+* [Verbal Abuse](/abuse/): my experience with verbal abuse in my marriage
+* [Scamdemic](/scamdemic): my mostly sarcastic writings about the Great Covid Psyop
+
+The source code for this site can be found here:
+
+* [Main Site](https://github.com/bloovis/bloovis.com): the main portion of the site
+* [Gallery](https://github.com/bloovis/gallery): the gallery portion of the site (minus the images)
 
 If you dislike what you see here, and want to tell me about it,
 you can find my email address in the [About](/about/) page.
