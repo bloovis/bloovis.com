@@ -16,12 +16,19 @@ here's what you'll find:
 * [Gallery](/gallery/): my artless photographs
 * [Source code repositories](/fossil/): my useless open source projects
 
+Information about building a [FirstDay Cottage](http://www.firstdaycottage.com/)
+in Vermont in 2012-2013 is here:
+
+* [All posts in reverse chronological order](/tags/firstday-cottage/)
+* [First post](/posts/2012-05-11-firstday-cottage-under-way/)
+* [Pictures](/gallery/firstday-cottage/)
+
 There are also two sub-blogs here:
 
 * [Verbal Abuse](/abuse/): my experience with verbal abuse in my marriage
 * [Scamdemic](/scamdemic): my mostly sarcastic writings about the Great Covid Psyop
 
-The source code for this site can be found here:
+The source code for this site is here:
 
 * [Main Site](https://github.com/bloovis/bloovis.com): the main portion of the site
 * [Gallery](https://github.com/bloovis/gallery): the gallery portion of the site (minus the images)
