@@ -1,0 +1,105 @@
+#!/bin/bash
+# Original (NIS) author : Mathieu Vilaplana <mathieu@creationgif.com> 
+# Modified by: Radagast <rhosgobel2@gmail.com>
+# Date : 02/19/2007
+# Modified by: Mark Alexander <marka@pobox.com>
+# Date : 01/02/2009
+#depends: imagemagick, zenity, rename
+# thanks to coffe
+#version 0.4
+#	- check mime type
+#since v 0.4, solve bug with filename spaces
+#version 0.6
+#     - correct bug in filename with spaces
+#     - create a subdirectory to create images
+#version 0.7
+#     - changed name from NIS to Resize_images for ease of menu selection
+#     - changed list to contain solely the max dimension
+#     - added more size options
+#     - made directory name nicer ("resized_to_xxx")
+#     - appended image size to file name for jpgs and gifs ("file.jpg" becomes "file_xxx.jpg")
+#     - created user-friendly dialog text
+#version 0.75
+#     - specified bash for Edgy compatibility, based on 0.8 of NIS (http://www.creationgif.com/debian/nis/); 
+#     - added PNG to list of file types that is renamed.
+
+#test if a file has been selected
+if [ $# -eq 0 ]; then
+	zenity --error --title="error" --text="You must select at least 1 file to process"
+	exit 1
+fi
+
+#=========================
+#       SELECT SIZE DIALOG
+# Add or remove (or resort) items from (in) the following list 
+#   to customize the sizes available and the order in which they appear.
+#   It would be nice to make this list easier to edit (make it a variable?  A file in user's home directory?)
+title="Resize images"
+dialogtext="Select the maximum dimension length (in pixels) \nto which you want the image(s) resized. \n\n*Script designed to work on jpgs and gifs.*"
+maximgsize=`zenity --height=450 --title "$title" --text="$dialogtext" --list --separator=" " --column="size (px)" "100" "150" "160" "200" "300" "320" "400" "500" "600" "640" "800" "1024" `
+
+#if $? != 0, user click on cancel button, so exit
+if [ "$?" != 0 ] ; then
+	exit
+fi
+
+#user must select a target size
+maximgsize=`echo $maximgsize | sed 's/ max//g'`
+if [ ! "$maximgsize" ]; then
+	zenity --error --title="error" --text="select a target size"
+	exit
+fi
+
+#Assign max dimensions to variables for later.
+resizearg="${maximgsize}x${maximgsize}" # used for the resize command
+imgsizedir="resized_to_$maximgsize" # name of the directory that will be created
+
+#       END SELECT SIZE DIALOG
+#=========================
+
+# Quality is currently hardcoded to be 80 (in the "convert" line, below).
+# If desired, another dialog could be rasied here for user selection of quality level.
+
+#Select only images
+nb_images=0;
+selection="";
+while [ $# -gt 0 ]; do
+	isimage=`file -bi "$1" | grep image | wc -l` 
+	if [ $isimage -eq 1 ]; then
+		selection[$nb_images]=$1
+		let "nb_images++"
+	fi
+	shift
+done
+
+#create directory if not exist and at least one image to process
+if [ ! -d $imgsizedir  ] && [ "$nb_images" -gt "0" ];then
+		mkdir $imgsizedir
+fi
+
+#iterate through selected images, resize, and rename
+i=0
+(while [ $i -lt $nb_images ] ; do
+	picture=${selection[$i]}
+	let "i = i + 1"
+	echo "# Processing image $i / $nb_images $picture ..."
+	convert -quality 80 -resize $resizearg "$picture" $imgsizedir/"$picture"
+	let "progress = i*100/nb_images"
+	echo $progress
+done) | zenity --progress --auto-close --title="Scaling images"  \
+ --text="Processing images ..." --percentage=0
+
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# A copy of the GNU General Public License is available at http://www.gnu.org/copyleft/gpl.html
+# or can be obtained by writing Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA

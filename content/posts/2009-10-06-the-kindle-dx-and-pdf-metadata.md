@@ -24,7 +24,7 @@ InfoKey: Author
 InfoValue: Brahms
 ```
 
-Then you pass this text file to pdftk using its update_info subcommand.  I found this usage annoying, so I wrote a wrapper script in Ruby called [pdfmeta](http://www.bloovis.com/downloads/pdfmeta) that lets you specify the author and title on a single command line.  Using the above example, here's how I would update the author and title for a piece of sheet music that I downloaded from the IMSLP:
+Then you pass this text file to pdftk using its update_info subcommand.  I found this usage annoying, so I wrote a wrapper script in Ruby called [pdfmeta](/downloads/pdfmeta) that lets you specify the author and title on a single command line.  Using the above example, here's how I would update the author and title for a piece of sheet music that I downloaded from the IMSLP:
 
 ```
 pdfmeta -a Brahms -t "Six Piano Pieces Op. 118" op-118.pdf

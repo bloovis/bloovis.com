@@ -1,0 +1,208 @@
+#!/usr/bin/env ruby
+
+$VERBOSE = true
+
+# Rip an entire CD into a collection of FLAC files.
+# Input is an album description text file.  Example:
+#   Genre=Classical
+#   Artist=Prokofiev
+#   Album=Violin Sonata No. 1 in F minor / Gidon Kremer & Martha Argerich
+#   Date=1992
+#   track_01.flac=1. Andante assai
+#   track_02.flac=2. Allegro brusco
+#   track_03.flac=3. Andante
+#   track_04.flac=4. Allegrissimo - Andante assai, come prima
+
+require 'fileutils'
+require 'getoptlong'
+
+# Option values
+$dryrun = false
+$debug = false
+$temperature = nil
+$force = false
+$eject = false
+$movealbum = false
+$flac_track = 1
+$cd_track = 1
+$overwrite = false
+
+tags = {}
+files = []
+titles = {}
+
+def usage
+   puts "usage: ripalbum [options] album.txt"
+   puts "-v        Enable debug messages"
+   puts "-n        Dry run, don't run commands"
+   puts "-o        Overwrite existing files"
+   puts "-e        Eject CD after ripping"
+   puts "-m        Move album file to rip directory after ripping"
+   puts "-t temp   Wait for CPU temperature to drop to this level before each file"
+   puts "-f n      Initial FLAC track number"
+   puts "-c n      Initial CD track number"
+   exit 1
+end
+
+opts = GetoptLong.new(
+   [ "--verbose",     "-v", GetoptLong::NO_ARGUMENT ],
+   [ "--dryrun",      "-n", GetoptLong::NO_ARGUMENT ],
+   [ "--overwrite",   "-o", GetoptLong::NO_ARGUMENT ],
+   [ "--eject",       "-e", GetoptLong::NO_ARGUMENT ],
+   [ "--movealbum",   "-m", GetoptLong::NO_ARGUMENT ],
+   [ "--temperature", "-t", GetoptLong::REQUIRED_ARGUMENT ],
+   [ "--flactrack",   "-f", GetoptLong::REQUIRED_ARGUMENT ],
+   [ "--cdtrack",     "-c", GetoptLong::REQUIRED_ARGUMENT ]
+)
+
+opts.each do |opt, arg|
+   case opt
+   when '--verbose'
+      $debug = true
+   when '--dryrun'
+      $dryrun = true
+   when '--overwrite'
+      $overwrite = true
+   when '--force'
+      $force = true
+   when '--eject'
+      $eject = true
+   when '--movealbum'
+      $movealbum = true
+   when '--temperature'
+      $temperature = arg
+   when '--flactrack'
+      $flac_track = arg.to_i
+   when '--cdtrack'
+      $cd_track = arg.to_i
+   end
+end
+
+usage if ARGV.length != 1
+
+
+# Put out a string if debugging is enabled.
+
+def dputs(string)
+   puts(string) if $debug
+end
+
+# Escape quote characters in filename, and surround the result in
+# quotes, so that it can be embedded in a shell command.
+
+def escape(str)
+  '"' + str.gsub('"', '\"') + '"'
+end
+
+# check_status --
+#
+#	Check the most recent child program status, and if it
+#	was aborted with control-C, exit.
+
+def check_status
+   if $?.signaled?
+      signum = $?.termsig
+      if Signal.list['INT'] == signum
+	 puts "\nChild process aborted by Control-C.  Exiting."
+	 exit 1
+      end
+   end
+end
+
+# Read the album file.  Lines that are of the form "file.flac=title"
+# define the association between files and track titles. And other lines
+# of the form "tag=value" are tags that will be applied to every file.
+
+albumfile = ARGV[0]
+track = $flac_track
+IO.foreach(albumfile) do |line|
+   line.rstrip!
+   case line
+   when /^(.+\.flac)=(.+)$/
+      files.push($1)
+      titles[$1] = $2
+      track += 1
+   when /^(\w+)=(.+)$/
+      tags[$1] = $2
+   else
+      # Assume it's a track title.  Construct a filename by prepending
+      # the track number and appending a file extension.
+      title = sprintf("%02d - %s", track, line)
+      filename = title + ".flac"
+      files.push(filename)
+      titles[filename] = title
+      track += 1
+   end
+end
+
+# Make sure the required tags are present
+bad = false
+['Artist', 'Genre', 'Date', 'Album'].each do |key|
+   if !tags[key]
+      puts "#{key} not defined in album file!"
+      bad = true
+   end
+end
+exit 1 if bad
+
+# Rip each track and pipe the data to the FLAC encoder.
+# Set the tags for each file, and also set the track numbers in ascending
+# order.
+track = $flac_track
+flacdir = nil
+files.each do |file|
+   dputs "Ripping #{file}"
+   flacfile = tags['Artist'] + '/' + tags['Album'] + '/' + file
+
+   # Create output directory if it doesn't exist.
+   flacdir = File.dirname(flacfile)
+   unless File.directory?(flacdir)
+      dputs "Creating directory #{flacdir}"
+      if $dryrun
+	 puts("mkdir -p #{flacdir}")
+      else
+	 FileUtils.mkdir_p(flacdir)
+      end
+   end
+
+   if File.exist?(flacfile) && !$overwrite
+      # Don't rip the track if the FLAC file already exists.
+      puts "File #{flacfile} already exists.  Skipping."
+   else
+      # Construct the pipe command that will rip the track and encode it.
+      tracktag = sprintf("%02d", track)
+      cdtrack = track - $flac_track + $cd_track
+      cmd = "cdparanoia -q #{cdtrack}-#{cdtrack} - |" +
+	    "flac --best -o " + escape(flacfile) +
+	    " --tag=Title=" + escape(titles[file]) +
+	    " --tag=Tracknumber=#{tracktag}"
+      ['Artist', 'Genre', 'Date', 'Album'].each do |key|
+	 cmd += " --tag=#{key}=" + escape(tags[key])
+      end
+      cmd += ' -f' if $force
+      cmd += ' -'
+
+      if $dryrun
+	 puts("waittemp #{$temperature}") if $temperature
+	 puts(cmd)
+      else
+	 if $temperature
+	    system("waittemp", $temperature)
+	    check_status
+	 end
+	 dputs "Running: #{cmd}"
+	 system(cmd)
+	 check_status
+      end
+   end
+
+   track += 1
+end
+
+if ($dryrun)
+   puts("mv #{albumfile} #{flacdir}") if $movealbum
+   puts("eject /dev/cdrom") if $eject
+else
+   FileUtils.mv(albumfile, flacdir, :verbose => $debug) if $movealbum
+   system("eject /dev/cdrom") if $eject
+end

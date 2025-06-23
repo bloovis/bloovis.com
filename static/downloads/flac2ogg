@@ -1,0 +1,265 @@
+#!/usr/bin/env ruby
+
+$VERBOSE = true
+
+# Converts the flac files in the source directory tree to ogg files
+# in the destination tree, preserving directory structure.  Existing
+# ogg files are not overwritten.
+
+require 'find'
+require 'fileutils'
+require 'getoptlong'
+
+# Option values
+$oggenc = "oggenc"
+$dryrun = false
+$debug = false
+$force = false
+$quality = 6
+$temperature = nil
+$ipoddir = nil
+$mp3 = false
+$help = false
+
+opts = GetoptLong.new(
+   [ "--verbose",     "-v", GetoptLong::NO_ARGUMENT ],
+   [ "--dryrun",      "-n", GetoptLong::NO_ARGUMENT ],
+   [ "--force",       "-f", GetoptLong::NO_ARGUMENT ],
+   [ "--mp3",         "-m", GetoptLong::NO_ARGUMENT ],
+   [ "--help",        "-h", GetoptLong::NO_ARGUMENT ],
+   [ "--quality",     "-q", GetoptLong::REQUIRED_ARGUMENT ],
+   [ "--encoder",     "-e", GetoptLong::REQUIRED_ARGUMENT ],
+   [ "--temperature", "-t", GetoptLong::REQUIRED_ARGUMENT ],
+   [ "--ipoddir",     "-i", GetoptLong::REQUIRED_ARGUMENT ]
+)
+
+opts.each do |opt, arg|
+   case opt
+   when '--verbose'
+      $debug = true
+   when '--dryrun'
+      $dryrun = true
+   when '--force'
+      $force = true
+   when '--mp3'
+      $mp3 = true
+   when '--quality'
+      $quality = arg.to_i
+      if !(1..10).include?($quality)
+	 puts "quality must be in the range 1..10"
+	 exit 1
+      end
+   when '--encoder'
+      $oggenc = arg
+   when '--temperature'
+      $temperature = arg
+   when '--ipoddir'
+      $ipoddir = arg
+   when '--help'
+      $help = true
+   end
+end
+
+if ARGV.length != 2 || $help
+   puts "usage: flac2ogg [options] srcdir dstdir"
+   puts "This script converts all FLAC files in a source directory to Ogg Vorbis (or MP3)"
+   puts "files in a destination directory.  Already-converted files are skipped."
+   puts "Options:"
+   puts "  --verbose    Print lots of debugging information"
+   puts "  --dryrun     Don't convert files, just show what would be done"
+   puts "  --force      Convert even if files have already been converted before"
+   puts "  --mp3        Convert to MP3 instead of Ogg Vorbis"
+   puts "  --quality=N  Use Ogg Vorbis quality level N (default is 6)"
+   exit 1
+end
+
+# dputs --
+#
+#	prints a string if -v was specified.
+
+def dputs(string)
+   puts(string) if $debug
+end
+
+# dos_name --
+#
+#	Removes or convert characters in a filename so that
+#	a DOS file system will not barf on it.
+
+def dos_name(filename)
+  filename.gsub(':', '-').gsub('?', '').gsub('"', '\'')
+end
+
+# escape --
+#	Quote characters in filename, and surround the result in
+#	quotes, so that it can be embedded in a shell command.
+
+def escape(str)
+  '"' + str.gsub('"', '\"') + '"'
+end
+
+# file_time --
+#
+#	Return the creation time of a file as the number
+#	of seconds since the "epoch".
+
+def file_time(filename)
+   File.stat(filename).ctime.to_i
+end
+
+# follow_link --
+#
+#	Follow a link until it reaches a real file
+
+def follow_link(filename)
+   while File.symlink?(filename)
+      oldname = filename
+      link = File.readlink(filename)
+      if link[0] = ?/
+         filename = link
+      else
+         filename = File.dirname(filename) + "/" + link
+      end
+      dputs "#{oldname} -> #{filename}"
+   end
+   filename
+end
+
+# check_status --
+#
+#	Check the most recent child program status, and if it
+#	was aborted with control-C, exit.
+
+def check_status
+   if $?.signaled?
+      signum = $?.termsig
+      if Signal.list['INT'] == signum
+	 puts "\nChild process aborted by Control-C.  Exiting."
+	 exit 1
+      end
+   end
+end
+
+srcdir = follow_link(ARGV[0].gsub(/\/$/, ''))
+dstdir = ARGV[1].gsub(/\/$/, '')
+$ipoddir ||= dstdir
+
+dputs "srcdir = #{srcdir}, dstdir = #{dstdir}, ipoddir = #{$ipoddir}"
+
+# List of [flacfile, oggfile] pairs
+filelist = []
+
+# Populate the list of files that need to be encoded.  We do this
+# before encoding the files, so that we'll only access the iPod
+# briefly to get all the file timestamps.
+
+Find.find(srcdir) do |f|
+   if File.file?(f) && f =~ /\.flac$/
+      dputs "Flac file:   #{f}"
+
+      # Path of destination ogg file relative to destination directory.
+      relpath = f.gsub(/^#{srcdir}/, '').gsub(/\.flac$/, $mp3 ? '.mp3' : '.ogg')
+
+      # Construct the name of destination ogg file.  If the destination
+      # directory is different from the ipod directory, construct
+      # name of the corresponding file on the ipod.
+      ipodfile = $ipoddir + relpath
+      oggfile =  dstdir + relpath
+      dos_oggfile = dos_name(oggfile)
+      if ipodfile =~ /\/(media|mnt).*ipod/i
+         ipodfile = dos_name(ipodfile) 
+         oggfile = dos_oggfile
+      end
+      dputs "iPod file:   #{oggfile}"
+      dputs "Output file: #{oggfile}"
+
+      # Only run the encoder if the encoded file doesn't exist on
+      # either the ipod or the destination directory, or is out of date.
+      if $force ||
+         ((!File.exist?(ipodfile) || file_time(ipodfile) < file_time(f)) &&
+	  !File.exist?(oggfile) && !File.exist?(dos_oggfile))
+         filelist.push([f, oggfile])
+      end
+   else
+      dputs "file #{f} is not a flac file"
+   end
+end
+
+
+# Encode each FLAC file into an Ogg file.
+
+filelist.each do |pair|
+   flacfile = pair[0]
+   oggfile  = pair[1]
+
+   # Create the destination directory.
+   oggdir = File.dirname(oggfile)
+   if !File.directory?(oggdir)
+      dputs "Creating directory #{oggdir}"
+      if $dryrun
+	 puts("mkdir -p #{oggdir}")
+      else
+	 FileUtils.mkdir_p(oggdir)
+      end
+   end
+
+   # Fetch the tags from the FLAC file if we're creating an MP3 file.
+   # We have to do that because lame doesn't convert the tags.
+   tags = {}
+   lamecmd = nil
+   if $mp3
+      open("|metaflac --export-tags-to=- " + escape(flacfile)) do |file|
+	 file.each do |line|
+	    if line =~ /^(\w+)=(.+)$/
+	       tags[$1.capitalize] = $2
+	    end
+	 end
+      end
+      lamecmd = "flac -c -d " + escape(flacfile) +
+		"| lame" +
+		" --tt " + escape(tags['Title']) +
+		" --ta " + escape(tags['Artist']) +
+		" --tg " + escape(tags['Genre']) +
+		" --tl " + escape(tags['Album']) +
+		" --ty " + escape(tags['Date']) +
+		" --tn " + escape(tags['Tracknumber']) +
+		" - " + escape(oggfile)
+   end
+
+   # Optionally wait for the CPU temperature to subside.
+   # Then encode the file.
+   if $dryrun
+      puts("waittemp #{$temperature}") if $temperature
+      if $mp3
+         puts(lamecmd)
+      else
+         puts("#{$oggenc} -q #{$quality} -o #{oggfile} #{flacfile}")
+      end
+   else
+      if $temperature
+	 system("waittemp", $temperature)
+	 check_status
+      end
+      if $mp3
+         # Use metaflac --export-tags=- to get tags.
+	 tags = {}
+	 open("|metaflac --export-tags-to=- " + escape(flacfile)) do |file|
+	    file.each do |line|
+	       if line =~ /^(\w+)=(.+)$/
+		  tags[$1.capitalize] = $2
+	       end
+	    end
+	 end
+
+	 # Encode an mp3 file and add the appropriate tags at the same time.
+         # flac -c -d "$a" | lame -m j -q 0 --vbr-new -V 0 -s 44.1 - "$OUTF"
+	 system(lamecmd)
+      else
+         puts("#{$oggenc} -q #{$quality} -o #{oggfile} #{flacfile}")
+         if !system($oggenc, "-q", $quality.to_s, "-o", oggfile, flacfile)
+	    puts "Unable to run #{$oggenc}"
+         end
+      end
+      check_status
+   end
+end

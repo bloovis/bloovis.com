@@ -14,7 +14,7 @@ Then I hunted for way to import my Keyring data into KeePass 1.x.  I couldn't fi
 
 The first step is to generate an XML version of the Keyring data file, using this [Java program](http://gnukeyring.sourceforge.net/conduits.html).  I fed it the Keyring data, a file called `Keys-Gtkr.pdb` that I had previously backed up onto my Linux machine using pilot-xfer.  It produced the XML equivalent, which I redirected to a file.
 
-Then I wrote a Ruby script called [kr2kp](http://www.bloovis.com/downloads/kr2kp), which reads the Keyring XML file  and outputs KeePass-compatible XML.  I saved the output of this script to another file.
+Then I wrote a Ruby script called [kr2kp](/downloads/kr2kp), which reads the Keyring XML file  and outputs KeePass-compatible XML.  I saved the output of this script to another file.
 
 The Android version of KeyPass doesn't import XML, so I turned to the Linux version, and used it to import the XML file I had created in the previous step.  Then I saved the resulting database into a file called `keyring.kdb`.
 

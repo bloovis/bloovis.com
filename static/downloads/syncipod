@@ -1,0 +1,38 @@
+#!/bin/sh
+
+set -x
+
+# Convert FLAC files on the local disk to Ogg files on the iPod
+# (running Rockbox).
+
+ipoddir=/media/bloovis/IPOD/music
+flacdir=$HOME/shared/flac
+#flacdir=/mnt/flac/bloovis/flac
+#flacdir=/mnt/backup/bloovis/backups/shared/flac
+
+# Uncomment the following line to encode files first to the local disk.
+oggdir=$HOME/shared/ogg
+
+if [ -z "$oggdir" ] ; then
+   # Encode directly to iPod.
+   flac2ogg $* $flacdir $ipoddir
+else
+   # Encode to local disk, then transfer encoded files all at once to iPod.
+   if [ -d $ipoddir ] ; then
+      # Encode to local disk to avoid keeping iPod disk spinning all the time.
+      flac2ogg $* --ipoddir $ipoddir $flacdir $oggdir
+
+      # Copy any new files to the iPod.
+      # Don't bother preserving permissions and user/group ids, because
+      # the iPod file system is FAT and doesn't support those features.
+      cmd="rsync -v -rtO --size-only $oggdir/ $ipoddir"
+      if [ "$1" = "-n" ] ; then
+	echo $cmd
+      else 
+	$cmd
+      fi
+   else
+      echo "iPod is not mounted; will skip rsync after files are encoded to ogg"
+      flac2ogg $* $flacdir $oggdir
+   fi
+fi

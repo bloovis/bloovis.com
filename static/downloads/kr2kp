@@ -1,0 +1,104 @@
+#!/usr/bin/env ruby
+
+# Convert Keyring for Palm OS XML file to KeePass 1.x XML.
+
+$VERBOSE = true
+
+groups = {}
+
+require 'rubygems'
+require 'xml/libxml'
+
+input_file = ARGV[0]
+
+if !input_file
+  puts "usage: kr2kp <xmlfile>"
+  puts " where <xmlfile> is the GNU Keyring database in XML format"
+  exit 1
+end
+
+# Open the Keyring XML file.
+io = File.open(input_file, 'rb')
+parser = XML::Parser.io(io)
+doc = parser.parse
+root = doc.root
+
+# Collect the Keyring entries into groups according to category.
+root.find('pwentry').each do |node|
+  title = node.find('title')[0].content
+  category = node.find('category')[0].content
+  username_node = node.find('username')[0]
+  username = username_node ? username_node.content : ""
+  password = node.find('password')[0].content
+  lastmodtime = node.find('lastmodtime')[0].content
+  notes = node.find('notes')[0].content
+  record = {
+     :title       => title,
+     :username    => username,
+     :password    => password,
+     :notes       => notes,
+     :lastmodtime => lastmodtime
+  }
+  groups[category] ||= []
+  groups[category] << record
+end
+
+io.close
+
+# Create the KeePass XML file.
+doc = XML::Document.new()
+doc.root = XML::Node.new('database')
+root = doc.root
+
+groups.each_key do |key|
+   # Create a new group.
+   root << group = XML::Node.new('group')
+   group << group_title = XML::Node.new('title')
+   group_title << key
+
+   groups[key].each do |record|
+      # Create a new entry.
+      group << entry = XML::Node.new('entry')
+
+      # Title
+      entry << title = XML::Node.new('title')
+      title << record[:title]
+
+      # Username
+      entry << username = XML::Node.new('username')
+      username << record[:username]
+
+      # Password
+      entry << password = XML::Node.new('password')
+      password << record[:password]
+
+      # Comment
+      entry << comment = XML::Node.new('comment')
+      comment << record[:notes]
+
+      # Keyring only records the last modification time,
+      # it's a date only, with no time of day.  So
+      # use midnight as the time of day.
+      modtime = record[:lastmodtime] + "T00:00:00"
+
+      # Creation time -- same as last modification time.
+      entry << creation = XML::Node.new('creation')
+      creation << modtime
+
+      # Last access time -- same as last modification time.
+      entry << lastaccess = XML::Node.new('lastaccess')
+      lastaccess << modtime
+
+      # Last modification time
+      entry << lastmod = XML::Node.new('lastmod')
+      lastmod << modtime
+
+      # Expiration
+      entry << expire = XML::Node.new('expire')
+      expire << 'Never'
+   end
+end
+
+# Write the KeePass XML to stdout.
+string = doc.to_s(:indent => true, :encoding => XML::Encoding::UTF_8)
+puts string

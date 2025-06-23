@@ -1,0 +1,266 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+# Produces an album description file from a CD.
+# Shows results from both MusicBrainz and Gnudb.
+# Example output:
+#   GENRE=Classical
+#   COMPOSER=Prokofiev
+#   ARTIST=Kremer & Argerich
+#   ALBUM=Violin Sonata No. 1 in F minor / Gidon Kremer & Martha Argerich
+#   DATE=1992
+#   track_01.ogg=1. Andante assai
+#   track_02.ogg=2. Allegro brusco
+#   track_03.ogg=3. Andante
+#   track_04.ogg=4. Allegrissimo - Andante assai, come prima
+
+require 'optparse'
+require 'discid'
+require 'freedb'
+require 'xml/libxml'
+
+def make_filename(filename_fmt, ntracks, album, track, trackno, artist, composer)
+  trackno_fmt = '%0' + ntracks.to_s.length.to_s + 'd'
+  trackstr = sprintf(trackno_fmt, trackno)
+  filename_fmt.
+    gsub(/%d/, album).
+    gsub(/%t/, track).
+    gsub(/%n/, trackstr).
+    gsub(/%a/, artist).
+    gsub(/%c/, composer).
+    gsub(/[:\/"]/, '-')
+end
+
+def get_gnudb(device, filename_fmt)
+  f = Freedb.new(device)
+  f.fetch_net(server = 'gnudb.gnudb.org')
+
+  if f.results.size > 1 # if more than 1 result
+    f.results.each_with_index { |title,i|
+      STDERR.printf("%02d %s\n", i, title)
+    }
+    STDERR.print "Enter selection: "
+    STDERR.flush
+    f.get_result(STDIN.gets.to_i)
+  elsif f.results.size == 1
+    f.get_result(0)
+  else
+    puts "No match found."
+    return
+  end
+
+  puts "ALBUM=#{f.title}"
+  puts "ARTIST=#{f.artist}"
+  if f.genre
+    puts "GENRE=#{f.genre.capitalize}"
+  elsif f.category
+    puts "GENRE=#{f.category.capitalize}"
+  end
+  if f.year != 0
+    puts "DATE=#{f.year}"
+  else
+    if f.ext_infos =~ /YEAR:\s*(\d+)/
+      puts "DATE=#{$1}"
+    else
+      puts "DATE=0000"
+    end
+  end
+
+  trackno = 1
+  f.tracks.each do |track|
+    title = track['title']
+    filename = make_filename(filename_fmt, f.tracks.size, f.title, title, trackno, f.artist, f.artist)
+    puts "#{filename}=#{title}"
+    trackno += 1
+  end
+  f.close
+end
+
+def get_discid(device)
+  disc = DiscId.read(device)
+  disc.id
+end
+
+def get_musicbrainz(device, filename_fmt)
+  debug = false
+
+  in_date = false
+  in_recording = false
+  in_tracklist = false
+  in_track = false
+  in_title = false
+  in_release = false
+  in_release_event = false
+  in_artist = false
+  in_name = false
+  in_disambiguation = false
+  in_cdstub = false
+
+  album = ''
+  composer = ''
+  artists = []
+  disambiguation = nil
+  name = nil
+  trackno = 1
+  ntracks = 99
+
+  discid = get_discid(device)
+  query = 'http://musicbrainz.org/ws/2/discid/' +
+           discid +
+	   '?inc=recordings+artist-credits'
+  puts "query = #{query}" if debug
+  IO.popen(['wget', '-q', '-O', '-', query]) do |f|
+    reader = XML::Reader.io(f)
+    while reader.read
+      node_type = reader.node_type
+      node_name = reader.name
+      
+      case node_type
+      when XML::Reader::TYPE_END_ELEMENT
+	puts "end element #{node_name}" if debug
+	case node_name
+	when 'date'
+	  in_date = false
+	when 'track-list'
+	  in_tracklist = false
+        when 'track'
+	  in_track = false
+	when 'recording'
+	  in_recording = false
+	when 'title'
+	  in_title = false
+	when 'release'
+	  in_release = false
+	  puts "-----"
+	when 'release-event'
+	  in_release_event = false
+	when 'name'
+	  in_name = false
+	when 'artist'
+	  puts "end of artist, name = #{name}" if debug
+	  in_artist = false
+	  if name
+	    if disambiguation && disambiguation == 'composer'
+	      puts "setting composer to #{name}" if debug
+	      composer = name
+	    else
+	      puts "adding #{name} to artists" if debug
+	      artists << name unless artists.include?(name)
+	    end
+	  disambiguation = nil
+	  name = nil
+	  end
+	when 'disambiguation'
+	  in_disambiguation = false
+	when 'cdstub'
+	  in_cdstub = false
+	end
+      when XML::Reader::TYPE_ELEMENT
+	puts "start element #{node_name}" if debug
+	case node_name
+	when 'date'
+	  in_date = true
+	when 'track-list'
+	  in_tracklist = true
+	  if composer
+	    puts "COMPOSER=#{composer}"
+	  end
+	  if artists.length > 0
+	    puts "ARTIST=#{artists.join(', ')}"
+	    artists = []
+	  end
+	  if reader.has_attributes?
+	    reader.node.attributes.each do |attr|
+	      if attr.name == 'count'
+		ntracks = attr.value.to_i
+	      end
+	    end
+	  end
+        when 'track'
+	  in_track = true
+	when 'recording'
+	  in_recording = true
+	when 'title'
+	  in_title = true
+	when 'release'
+	  in_release = true
+	when 'release-event'
+	  in_release_event = true
+	when 'name'
+	  in_name = true
+	when 'artist'
+	  in_artist = true
+	when 'disambiguation'
+	  in_disambiguation = true
+	when 'cdstub'
+	  in_cdstub = true
+	end
+      when XML::Reader::TYPE_TEXT
+	value = reader.value
+	puts "text #{value}" if debug
+	if in_date && in_release_event
+	  puts "DATE=#{value}"
+	elsif in_title && (in_recording || (in_track && in_cdstub))
+	  title = value.gsub(/[:\/]/, '-')
+	  filename = make_filename(filename_fmt, ntracks, album, title, trackno, artists.join(', '), composer)
+	  puts "#{filename}=#{title}"
+	  trackno += 1
+	elsif in_title && ! in_tracklist && ! in_recording
+	  puts "ALBUM=#{value}"
+	  album = value
+	elsif in_name
+	  puts "setting name to #{value}" if debug
+	  name = value
+	elsif in_disambiguation
+	  puts "disambiguation = #{value}" if debug
+	  disambiguation = value
+	elsif in_artist
+	  artists << value unless artists.include?(value)
+	end
+      end
+    end
+  end
+end
+
+XML.default_load_external_dtd = true
+
+# Parse command line options:
+# -d CD-ROM-device
+# -f FilenameFormatString
+
+device = '/dev/cdrom'
+filename_fmt = '%n-%t.ogg'
+
+opts = OptionParser.new
+opts.on("-dDEV", "--device=DEV", String,
+  "CD device name (default #{device})") { |val| device = val }
+opts.on("-fARG", "--filefmt=ARG", String,
+  "Track filename format string (default '#{filename_fmt}')\n" +
+  "filefmt may contain these special sequences:\n" +
+  "%d = disc title, %t = track title," +
+  " %n = track number, %a = artist, %c = composer") { |val| filename_fmt = val }
+rest = opts.parse(*ARGV)
+
+puts "------------"
+puts "MusicBrainz:"
+puts "------------"
+begin
+  get_musicbrainz(device, filename_fmt)
+rescue => e
+  puts "MusicBrainz failure!"
+  puts "Exception Class: #{ e.class.name }"
+  puts "Exception Message: #{ e.message }"
+  puts "Exception Backtrace: #{ e.backtrace }"
+end
+
+puts "------"
+puts "Gnudb:"
+puts "------"
+begin
+  get_gnudb(device, filename_fmt)
+rescue => e
+  puts "Gnudb failure!"
+  puts "Exception Class: #{ e.class.name }"
+  puts "Exception Message: #{ e.message }"
+  puts "Exception Backtrace: #{ e.backtrace }"
+end

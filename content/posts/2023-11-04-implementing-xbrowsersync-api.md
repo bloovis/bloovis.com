@@ -44,13 +44,13 @@ have to loaded in order to do build the most basic of projects.
 So I decided to write my own implementation of the xBrowserSync API
 in [Crystal](https://crystal-lang.org/), a compiled Ruby-like language that is perfectly suited for
 implementing small API servers.  I used Crystal a few years ago to
-build a [book cover URL server for Koha](https://www.bloovis.com/fossil/home/marka/fossils/cover/doc/trunk/README.md),
+build a [book cover URL server for Koha](/fossil/home/marka/fossils/cover/doc/trunk/README.md),
 and was very pleased with how much faster it ran than the
 Node.js server it replaced.  It also had the added advantage of
 being written in a much more pleasing programming language.
 
 It took me about a day to write the xBrowserSync API server
-in Crystal; you can find the result [here](https://www.bloovis.com/fossil/home/marka/fossils/xbs/doc/trunk/README.md).
+in Crystal; you can find the result [here](/fossil/home/marka/fossils/xbs/doc/trunk/README.md).
 I call it by the very imaginative name of "xbs".
 It turns out that the API is very simple; you can find
 the complete specification [here](https://api.xbrowsersync.org/).
@@ -63,7 +63,7 @@ everything you need to implement a fast, efficient server.
 Another advantage of using Crystal to build an API server is that
 deployment is very simple: you have a single binary executable file
 that can be invoked from systemd, and which can be placed behind
-a reverse proxy in Apache.  The [README](https://www.bloovis.com/fossil/home/marka/fossils/xbs/doc/trunk/README.md)
+a reverse proxy in Apache.  The [README](/fossil/home/marka/fossils/xbs/doc/trunk/README.md)
 for the project has details about this.
 
 One thing to note about the xBrowserSync API is that it can store very
