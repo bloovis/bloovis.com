@@ -53,7 +53,10 @@ there were no performance problems.  But the touchpad still didn't
 work.  I found a number of solutions on the web, some of which
 were very complicated (building a new kernel, or setting up a systemd service
 to blacklist a certain touchpad driver).  The simple solution that finally worked
-for me is described in [this video](https://www.youtube.com/watch?v=ZFs8rsTVLtc).
+for me is described in this video (*update*: video is no longer available):
+
+{{< youtube ZFs8rsTVLtc >}}
+
 To save you the time needed to watch the maker of this video slowly type
 commands, here's what you need to do:
 

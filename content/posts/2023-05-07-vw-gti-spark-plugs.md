@@ -16,8 +16,7 @@ connectors for the coil packs, and also removing the coil packs themselves.
 
 This video from ShopDAP shows what is involved:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HESJEQBFGyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+{{< youtube HESJEQBFGyI >}}
 
 I did things a bit differently than shown in the video, as noted below.
 
@@ -43,8 +42,7 @@ Some forum posts recommend using a pick to pry the connectors off, but
 this is a bad idea that can easily break the connectors.  Instead, use
 the trick shown in this video from USP Motorsports:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z0bof-1h3Yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+{{< youtube z0bof-1h3Yg >}}
 
 As shown in the video, you remove the connector in this way: press the connector firmly down,
 push up on and hold the locking tab, then pull the connector up.

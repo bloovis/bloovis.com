@@ -29,7 +29,9 @@ So rather than change the library's Gmail account, I chose to
 create a new Gmail account for the sole purpose of using
 the scan to email feature.
 
-This video explains how to do it: <https://www.youtube.com/watch?v=f5j24P2dy0U> .
+This video explains how to do it:
+
+{{< youtube f5j24P2dy0U >}}
 
 Here is a brief summary of the steps:
 
@@ -53,7 +55,10 @@ Click **Done**.
 ## Configure HP printer
 
 Now it's time to tell the HP printer how to use your new Gmail account to
-send scan emails.  This video explains how to do it: <https://www.youtube.com/watch?v=OM7PS-5D06A> .
+send scan emails.  This video explains how to do it:
+
+{{< youtube OM7PS-5D06A >}}
+
 But note that due to Google security changes since that video was made,
 you must use the app password instead of the normal login password,
 and the SMTP port must be 587.

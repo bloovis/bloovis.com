@@ -11,9 +11,13 @@ started complaining recently about its toner cartridge being low on toner.
 The cartridge was nearly new and the print quality was still quite good.
 Then a couple of days ago, the printer stopped printing, saying
 that we needed to replace the cartridge.  This was clearly ridiculous.
-After some poking around I found [this video](https://www.youtube.com/watch?v=PK9qUeH1AVU)
+After some poking around I found this video
 that showed how to disable the low toner error and get thousands more
-pages out of the cartridge.  Here's what to do:
+pages out of the cartridge:
+
+{{< youtube PK9qUeH1AVU >}}
+
+Here's what to do:
 
 1. Remove the toner cartridge.  This requires removing its carrier and
 then extracting the cartridge from the carrier.

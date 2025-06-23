@@ -30,8 +30,7 @@ the piece, which can be found on YouTube.
 Here is a very fine modern recording by Elaine Greenfield that has the correct tempo for the measures
 in question:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nz9o8grk410" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+{{< youtube Nz9o8grk410 >}}
 
 Side note: I have actually played this Prelude (and some other Debussy pieces)
 on the piano used in this recording.  The piano is a [Blüthner concert grand from 1907](https://www.frederickcollection.org/Bluth1907.htm),

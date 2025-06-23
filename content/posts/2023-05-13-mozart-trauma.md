@@ -19,8 +19,7 @@ was very intense, and I hated that.  I did enjoy playing Bach Two Part Invention
 when I got to that stage, but soon after that my teacher started me on Mozart's
 Piano Concerto No. 19 in F, K. 459:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TQ_H90IUUBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+{{< youtube TQ_H90IUUBA >}}
 
 I absolutely hated this piece. The Alberti bass drove me crazy, and in
 general the music seemed so much less interesting than the Bach had
