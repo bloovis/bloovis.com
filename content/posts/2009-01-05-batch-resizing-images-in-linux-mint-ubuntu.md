@@ -13,7 +13,7 @@ At this point, I resorted to using the ImageMagick "convert" command-line tool t
 
 I then came across a variant on this idea that works with Nautilus, the Gnome file manager.  I took the script from [this blog posting](http://rhosgobel.blogspot.com/2006/07/bulk-resizing-and-renaming-images-in.html), then hacked it up a little to eliminate the renaming steps.  This works quite well.  You select one or more images in Nautilus, right click on them and select Scripts / Resize_Images.  The script pops up a dialog asking for a maximum resolution.  Then it starts to resize the images, placing them in a new subdirectory `resized_to_NNN`, where NNN is the new image size.  It displays a progress dialog during the process.
 
-I've placed a copy of my hacked version of the script [here](http://www.bloovis.com/downloads/Resize_images).  After downloading it, move it to the `~/.gnome2/nautilus-scripts` directory and make it executable using `chmod +x Resize_images`.
+I've placed a copy of my hacked version of the script [here](/downloads/Resize_images).  After downloading it, move it to the `~/.gnome2/nautilus-scripts` directory and make it executable using `chmod +x Resize_images`.
 
 There is one serious problem with this script: the dialog boxes it pops up almost always end up being hidden behind other windows.  This is a known bug with Zenity, the application used by the script to display dialogs.  The problem and workaround are described in this [bug report](https://bugs.launchpad.net/zenity/+bug/272083).
 

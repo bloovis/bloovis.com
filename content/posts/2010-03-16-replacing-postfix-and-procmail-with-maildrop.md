@@ -8,7 +8,7 @@ tags:
 - software
 - ubuntu
 ---
-In the [previous post](http://www.bloovis.com/wordpress/?p=172), I wrote about how I solved a problem with fetchmail connecting to the postfix mail server.  I also have postfix configured to transfer mail to procmail, which does some filtering for me using some rules I've written in `~/.procmailrc`.  But postfix+procmail is really overkill for a laptop or any other machine that is not going to be used as a mail server.  Both of these programs can be replaced by maildrop, which delivers mail to your local mailbox or maildir, and which has a much more readable filtering language than procmail.
+In the [previous post](/posts/2010-03-15-fixing-connection-refused-error-in-fetchmail-on-ubuntu-jaunty-linux-mint-7/), I wrote about how I solved a problem with fetchmail connecting to the postfix mail server.  I also have postfix configured to transfer mail to procmail, which does some filtering for me using some rules I've written in `~/.procmailrc`.  But postfix+procmail is really overkill for a laptop or any other machine that is not going to be used as a mail server.  Both of these programs can be replaced by maildrop, which delivers mail to your local mailbox or maildir, and which has a much more readable filtering language than procmail.
 
 To get started with maildrop on Linux Mint or Ubuntu, install the maildrop and courier-authdaemon packages.  It's not strictly necessary, but for safety you can also disable postfix by doing this:
 
