@@ -6,6 +6,7 @@ tags:
 - notmuch
 - crystal
 - linux
+- csup
 ---
 
 Terminal-base email clients may seem like an anachronism from the 1970s, but
@@ -43,7 +44,7 @@ sup could gain some of that stability.
 sup-notmuch, since notmuch itself was inspired by sup.)
 
 I forked the notmuch-enabled sup, and called it
-[sup-notmuch](https://www.bloovis.com/fossil/home/marka/fossils/sup-notmuch/home)
+[sup-notmuch](/fossil/home/marka/fossils/sup-notmuch/home)
 ([github mirror](https://github.com/bloovis/sup-notmuch.mirror)).  After a
 fair amount of hacking and bug-fixing, I was able to get it to be stable,
 and I used it for the next seven years.
