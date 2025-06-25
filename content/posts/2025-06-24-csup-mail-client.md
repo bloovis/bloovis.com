@@ -9,7 +9,7 @@ tags:
 - csup
 ---
 
-Terminal-base email clients may seem like an anachronism from the 1970s, but
+Terminal-based email clients may seem like an anachronism from the 1970s, but
 they have their place even now.  They don't require a browser, they can
 run on servers via ssh, and they are very fast to operate, being keyboard-driven
 and character-based.
@@ -26,7 +26,7 @@ In 2008, as I was becoming familiar with the
 [Ruby programming language](https://www.ruby-lang.org/en/),
 I discovered [sup](https://github.com/sup-heliotrope/sup), an email client written in Ruby.
 Sup had a number of improvements
-over mutt, some of which were inspired by gmail.  It had a very fast search featured, it used tags instead
+over mutt, some of which were inspired by gmail.  It had a very fast search feature, it used tags instead
 of folders, and it displayed threads in a tree-like fashion.
 
 I used sup until around 2017, when I discovered a
@@ -50,7 +50,7 @@ fair amount of hacking and bug-fixing, I was able to get it to be stable,
 and I used it for the next seven years.
 
 Around 2023 I started moving many of my software dependencies, like
-email and web hosting, to a Linux VPS.  Because my email was now
+email and web hosting, to a [Linux VPS](/posts/2023-11-10-fun-with-servers/).  Because my email was now
 being stored on this server, I was able to run sup-notmuch there
 as my email client.  This allowed me to use ssh
 from any machine to access my email.
