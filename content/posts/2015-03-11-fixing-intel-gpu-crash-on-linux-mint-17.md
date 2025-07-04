@@ -8,7 +8,8 @@ tags:
 - thinkpad
 - ubuntu
 ---
-The older ThinkPad I'm using now has an Intel 965 graphics processor,
+
+(mention firefox) The older ThinkPad I'm using now has an Intel 965 graphics processor,
 and is running Linux Mint 17.1.  Today I decided to try installing
 Google Chrome because of a Firefox problem I was having with a
 particular web site's buggy Javascript.  When I visited the Chrome

@@ -76,6 +76,10 @@ params:
     flexsearch:
       # index page by: content | summary | heading | title
       index: content
+      # Maximum number of pages to search (default: 20)
+      maxPageResults: 50
+      # Maximum number of sections per page to search (default: 10)
+      maxSectionResults: 50
 
   toc:
     displayTags: true
