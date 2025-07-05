@@ -79,7 +79,7 @@ params:
       # Maximum number of pages to search (default: 20)
       maxPageResults: 50
       # Maximum number of sections per page to search (default: 10)
-      maxSectionResults: 50
+      maxSectionResults: 3
 
   toc:
     displayTags: true
