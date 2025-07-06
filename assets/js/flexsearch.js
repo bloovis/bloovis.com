@@ -260,15 +260,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       for (const heading in data[route].data) {
-	// console.log('Heading for ', route, ' = ', heading);
         const [hash, text] = heading.split('#');
         const url = route.trimEnd('/') + (hash ? '#' + hash : '');
         const title = text || data[route].title;
 
         const content = data[route].data[heading] || '';
-        const paragraphs = content.split('\n') // .filter(Boolean);
+        const paragraphs = content.split('\n');
 
-        // console.log('Adding paragraph 0 for id ', url);
         sectionIndex.add({
           id: url,
           url,
@@ -280,7 +278,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         for (let i = 0; i < paragraphs.length; i++) {
-          // console.log('Adding paragraph ', i, ' for id ', `${url}_${i}`);
           sectionIndex.add({
             id: `${url}_${i}`,
             url,
@@ -310,7 +307,6 @@ document.addEventListener("DOMContentLoaded", function () {
    */
   function search(e) {
     const query = e.target.value;
-    // console.log('search for ', query);
     if (!e.target.value) {
       hideSearchResults();
       return;
@@ -322,7 +318,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     resultsElement.classList.remove('hx:hidden');
 
-    //const pageResults = window.pageIndex.search(query, 20, { enrich: true, suggest: true })[0]?.result || [];
     // Configurable search limits with sensible defaults
     const maxPageResults = parseInt('{{- site.Params.search.flexsearch.maxPageResults | default 20 -}}', 10);
     const maxSectionResults = parseInt('{{- site.Params.search.flexsearch.maxSectionResults | default 10 -}}', 10);
@@ -332,28 +327,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const results = [];
     const pageTitleMatches = {};
 
-    // console.log('No. of pageResults = ', pageResults.length);
     for (let i = 0; i < pageResults.length; i++) {
       const result = pageResults[i];
-      // console.log('pageResult[', i, '] = ', result, ', pageId = ', `page_${result.id}`);
       pageTitleMatches[i] = 0;
 
-      // Show the top 5 results for each page
-      // const sectionResults = window.sectionIndex.search(query, 5,
-      // { enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
-      // Show the top results for each page (configurable limit)
-      const sectionResults = window.sectionIndex.search(query, // maxSectionResults, 
+      const sectionResults = window.sectionIndex.search(query,
 	{ enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
       let isFirstItemOfPage = true
       const occurred = {}
 
-      if (sectionResults.length == 0) {
-	// console.log('Zero sectionResults for ', result)
-      }
       const nResults = Math.min(sectionResults.length, maxSectionResults);
       for (let j = 0; j < nResults; j++) {
         const { doc } = sectionResults[j]
-	// console.log('sectionResult[', j, '] = ', doc);
         const isMatchingTitle = doc.display !== undefined
         if (isMatchingTitle) {
           pageTitleMatches[i]++
