@@ -142,8 +142,7 @@ Now you should be able to log into InfCloud at this URL:
 You will have to log in twice: once for Apache basic authentication,
 and once for the InfCloud login screen.
 
-## Update
-
+{{< callout type="warning" >}}
 *Note 2024-05-26*: I just discovered that creating a repeating
 event like "every third Thursday" doesn't work correctly in
 InfCloud.  The repeat will happen on the day before the intended
@@ -158,3 +157,4 @@ There you will find a bunch of .ics files.  You'll have to manually
 delete the "bad" one, then restart Apache:
 
     systemctl restart apache2
+{{< /callout >}}

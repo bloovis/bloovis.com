@@ -9,10 +9,12 @@ tags:
 - vaultwarden
 ---
 
-*Update*: the newer version of the Bitwarden Android app requires
+{{<callout type="warning" >}}
+The newer version of the Bitwarden Android app requires
 a newer Vaultwarden.  This required some changes in the following procedure,
 mainly in using the "latest" docker image instead of the "alpine" image,
 and installing the required `libmariadb3` and `libpq5` packages.
+{{< /callout >}}
 
 I recently switched from using LastPass to [BitWarden](https://bitwarden.com/) as my password manager.
 LastPass has always worked well enough in browsers, but there was no easy

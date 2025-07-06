@@ -22,7 +22,7 @@ trial and error.
 The Stream 14 is crippled in these ways:
 
 * It is missing an ethernet port, which is a problem if you care about the lack of security in wi-fi.
-* It has an SSD, but its capacity is very small: 60 GB, 41 GB of which is taken up by Windows 10 (but see Update at the end of this post).
+* It has an SSD, but its capacity is very small: 60 GB, 41 GB of which is taken up by Windows 10 (but see the note at the end of this post).
 * Its BIOS does not let you change the UEFI boot order, forcing Windows to boot by default.
 
 The last of these problems is the most serious of the three;
@@ -73,7 +73,8 @@ it from the existing Windows entry.  Finally, run `update-grub`.
 If you update Windows 10 later, you will need to repeat the three commands
 shown above for overwriting Microsoft's UEFI boot loader.
 
-*Update:* It turns out that the large amount of space used by Windows on this
+{{< callout type="info" >}}
+It turns out that the large amount of space used by Windows on this
 particular machine was due to the presence of Faronics Deep Freeze.  This is a terrible
 piece of software that attempts to provide some kind of protection from system-level
 changes on Windows.  It slowed down the machine so much as to make it nearly
@@ -81,3 +82,4 @@ unusable.  Once I uninstalled Deep Freeze (a non-trivial task), I found it had
 left a 19 GB file in the Windows root directory called `persis0.dsk`.  Windows
 would not let me delete this file, because it was being used by `svchost.exe`.
 I was forced to use Linux to delete the file.
+{{< /callout >}}

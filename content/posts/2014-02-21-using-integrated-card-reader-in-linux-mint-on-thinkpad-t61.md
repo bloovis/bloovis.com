@@ -18,7 +18,8 @@ sudo apt-get install libccid
 ```
 After this is installed, the SD card is mounted normally when inserted.
 
-*Update*: The solution given above didn't work after a suspend/resume cycle.  It's necessary to unload and reload two kernel modules.  This can be done manually:
+{{< callout type="info" >}}
+The solution given above didn't work after a suspend/resume cycle.  It's necessary to unload and reload two kernel modules.  This can be done manually:
 ```
 sudo modprobe -r sdhci_pci
 sudo modprobe -r sdhci
@@ -30,3 +31,4 @@ But it's better to have this done automatically.  As super-user, edit the file `
 SUSPEND_MODULES="$SUSPEND_MODULES sdhci_pci sdhci"
 ```
 When I did this, after the next resume it took three tries before inserting the card would cause it to be mounted successfully.  So there is still something more that probably needs to be fixed.
+{{< /callout >}}

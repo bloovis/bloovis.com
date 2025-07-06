@@ -7,7 +7,17 @@ tags:
 - cell
 ---
 
-*Update*: I no longer recommend this procedure.  It worked for a
+Recent (at least the last five years) Android phones have a call forwarding
+option in the settings of the built-in phone app.  But it's very inconvenient:
+once you enable "always forward" and enter a phone number, the phone loses the additional
+settings for "when busy", "when unanswered", and "when unreachable".
+These settings normally point to the regional voicemail access number.
+So when you later turn off "always forward", you have to re-enter those
+three addtional settings, by typing the voicemail number three times.
+<!--more-->
+
+{{< callout type="warning" >}}
+I no longer recommend this procedure.  It worked for a
 while, but eventually AT&T permanently forwarded my phone and wouldn't
 allow me to disable the forwarding.  Every attempt to do so, either
 dialing the special code `#21#` or using the settings menu in the phone
@@ -18,14 +28,7 @@ phone to another provider who understands the problem and knows how to
 fix it.  This is an emergency phone now, not a primary phone, and it's
 turned off 99% of the time, but it's still annoying to have to deal
 with this problem.
-
-Recent (at least the last five years) Android phones have a call forwarding
-option in the settings of the built-in phone app.  But it's very inconvenient:
-once you enable "always forward" and enter a phone number, the phone loses the additional
-settings for "when busy", "when unanswered", and "when unreachable".
-These settings normally point to the regional voicemail access number.
-So when you later turn off "always forward", you have to re-enter those
-three addtional settings, by typing the voicemail number three times.
+{{< /callout >}}
 
 A better solution is to use the provider's call forwarding "star
 codes", which operate independently of the phone's own settings, and
@@ -48,4 +51,3 @@ and a freeze of the phone app.
 To make this easier to use in the future, I assigned each of these
 star code sequences to its own contact in the phone app, one called
 "Forward To Home", and the other called "Disable Forwarding".
-

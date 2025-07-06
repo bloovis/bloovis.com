@@ -130,10 +130,12 @@ If your situation is more complex (e.g., if you have more than one
 virtual network), [this posting](http://serverfault.com/questions/627238/kvm-libvirt-how-to-configure-static-guest-ip-addresses-on-the-virtualisation-ho)
 may help.
 
-*Update:* If virt-manager complains that KVM is not available when you try
+{{< callout type="info" >}}
+If virt-manager complains that KVM is not available when you try
 to create a virtual machine, the problem may be that virtualization is
 not enabled in the BIOS.  On a ThinkPad, enter the BIOS by pressing the blue
 ThinkVantage button after powering on the system.  Then press F1 to enter
 the BIOS setup.  Select Config, then CPU, then enable Virtualization.
 Press F10 to save and exit.  The system will power itself off, then power
 on again with virtualization enabled.
+{{< /callout >}}
