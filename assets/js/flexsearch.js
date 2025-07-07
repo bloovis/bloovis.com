@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const title = text || data[route].title;
 
         const content = data[route].data[heading] || '';
-        const paragraphs = content.split('\n');
+        const paragraphs = content.split('\n').filter(Boolean);
 
         sectionIndex.add({
           id: url,
@@ -332,7 +332,7 @@ document.addEventListener("DOMContentLoaded", function () {
       pageTitleMatches[i] = 0;
 
       const sectionResults = window.sectionIndex.search(query,
-	{ enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
+        { enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
       let isFirstItemOfPage = true
       const occurred = {}
 
