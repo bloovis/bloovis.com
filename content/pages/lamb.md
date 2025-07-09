@@ -380,7 +380,7 @@ really think very far ahead.
 **PETER:**
 Another thing that rubbed the band up the wrong way was that Tangerine
 Dream were going to do the film score for Friedkin. The others thought
-I was using the gorup as a springboard to jump off for my own personal
+I was using the group as a springboard to jump off for my own personal
 success and wasn't even bringing them along with me. But Friedkin
 didn't want Genesis. He only wanted me for weird ideas, not for music.
 I just wanted a month to do this script outline. So I walked out.
@@ -693,10 +693,7 @@ Publishing PLC, ISBN 0-7472-3231-8.
 >
 >
 
---------
-
-
-**Much talk was made about making a Lamb film in the early 80s. **
+**Much talk was made about making a Lamb film in the early 80s.**
 
 
 
@@ -802,7 +799,7 @@ on 6/14/92 of an older interview, in which Eno was mentioned.**
 
 --------
 
-## THE ANNOTATED LAMB LIES DOWN ON BROADWAY
+## The Annotated Lamb Lies Down On Broadway
 
 \[Key: Bracketed text is annotation. Indented text is from the liner
 notes.  <span class="ly">Red</span> text is lyrics. Text
@@ -810,7 +807,6 @@ beginning with <span class="pg">"Peter Gabriel:"</span> is speech
 taken from in-between song talking by Peter Gabriel during live
 performances. Sometimes more than one version of a particular story is
 included.  Additional notes by relayer from 1975 are shown in <span class="rl">Blue</span>.\]
-
 
 > Keep your fingers out of my eye.
 
@@ -822,7 +818,7 @@ As you open up the gatefold album cover of The Lamb Lies Down On Broadway to rea
 
 \[Who is this speaking? An anonymous narrator? Is it Rael looking at himself in the third person? Is it God? The line "Rael hates me, I like Rael" might make sense in that case. Is it Rael's soul?\]
 
-**THE LAMB LIES DOWN ON BROADWAY**
+### The Lamb Lies Down On Broadway
 
 \[<span class="rl">LLDOE is "Let Light Descend On Earth" in the Hermetic tradition; an operation/ritual of bringing the cosmic light down into oneself. In this case, the "world" is Broadway (LLDOB). Gabriel is well-known for his spiritual explorations of different belief systems.</span>\]
 
@@ -876,7 +872,7 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 \[These last two lines are a direct quote from "On Broadway", a classic Drifters song.\]
 
-**FLY ON A WINDSHIELD**
+### Fly On a Windshield
 
 > The sky is overcast and as Rael looks back a dark cloud is descending like a balloon into Times Square. It rests on the ground and shapes itself into a hard edged flat surface, which solidifies and extends itself all the way East and West along 47th Street and reaching up to the dark sky. As the wall takes up its tension it becomes a screen showing what had existed in three dimensions, on the other side just a moment before. The image flickers and then cracks like painted clay and the wall silently moves forward, absorbing everything in its path.
 
@@ -902,7 +898,7 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 <span class="ly">The dust settles on my skin, Making a crust I cannot move in And I'm hovering like a fly, waiting for the windshield on the freeway.</span>
 
-** BROADWAY MELODY OF 1974**
+### Broadway Melody of 1974
 
 \[This is chock full of current events of the time. "Broadway Melody" was a review-type stage show comprised of bits and pieces of the popular shows of the day. There is a Little Rascals episode where they do a "Broadway Melody" show.\]
 
@@ -940,7 +936,7 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 > Then the blackout.
 
-** CUCKOO COCOON**
+### Cuckoo Cocoon
 
 > Rael regains consciousness in some musky half-light. He is warmly wrapped in some sort of cocoon. The only sound he can hear is dripping water which appears to be the source of a pale flickering light. He guesses he must be in some sort of cave -- or kooky tomb, or catacomb, or eggshell waiting to drop from the bone of the womb.
 
@@ -960,7 +956,7 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 > Resigning himself to the unknown he drifts off into sleep.
 
-** IN THE CAGE**
+### In the Cage
 
 <span class="ly">I've got sunshine in my stomach Like I just rocked my baby to sleep. I've got sunshine in my stomach And I can't keep me from creeping sleep, Sleep, deep in the deep.</span>
 
@@ -1000,7 +996,7 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 <span class="ly">But outside John disappears and my cage dissolves, and without any reason my body revolves. Keep on turning, Keep on turning, Turning around, spinning around.</span>
 
-**THE GRAND PARADE OF LIFELESS PACKAGING
+### The Grand Parade of Lifeless Packaging
 
 > When all this revolution is over, he sits down on a highly polished floor while his dizziness fades away. It is an empty modern hallway and the dreamdoll saleslady sits at the reception desk.
 
@@ -1034,7 +1030,7 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 \[<span class="rl">"I see no sign of free will, so I guess I'll have to pay, pay my way" -- back to the money metaphors.</span>\]
 
-**BACK IN NYC**
+### Back in NYC
 
 > No-one seems to take up the chase, and with the familiar faces fresh in his mind he moves into a reconstruction of his old life, above ground -- Too much time was one thing he didn't need, so he used to cut through it with a little speed. He was better off dead, than slow in the head. His momma and poppa had taken a ride on his back, so he left very quickly to join The Pack.
 
@@ -1066,7 +1062,7 @@ The use of the British term "progressive", which is the equivalent of liberal, i
 
 \[<span class="rl">"When you're out walking the streets with your mainline connection?" -- another direct drug reference.</span>\]
 
-**COUNTING OUT TIME**
+### Counting Out Time
 
 > The palpitating cherry-red organ was returned to its rightful place and began to beat faster as it led our hero, counting out time, through his first romantic encounter.
 
@@ -1082,7 +1078,7 @@ The use of the British term "progressive", which is the equivalent of liberal, i
 
 \[<span class="rl">There's heaven ahead in number 11" -- in numerology, 11 is considered one of the Master Numbers which cannot be reduced by addition of its digits. It signifies Potential.  Also numerologically, any numbers can be reduced to 1-9 by adding their digits together, except 11 and 22 (see above).</span>\]
 
-**THE CARPET CRAWLERS**
+### The Carpet Crawlers
 
 > He returns from his mixed-up memories to the passage he was previously stuck in. This time he discovers a long carpeted corridor.
 
@@ -1096,26 +1092,14 @@ From the History Of Genesis, by Mick St. Michael, the following quote from Peter
 
 This is a good point to digress and tackle the obvious question: why does just about every released version of this song have a different name? Jack Beermann compiled a list of all the different variations:
 
-<table>
-  <tr><td>the German 7" has Trick of the Tail b/w</td>
-      <td>"Carpet Crawl"</td>
-  </tr>
-  <tr><td>the UK picture CD has</td>
-      <td>"Carpet Crawl"</td>
-  </tr>
-  <tr><td>the UK LP of the Lamb has</td>
-      <td>"The Carpet Crawlers"</td>
-  </tr>
-  <tr><td>the US and Canada LPs and the US CD of The Lamb have</td>
-      <td>"The Carpet Crawlers"</td>
-  </tr>
-  <tr><td>the US remaster CD has</td>
-      <td>"Carpet Crawlers"</td>
-  </tr>
-  <tr><td>the Seconds Out US CD has</td>
-      <td>"The Carpet Crawl"</td>
-  </tr>
-</table>
+| Release | Title |
+| ------ | ----- |
+| German 7-inch with Trick of the Tail | "Carpet Crawl" |
+| UK picture CD | "Carpet Crawl" |
+| UK LP of the Lamb | "The Carpet Crawlers" |
+| US and Canada LPs and the US CD | "The Carpet Crawlers" |
+| US remaster CD | "Carpet Crawlers" |
+| Seconds Out US CD | "The Carpet Crawl" |
 
 
 No explanation has ever been given about this matter. It is possible that "Carpet Crawl" was used for the single release edits of the Lamb album track, and Seconds Out was a typographical error. The name on the remasters can hardly be taken seriously since they also didn't credit Mike Rutherford for writing Ripples.
@@ -1176,7 +1160,7 @@ A stickleback is defined by the ironically named Collins English Dictionary (no 
 
 \[<span class="rl">"The carpet crawlers heed their callers: "We've got to get in to get out" -- the people listen to and heed the exhortations of priests and kings, who keep repeating an esoteric rhyme to direct their spiritual energy (but the people never go anywhere).<br>Also related, the magician Aleister Crowley's entry "23 Skidoo" in The Book Of Lies:<br><br>23<br><br>{Kappa-Epsilon-Phi-Alpha-Lambda-Eta Kappa-Gamma}<br><br>SKIDOO<br><br>What man is at ease in his Inn?<br>Get out.<br>Wide is the world and cold.<br>Get out.<br>Thou hast become an in-itiate.<br>Get out.<br>But thou canst not get out by the way thou camestin. The Way out is THE WAY.<br>Get out.<br>For OUT is Love and Wisdom and Power.(12)<br>Get OUT.<br>If thou hast T already, first get UT.(13)<br>Then get O.<br>And so at last get OUT.</span>\]
 
-**THE CHAMBER OF 32 DOORS**
+### The Chamber of 32 Doors
 
 \[<span class="rl">As noted before, there are 22 Paths on the Tree of Life in Jewish esotericism; adding the 10 Spheres makes 32 "doors" or states of consciousness that the Tree represents.</span>\]
 
@@ -1190,7 +1174,7 @@ A stickleback is defined by the ironically named Collins English Dictionary (no 
 
 \[<span class="rl">By the way, this song feels entirely out of character for Rael (to me).</span>\]
 
-**LILYWHITE LILITH**
+### Lilywhite Lilith
 
 \[Brewer's Dictionary of Phrase and Fable says of Lilith:
 
@@ -1236,7 +1220,7 @@ her proper name, and she says to me, she says 'Can you help me?'"
 
 <span class="ly">And the darkness closes in on me, I can hear a whirring sound growling near. I can see the corner of the tunnel, Lit up by whatever's coming here. Two golden globes float into the room And a blaze of white light fills the air.</span>
 
-**ANYWAY**
+### Anyway
 
 <span class="ly">All the pumping's nearly over for my sweet heart, This is the one for me, Time to meet the chef, O boy! running man is out of death. Feel cold and old, it's getting hard to catch my breath. 's back to ash, now, you've had your flash boy</span>
 
@@ -1258,7 +1242,7 @@ her proper name, and she says to me, she says 'Can you help me?'"
 
 <span class="ly">I feel the pull on the rope, let me off at the rainbow. I could have been exploding in space Different orbits for my bones Not me, just quietly buried in stones, Keep the deadline open with my maker! See me stretch; for God's elastic acre The doorbell rings and it's "Good morning Rael So sorry you had to wait. It won't be long, yeh! She's very rarely late."</span>
 
-**THE SUPERNATURAL ANAESTHETIST**
+### The Supernatural Anaesthetist
 
 > Exhausted by all this conjecture, our hero gets the chance
 > in a lifetime to meet his hero: Death. Death is wearing a light
@@ -1271,11 +1255,11 @@ her proper name, and she says to me, she says 'Can you help me?'"
 
 <span class="ly">Here comes the supernatural anaesthetist. If he wants you to snuff it, All he has to do is puff it -- he's such a fine dancer.</span>
 
-**THE LAMIA**
+### The Lamia
 
-\[The Lamia seems to be based on
+\[The Lamia seems to be based on the following:\]
 
-** LAMIA. PART I. **
+#### Lamia. Part I. 
 
 UPON a time, before the faery broods Drove Nymph and Satyr from the prosperous woods, Before King Oberon's bright diadem, Sceptre, and mantle, clasp'd with dewy gem, Frighted away the Dryads and the Fauns From rushes green, and brakes, and cowslip'd lawns, The ever-smitten Hermes empty left His golden throne, bent warm on amorous theft: From high Olympus had he stolen light, 
 
@@ -1359,7 +1343,9 @@ UPON a time, before the faery broods Drove Nymph and Satyr from the prosperous w
 
  Turning to Brewer's Dictionary of Phrase and Fable, we find out more about the Lamia, and evidence to support the theory that Gabriel took his inspiration from Keats.
 
-** LAMIA. **Among the Greeks and Romans a female demon who devoured children and whose name was used to frighten them. She was a Libyan queen beloved by JUPITER but robbed of her offspring by the jealous JUNO, she became insane and vowed vengence on all children, whom she delighted to entice and devour. The race of Lamiae, in Africa, were said to have the head and breasts of women and the body of a serpent and they enticed strangers into their embraces to devour them. Witches in the MIDDLE AGES were called Lamiae, and Keats' poem Lamia (1820) relates the story of how a bride, when recognized by APOLLONIUS as a serpent or lamia, vanished in an instant. Keats took the substance of his poem from Burton's Anatomy of Melancholy (Pt. III, sect. ii,^? memb. i, subsect. i) whose source was Philostratus (De Vita Apollonii, Bk. IV)\]
+#### Lamia
+
+Among the Greeks and Romans a female demon who devoured children and whose name was used to frighten them. She was a Libyan queen beloved by JUPITER but robbed of her offspring by the jealous JUNO, she became insane and vowed vengence on all children, whom she delighted to entice and devour. The race of Lamiae, in Africa, were said to have the head and breasts of women and the body of a serpent and they enticed strangers into their embraces to devour them. Witches in the MIDDLE AGES were called Lamiae, and Keats' poem Lamia (1820) relates the story of how a bride, when recognized by APOLLONIUS as a serpent or lamia, vanished in an instant. Keats took the substance of his poem from Burton's Anatomy of Melancholy (Pt. III, sect. ii,^? memb. i, subsect. i) whose source was Philostratus (De Vita Apollonii, Bk. IV)\]
 
 > Rael touches his face to confirm that he is still alive. He writes Death off as an illusion, but notices a thick musky scent hanging in the air. He moves to the corner where the scent is stronger, discovering a crack in the rubble through which it is entering. He tries to shift the stones and eventually clears a hole large enough to crawl out of. The perfume is even stronger on the other side and he sets off to find its source, with a new-found energy.
 
@@ -1398,7 +1384,7 @@ UPON a time, before the faery broods Drove Nymph and Satyr from the prosperous w
 
 <span class="ly">As they nibble the fruit of my flesh, I feel no pain, Only a magic that a name would stain. With the first drop of my blood in their veins Their faces are convulsed in mortal pains. The fairest cries, 'We all have loved you Rael'." Each empty snakelike body floats, Silent sorrow in empty boats. A sickly sourness fills the room, The bitter harvest of a dying bloom. Looking for motion I know I will not find, I stroke the curls now turning pale, in which I'd lain entwined "O Lamia, your flesh that remains I will take as my food" It is the scent of garlic that lingers on my chocolate fingers. Looking behind me, the water turns icy blue, The lights are dimmed and once again the stage is set for you.</span>
 
-** THE COLONY OF SLIPPERMEN: THE ARRIVAL**
+### The Colony of Slippermen: The Arrival
 
 > Leaving by the same door from which he had come in, he finds some sort of freaks ghetto on the other side. When they catch sight of him, the entire street of distorted figures burst into laughter. One of the colony approaches him.
 
@@ -1434,7 +1420,7 @@ Michael Rutherford."
 <span class="ly">Slipperman: "You better watch it son, your sentence has only just begun You better run and join your brother John."</span>
 
 
-**A VISIT TO THE DOKTOR**
+### A Visit to the Doktor
 
 <span class="ly">Slipperman: "You're in the colony of slippermen There's no who? why? what? or when?</span>
 
@@ -1448,7 +1434,7 @@ Michael Rutherford."
 
 \[<span class="rl">"Understand Rael, it's the end of your tail" -- puns on tail: 1. "tale." 2. "tail" (slang for a young woman who one wants to possess).3. "tail" (penis)</span>\]
 
-**THE RAVEN**
+### The Raven
 
 > They survive the ordeal and are presented with the offensive weapons in sterile yellow plastic tubes, with gold chains. "People usually wear them around their necks," said the Doktor handing them over. "The operation does not necessarily exclude use of the facility again, for short periods, but of course when you want it you must provide us with considerable advance warning."
 
@@ -1488,7 +1474,7 @@ Michael Rutherford."
 
 > He follows a small path running along the top, and watches the tube bobbing up and down in the water as the fast current carries it away. However, as he walks around a corner Rael sees a sky-light above him, apparently built into the bank.
 
-**THE LIGHT DIES DOWN ON BROADWAY**
+### The Light Dies Down on Broadway
 
 \[As alluded to above, this song's lyrics were not written by Peter
 Gabriel. It was written by Tony and Mike. After a long time studying
@@ -1519,7 +1505,7 @@ The gate is fading now, but open wide, But John is drowning, I must decide Betwe
 > He rushes to the cliff and scrambles down the rocks. It takes him a long time to get down to the water, trying to keep up with the current at the same time. As he nears the water's edge he sees John losing strength.
  
 
-**RIDING THE SCREE**
+### Riding the Scree
 
 \[Scree is defined as "a steep mass of detritus \[ie rocky debris\] on the side of a mountain". This word does not seem to be very commonly used in American English, supported by the fact that the editor had to consult an older desk dictionary to find a definition.\]
 
@@ -1534,7 +1520,7 @@ The gate is fading now, but open wide, But John is drowning, I must decide Betwe
 > He dives down into the cold water. At first he is thrown onto the rocks, and pulled under the water by a fast moving channel, which takes him right past John, down river.
 
 
-**IN THE RAPIDS**
+### In the Rapids
 
 <span class="ly">Moving down the water John is drifting out of sight, It's only at the turning point That you find out how to fight. In the cold, feel the cold all around And the rush of crashing water Surround me with its sound.</span>
 
@@ -1547,7 +1533,7 @@ The gate is fading now, but open wide, But John is drowning, I must decide Betwe
 <span class="ly">And when the waters slow down The dark and the deep have no-one left to keep. Hang on John! We're out of this at last. Something's changed, that's not your face. It's mine!</span>
 
 
-**IT**
+### IT
 
 > Rael cannot look away from those eyes, mesmerized by his own image. In a quick movement, his consciousness darts from one face to the other, then back again, until his presence is no longer solidly contained in one or the other. In this fluid state he observes both bodies outlined in yellow and the surrounding scenery melting into a purple haze. With a sudden rush of energy up both spinal columns, their bodies, as well, finally dissolve into the haze. All this takes place without a single sunset, without a single bell ringing and without a single blossom falling from the sky. Yet <em>it</em> fills everything with its mysterious intoxicating presence. <em>It's</em> over to you.
 
@@ -1570,7 +1556,7 @@ The gate is fading now, but open wide, But John is drowning, I must decide Betwe
 
 \[This last line is still another song reference, this time to "It's Only Rock and Roll" by the Rolling Stones.\]
 
---------
+## Interpretations
 
 Yeah, but what does it mean? Various interpretations follow below. You may want to base your interpretation on one of these, or perhaps do some investigation of these concepts and draw your own conclusions. 
 
@@ -1601,10 +1587,10 @@ term thrown around quite so loosely. A couple of points:
 
 3. If there is one common thread which unites all existential thinkers it would probably be that freedom of choice (free will) is fundamental to life.
 
-**
+
  When TLLDOB begins with the song of the same name, we are immediately
 immersed in the absurdity of the reality which everyone exists in, at
-least those who are considered sane. **
+least those who are considered sane. 
 
 The lamb itself has two meaning, and then can be left alone for awhile. First, it is representative of the sacrificial lamb, which society creates, then offers up as an offering for slaughter. Rael is that lamb, the situation as a child of the streets has been thrust upon him by his birth, and he has never been given an opportunity to make something of himself. Second is the absurdity of the existence of a real lamb lying down somewhere on Broadway.
 
@@ -1796,7 +1782,7 @@ alone, someone brought this to my attention:**
 
  Although the only actual mention of this subject matter I could find from anything that might be official, it does nothing to explain the Lamb, or why "eggs is eggs" appears in Supper itself.
 
-## ESOTERIC
+## Esoteric
 
 * \[<span class="rl">There are 23 songs, including instrumentals, on the album. There are 22 Major Arcana in the Tarot and 22 Paths on the Tree Of Life. The 23rd is "contained in them all" or the Tarot Trump 0, The Fool.</span>\]
 

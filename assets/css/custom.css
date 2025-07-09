@@ -1,3 +1,5 @@
+/* Styles for Hugo pagination controls */
+
 .pagination {
   display: flex;
   border-radius:.25rem;
@@ -33,4 +35,18 @@
 .pagination a {
   font-size:1.25rem;
   padding:.5rem .75rem
+}
+
+/* Styles for Annotated Lamb Lies Down on Broadway */
+
+.ly {
+  color: red;
+}
+
+.pg {
+  color: green;
+}
+
+.rl {
+  color: blue;
 }
