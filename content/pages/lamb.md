@@ -13,7 +13,7 @@ by Jason Finegan, Scott McMahan and other members of Paperlate.
 * 5 May 1994 completion of Second major revision
 * 18 Dec 1993 First major revision
 
-Additional comments in <span class="rl">blue</span> by relayer from notes made in 1975.
+Additional comments in {{< rl >}}blue{{< /rl >}} by relayer from notes made in 1975.
 
 ## Foreword
 
@@ -801,12 +801,17 @@ on 6/14/92 of an older interview, in which Eno was mentioned.**
 
 ## The Annotated Lamb Lies Down On Broadway
 
-\[Key: Bracketed text is annotation. Indented text is from the liner
-notes.  <span class="ly">Red</span> text is lyrics. Text
-beginning with <span class="pg">"Peter Gabriel:"</span> is speech
+\[Key: Bracketed text is annotation.
+
+Indented text is from the liner
+notes.
+
+<span class="ly">Red</span> text is lyrics.
+
+Text beginning with {{< pg >}} is speech
 taken from in-between song talking by Peter Gabriel during live
 performances. Sometimes more than one version of a particular story is
-included.  Additional notes by relayer from 1975 are shown in <span class="rl">Blue</span>.\]
+included.  Additional notes by relayer from 1975 are shown in {{< rl >}}Blue{{< /rl >}}.\]
 
 > Keep your fingers out of my eye.
 
@@ -820,19 +825,19 @@ As you open up the gatefold album cover of The Lamb Lies Down On Broadway to rea
 
 ### The Lamb Lies Down On Broadway
 
-\[<span class="rl">LLDOE is "Let Light Descend On Earth" in the Hermetic tradition; an operation/ritual of bringing the cosmic light down into oneself. In this case, the "world" is Broadway (LLDOB). Gabriel is well-known for his spiritual explorations of different belief systems.</span>\]
+\[{{< rl >}}LLDOE is "Let Light Descend On Earth" in the Hermetic tradition; an operation/ritual of bringing the cosmic light down into oneself. In this case, the "world" is Broadway (LLDOB). Gabriel is well-known for his spiritual explorations of different belief systems.{{< /rl >}}\]
 
 > The flickering needle jumps into red. New York crawls out of its bed.
 
-<span class="ly">And the lamb lies down on Broadway. Early morning Manhattan, Ocean winds blow on the land.</span>
+{{< ly >}}And the lamb lies down on Broadway. Early morning Manhattan, Ocean winds blow on the land.{{< /ly >}}
 
 > The weary guests are asked to leave the warmth of the all-night theater, having slept on pictures others only dream on.
 
-<span class="ly">The Movie-Palace is now undone, The all-night watchmen have had their fun. Sleeping cheaply on the midnight show, It's the same old ending -- time to go. Get out! It seems they cannot leave their dream.</span>
+{{< ly >}}The Movie-Palace is now undone, The all-night watchmen have had their fun. Sleeping cheaply on the midnight show, It's the same old ending -- time to go. Get out! It seems they cannot leave their dream.{{< /ly >}}
 
 > The un-paid extras disturb the Sleeping Broadway. WALK to the left DON'T WALK to the right: on Broadway, directions don't look so bright. Autoghosts keep the pace for the cabman's early mobile race.
 
-<span class="ly">There's something moving in the sidewalk steam,</span>
+{{< ly >}}There's something moving in the sidewalk steam,{{< /ly >}}
 
 \["Give me steam, and how you feel can make it real Real as anything you've seen \[place you've been\]. Get a life with the dreamer's dream" Peter Gabriel, "Steam", 1992\]
 
@@ -844,31 +849,31 @@ The juxtaposition of "is" and "Rael" is interesting, since it forms the word "Is
 
 Since Brother John was mentioned here in this annotation, we must point out that Steve Hackett's brother was named John. If this has any significance, it has never been officially acknowledged.\]
 
-<span class="ly">And the lamb lies down on Broadway. Nightime's flyers feel their pains. Drugstore takes down the chains. Metal motion comes in bursts, But the gas station can quench that thirst. Suspension cracked on unmade road The trucker's eyes read 'Overload'</span>
+{{< ly >}}And the lamb lies down on Broadway. Nightime's flyers feel their pains. Drugstore takes down the chains. Metal motion comes in bursts, But the gas station can quench that thirst. Suspension cracked on unmade road The trucker's eyes read 'Overload'{{< /ly >}}
 
-\[<span class="rl">"Nighttime's flyers feel their pain" -- junkies, coming down and feeling withdrawal pains.</span>\]
+\[{{< rl >}}"Nighttime's flyers feel their pain" -- junkies, coming down and feeling withdrawal pains.{{< /rl >}}\]
 
 > Enough of this -- our hero is moving up the subway stairs into day- light. Beneath his leather jacket he holds a spray gun which has left the message R-A-E-L in big letters on the wall leading underground. It may not mean much to you but to Rael it is part of the process going towards 'making a name for yourself.' When you're not even a pure-bred Puerto Rican the going gets tough and the tough gets going.
 
-<span class="ly">And out of the subway, Rael Imperial Aerosol Kid Exits into daylight, spraygun hid,</span>
+{{< ly >}}And out of the subway, Rael Imperial Aerosol Kid Exits into daylight, spraygun hid,{{< /ly >}}
 
 > With casual sideways glances along the wet street, he checks the motion in the steam to look for potential obstruction. Seeing none, he strides along the sidewalk, past the drugstore with iron guard being removed to reveal the smile of the toothpaste girl, past the nightladies and past Patrolman Frank Leonowich (48, married, two kids) who stands in the doorway of the wig-store. Patrolman Leonowich looks at Rael in much the same way that other Patrolmen look at him, and Rael only just hides that he is hiding something. Meanwhile from out of the steam a lamb lies down. This lamb has nothing whatsoever to do with Rael, or any other lamb -- it just lies down on Broadway.
 
-<span class="ly">And the lamb lies down on Broadway. The lamb seems right out of place, Yet the Broadway street scene finds a focus in its face. Somehow it's lying there, Brings a stillness to the air. Though man-made light, at night is very bright, There's no whitewash victim, As the neons dim, to the coat of white. Rael Imperial Aerosol Kid, Wipes his gun -- he's forgotten what he did, And the lamb lies down on Broadway. Suzanne tired her work all done, Thinks money -- honey -- be on -- neon.</span>
+{{< ly >}}And the lamb lies down on Broadway. The lamb seems right out of place, Yet the Broadway street scene finds a focus in its face. Somehow it's lying there, Brings a stillness to the air. Though man-made light, at night is very bright, There's no whitewash victim, As the neons dim, to the coat of white. Rael Imperial Aerosol Kid, Wipes his gun -- he's forgotten what he did, And the lamb lies down on Broadway. Suzanne tired her work all done, Thinks money -- honey -- be on -- neon.{{< /ly >}}
 
 \[This may be a reference to the somewhat popular song entitled "Suzanne" by Leonard Cohen, 1966. The song "Suzanne" is about waking up and/or realization, which certainly parallels the "Lamb" epic. In the lyrics to Suzanne, it is obvious that her work is all done. Here's a sampling of the lyrics: "And you want to travel with her, and you want to travel blind, For she's touched your perfect body with her mind. "Now Jesus was a sailor when he walked upon the water, and he spent a long time watching from his lonely wooden tower, and when he knew for certain that only drowning men could see him, he said all men will be sailors then until the sea shall free them. But he himself was broken, long before the sky would open. Forsaken, almost human, he sank beneath your wisdom like a stone. "And you want to travel with him, and you want to travel blind, For he's touched your perfect body with his mind. This seemingly makes a tie to the suggestion that there is an undercurrent of Biblical references throughout the "Lamb" lyrics.\]
 
-\[<span class="rl">"Rael Imperial Aerosol Kid, Wipes his gun -- he's forgotten what he did" -- connotations of urinations; paint is piss. marking Rael's territory (street graffiti).</span>\]
+\[{{< rl >}}"Rael Imperial Aerosol Kid, Wipes his gun -- he's forgotten what he did" -- connotations of urinations; paint is piss. marking Rael's territory (street graffiti).{{< /rl >}}\]
 
-<span class="ly">Cabman's velvet glove sounds the horn</span>
+{{< ly >}}Cabman's velvet glove sounds the horn{{< /ly >}}
 
 \[This could be an obscure reference to Andy Warhol, a famous pop artist. He once arrived at at some important event driving a cab and was also very involved with the musical group, Velvet Underground. On another note, it's possible that Suzanne is riding in the cab. It also seems likely that since it is early morning and she is getting off work, that she may be a prostitute. This would encompass the "money" and "honey". Another reader said "I've always thought of it like this: neon signs are the 70's gauche way of attracting attention to what you have to sell, so..."\]
 
-<span class="ly">And the sawdust king spits out his scorn. Wonder women draw your blind! Don't look at me! I'm not your kind. I'm Rael! Something inside me has just begun, Lord knows what I have done,</span>
+{{< ly >}}And the sawdust king spits out his scorn. Wonder women draw your blind! Don't look at me! I'm not your kind. I'm Rael! Something inside me has just begun, Lord knows what I have done,{{< /ly >}}
 
 \[This line is particularly hard to understand. It may, however, be a clue to what is about to happen to Rael. Has he taken a drug over- dose? Whatever, a possible interpretation of the entire story is that Rael dies in "Fly on a Windshield" and that most of what happens is Rael's spiritual journey through some purgatory. He escapes at the end in "It."\]
 
-<span class="ly">And the lamb lies down on Broadway. On Broadway -- They say the lights are always bright on Broadway. They say there's always magic in the air.</span>
+{{< ly >}}And the lamb lies down on Broadway. On Broadway -- They say the lights are always bright on Broadway. They say there's always magic in the air.{{< /ly >}}
 
 \[These last two lines are a direct quote from "On Broadway", a classic Drifters song.\]
 
@@ -876,27 +881,27 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 > The sky is overcast and as Rael looks back a dark cloud is descending like a balloon into Times Square. It rests on the ground and shapes itself into a hard edged flat surface, which solidifies and extends itself all the way East and West along 47th Street and reaching up to the dark sky. As the wall takes up its tension it becomes a screen showing what had existed in three dimensions, on the other side just a moment before. The image flickers and then cracks like painted clay and the wall silently moves forward, absorbing everything in its path.
 
-<span class="pg"> Peter Gabriel:</span> "So I was just walking along the street when this big cloud comes down. It becomes solid, like a screen showing up pictures of what existed around it before on the back side of it."
+{{< pg >}} "So I was just walking along the street when this big cloud comes down. It becomes solid, like a screen showing up pictures of what existed around it before on the back side of it."
 
 \[Looking back, he sees the cloud take shape into what appears to be a movie screen, "showing what had existed in three dimensions, on the other side". This movie screen he alone sees is much like the one in the movie palace. The one in the theater shows a world created by someone in Hollywood who wishes the movie-goers to believe in the reality of something which is obviously false. The romance of the movie is that it takes something unreal and presents it in a form which people not only can believe, but really want to believe. The screen that is moving in the street (behaving much like "The Langoliers" in the short story of the same name by Stephen King) is taking what Rael "knew" to be reality and turning it into a movie. Are we to believe what is on this screen? If what once was thought real is now a movie, is what was a movie now real?\]
 
-<span class="ly">There's something solid forming in the air, The wall of death is lowered in Times Square.</span>
+{{< ly >}}There's something solid forming in the air, The wall of death is lowered in Times Square.{{< /ly >}}
 
 > The unsuspecting New Yorkers are apparently blind to what is going on.
 
-<span class="ly">No-one seems to care, They carry on as if nothing was there.</span>
+{{< ly >}}No-one seems to care, They carry on as if nothing was there.{{< /ly >}}
 
 > Rael starts to run away towards Columbus Circle. Each time he dares to take a look, the wall has moved another block. At the moment when he thinks he's maintaining his distance from the wall, the wind blows hard and cold slowing down his speed. The wind increases, dries the wet street and picks up the dust off the surface, throwing it into Rael's face.
 
-<span class="pg"> Peter Gabriel:</span> "And I was walking along seeing this wall closing up on me behind me, me on the wall."
+{{< pg >}} "And I was walking along seeing this wall closing up on me behind me, me on the wall."
 
-<span class="ly">The wind is blowing harder now, Blowing dust into my eyes.</span>
+{{< ly >}}The wind is blowing harder now, Blowing dust into my eyes.{{< /ly >}}
 
 > More and more dirt is blown up and it begins to settle on Rael's skin and clothes, making a solid layered coat that brings him gradually to a terrified stillness. A sitting duck.
 
 \[Rael struggles against the wind blowing dust into his eyes, obscuring his vision of what he once thought was real. He fights himself into a standstill, completely encrusted in the dust. Like us, he is a "sitting duck" a "fly waiting for the windshield". His difference is that he sees it coming; and although he is not prepared, he is spared immediate death, at least how he sees it. From his viewpoint, everyone else who gets swallowed by the wall/screen dies, but this is just a symbolic death of the reality he once knew.\]
 
-<span class="ly">The dust settles on my skin, Making a crust I cannot move in And I'm hovering like a fly, waiting for the windshield on the freeway.</span>
+{{< ly >}}The dust settles on my skin, Making a crust I cannot move in And I'm hovering like a fly, waiting for the windshield on the freeway.{{< /ly >}}
 
 ### Broadway Melody of 1974
 
@@ -906,31 +911,31 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 \[Rael is overwhelmed by the confusion and disorder of the sensory input he is perceiving. He has now been sucked into the movie! Images begin to take shape out of the soup in a stream of conscious- ness style. Take time, an integral part of the "real" world Rael has left, and throw it out the window. The next second in the "real" New York may encompass the entire journey Rael is about to take. Human dreams have been found to take only a few seconds each, though we remember them as happening in real-time. Many times they seem just as real as when we are awake. Is Rael awake, or still asleep in his bed the night before? Is he dead, or is everyone else dead? Both? Neither?\]
 
-<span class="ly">Echoes of the Broadway Everglades, With her mythical madonnas still walking in their shades: Lenny Bruce, declares a truce and plays his other hand.</span>
+{{< ly >}}Echoes of the Broadway Everglades, With her mythical madonnas still walking in their shades: Lenny Bruce, declares a truce and plays his other hand.{{< /ly >}}
 
 \[Lenny Bruce (1952-66) He was a comedian, and a cultural icon of the 60's. His satirical, "black" humor destroyed the accepted boundaries of good taste of the day. He was one of the first to use extreme profanity in his act. In 1961 he was put in jail for obscenity; in 1963, the year following an initial show at the Establishment Club in London, he wasn't allowed to return to Britain for another show. In May of 1963 he was convicted of drug possession. He died in '66 and most think it was caused by his drug use. He was acquitted of the obscenity charges after his death. His lasting significance is that he was among the first comedians whose purpose was to disturb instead of simply amuse through his unique insights and observations about the violence of his time.\]
 
-<span class="ly">Marshall McLuhan, casual viewin', head buried in the sand.</span>
+{{< ly >}}Marshall McLuhan, casual viewin', head buried in the sand.{{< /ly >}}
 
 \[McLuhan (1911-80) was a Canadian sociologist, writer, and critic of the media and popular culture. He is best known for his idea that "the medium is the massage" (sic). He also liked to describe different media as "hot" (such as a book, which requires more mental involvement) and "cold" (such as TV). He wrote several books along these lines and he was both widely acclaimed as a genius and totally discounted as an intellectual dud depending on whom you read about him. A paraphrase of his theory: McLuhan postulates that society is most greatly affected by its fastest mode of communication. He believes that societies are governed by the most dominant media, and separates history into ages like: messenger age, script age, print age, radio age, television age. A cartoon from a 1966 issue of the New Yorker said this: "You see, Dad, Professor McLuhan says the environment that man creates becomes his medium for defining his role in it. The invention of type created linear, or sequential, thought, separating thought from action. Now, with TV and folk singing, thought and action are closer and social involvement is greater. We again live in a village. Get it?" McLuhan also suggested that everything is going through a process of speeding up. This shapes the society, and produces a sped-up culture.\]
 
-<span class="ly">Sirens on the rooftops wailing, but there's no ship sailing.</span>
+{{< ly >}}Sirens on the rooftops wailing, but there's no ship sailing.{{< /ly >}}
 
 \[Reference to Homer's Oddysey and the Sirens who seduced men to crash ships on their rocks, possibly that no ships are sailing anymore to be snared in the trap\]
 
-<span class="ly">Groucho, with his movies trailing, stands alone with his punchline failing. Klu Klux Klan serve hot soul food and the band plays 'In the Mood'</span>
+{{< ly >}}Groucho, with his movies trailing, stands alone with his punchline failing. Klu Klux Klan serve hot soul food and the band plays 'In the Mood'{{< /ly >}}
 
 \[Interestingly enough, one Paperlater questioned the meaning and significance of the Klu Klux Klan serving hot soul food. Soul food is essentially food ethnically associated with southern black families. "In the Mood" was written in 1938 and recorded by a lesser known big band, but it was indeed the Glen Miller Orchestra in 1940 who took it to #1 and made it a classic. It opens with a classic sax riff (that you can also hear in the Beatles' "All you Need is Love")\]
 
-<span class="ly">The cheerleader waves her cyanide wand, there's a smell of peach blossom and bitter almonde. Caryl Chessman sniffs the air and leads the parade, he know in a scent, you can bottle all you made.</span>
+{{< ly >}}The cheerleader waves her cyanide wand, there's a smell of peach blossom and bitter almonde. Caryl Chessman sniffs the air and leads the parade, he know in a scent, you can bottle all you made.{{< /ly >}}
 
 \[Caryl Chessman (1922-60) was an American convict-author who was con- victed on 17 charges of kidnapping, robbery and rape. He was granted 8 stays of execution by the governor of California and therefore spent the longest period on record on death row: 12 years. He carried out a brilliant legal battle from prison, learned 4 languages and wrote sev- eral best selling books during this time. He was eventually executed and the publicity generated worldwide criticism of the American judic- ial system. He was one of the first people to die in a gas chamber. The smell of peach blossom and bitter almond is the characteristic one for cyanide gas. The phrase "in a scent" might be a play on words also meaning "innocent." If this were the case "innocent, you can bottle all you made" would then mean that if Caryl were to successful- ly prove his innocence, he could bottle up, or put behind him, his previous actions and go free.\]
 
-<span class="ly">There's Howard Hughes in blue suede shoes, smiling at the majorettes smoking Winston Cigarettes.</span>
+{{< ly >}}There's Howard Hughes in blue suede shoes, smiling at the majorettes smoking Winston Cigarettes.{{< /ly >}}
 
 \[Howard Hughes (1905-76): Quoting the Cambridge Biographical Dictionary, "American millionaire businessman, film producer and director, and aviator, born in Houston, Texas." That gives you an idea of how diverse this man was. He had an air of eccentricity and mysticism about him that fascinated people. In brief, he directed Hell's Angels (1930) and Scarface (1932). He left Hollywood and was a pilot for awhile, but he was interested in designing aircraft. He broke most of the existing world's air speed records between 1935 and 1938; he was awarded a Congressional medal; he made another movie (The Outlaw); he spent much time and money designing and building a gigantic wooden seaplane, The Spruce Goose, which flew only once but is famous in aviation history as the largest prop driven airplane ever made. He crashed in 1946 and became a recluse, living in complete seclusion and running his vast financial empire from sealed hotel rooms. In 1971 an "authorized" biography was released but it turned out to be a fake (remember Clifford Irving? He wrote it and it was a gigantic media story). The mystery about Hughes and the fascination with him contin- ued until he died in '76. Also, he was a noted hypochondriac and a fanatic about the purity of the air he was breathing, all worried about the germs he was inhaling, etc.\]
 
-<span class="ly">And as the song and dance begins, the children play at home with needles; needles and pins.</span>
+{{< ly >}}And as the song and dance begins, the children play at home with needles; needles and pins.{{< /ly >}}
 
 \[Needles and Pins was written by Jack Nietsche and Sonny Bono and first recorded by Jackie DeShannon in 1963. It was made famous the following year by the British group the Searchers.\]
 
@@ -940,127 +945,127 @@ Since Brother John was mentioned here in this annotation, we must point out that
 
 > Rael regains consciousness in some musky half-light. He is warmly wrapped in some sort of cocoon. The only sound he can hear is dripping water which appears to be the source of a pale flickering light. He guesses he must be in some sort of cave -- or kooky tomb, or catacomb, or eggshell waiting to drop from the bone of the womb.
 
-<span class="pg"> Peter Gabriel: </span>"And I wake up in a little while, laid down underground."
+{{< pg >}} "And I wake up in a little while, laid down underground."
 
-\[<span class="rl">Rael begins his journey underground (subway). "Underground" shows up in many places in the lyrics.</span>\]
+\[{{< rl >}}Rael begins his journey underground (subway). "Underground" shows up in many places in the lyrics.{{< /rl >}}\]
 
-<span class="ly">Wrapped up in some powdered wool -- I guess I'm losing touch. Don't tell me I'm dying, 'cos I ain't changed that much. The only sound is water drops, I wonder where the hell I am, Some kind of jam? Cuckoo Cocoon have I come to, too soon for you?</span>
+{{< ly >}}Wrapped up in some powdered wool -- I guess I'm losing touch. Don't tell me I'm dying, 'cos I ain't changed that much. The only sound is water drops, I wonder where the hell I am, Some kind of jam? Cuckoo Cocoon have I come to, too soon for you?{{< /ly >}}
 
 > Whatever it is, he feels serene, very clean, and content as a well kept dummy with hot water in his tummy, so why worry what it means?
 
-<span class="ly">There's nothing I can recognise; this is nowhere that I've known. With no sign of life at all, I guess that I'm alone, And I feel so secure that I know this can't be real but I feel good. Cuckoo cocoon have I come to, too soon for you? I wonder if I'm a prisoner locked up in some Brooklyn jail</span>
+{{< ly >}}There's nothing I can recognise; this is nowhere that I've known. With no sign of life at all, I guess that I'm alone, And I feel so secure that I know this can't be real but I feel good. Cuckoo cocoon have I come to, too soon for you? I wonder if I'm a prisoner locked up in some Brooklyn jail{{< /ly >}}
 
 \[Is he actually in a straightjacket "locked in some Brooklyn jail?"\]
 
-<span class="ly">-- or some sort of Jonah shut up inside the whale. No -- I'm still Rael and I'm stuck in some kind of cave, what could've saved me? Cuckoo cocoon have I come to, too soon for you?</span>
+{{< ly >}}-- or some sort of Jonah shut up inside the whale. No -- I'm still Rael and I'm stuck in some kind of cave, what could've saved me? Cuckoo cocoon have I come to, too soon for you?{{< /ly >}}
 
 > Resigning himself to the unknown he drifts off into sleep.
 
 ### In the Cage
 
-<span class="ly">I've got sunshine in my stomach Like I just rocked my baby to sleep. I've got sunshine in my stomach And I can't keep me from creeping sleep, Sleep, deep in the deep.</span>
+{{< ly >}}I've got sunshine in my stomach Like I just rocked my baby to sleep. I've got sunshine in my stomach And I can't keep me from creeping sleep, Sleep, deep in the deep.{{< /ly >}}
 
-\[<span class="rl">"Sunshine" was a well-known brand of LSD; however, heroin gives you that "warm and cozy feeling."</span>\]
+\[{{< rl >}}"Sunshine" was a well-known brand of LSD; however, heroin gives you that "warm and cozy feeling."{{< /rl >}}\]
 
 > He wakes in a cold sweat with a strong urge to vomit. There's no sign of the cocoon and he can see more of the cave about him. There is much more of the glowing water dripping from the roof and stalactites and stalagmites are forming and decomposing at an alarming rate all around him.
 
-<span class="ly">Rockface moves to press my skin White liquids turn sour within Turn fast -- turn sour Turn sweat -- turn sour. Must tell myself that I'm not here. I'm drowning in a liquid fear. Bottled in a strong compression, My distortion shows obsession In the cave. Get me out of this cave!</span>
+{{< ly >}}Rockface moves to press my skin White liquids turn sour within Turn fast -- turn sour Turn sweat -- turn sour. Must tell myself that I'm not here. I'm drowning in a liquid fear. Bottled in a strong compression, My distortion shows obsession In the cave. Get me out of this cave!{{< /ly >}}
 
 > As fear and shock register, he assures himself that self-control will provide some security,
 
-<span class="ly">If I keep self-control, I'll be safe in my soul. And the childhood belief Brings a moment's relief, But my cynic soon returns And the lifeboat burns. My spirit just never learns.</span>
+{{< ly >}}If I keep self-control, I'll be safe in my soul. And the childhood belief Brings a moment's relief, But my cynic soon returns And the lifeboat burns. My spirit just never learns.{{< /ly >}}
 
 > but this thought is abandoned as the stalactites and stalagmites lock into a fixed position, forming a cage whose bars are moving in towards him.
 
-<span class="ly">Stalactites, stalagmites Shut me in, lock me tight. Lips are dry, throat is dry. Feel like burning, stomach churning, I'm dressed up in a white costume Padding out leftover room. Body stretching, feel the wretching In the cage Get me out of this cage!</span>
+{{< ly >}}Stalactites, stalagmites Shut me in, lock me tight. Lips are dry, throat is dry. Feel like burning, stomach churning, I'm dressed up in a white costume Padding out leftover room. Body stretching, feel the wretching In the cage Get me out of this cage!{{< /ly >}}
 
 > At one moment there is a flash of light and he sees an infinite network of cages all strung together by a ropelike material.
 
-<span class="ly">In the glare of a light, I see a strange kind of sight; Of cages joined to form a star Each person can't go very far; All tied to their things They are netted by their strings, Free to flutter in memories of their wasted wings.</span>
+{{< ly >}}In the glare of a light, I see a strange kind of sight; Of cages joined to form a star Each person can't go very far; All tied to their things They are netted by their strings, Free to flutter in memories of their wasted wings.{{< /ly >}}
 
 > As the rocky bars press in on Rael's body, he sees his brother John outside, looking in.
 
-<span class="ly">Outside the cage I see my Brother John, He turns his head so slowly round.</span>
+{{< ly >}}Outside the cage I see my Brother John, He turns his head so slowly round.{{< /ly >}}
 
 > John's face is motionless despite screams for help, but in his vacant expression a tear of blood forms and trickles down his cheek. Then he calmly walks away
 
-<span class="ly">I cry out Help! before he can be gone, And he looks at me without a sound. And I shout 'John please help me!' But he does not even want to try to speak. I'm helpless in my violent rage And a silent tear of blood dribbles down his cheek, And I watch him turn again and leave the cage. My little runaway.</span>
+{{< ly >}}I cry out Help! before he can be gone, And he looks at me without a sound. And I shout 'John please help me!' But he does not even want to try to speak. I'm helpless in my violent rage And a silent tear of blood dribbles down his cheek, And I watch him turn again and leave the cage. My little runaway.{{< /ly >}}
 
 \["My little runaway" is an allusion to "Runaway" (1961), a #1 hit by Del Shannon. Words by Del Shannon, music by Max Crook (who also plays the organ break on the record). "Raindrops Keep Falling On My Head" is then improvised here. It was written by Hal David and Burt Bacharach, and was recorded by B.J. Thomas for the film "Butch Cassidy and the Sundance Kid." It also hit #1 on the charts. Genesis is apparently considerably influenced by Bacharach, cf. "Burt" the working title for Hold On My Heart.\]
 
 > leaving Rael to face the pains which are beginning to sweep through his body.
 
-<span class="ly">In a trap, feel a strap Holding still. Pinned for kill. Chances narrow that I'll make it, In the cushioned straight-jacket. Just like 22nd Street, When they got me by my neck and feet. Pressures building, can't take more. My headaches charge. My earaches roar. In the pain Get me out of this pain. If I could change to liquid, I could fill the cracks up in the rock. But I know that I am solid And I am my own bad luck.</span>
+{{< ly >}}In a trap, feel a strap Holding still. Pinned for kill. Chances narrow that I'll make it, In the cushioned straight-jacket. Just like 22nd Street, When they got me by my neck and feet. Pressures building, can't take more. My headaches charge. My earaches roar. In the pain Get me out of this pain. If I could change to liquid, I could fill the cracks up in the rock. But I know that I am solid And I am my own bad luck.{{< /ly >}}
 
 > However, just as John walks out of sight, the cage dissolves and Rael is left spinning like a top.
 
-<span class="ly">But outside John disappears and my cage dissolves, and without any reason my body revolves. Keep on turning, Keep on turning, Turning around, spinning around.</span>
+{{< ly >}}But outside John disappears and my cage dissolves, and without any reason my body revolves. Keep on turning, Keep on turning, Turning around, spinning around.{{< /ly >}}
 
 ### The Grand Parade of Lifeless Packaging
 
 > When all this revolution is over, he sits down on a highly polished floor while his dizziness fades away. It is an empty modern hallway and the dreamdoll saleslady sits at the reception desk.
 
-<span class="ly">"The last great adventure left to mankind" -- Screams a drooping lady offering her dreamdolls at less than extortionate prices, and as the notes and coins are taken out</span>
+{{< ly >}}"The last great adventure left to mankind" -- Screams a drooping lady offering her dreamdolls at less than extortionate prices, and as the notes and coins are taken out{{< /ly >}}
 
 \[This seems to be a case of Genesis (or Peter) tripping over the British language heritage they were trying to submerse into the background on The Lamb. Rael, the street punk in New York City (even a reconstruction) would not refer to money as "notes and coins" -- since "notes" is a British term ("pound note"). Rael would use words like dollars, bills, or more likely pesos. "Coin" is formal for American English usage, he'd more likely say "change" if he was not referring to specific denominations of money. Cf. in Ballad Of Big the usage of "waistcoat" instead of "vest" and later in the Lamb "progressive" for "liberal". Both are out of character for the mood they are trying to convey.\]
 
 \[
 
-* <span class="rl">"It's the last great adventure left to mankind" -- death is described by many poets as "the last great adventure".</span>
-* <span class="rl">"and as the notes and coins are taken out, I'm taken in" -- musical notes; the song starts out simply.and builds.</span>
-* <span class="rl">"taken in" is to be seduced or pulled into something naively; a confidence/trickster game.</span>
+* {{< rl >}}"It's the last great adventure left to mankind" -- death is described by many poets as "the last great adventure".{{< /rl >}}
+* {{< rl >}}"and as the notes and coins are taken out, I'm taken in" -- musical notes; the song starts out simply.and builds.{{< /rl >}}
+* {{< rl >}}"taken in" is to be seduced or pulled into something naively; a confidence/trickster game.{{< /rl >}}
 
 \]
 
-<span class="ly">I'm taken in, to the factory floor. For the Grand Parade of Lifeless Packaging -- All ready to use the Grand Parade of Lifeless Packaging -- just need a fuse.</span>
+{{< ly >}}I'm taken in, to the factory floor. For the Grand Parade of Lifeless Packaging -- All ready to use the Grand Parade of Lifeless Packaging -- just need a fuse.{{< /ly >}}
 
 \[On p.18 of Marshall McLuhan's "The Medium is the Massage", there appears the following quote: "...educational establishment where information is scarce but ordered and structured by fragmented, classified patterns, subjects, and schedules. It is naturally an environment much like any factory set-up with its inventories and assemblies." The parallels with "The Grand Parade" are, if essentially coincidental, still worthy of notice.\]
 
 > Without prompting she goes into her rap: "This is the Grand Parade of Lifeless Packaging, those you are about to see are all in for servicing, except for a small quantity of our new product, in the second gallery. It is all the stock required to cover the existing arrangements of the enterprise. Different batches are distributed to area operators, and there are plenty of opportunities for the large investor. They stretch from the costly care-conditioned to the most reasonable mal-nutritioned. We find here that everyone's looks become them. Except for the low market mal-nutritioned, each is provided with a guarantee for a successful birth and trouble free infancy. There is however only a small amount of variable choice potential -- not too far from the mean differential. You see, the roof has predetermined the limits of action of any group of packages, but individuals may move off the path if their diversions are counter-balanced by others."
 
-<span class="ly">Got people stocked in every shade, Must be doing well with trade. Stamped, addressed, in odd fatality. That evens out their personality. With profit potential marked by a sign, I can recognise some of the production line, No bite at all in labour bondage, Just wrinkled wrappers or human bandage. The Grand Parade of Lifeless Packaging -- All ready to use It's the Grand Parade of Lifeless Packaging -- just need a fuse.</span>
+{{< ly >}}Got people stocked in every shade, Must be doing well with trade. Stamped, addressed, in odd fatality. That evens out their personality. With profit potential marked by a sign, I can recognise some of the production line, No bite at all in labour bondage, Just wrinkled wrappers or human bandage. The Grand Parade of Lifeless Packaging -- All ready to use It's the Grand Parade of Lifeless Packaging -- just need a fuse.{{< /ly >}}
 
 > As he wanders along the line of packages, Rael notices a familiarity in some of their faces. He finally comes upon some of the members of his old gang and worries about his own safety. Running out through the factory floor, he catches sight of his brother John with a number 9 stamped on his forehead.
 
-<span class="ly">The hall runs like clockwork Their hands mark out the time, Empty in their fullness Like a frozen pantomime. Everyone's a sales representative Wearing slogans in their shrine. Dishing out failsafe superlative, Brother John is No. 9. </span>
+{{< ly >}}The hall runs like clockwork Their hands mark out the time, Empty in their fullness Like a frozen pantomime. Everyone's a sales representative Wearing slogans in their shrine. Dishing out failsafe superlative, Brother John is No. 9. {{< /ly >}}
 
 \[This line probably is a playful offhand reference to John Lennon. John in <em>The Lamb</em> is not supposed to *be* Lennon, by any means; Peter just probably thought he'd have some fun here. The reference isn't just to "Revolution 9". Lennon had a well-publicized obsession with the number.\]
 
-<span class="ly">For the Grand Parade of Lifeless Packaging -- All ready to use It's the Grand Parade of Lifeless Packaging -- just need a fuse. The decor on the ceiling has planned out their future day I see no sign of free will, so I guess I'll have to pay, pay my way, for the Grand Parade. for the Grand Parade of Lifeless Packaging -- All ready to use the Grand Parade of Lifeless Packaging -- just need a fuse.</span>
+{{< ly >}}For the Grand Parade of Lifeless Packaging -- All ready to use It's the Grand Parade of Lifeless Packaging -- just need a fuse. The decor on the ceiling has planned out their future day I see no sign of free will, so I guess I'll have to pay, pay my way, for the Grand Parade. for the Grand Parade of Lifeless Packaging -- All ready to use the Grand Parade of Lifeless Packaging -- just need a fuse.{{< /ly >}}
 
-\[<span class="rl">"I see no sign of free will, so I guess I'll have to pay, pay my way" -- back to the money metaphors.</span>\]
+\[{{< rl >}}"I see no sign of free will, so I guess I'll have to pay, pay my way" -- back to the money metaphors.{{< /rl >}}\]
 
 ### Back in NYC
 
 > No-one seems to take up the chase, and with the familiar faces fresh in his mind he moves into a reconstruction of his old life, above ground -- Too much time was one thing he didn't need, so he used to cut through it with a little speed. He was better off dead, than slow in the head. His momma and poppa had taken a ride on his back, so he left very quickly to join The Pack.
 
-\[<span class="rl">"so he used to cut through it with a little speed." -- another direct drug reference.</span>\]
+\[{{< rl >}}"so he used to cut through it with a little speed." -- another direct drug reference.{{< /rl >}}\]
 
-<span class="pg"> Peter Gabriel:</span> "We're presently right in the middle of the story of Rael, and he's at present underground moving through an almost perfect reconstruction of the streets of New York City."
+{{< pg >}} "We're presently right in the middle of the story of Rael, and he's at present underground moving through an almost perfect reconstruction of the streets of New York City."
 
-<span class="pg"> Peter Gabriel:</span> "And it's just like it was above ground. I mean the streets of New York had been built again, a few years earlier."
+{{< pg >}} "And it's just like it was above ground. I mean the streets of New York had been built again, a few years earlier."
 
-<span class="ly">I see faces and traces of home back in New York City -- So you think I'm a tough kid? Is that what you heard? Well I like to see some action and it gets into my blood. The call me the trail blazer -- Rael -- electric razor. I'm the pitcher in the chain gang, we don't believe in pain 'cos we're only as strong, as the weakest link in the chain.</span>
+{{< ly >}}I see faces and traces of home back in New York City -- So you think I'm a tough kid? Is that what you heard? Well I like to see some action and it gets into my blood. The call me the trail blazer -- Rael -- electric razor. I'm the pitcher in the chain gang, we don't believe in pain 'cos we're only as strong, as the weakest link in the chain.{{< /ly >}}
 
 > Only after a spell in Pontiac reformatory was he given any respect in the gang.
 
-<span class="ly">Let me out of Pontiac when I was just seventeen,</span>
+{{< ly >}}Let me out of Pontiac when I was just seventeen,{{< /ly >}}
 
 \[Pontiac is an institution in NY State for juvenile delinquents.\]
 
-<span class="ly">I had to get it out of me, if you know what I mean, what I mean. You say I must be crazy, 'cos I don't care who I hit, who I hit. But I know it's me that's hitting out and I'm not full of shit. I don't care who I hurt. I don't care who I do wrong. This is your mess I'm stuck in, I really don't belong. When I take out my bottle, filled up high with gasoline, You can tell by the night fires where Rael has been, has been.</span>
+{{< ly >}}I had to get it out of me, if you know what I mean, what I mean. You say I must be crazy, 'cos I don't care who I hit, who I hit. But I know it's me that's hitting out and I'm not full of shit. I don't care who I hurt. I don't care who I do wrong. This is your mess I'm stuck in, I really don't belong. When I take out my bottle, filled up high with gasoline, You can tell by the night fires where Rael has been, has been.{{< /ly >}}
 
 > Now, walking back home after a raid, he was cuddling a sleeping porcupine. That night he pictured the removal of his hairy heart and to the accompaniment of very romantic music he watched it being shaved smooth by an anonymous stainless steel razor.
 
-<span class="ly">As I cuddled the porcupine He said I had none to blame, but me. Held my heart, deep in hair, Time to shave, shave it off, it off. No time for romantic escape, When your fluffy heart is ready for rape. No! Off we go. You're sitting in your comfort you don't believe I'm real, You cannot buy protection from the way that I feel. Your progressive hypocrites hand out their trash,</span>
+{{< ly >}}As I cuddled the porcupine He said I had none to blame, but me. Held my heart, deep in hair, Time to shave, shave it off, it off. No time for romantic escape, When your fluffy heart is ready for rape. No! Off we go. You're sitting in your comfort you don't believe I'm real, You cannot buy protection from the way that I feel. Your progressive hypocrites hand out their trash,{{< /ly >}}
 
 \["Progressive hypocrites" would be liberals who talk a good line about helping the disenfranchised but don't back up their talk with action. For more info see Tom Wolfe's essay on 'Radical Chic'.
 
 The use of the British term "progressive", which is the equivalent of liberal, is another example of the British background of Genesis surfacing in a story about a Puerto Rican street kid. Rael would have been very out of character to use this term, or to even be aware of the politics going on at all.\]
 
-<span class="ly">But it was mine in the first place, so I'll burn it to ash. And I've tasted all the strongest meats, And laid them down in coloured sheets. Who needs illusion of love and affection When you're out walking the streets with your mainline connection? connection. As I cuddle the porcupine He said I had none to blame, but me. Held my heart, deep in hair. Time to shave, shave it off, it off. No time for romantic escape, When your fluffy heart is ready for rape. No!</span>
+{{< ly >}}But it was mine in the first place, so I'll burn it to ash. And I've tasted all the strongest meats, And laid them down in coloured sheets. Who needs illusion of love and affection When you're out walking the streets with your mainline connection? connection. As I cuddle the porcupine He said I had none to blame, but me. Held my heart, deep in hair. Time to shave, shave it off, it off. No time for romantic escape, When your fluffy heart is ready for rape. No!{{< /ly >}}
 
-\[<span class="rl">"When you're out walking the streets with your mainline connection?" -- another direct drug reference.</span>\]
+\[{{< rl >}}"When you're out walking the streets with your mainline connection?" -- another direct drug reference.{{< /rl >}}\]
 
 ### Counting Out Time
 
@@ -1068,23 +1073,23 @@ The use of the British term "progressive", which is the equivalent of liberal, i
 
 \[This song was written completely by Peter Gabriel, both words and music.\]
 
-<span class="pg"> Peter Gabriel:</span> "Which brings him to the memory chambers of his first romantic adventures: exciting subject. This particular hero, Rael, had purchased a book entitled 'Erogenous Zones and Difficulties in Overcoming Finding Them'. After many months of serious study, the moment of realization came; and he found himself an opposite number and completed his entire numerical motions in a mere 78 seconds. This magnificent piece of masculine performance left his opposite number a little less than titillated -- I'll rephrase that -- a little less than extremely excited,"
+{{< pg >}} "Which brings him to the memory chambers of his first romantic adventures: exciting subject. This particular hero, Rael, had purchased a book entitled 'Erogenous Zones and Difficulties in Overcoming Finding Them'. After many months of serious study, the moment of realization came; and he found himself an opposite number and completed his entire numerical motions in a mere 78 seconds. This magnificent piece of masculine performance left his opposite number a little less than titillated -- I'll rephrase that -- a little less than extremely excited,"
 
-<span class="pg"> Peter Gabriel:</span> "And one of the faces I see wandering down the streets is a face that has been haunting me for a long time: the face of my first romantic adventure. I bought this book called 'Erogenous Zones and Difficulties in Overcoming Finding Them'. It's a book I studied for many months -- devoted study -- until I could move from page one to page one hundred with tremendous sophistication and skill. Finally, the moment of realization came. My opposite number arrived in the flesh, and I went through the entire number sequence in 78 seconds. This left my opposite number not even mildly titillated,"
+{{< pg >}} "And one of the faces I see wandering down the streets is a face that has been haunting me for a long time: the face of my first romantic adventure. I bought this book called 'Erogenous Zones and Difficulties in Overcoming Finding Them'. It's a book I studied for many months -- devoted study -- until I could move from page one to page one hundred with tremendous sophistication and skill. Finally, the moment of realization came. My opposite number arrived in the flesh, and I went through the entire number sequence in 78 seconds. This left my opposite number not even mildly titillated,"
 
-<span class="ly">I'm counting out time, Got the whole thing down by numbers. All those numbers! Give my guidance! O Lord I need that now. The day of judgement's come, And you can bet that I've been resting, for this testing, Digesting every word the experts say. Erogenous zones I love you. Without you, what would a poor boy do? Found a girl I wanted to date, Thought I'd better get it straight. Went to buy a book before's too late. Don't leave nothing to fate. And I have studied every line, every page in the book, And now I've got the real thing here, I'm gonna take a look, take a look. This is it Rael! I'm counting out time, hoping it goes like I planned it, 'cos I understand it. Look! I've found the hotspots, Figs 1-9. -- still counting out time, got my finger on the button, "Don't say nuttin -- just lie there still And I'll get you turned on just fine." Erogenous zones I love you. Without you, what would a poor boy do? Touch and go with 1-6. Bit of trouble in zone No. 7. Gotta remember all of my tricks. There's heaven ahead in No. 11! Getting crucial responses with dilation of the pupils. "Honey get hip! It's time to unzip, to unzip. Whipee!" -- Move over Casanova -- I'm counting out time, reaction none to happy, Please don't slap me, I'm a red blooded male and the book said I could not fail. I'm counting out time, I got unexpected distress from my mistress, I'll get my money back from the bookstore right away. Erogenous zones I question you -- Without you, what would a poor boy do? Without you, mankind handkinds thru' the blues.</span>
+{{< ly >}}I'm counting out time, Got the whole thing down by numbers. All those numbers! Give my guidance! O Lord I need that now. The day of judgement's come, And you can bet that I've been resting, for this testing, Digesting every word the experts say. Erogenous zones I love you. Without you, what would a poor boy do? Found a girl I wanted to date, Thought I'd better get it straight. Went to buy a book before's too late. Don't leave nothing to fate. And I have studied every line, every page in the book, And now I've got the real thing here, I'm gonna take a look, take a look. This is it Rael! I'm counting out time, hoping it goes like I planned it, 'cos I understand it. Look! I've found the hotspots, Figs 1-9. -- still counting out time, got my finger on the button, "Don't say nuttin -- just lie there still And I'll get you turned on just fine." Erogenous zones I love you. Without you, what would a poor boy do? Touch and go with 1-6. Bit of trouble in zone No. 7. Gotta remember all of my tricks. There's heaven ahead in No. 11! Getting crucial responses with dilation of the pupils. "Honey get hip! It's time to unzip, to unzip. Whipee!" -- Move over Casanova -- I'm counting out time, reaction none to happy, Please don't slap me, I'm a red blooded male and the book said I could not fail. I'm counting out time, I got unexpected distress from my mistress, I'll get my money back from the bookstore right away. Erogenous zones I question you -- Without you, what would a poor boy do? Without you, mankind handkinds thru' the blues.{{< /ly >}}
 
-\[<span class="rl">"I've found the hotspots, Figs 1-9." -- nine again.</span>\]
+\[{{< rl >}}"I've found the hotspots, Figs 1-9." -- nine again.{{< /rl >}}\]
 
-\[<span class="rl">There's heaven ahead in number 11" -- in numerology, 11 is considered one of the Master Numbers which cannot be reduced by addition of its digits. It signifies Potential.  Also numerologically, any numbers can be reduced to 1-9 by adding their digits together, except 11 and 22 (see above).</span>\]
+\[{{< rl >}}There's heaven ahead in number 11" -- in numerology, 11 is considered one of the Master Numbers which cannot be reduced by addition of its digits. It signifies Potential.  Also numerologically, any numbers can be reduced to 1-9 by adding their digits together, except 11 and 22 (see above).{{< /rl >}}\]
 
 ### The Carpet Crawlers
 
 > He returns from his mixed-up memories to the passage he was previously stuck in. This time he discovers a long carpeted corridor.
 
-<span class="pg"> Peter Gabriel:</span> "And he was left cuddling a prickly porcupine on a soft thick carpeted corridor -- 'Carpeted by Cyril \[sp?\] Lord at Prices You Can Afford.' --"
+{{< pg >}} "And he was left cuddling a prickly porcupine on a soft thick carpeted corridor -- 'Carpeted by Cyril \[sp?\] Lord at Prices You Can Afford.' --"
 
-<span class="pg"> Peter Gabriel:</span> "And I was left cuddling this gigantic prickly porcupine on a soft carpeted corridor -- 'Carpeted by Cyril \[sp?\] Lord at Prices You Can Afford.' --"
+{{< pg >}} "And I was left cuddling this gigantic prickly porcupine on a soft carpeted corridor -- 'Carpeted by Cyril \[sp?\] Lord at Prices You Can Afford.' --"
 
 \[The carpet crawlers are *people* who can't make it to the spiral staircase and to the chamber of 32 doors.
 
@@ -1106,29 +1111,29 @@ No explanation has ever been given about this matter. It is possible that "Carpe
 
 Back to The Lamb...\]
 
-<span class="ly">There is lambswool under my naked feet. The wool is soft and warm, -- gives off some kind of heat. A salamander scurries into flame to be destroyed. Imaginary creatures are trapped in birth on celluloid. The fleas cling to the golden fleece, Hoping they'll find peace. Each thought and gesture are caught in celluloid. There's no hiding in my memory. There's no room to void.</span>
+{{< ly >}}There is lambswool under my naked feet. The wool is soft and warm, -- gives off some kind of heat. A salamander scurries into flame to be destroyed. Imaginary creatures are trapped in birth on celluloid. The fleas cling to the golden fleece, Hoping they'll find peace. Each thought and gesture are caught in celluloid. There's no hiding in my memory. There's no room to void.{{< /ly >}}
 
-\[<span class="rl">"A salamander scurries into flame to be destroyed." -- in many esoteric traditions salamanders are considered Fire Elementals and to live in fire. Followed by "imaginary creatures".</span>\]
+\[{{< rl >}}"A salamander scurries into flame to be destroyed." -- in many esoteric traditions salamanders are considered Fire Elementals and to live in fire. Followed by "imaginary creatures".{{< /rl >}}\]
 
-\[<span class="rl">"The fleas cling to the golden fleece" -- In Greek mythology, the Golden Fleece is the fleece of the gold-hair winged ram, which was held in Colchis. The fleece is a symbol of authority and kingship and figures prominently in the tale of the hero Jason and his band of Argonauts, who set out on a quest for the fleece by order of King Pelias, in order to place Jason rightfully on the throne of Iolcus in Thessaly. Thus "the fleas" ("little people") cling to the Golden Fleece (cling to authority).</span>\]
+\[{{< rl >}}"The fleas cling to the golden fleece" -- In Greek mythology, the Golden Fleece is the fleece of the gold-hair winged ram, which was held in Colchis. The fleece is a symbol of authority and kingship and figures prominently in the tale of the hero Jason and his band of Argonauts, who set out on a quest for the fleece by order of King Pelias, in order to place Jason rightfully on the throne of Iolcus in Thessaly. Thus "the fleas" ("little people") cling to the Golden Fleece (cling to authority).{{< /rl >}}\]
 
 > The walls are painted in red ochre and are marked by strange insignia, some looking like a bulls-eye, others of birds and boats. Further down the corridor, he can see some people; all kneeling. With broken sighs and murmurs they struggle, in their slow motion to move towards a wooden door at the end. Having seen only the inanimate bodies in the Grand Parade of Lifeless Packaging, Rael rushes to talk to them.
 
-<span class="ly">The crawlers cover the floor in the red ochre corridor. For my second sight of people, they've more lifeblood than before. They're moving. They're moving in time to a heavy wooden door, Where the needle's eye is winking, closing on the poor. The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out."</span>
+{{< ly >}}The crawlers cover the floor in the red ochre corridor. For my second sight of people, they've more lifeblood than before. They're moving. They're moving in time to a heavy wooden door, Where the needle's eye is winking, closing on the poor. The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out."{{< /ly >}}
 
-\[<span class="rl">"Where the needle's eye is winking, closing on the poor." -- "easier that a camel pass through the eye of a needle than a rich man into heaven."</span>\]
+\[{{< rl >}}"Where the needle's eye is winking, closing on the poor." -- "easier that a camel pass through the eye of a needle than a rich man into heaven."{{< /rl >}}\]
 
 > "What's going on?" he cries to a muttering monk, who conceals a yawn and replies "It's a long time yet before the dawn." A sphinx-like crawler calls his name saying "Don't ask him, the monk is drunk. Each one of us is trying to reach the top of the stairs, a way out will await us there." Not asking how he can move freely, our hero goes boldly through the door. Behind a table loaded with food, is a spiral staircase going up into the ceiling.
 
-\[<span class="rl">"It's a long time yet before the dawn." -- direct reference to the esoteric Golden Dawn; this saying is uttered as a password in several rituals. Followed by a "sphinx-like crawler" which references the Egyptian Mysteries, which are also a part of the Golden Dawn's catechism.</span>\]
+\[{{< rl >}}"It's a long time yet before the dawn." -- direct reference to the esoteric Golden Dawn; this saying is uttered as a password in several rituals. Followed by a "sphinx-like crawler" which references the Egyptian Mysteries, which are also a part of the Golden Dawn's catechism.{{< /rl >}}\]
 
-<span class="pg"> Peter Gabriel:</span> "Which in turn led up to a spiral staircase into a chamber with 32 doors, none of which would get any of them anywhere."
+{{< pg >}} "Which in turn led up to a spiral staircase into a chamber with 32 doors, none of which would get any of them anywhere."
 
-\[<span class="rl">Rael is moving upward now, as opposed to his hereby subterranean &amp; sideways path.</span>\]
+\[{{< rl >}}Rael is moving upward now, as opposed to his hereby subterranean &amp; sideways path.{{< /rl >}}\]
 
-<span class="pg"> Peter Gabriel:</span> "And it all led up to a spiral staircase which in turn led into a chamber with 32 doors, none of which went anywhere but back in the chamber."
+{{< pg >}} "And it all led up to a spiral staircase which in turn led into a chamber with 32 doors, none of which went anywhere but back in the chamber."
 
-<span class="ly">There's only one direction in the faces that I see; It's upward to the ceiling, where the chambers said to be. Like the forest fight for sunlight, that takes root in every tree. They are pulled up by the magnet, believing they're free. The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out." Mild mannered supermen are held in kryptonite,</span>
+{{< ly >}}There's only one direction in the faces that I see; It's upward to the ceiling, where the chambers said to be. Like the forest fight for sunlight, that takes root in every tree. They are pulled up by the magnet, believing they're free. The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out." Mild mannered supermen are held in kryptonite,{{< /ly >}}
 
 \[This is a reference to the DC Comics character Superman, whose super abilities were nullified by a material from his destroyed home planet Krypton, called Kryptonite. "Mild mannered" was a phrase used to describe Superman's secret identity, Clark Kent. The names were capitalized.\]
 
@@ -1136,11 +1141,11 @@ In an aside, it is interesting to note that Genesis used these trademarked names
 
 Genesis has actually made 2 references to DC Comics characters -- the other is Batman in Blood On The Rooftops.\]
 
-\[<span class="rl">"They are pulled up by the magnet" -- more Kabbalah - the spiritual Sphere pulls upward as each part of the divine light (in each person) yearns for its home/completion (lifting the spiritual out of dense matter).</span>\]
+\[{{< rl >}}"They are pulled up by the magnet" -- more Kabbalah - the spiritual Sphere pulls upward as each part of the divine light (in each person) yearns for its home/completion (lifting the spiritual out of dense matter).{{< /rl >}}\]
 
-<span class="ly">And the wise and foolish virgins giggle with their bodies glowing bright. Through the door a harvest feast is lit by candle light; It's the bottom of a staircase that spirals out of sight. The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out." The porcelain mannikin with shattered skin fears attack. The eager pack lift up their pitchers -- the carry all they lack. The liquid has congealed, which has seeped out through the crack, And the tickler takes his stickleback.</span>
+{{< ly >}}And the wise and foolish virgins giggle with their bodies glowing bright. Through the door a harvest feast is lit by candle light; It's the bottom of a staircase that spirals out of sight. The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out." The porcelain mannikin with shattered skin fears attack. The eager pack lift up their pitchers -- the carry all they lack. The liquid has congealed, which has seeped out through the crack, And the tickler takes his stickleback.{{< /ly >}}
 
-\[<span class="rl">"And the wise and foolish virgins giggle with their bodies glowing bright." -- reference to the 72 Virgins of Islam. This concept is grounded in Qur'anic text which describe a sensual Paradise; reflecting on "through the door, a harvest feast" - the Red Ocher Corridor is about sensuality; a pure materialist heaven.</span>\]
+\[{{< rl >}}"And the wise and foolish virgins giggle with their bodies glowing bright." -- reference to the 72 Virgins of Islam. This concept is grounded in Qur'anic text which describe a sensual Paradise; reflecting on "through the door, a harvest feast" - the Red Ocher Corridor is about sensuality; a pure materialist heaven.{{< /rl >}}\]
 
 \[Apparently some variations of the liner notes have this line
 
@@ -1156,23 +1161,23 @@ A stickleback is defined by the ironically named Collins English Dictionary (no 
 
 > stickleback: n. any of various small fishes that have a series of spines along the back and occur in cold and temperate regions.\]
 
-<span class="ly">The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out."</span>
+{{< ly >}}The carpet crawlers heed their callers: "We've got to get in to get out We've got to get in to get out."{{< /rl >}}
 
-\[<span class="rl">"The carpet crawlers heed their callers: "We've got to get in to get out" -- the people listen to and heed the exhortations of priests and kings, who keep repeating an esoteric rhyme to direct their spiritual energy (but the people never go anywhere).<br>Also related, the magician Aleister Crowley's entry "23 Skidoo" in The Book Of Lies:<br><br>23<br><br>{Kappa-Epsilon-Phi-Alpha-Lambda-Eta Kappa-Gamma}<br><br>SKIDOO<br><br>What man is at ease in his Inn?<br>Get out.<br>Wide is the world and cold.<br>Get out.<br>Thou hast become an in-itiate.<br>Get out.<br>But thou canst not get out by the way thou camestin. The Way out is THE WAY.<br>Get out.<br>For OUT is Love and Wisdom and Power.(12)<br>Get OUT.<br>If thou hast T already, first get UT.(13)<br>Then get O.<br>And so at last get OUT.</span>\]
+\[{{< rl >}}"The carpet crawlers heed their callers: "We've got to get in to get out" -- the people listen to and heed the exhortations of priests and kings, who keep repeating an esoteric rhyme to direct their spiritual energy (but the people never go anywhere).<br>Also related, the magician Aleister Crowley's entry "23 Skidoo" in The Book Of Lies:<br><br>23<br><br>{Kappa-Epsilon-Phi-Alpha-Lambda-Eta Kappa-Gamma}<br><br>SKIDOO<br><br>What man is at ease in his Inn?<br>Get out.<br>Wide is the world and cold.<br>Get out.<br>Thou hast become an in-itiate.<br>Get out.<br>But thou canst not get out by the way thou camestin. The Way out is THE WAY.<br>Get out.<br>For OUT is Love and Wisdom and Power.(12)<br>Get OUT.<br>If thou hast T already, first get UT.(13)<br>Then get O.<br>And so at last get OUT.{{< /rl >}}\]
 
 ### The Chamber of 32 Doors
 
-\[<span class="rl">As noted before, there are 22 Paths on the Tree of Life in Jewish esotericism; adding the 10 Spheres makes 32 "doors" or states of consciousness that the Tree represents.</span>\]
+\[{{< rl >}}As noted before, there are 22 Paths on the Tree of Life in Jewish esotericism; adding the 10 Spheres makes 32 "doors" or states of consciousness that the Tree represents.{{< /rl >}}\]
 
 > At the top of the stairs he finds a chamber. It is almost a hemisphere with a great many doors all the way round its circumference. There is a large crowd, huddled in various groups. From the shouting, Rael learns that there are 32 doors, but only one that leads out. Their voices get louder and louder until Rael screams "Shut up!" There is a momentary silence and then Rael finds himself the focus as they direct their advice and commands to their new found recruit. Bred on trash, fed on ash the jigsaw master has got to move faster. Rael sees a quiet corner and rushes to it.
 
-<span class="ly">At the top of the stairs, there's hundreds of people, running around to all the doors. They try to find themselves an audience; their deductions need applause. The rich man stands in front of me, The poor man behind my back. They believe they can control the game, but the juggler holds another pack. I need someone to believe in, someone to trust. I need someone to believe in, someone to trust. I'd rather trust a countryman than a townman, You can judge by his eyes, take a look if you can, He'll smile through his guard, Survival trains hard. I'd rather trust a man who works with his hands, He looks at you once, you know he understands, Don't need any shield, When you're out in the field. But down here, I'm so alone with my fear, With everything that I hear. And every single door, that I've walked through Brings me back here again, I've got to find my own way. The priest and the magician, Singing all the chants that they have ever heard; They're all calling out my name, Even academics, searching printed word. My father to the left of me, My mother to the right, Like everyone else they're pointing But nowhere feels quite right. And I need someone to believe in, someone to trust. I need someone to believe in, someone to trust. I'd rather trust a man who doesn't shout what he's found, There's no need to sell if you're homeward bound. If I chose a side, He won't take me for a ride. Back inside This chamber of so many doors; I've nowhere to hide. I'd give you all of my dreams, if you'd help me, Find a door That doesn't lead me back again -- take me away.</span>
+{{< ly >}}At the top of the stairs, there's hundreds of people, running around to all the doors. They try to find themselves an audience; their deductions need applause. The rich man stands in front of me, The poor man behind my back. They believe they can control the game, but the juggler holds another pack. I need someone to believe in, someone to trust. I need someone to believe in, someone to trust. I'd rather trust a countryman than a townman, You can judge by his eyes, take a look if you can, He'll smile through his guard, Survival trains hard. I'd rather trust a man who works with his hands, He looks at you once, you know he understands, Don't need any shield, When you're out in the field. But down here, I'm so alone with my fear, With everything that I hear. And every single door, that I've walked through Brings me back here again, I've got to find my own way. The priest and the magician, Singing all the chants that they have ever heard; They're all calling out my name, Even academics, searching printed word. My father to the left of me, My mother to the right, Like everyone else they're pointing But nowhere feels quite right. And I need someone to believe in, someone to trust. I need someone to believe in, someone to trust. I'd rather trust a man who doesn't shout what he's found, There's no need to sell if you're homeward bound. If I chose a side, He won't take me for a ride. Back inside This chamber of so many doors; I've nowhere to hide. I'd give you all of my dreams, if you'd help me, Find a door That doesn't lead me back again -- take me away.{{< /ly >}}
 
-\[<span class="rl">"They believe they can control the game, but the juggler holds another pack." -- The Magician, Tarot Trump #1; the director of energy, highest to lowest; control. "Another (Tarot) pack?</span>\]
+\[{{< rl >}}"They believe they can control the game, but the juggler holds another pack." -- The Magician, Tarot Trump #1; the director of energy, highest to lowest; control. "Another (Tarot) pack?{{< /rl >}}\]
 
-\[<span class="rl">"My father to the left of me, My mother to the right" -- in the Hermetic tradition, you "back in" to the Tree of Life; then Chokmah (the masculine/electric force) is on your left; Binah (the feminine/magnetic force) is on your right.</span>\]
+\[{{< rl >}}"My father to the left of me, My mother to the right" -- in the Hermetic tradition, you "back in" to the Tree of Life; then Chokmah (the masculine/electric force) is on your left; Binah (the feminine/magnetic force) is on your right.{{< /rl >}}\]
 
-\[<span class="rl">By the way, this song feels entirely out of character for Rael (to me).</span>\]
+\[{{< rl >}}By the way, this song feels entirely out of character for Rael (to me).{{< /rl >}}\]
 
 ### Lilywhite Lilith
 
@@ -1182,51 +1187,51 @@ A stickleback is defined by the ironically named Collins English Dictionary (no 
 
  "Help, sweet snake, sweet lover of Lilith! (Alas this hour!) And let God learn how I loved and hated Men in the image of God created."\]
 
-\[<span class="rl">Lilith was, as mentioned, a daemon (not the connotation of "demon" or unholy spirit) of Air and Night. She was also the first wife of Adam but rejected by him as she was quite strong and independent. Adam then asked God to make him a second, more tractable wife and Lilith was relegated to a "minor demon" status; a bogeyman.</span>\]
+\[{{< rl >}}Lilith was, as mentioned, a daemon (not the connotation of "demon" or unholy spirit) of Air and Night. She was also the first wife of Adam but rejected by him as she was quite strong and independent. Adam then asked God to make him a second, more tractable wife and Lilith was relegated to a "minor demon" status; a bogeyman.{{< /rl >}}\]
 
 > He stands by a middle-aged woman, with a very pale skin who is quietly talking to herself. He discovers she is blind and asking for a guide.
 
-<span class="pg">Peter Gabriel:</span>"I'm in this chamber with 
+{{< pg >}}"I'm in this chamber with 
 32 doors, -- no, no 'Knives' -- and there's this woman, a blind woman. Lilywhite Lilith is actually 
 her proper name, and she says to me, she says 'Can you help me?'" 
       
-<span class="ly">The chamber was in confusion -- all the voices shouting loud. I could only just hear, a voice quite near say, "Please help me through the crowd" 'Said if I helped her thru' she could help me too, but I could see that she was wholly blind. But from her pale face and her pale skin, a moonlight shined.</span>
+{{< ly >}}The chamber was in confusion -- all the voices shouting loud. I could only just hear, a voice quite near say, "Please help me through the crowd" 'Said if I helped her thru' she could help me too, but I could see that she was wholly blind. But from her pale face and her pale skin, a moonlight shined.{{< /ly >}}
 
-\[<span class="rl">"But from her pale face and her pale skin, a moonlight shined." -- another connection to Lilith as a Night daemon and feminine force.</span>\]
+\[{{< rl >}}"But from her pale face and her pale skin, a moonlight shined." -- another connection to Lilith as a Night daemon and feminine force.{{< /rl >}}\]
 
 > "What's the use of a guide if you got nowhere to go" asks Rael. "I've got somewhere to go," she replies "if you take me through the noise, I'll show you. I'm a creature of the caves and I follow the way the breezes blow." He leads her across the room and they leave the crowd, who dismiss their departure as certain to fail.
 
-\[<span class="rl">"Let me feel the way the breezes blow, and I'll show you where to go." -- another reference to Lilith as a spirit of Air and Night.</span>\]
+\[{{< rl >}}"Let me feel the way the breezes blow, and I'll show you where to go." -- another reference to Lilith as a spirit of Air and Night.{{< /rl >}}\]
 
-<span class="pg"> Peter Gabriel:</span> "How could I resist a proposition like that? So we held clammy hands, and I took her through all the people in the room; and she took me through one of the doors into a passageway I hadn't seen before."
+{{< pg >}} "How could I resist a proposition like that? So we held clammy hands, and I took her through all the people in the room; and she took me through one of the doors into a passageway I hadn't seen before."
 
-<span class="ly">Lilywhite Lilith, She gonna take you thru' the tunnel of night. Lilywhite Lilith, She gonna lead you right. When I'd led her through the people, the angry noise began to grow. She said "Let me feel the way the breezes blow, and I'll show you where to go."</span>
+{{< ly >}}Lilywhite Lilith, She gonna take you thru' the tunnel of night. Lilywhite Lilith, She gonna lead you right. When I'd led her through the people, the angry noise began to grow. She said "Let me feel the way the breezes blow, and I'll show you where to go."{{< /ly >}}
 
 > When through the door, the woman leads Rael down the tunnel. The light of the chamber soon fades and despite her confident step Rael often stumbles in the darkness. After a long walk they arrive in what Rael judges to be a big round cave, and she speaks a second time asking him to sit down. It feels like a cold stone throne. "Rael, sit here. They will come for you soon. Don't be afraid." And failing to explain any more she walks off.
 
-<span class="pg"> Peter Gabriel:</span> "This went down a series of tunnels into a very large round dark cave. She left me on my own. I was sitting on this wet stone throne,"
+{{< pg >}} "This went down a series of tunnels into a very large round dark cave. She left me on my own. I was sitting on this wet stone throne,"
 
-<span class="ly">So I followed her into a big round cave, she said "They're coming for you, now don't be afraid." Then she sat me down on a cold stone throne, carved in jade. Lilywhite Lilith, She gonna take you thru' the tunnel of night. Lilywhite Lilith, She gonna lead you right.</span>
+{{< ly >}}So I followed her into a big round cave, she said "They're coming for you, now don't be afraid." Then she sat me down on a cold stone throne, carved in jade. Lilywhite Lilith, She gonna take you thru' the tunnel of night. Lilywhite Lilith, She gonna lead you right.{{< /ly >}}
 
 > He faces his fear once again.
 
-<span class="ly">She leaves me in my darkness, I have to face my fear,</span>
+{{< ly >}}She leaves me in my darkness, I have to face my fear,{{< /ly >}}
 
-\[<span class="rl">"She leaves me in my darkness" -- again, a reference to Lilith as a spirit of Night.</span>\]
+\[{{< rl >}}"She leaves me in my darkness" -- again, a reference to Lilith as a spirit of Night.{{< /rl >}}\]
 
 > A tunnel is lit up to the left of him, and he begins to shake. As it grows brighter, he hears a non-metallic whirring sound. The light is getting painfully bright, reflecting as white off the walls until his vision is lost in a sort of snow blindness.
 
-<span class="pg"> Peter Gabriel: </span>"And I heard these strange noises coming into the room on my left: a whirring sound. Two golden globes began to hover into the cave filling it with an incredibly white bright light -- 'I was amazed at the whiteness!': Mrs. Janet H. of Bournemouth --"
+{{< pg >}} "And I heard these strange noises coming into the room on my left: a whirring sound. Two golden globes began to hover into the cave filling it with an incredibly white bright light -- 'I was amazed at the whiteness!': Mrs. Janet H. of Bournemouth --"
 
-<span class="ly">And the darkness closes in on me, I can hear a whirring sound growling near. I can see the corner of the tunnel, Lit up by whatever's coming here. Two golden globes float into the room And a blaze of white light fills the air.</span>
+{{< ly >}}And the darkness closes in on me, I can hear a whirring sound growling near. I can see the corner of the tunnel, Lit up by whatever's coming here. Two golden globes float into the room And a blaze of white light fills the air.{{< /ly >}}
 
 ### Anyway
 
-<span class="ly">All the pumping's nearly over for my sweet heart, This is the one for me, Time to meet the chef, O boy! running man is out of death. Feel cold and old, it's getting hard to catch my breath. 's back to ash, now, you've had your flash boy</span>
+{{< ly >}}All the pumping's nearly over for my sweet heart, This is the one for me, Time to meet the chef, O boy! running man is out of death. Feel cold and old, it's getting hard to catch my breath. 's back to ash, now, you've had your flash boy{{< /ly >}}
 
 > He panics, feels around for a stone and hurls it at the brightest point. The sound of breaking glass echoes around the cave. As his vision is restored he catches sight of two golden gloves about one foot in diameter hovering away down the tunnel. When they disappear a resounding crack sears across the roof, and it collapses all around him. Our hero is trapped once again. "This is it" he thinks, failing to move any of the fallen rocks.
 
-<span class="ly">The rocks, in time, compress your blood to oil, your flesh to coal, enrich the soil, not everybody's goal. Anyway, they say she comes on a pale horse, But I'm sure I hear a train. O boy! I don't even feel no pain -- I guess I must be driving myself insane. Damn it all! does earth plug a hole in heaven, Or heaven plug a hole in the earth -- 'how wonderful to be so profound, when everything you are is dying underground.'</span>
+{{< ly >}}The rocks, in time, compress your blood to oil, your flesh to coal, enrich the soil, not everybody's goal. Anyway, they say she comes on a pale horse, But I'm sure I hear a train. O boy! I don't even feel no pain -- I guess I must be driving myself insane. Damn it all! does earth plug a hole in heaven, Or heaven plug a hole in the earth -- 'how wonderful to be so profound, when everything you are is dying underground.'{{< /ly >}}
 
 > There's not much spectacle for an underground creole as he
 > walks through the gates of Sheol. "I would have preferred to have been
@@ -1236,11 +1241,11 @@ her proper name, and she says to me, she says 'Can you help me?'"
 > doing his interpretation of what I should look like, stuffing his
 > cotton wool in my cheeks."
 
-\[<span class="rl">Sheol - Hebrew (old) -- "the place of the dead" or "the place of departed souls/spirits," not evil per se.</span>\]
+\[{{< rl >}}Sheol - Hebrew (old) -- "the place of the dead" or "the place of departed souls/spirits," not evil per se.{{< /rl >}}\]
 
-\[<span class="rl">"This is no way to pay my last subterranean homesick dues." -- ref Bob Dylan, "Subterranean Homesick Blues."</span>\]
+\[{{< rl >}}"This is no way to pay my last subterranean homesick dues." -- ref Bob Dylan, "Subterranean Homesick Blues."{{< /rl >}}\]
 
-<span class="ly">I feel the pull on the rope, let me off at the rainbow. I could have been exploding in space Different orbits for my bones Not me, just quietly buried in stones, Keep the deadline open with my maker! See me stretch; for God's elastic acre The doorbell rings and it's "Good morning Rael So sorry you had to wait. It won't be long, yeh! She's very rarely late."</span>
+{{< ly >}}I feel the pull on the rope, let me off at the rainbow. I could have been exploding in space Different orbits for my bones Not me, just quietly buried in stones, Keep the deadline open with my maker! See me stretch; for God's elastic acre The doorbell rings and it's "Good morning Rael So sorry you had to wait. It won't be long, yeh! She's very rarely late."{{< /ly >}}
 
 ### The Supernatural Anaesthetist
 
@@ -1251,9 +1256,9 @@ her proper name, and she says to me, she says 'Can you help me?'"
 > approaches Rael with his special cannister, releases a puff, and
 > appears to walk away content into the wall.
 
-<span class="pg"> Peter Gabriel: </span>"He's wearing one of his delightful costumes -- he's all the same wonderfully himself -- such a lovely man. This one he calls his 'snuff' outfit. With a tiny little \[puffs loudly with voice\] you snuff it. Get it? I did. He's a nice guy."
+{{< pg >}} "He's wearing one of his delightful costumes -- he's all the same wonderfully himself -- such a lovely man. This one he calls his 'snuff' outfit. With a tiny little \[puffs loudly with voice\] you snuff it. Get it? I did. He's a nice guy."
 
-<span class="ly">Here comes the supernatural anaesthetist. If he wants you to snuff it, All he has to do is puff it -- he's such a fine dancer.</span>
+{{< ly >}}Here comes the supernatural anaesthetist. If he wants you to snuff it, All he has to do is puff it -- he's such a fine dancer.{{< /ly >}}
 
 ### The Lamia
 
@@ -1349,128 +1354,128 @@ Among the Greeks and Romans a female demon who devoured children and whose name 
 
 > Rael touches his face to confirm that he is still alive. He writes Death off as an illusion, but notices a thick musky scent hanging in the air. He moves to the corner where the scent is stronger, discovering a crack in the rubble through which it is entering. He tries to shift the stones and eventually clears a hole large enough to crawl out of. The perfume is even stronger on the other side and he sets off to find its source, with a new-found energy.
 
-<span class="ly">The scent grows richer, he knows he must be near, He finds a long passageway lit by chandelier. Each step he takes, the perfumes change From familiar fragrance to flavours strange. A magnificent chamber meets his eye.</span>
+{{< ly >}}The scent grows richer, he knows he must be near, He finds a long passageway lit by chandelier. Each step he takes, the perfumes change From familiar fragrance to flavours strange. A magnificent chamber meets his eye.{{< /ly >}}
 
 > He finally reaches a very ornate pink-water pool. It is lavishly decorated with gold fittings. The walls around the pool are covered with a maroon velvet up which honeysuckle is growing.
 
-<span class="ly">Inside, a long rose-water pool is shrouded by fine mist. Stepping in the moist silence, with a warm breeze he's gently kissed.</span>
+{{< ly >}}Inside, a long rose-water pool is shrouded by fine mist. Stepping in the moist silence, with a warm breeze he's gently kissed.{{< /ly >}}
 
 > From out of the mist on the water comes a series of ripples.
 
-<span class="ly">Thinking he is quite alone, He enters the room, as if it were his own, But ripples on the sweet pink water Reveal some company unthought of --</span>
+{{< ly >}}Thinking he is quite alone, He enters the room, as if it were his own, But ripples on the sweet pink water Reveal some company unthought of --{{< /ly >}}
 
 > Three snakelike creatures are swimming towards Rael. Each reptilian creature has the diminutive head and breasts of a beautiful woman. His horror gives way to infatuation as their soft green eyes show their welcome.
 
-<span class="ly">Rael stands astonished doubting his sight, Struck by beauty, gripped in fright; Three vermilion snakes of female face, The smallest motion, filled with grace. Muted melodies fill the echoing hall, But there is no sign of warning in the siren's call: "Rael welcome, we are the Lamia of the pool. We have been waiting for our waters to bring you cool."</span>
+{{< ly >}}Rael stands astonished doubting his sight, Struck by beauty, gripped in fright; Three vermilion snakes of female face, The smallest motion, filled with grace. Muted melodies fill the echoing hall, But there is no sign of warning in the siren's call: "Rael welcome, we are the Lamia of the pool. We have been waiting for our waters to bring you cool."{{< /ly >}}
 
 \[AMERICAN HERITAGE DICTIONARY: Word** LAMIA** (LAY'mee-uh) n., (-ee'). Definition --n., pl. -as or -ae 1. Gk. Myth. A monster represented as a serpent with the head and breasts of a woman, reputed to prey upon humans and suck the blood of children. 2. A female vampire. Etymology ME Lat. Gk. Domain Mythology ACADEMIC AMERICAN ENCYCLOPEDIA: Article LAMIA Text {laym'-ee-uh} In Greek mythology, LAMIA was a beautiful woman whose children were taken away in jealousy by HERA because ZEUS had loved her. In revenge, LAMIA began to steal and kill the children of others. She became a hideous creature. Because Hera had condemned her to sleeplessness, Zeus gave LAMIA the ability to remove her own eyes at will in order to sleep. In later legend the LAMIA was a vampire that seduced young men; this version of the story inspired the poem "LAMIA" (1820) by John Keats.\]
 
 > The Lamia invite him to taste the sweet water and he is quick to enter the pool.
 
-\[<span class="rl">"But there is no sign of warning in the siren's call" -- repeats the Sirens reference in "Broadway Melody of 1974".</span>\]
+\[{{< rl >}}"But there is no sign of warning in the siren's call" -- repeats the Sirens reference in "Broadway Melody of 1974".{{< /rl >}}\]
 
-<span class="ly">Putting fear beside him, he trusts in beauty blind, He slips into the nectar, leaving his shredded clothes behind.</span>
+{{< ly >}}Putting fear beside him, he trusts in beauty blind, He slips into the nectar, leaving his shredded clothes behind.{{< /ly >}}
 
 > As soon as he swallows some liquid, a pale blue luminescence drips off from his skin. The Lamia lick the liquid; very gently as they begin, with each new touch, he feels the need to give more and more.
 
-<span class="pg"> Peter Gabriel:</span> "I need to be sensually and erotically escorted by three half-woman half-snake creatures, who are going to be slid all over me with their long velvety tongues licking the strange blue liquid which is coming out of my body."
+{{< pg >}} "I need to be sensually and erotically escorted by three half-woman half-snake creatures, who are going to be slid all over me with their long velvety tongues licking the strange blue liquid which is coming out of my body."
 
-<span class="ly">
-"With their tongues, they test, taste and judge all that is mine. They move in a series of caresses That glide up and down my spine.</span>
+{{< ly >}}
+"With their tongues, they test, taste and judge all that is mine. They move in a series of caresses That glide up and down my spine.{{< /ly >}}
 
 > They knead his flesh until his bones appear to melt, and at a point at which he feels he cannot go beyond, they nibble at his body. Taking in the first drops of his blood, their eyes blacken and their bodies are shaken. Distraught with helpless passion he watches as his lovers die. In a desperate attempt to bring what is left of them into his being, he takes and eats their bodies, and struggles to leave his lovers' nest.
 
-<span class="pg"> Peter Gabriel:</span> "This gave them indigestion. But I heard this huge roar on my left and a huge express train hurtled into the cave with a giant packet of R-E-double-N-I-E-S on it. So I entwined a huge pearl off and broke it under with a pick axe, stuffed the little bits down their throats; and they shriveled up and died. I then ate what was left of their bodies,"
+{{< pg >}} "This gave them indigestion. But I heard this huge roar on my left and a huge express train hurtled into the cave with a giant packet of R-E-double-N-I-E-S on it. So I entwined a huge pearl off and broke it under with a pick axe, stuffed the little bits down their throats; and they shriveled up and died. I then ate what was left of their bodies,"
 
-<span class="ly">As they nibble the fruit of my flesh, I feel no pain, Only a magic that a name would stain. With the first drop of my blood in their veins Their faces are convulsed in mortal pains. The fairest cries, 'We all have loved you Rael'." Each empty snakelike body floats, Silent sorrow in empty boats. A sickly sourness fills the room, The bitter harvest of a dying bloom. Looking for motion I know I will not find, I stroke the curls now turning pale, in which I'd lain entwined "O Lamia, your flesh that remains I will take as my food" It is the scent of garlic that lingers on my chocolate fingers. Looking behind me, the water turns icy blue, The lights are dimmed and once again the stage is set for you.</span>
+{{< ly >}}As they nibble the fruit of my flesh, I feel no pain, Only a magic that a name would stain. With the first drop of my blood in their veins Their faces are convulsed in mortal pains. The fairest cries, 'We all have loved you Rael'." Each empty snakelike body floats, Silent sorrow in empty boats. A sickly sourness fills the room, The bitter harvest of a dying bloom. Looking for motion I know I will not find, I stroke the curls now turning pale, in which I'd lain entwined "O Lamia, your flesh that remains I will take as my food" It is the scent of garlic that lingers on my chocolate fingers. Looking behind me, the water turns icy blue, The lights are dimmed and once again the stage is set for you.{{< /ly >}}
 
 ### The Colony of Slippermen: The Arrival
 
 > Leaving by the same door from which he had come in, he finds some sort of freaks ghetto on the other side. When they catch sight of him, the entire street of distorted figures burst into laughter. One of the colony approaches him.
 
-<span class="ly">I wandered lonely as a cloud, Till I came upon this dirty street. I've never seen a stranger crowd; Slubberdegullions on a squeaky feet,</span> 
+{{< ly >}}I wandered lonely as a cloud, Till I came upon this dirty street. I've never seen a stranger crowd; Slubberdegullions on a squeaky feet,{{< /ly >}} 
 
 \[Here we find a literary allusion to "I Wandered Lonely as a Cloud" by British Romantic poet William Wordsworth. The first stanza reads: "I wandered lonely as a cloud That floats on high o'er vales and hills, When all at once I saw a crowd, A host, of golden daffodils; Beside the lake, beneath the trees, Fluttering and dancing in the breeze."\]
 
-\[<span class="rl">As noted, the first line of this couplet is from Wordsworth; the second informs you that "high-flying" or lofty sentiments and genteel poetry are not for Rael the street punk.</span>\]
+\[{{< rl >}}As noted, the first line of this couplet is from Wordsworth; the second informs you that "high-flying" or lofty sentiments and genteel poetry are not for Rael the street punk.{{< /rl >}}\]
 
-\[<span class="rl">"Slubberdegullions on a squeaky feet" -- slubberdegullion (plural slubberdegullions). A filthy, slobbering person; a sloven, a villain, a fiend, a louse. A worthless person. A drunk or alcoholic person.</span>\]
+\[{{< rl >}}"Slubberdegullions on a squeaky feet" -- slubberdegullion (plural slubberdegullions). A filthy, slobbering person; a sloven, a villain, a fiend, a louse. A worthless person. A drunk or alcoholic person.{{< /rl >}}\]
 
-\[<span class="rl">Another scene displaying a materialist viewpoint, similar to the Carpet Crawlers "a harvest feast"</span>\]
+\[{{< rl >}}Another scene displaying a materialist viewpoint, similar to the Carpet Crawlers "a harvest feast"{{< /rl >}}\]
 
-<span class="ly">Continually pacing, With nonchalant embracing, Each orifice disgracing And one facing me moves to say "hellay".</span>
+{{< ly >}}Continually pacing, With nonchalant embracing, Each orifice disgracing And one facing me moves to say "hellay".{{< /ly >}}
 
 > He is grotesque in every feature, a mixture of ugly lumps and stumps. His lips slip across his chin as he smiles in welcome and offers his slippery handshake.
 
-<span class="ly">His skin's all covered in slimy lumps. With lips that slide across each 
+{{< ly >}}His skin's all covered in slimy lumps. With lips that slide across each 
 chin. His twisted limbs like rubber stumps Are waved in welcome say 'Please join in.' My grip 
 must be flipping, Cos his handshake keeps slipping, My hopes keep on dipping And his lips keep 
-on smiling all the time.</span> 
+on smiling all the time.{{< /ly >}} 
      
 > Rael is a little disillusioned, when the Slipperman reveals that the entire colony have one-by-one been through the same glorious romantic tragedy with the same three Lamia, who regenerate themselves every time, and that now Rael shares their physical appearance and shadowy fate.
 
-<span class="pg">Peter Gabriel:</span> "And this turned me 
+{{< pg >}} "And this turned me 
 into a horrible lumpy humpy bumpy species of a man not altogether different than the way you see 
 Michael Rutherford." 
       
-<span class="ly">Slipperman: "We like you, have tasted love. Don't be alarmed at what you see, You yourself are just the same As what you see in me." Rael: Me, like you? like that!</span>
+{{< ly >}}Slipperman: "We like you, have tasted love. Don't be alarmed at what you see, You yourself are just the same As what you see in me." Rael: Me, like you? like that!{{< /ly >}}
 
 > Amongst the contorted faces of the Slippermen, Rael recognises what is left of his brother John. They hug each other.
 
-<span class="ly">Slipperman: "You better watch it son, your sentence has only just begun You better run and join your brother John."</span>
+{{< ly >}}Slipperman: "You better watch it son, your sentence has only just begun You better run and join your brother John."{{< /ly >}}
 
 
 ### A Visit to the Doktor
 
-<span class="ly">Slipperman: "You're in the colony of slippermen There's no who? why? what? or when?</span>
+{{< ly >}}Slipperman: "You're in the colony of slippermen There's no who? why? what? or when?{{< /ly >}}
 
 > John bitterly explains that the entire life of the Slipperman is devoted to satisfying the never-ending hunger of the senses, which has been inherited from the Lamia. There is only one escape route; a dreaded visit to the notorious Doktor Dyper who will remove the source of the problems, or to put it less politely, castrate. They discuss the deceptively-named escape for a long time and decide to go together to visit the Doktor.
 
-<span class="pg"> Peter Gabriel:</span> "The only way of getting rid of all those horrible lumps of ours, fellow Slippermen -- and Michael Rutherford -- was the cutting off of the sexual organ."
+{{< pg >}} "The only way of getting rid of all those horrible lumps of ours, fellow Slippermen -- and Michael Rutherford -- was the cutting off of the sexual organ."
 
 \[At other times, Phil Collins was compared to a Slipperman.\]
 
-<span class="ly">You get out if you've got the gripe To see, Doktor Dyper, reformed sniper- he'll whip off your windscreenwiper Rael: John and I are able To face the Doktor and his marble table. The Doktor: Understand Rael, it's the end of your tail. Rael: "Don't delay, dock the dick!" I watch his countdown timer tick......</span>
+{{< ly >}}You get out if you've got the gripe To see, Doktor Dyper, reformed sniper- he'll whip off your windscreenwiper Rael: John and I are able To face the Doktor and his marble table. The Doktor: Understand Rael, it's the end of your tail. Rael: "Don't delay, dock the dick!" I watch his countdown timer tick......{{< /ly >}}
 
-\[<span class="rl">"Understand Rael, it's the end of your tail" -- puns on tail: 1. "tale." 2. "tail" (slang for a young woman who one wants to possess).3. "tail" (penis)</span>\]
+\[{{< rl >}}"Understand Rael, it's the end of your tail" -- puns on tail: 1. "tale." 2. "tail" (slang for a young woman who one wants to possess).3. "tail" (penis){{< /rl >}}\]
 
 ### The Raven
 
 > They survive the ordeal and are presented with the offensive weapons in sterile yellow plastic tubes, with gold chains. "People usually wear them around their necks," said the Doktor handing them over. "The operation does not necessarily exclude use of the facility again, for short periods, but of course when you want it you must provide us with considerable advance warning."
 
-<span class="pg"> Peter Gabriel: </span>"So you see, my sexual organ and my brother John's were placed into fully sterilized yellow plastic tubes by the notorious Doktor Dyper, reformed sniper, with a decent fee and guaranteed to remove our very own windscreen wipers."
+{{< pg >}} "So you see, my sexual organ and my brother John's were placed into fully sterilized yellow plastic tubes by the notorious Doktor Dyper, reformed sniper, with a decent fee and guaranteed to remove our very own windscreen wipers."
 
-<span class="ly">He places the number into a tube, A yellow  plastic "shoobedoobe". It says: "Though your fingers may tickle You'll be safe in our pickle."</span>
+{{< ly >}}He places the number into a tube, A yellow  plastic "shoobedoobe". It says: "Though your fingers may tickle You'll be safe in our pickle."{{< /ly >}}
 
 > As the brothers talk themselves through their new predicament, a big black raven flies into the cave, swoops down, grabs Rael's tube right out of his hands and carries it up into the air in his beak.
 
-<span class="pg"> Peter Gabriel:</span> "And I heard a flutter in the winds of the wings because a huge black bird called 'Raven' swooped down, -- swoop swoop -- grabbed the yellow plastic tube in its beak and hurtled off, flying away with the yellow plastic tube. Christ!"
+{{< pg >}} "And I heard a flutter in the winds of the wings because a huge black bird called 'Raven' swooped down, -- swoop swoop -- grabbed the yellow plastic tube in its beak and hurtled off, flying away with the yellow plastic tube. Christ!"
 
-<span class="ly">Suddenly, black cloud comes down from the sky. It's a supersize black bird that sure can fly. The raven brings on darkness and night He flies right down, gives me one hell of a fright. He takes the tube right out of my hands Man, I've got to find out where that black bird lands.</span>
+{{< ly >}}Suddenly, black cloud comes down from the sky. It's a supersize black bird that sure can fly. The raven brings on darkness and night He flies right down, gives me one hell of a fright. He takes the tube right out of my hands Man, I've got to find out where that black bird lands.{{< /ly >}}
 
 >  Rael calls for John to go with him. And he replies "I will not chase a black raven. Down here you must read and obey the omens. There's disaster where the raven flies."
 
-<span class="ly">"Look here John, I've got to run I need you now, you going to come?" He says to me. John: "Now can't you see Where the raven flies there's jeopardy. We've been cured on the couch Now you're sick with your grouch. I'll not risk my honey pouch Which my slouch will wear slung very low."</span>
+{{< ly >}}"Look here John, I've got to run I need you now, you going to come?" He says to me. John: "Now can't you see Where the raven flies there's jeopardy. We've been cured on the couch Now you're sick with your grouch. I'll not risk my honey pouch Which my slouch will wear slung very low."{{< /ly >}}
 
-\[<span class="rl">Ravens quickly appear after a battle to scavenge the dead. Ravens are very intelligent and can be taught to speak; this speaking ability leads into the legend of ravens being the ultimate oracle ("... you must obey the omens.") - ravens are harbingers of powerful secrets.</span>\]
+\[{{< rl >}}Ravens quickly appear after a battle to scavenge the dead. Ravens are very intelligent and can be taught to speak; this speaking ability leads into the legend of ravens being the ultimate oracle ("... you must obey the omens.") - ravens are harbingers of powerful secrets.{{< /rl >}}\]
 
-\[<span class="rl">" We've been cured on the couch" -- "couch cure" is a slang term for psychiatric analysis, which leads to Freud, who leads to sex...</span>\]
+\[{{< rl >}}" We've been cured on the couch" -- "couch cure" is a slang term for psychiatric analysis, which leads to Freud, who leads to sex...{{< /rl >}}\]
 
 > So once more John deserts his brother.
 
 \[The first time was in the cage.\]
 
-<span class="ly">Rael: He walks away and leaves me once again. Even though I never learn, I'd hoped he'd show just some concern.</span>
+{{< ly >}}Rael: He walks away and leaves me once again. Even though I never learn, I'd hoped he'd show just some concern.{{< /ly >}}
 
 > The bird leads Rael down a narrow tunnel, he seems to be allowing him to keep at a closed distance. But as Rael thinks he might almost catch hold of the bird, the tunnel opens and finishes at an enormous subterranean ravine. Casually, the raven drops his precious load into the rushing waters at the bottom. It's enough to drive a poor boy ravin' mad. Seeing the dangers of the steep cliff, our courageous hero stands impotent and glowers.
 
-\[<span class="rl">"Seeing the dangers of the steep cliff, our courageous hero stands impotent." -- another reference regarding Rael's missing "windscreen wiper."</span>\]
+\[{{< rl >}}"Seeing the dangers of the steep cliff, our courageous hero stands impotent." -- another reference regarding Rael's missing "windscreen wiper."{{< /rl >}}\]
 
-<span class="pg"> Peter Gabriel:</span> "So I went off in hot pursuit, -- hot pursuit hot pursuit -- and just as I was about to catch on to the tail of the bloody bird, he dropped it -- <em>It</em> with <em>it</em> in <em>it</em> -- into a huge area of gushing water with R-A-V-I-N-E  written in blue watery letters. 'It's going to the ravine' I thought."
+{{< pg >}} "So I went off in hot pursuit, -- hot pursuit hot pursuit -- and just as I was about to catch on to the tail of the bloody bird, he dropped it -- <em>It</em> with <em>it</em> in <em>it</em> -- into a huge area of gushing water with R-A-V-I-N-E  written in blue watery letters. 'It's going to the ravine' I thought."
 
 \[Once he spelled out "Rennies", the UK equivalent of Tums.\]
 
-<span class="ly">I'm in agony of Slipperpain I pray my undercarriage will sustain. The chase is on, the pace is hot But I'm running so very hard with everything I've got. He leads me down an underpass Though it narrows, he still flies very fast, When the tunnel stops I catch sight of the tube, just as it drops. I'm on top of a bank, to steep to climb, I see it hit the water, just in time, to watch it float away.</span>
+{{< ly >}}I'm in agony of Slipperpain I pray my undercarriage will sustain. The chase is on, the pace is hot But I'm running so very hard with everything I've got. He leads me down an underpass Though it narrows, he still flies very fast, When the tunnel stops I catch sight of the tube, just as it drops. I'm on top of a bank, to steep to climb, I see it hit the water, just in time, to watch it float away.{{< /ly >}}
 
 > He follows a small path running along the top, and watches the tube bobbing up and down in the water as the fast current carries it away. However, as he walks around a corner Rael sees a sky-light above him, apparently built into the bank.
 
@@ -1483,22 +1488,22 @@ out more and more. For example "yesteryear" seems somewhat out of
 place, since Rael came from modern NYC to a reconstruction of modern
 NYC.\]
 
-<span class="ly">As he walks along the gorge's edge, He meets a sense of yesteryear. A window in the bank above his head Reveals his home amidst the streets.</span>
+{{< ly >}}As he walks along the gorge's edge, He meets a sense of yesteryear. A window in the bank above his head Reveals his home amidst the streets.{{< /ly >}}
 
 > Through it he can see the green grass of home, well not exactly; he can see Broadway.
 
-<span class="ly">Subway sounds, the sounds of complaint The smell of acid on his gun of paint. As it carves out anger in a blood-red band, Destroyed tomorrow by an unknown hand; -- My home. Is this the way out from this endless scene? Or just an entrance to another dream? And the light dies down on Broadway.</span>
+{{< ly >}}Subway sounds, the sounds of complaint The smell of acid on his gun of paint. As it carves out anger in a blood-red band, Destroyed tomorrow by an unknown hand; -- My home. Is this the way out from this endless scene? Or just an entrance to another dream? And the light dies down on Broadway.{{< /ly >}}
 
 > His heart, now a little bristly, is shaken by a surge of joy and he starts to run, arms wide open, to the way out. At this precise point in time his ears pick up a voice screaming for help. Someone is struggling in the rapids below. It's John.
 
-<span class="pg"> Peter Gabriel:</span> "And that isn't all, 'cause in the ravine, I see a huge plastic bubble saying 'Your brother is drowning here.' Oh dear!"
+{{< pg >}} "And that isn't all, 'cause in the ravine, I see a huge plastic bubble saying 'Your brother is drowning here.' Oh dear!"
 
-<span class="ly">But as the skylight beckons him to leave, He hears a scream from far below. Within the raging water, writhes the form Of brother John, he cries for help.</span>
+{{< ly >}}But as the skylight beckons him to leave, He hears a scream from far below. Within the raging water, writhes the form Of brother John, he cries for help.{{< /ly >}}
 
 > He pauses for a moment remembering how his brother had abandoned him. Then the window begins to fade -- it's time for action.
 
-<span class="ly">
-The gate is fading now, but open wide, But John is drowning, I must decide Between the freedom I had in the rat-race, Or to stay forever in this forsaken place; Hey John! He makes for the river and the gate is gone, Back to the void where it came from. And the light dies down on Broadway.</span>
+{{< ly >}}
+The gate is fading now, but open wide, But John is drowning, I must decide Between the freedom I had in the rat-race, Or to stay forever in this forsaken place; Hey John! He makes for the river and the gate is gone, Back to the void where it came from. And the light dies down on Broadway.{{< /ly >}}
 
 \[Conjecture: had Rael decided to exit through the sky-light and return back to New York City, he would have simply reappeared right where and when he was when he started, and the whole thing would have begun again. By making this final correct spiritual decision to save his brother, in spite of the many times John had refused him aid, he allows himself to leave this purgatory into the true afterlife. Seeing his own face from the outside may represent his spirit being reborn into another body.\]
 
@@ -1509,50 +1514,50 @@ The gate is fading now, but open wide, But John is drowning, I must decide Betwe
 
 \[Scree is defined as "a steep mass of detritus \[ie rocky debris\] on the side of a mountain". This word does not seem to be very commonly used in American English, supported by the fact that the editor had to consult an older desk dictionary to find a definition.\]
 
-\[<span class="rl">This word does not seem to be very commonly used in American English"] -- "scree" is a common word in English, just specialized; it's used by rock/mountain climbers. I have "ridden the scree" many times while climbing.</span>\]
+\[{{< rl >}}This word does not seem to be very commonly used in American English"] -- "scree" is a common word in English, just specialized; it's used by rock/mountain climbers. I have "ridden the scree" many times while climbing.{{< /rl >}}\]
 
-<span class="ly">Struggling down the slope, There's not much hope. I begin to try to ride the scree, but the rocks are tumbling all around me. If I want John alive, I've got to ditch my fear -- take a dive, While I've still got my drive to survive. Evel Knievel, you got nothing on me.</span>
+{{< ly >}}Struggling down the slope, There's not much hope. I begin to try to ride the scree, but the rocks are tumbling all around me. If I want John alive, I've got to ditch my fear -- take a dive, While I've still got my drive to survive. Evel Knievel, you got nothing on me.{{< /ly >}}
 
 \[Knievel is a daredevil who performed dangerous stunts for money and recognition. He was popular in the 1970s, when the Lamb was written, and was more of a cultural icon then than now.\]
 
-<span class="ly">Here I go!</span>
+{{< ly >}}Here I go!{{< /ly >}}
 
 > He dives down into the cold water. At first he is thrown onto the rocks, and pulled under the water by a fast moving channel, which takes him right past John, down river.
 
 
 ### In the Rapids
 
-<span class="ly">Moving down the water John is drifting out of sight, It's only at the turning point That you find out how to fight. In the cold, feel the cold all around And the rush of crashing water Surround me with its sound.</span>
+{{< ly >}}Moving down the water John is drifting out of sight, It's only at the turning point That you find out how to fight. In the cold, feel the cold all around And the rush of crashing water Surround me with its sound.{{< /ly >}}
 
 > Rael manages to grab a rock, pull himself to the surface and catch his breath. As John is carried past, Rael throws himself in again and catches hold of his arm. He knocks John unconscious and then locking themselves together, he rides the rapids into the slow running water, where he can swim to safety.
 
-<span class="ly">Striking out to reach you, I can't get through to the other side. When you're racing in the rapids There's only one way, that's to ride. Taken down, taken down by the undertow And I'm spiralled down the river bed, My fire is burning low. Catching hold of a rock that's firm, I'm waiting for John to be carried past. We hold together and shoot the rapids fast.</span>
+{{< ly >}}Striking out to reach you, I can't get through to the other side. When you're racing in the rapids There's only one way, that's to ride. Taken down, taken down by the undertow And I'm spiralled down the river bed, My fire is burning low. Catching hold of a rock that's firm, I'm waiting for John to be carried past. We hold together and shoot the rapids fast.{{< /ly >}}
 
 > But as he hauls his brother's limp body onto the bank he lies him out and looks hopefully into his eyes for a sign of life. He staggers back in recoil, for staring at him with eyes wide open is not John's face -- but his own.
 
-<span class="ly">And when the waters slow down The dark and the deep have no-one left to keep. Hang on John! We're out of this at last. Something's changed, that's not your face. It's mine!</span>
+{{< ly >}}And when the waters slow down The dark and the deep have no-one left to keep. Hang on John! We're out of this at last. Something's changed, that's not your face. It's mine!{{< /ly >}}
 
 
 ### IT
 
 > Rael cannot look away from those eyes, mesmerized by his own image. In a quick movement, his consciousness darts from one face to the other, then back again, until his presence is no longer solidly contained in one or the other. In this fluid state he observes both bodies outlined in yellow and the surrounding scenery melting into a purple haze. With a sudden rush of energy up both spinal columns, their bodies, as well, finally dissolve into the haze. All this takes place without a single sunset, without a single bell ringing and without a single blossom falling from the sky. Yet <em>it</em> fills everything with its mysterious intoxicating presence. <em>It's</em> over to you.
 
-<span class="ly">When <em>it's</em> cold, <em>it</em> comes slow. <em>it</em> is warm, just watch <em>it</em> grow. -- all around me. <em>it</em> is here. <em>it</em> is now. Just a l<em>it</em>tle b<em>it</em> of <em>it</em> can bring you up or down. Like the supper <em>it</em> is cooking in your hometown. <em>it</em> is chicken, <em>it</em> is eggs,</span>
+{{< ly >}}When <em>it's</em> cold, <em>it</em> comes slow. <em>it</em> is warm, just watch <em>it</em> grow. -- all around me. <em>it</em> is here. <em>it</em> is now. Just a l<em>it</em>tle b<em>it</em> of <em>it</em> can bring you up or down. Like the supper <em>it</em> is cooking in your hometown. <em>it</em> is chicken, <em>it</em> is eggs,{{< /ly >}}
 
 \[The strong egg motif of the last three albums Peter Gabriel did with Genesis is even more interesting when you realize that Peter supplied the lyrics for all three egg songs: Supper's Ready ("as sure as eggs is eggs"), Aisle Of Plenty ("it's scrambled eggs"), and of course here.\]
 
-<span class="ly"><em>it</em> is in between your legs. <em>it</em> is walking on the moon, leaving your cocoon. <em>it</em> is the jigsaw. <em>it</em> is purple haze.</span>
+{{< ly >}}<em>it</em> is in between your legs. <em>it</em> is walking on the moon, leaving your cocoon. <em>it</em> is the jigsaw. <em>it</em> is purple haze.{{< /ly >}}
 
 \[Yet another song reference: Jimi Hendrix's "Purple Haze".\]
 
-<span class="ly"><em>it</em> never stays in one place, but <em>it's</em> not a passing phase, <em>it</em> is in the single's bar, in the distance of the face, <em>it</em> is in between the cages, <em>it</em> is always in a space <em>it</em> is here. <em>it</em> is now. Any rock can be made to roll, If you've enough of <em>it</em> to pay the toll. <em>it</em> has no home in words or goal, Not even in your favourite hole. <em>it</em> is the hope for the dope. When you ride the horse without a hoof. <em>it</em> is shaken, not stirred; Cocktails on the roof. When you eat right fru<em>it</em> you see everything alive, <em>it</em> is inside spir<em>it</em>, with enough gr<em>it</em> to survive If you think that <em>it's</em> pretentious, you've been taken for a ride.</span>
+{{< ly >}}<em>it</em> never stays in one place, but <em>it's</em> not a passing phase, <em>it</em> is in the single's bar, in the distance of the face, <em>it</em> is in between the cages, <em>it</em> is always in a space <em>it</em> is here. <em>it</em> is now. Any rock can be made to roll, If you've enough of <em>it</em> to pay the toll. <em>it</em> has no home in words or goal, Not even in your favourite hole. <em>it</em> is the hope for the dope. When you ride the horse without a hoof. <em>it</em> is shaken, not stirred; Cocktails on the roof. When you eat right fru<em>it</em> you see everything alive, <em>it</em> is inside spir<em>it</em>, with enough gr<em>it</em> to survive If you think that <em>it's</em> pretentious, you've been taken for a ride.{{< /ly >}}
 
 \[If this line isn't a commentary on "art rock" and the generally held belief that it was a bunch of pretentious airy-fairy music, it would be surprising.\]
 
-\[<span class="rl">"it is the hope for the dope. When you ride the horse without a hoof." -- the "horse with no hooves" is a slang reference to heroin.</span>\]
+\[{{< rl >}}"it is the hope for the dope. When you ride the horse without a hoof." -- the "horse with no hooves" is a slang reference to heroin.{{< /rl >}}\]
 
-<span class="ly">Look across the mirror, before you chose de cide <em>it is here. it is now it is Real. it is Rael</em>
-'cos <em>it's</em> only knock and knowall, but I like <em>it.</em></span>
+{{< ly >}}Look across the mirror, before you chose de cide <em>it is here. it is now it is Real. it is Rael</em>
+'cos <em>it's</em> only knock and knowall, but I like <em>it.</em>{{< /ly >}}
 
 \[This last line is still another song reference, this time to "It's Only Rock and Roll" by the Rolling Stones.\]
 
@@ -1784,10 +1789,10 @@ alone, someone brought this to my attention:**
 
 ## Esoteric
 
-* \[<span class="rl">There are 23 songs, including instrumentals, on the album. There are 22 Major Arcana in the Tarot and 22 Paths on the Tree Of Life. The 23rd is "contained in them all" or the Tarot Trump 0, The Fool.</span>\]
+* \[{{< rl >}}There are 23 songs, including instrumentals, on the album. There are 22 Major Arcana in the Tarot and 22 Paths on the Tree Of Life. The 23rd is "contained in them all" or the Tarot Trump 0, The Fool.{{< /rl >}}\]
 
-* \[<span class="rl">there are 4 sides to the album. The "holiest name of God" is YHVH - in Hebrew, Yod Heh Vau Heh (Fist, Window, Nail, Window) describing the descent into Matter of pure Spirit.</span>\]
+* \[{{< rl >}}there are 4 sides to the album. The "holiest name of God" is YHVH - in Hebrew, Yod Heh Vau Heh (Fist, Window, Nail, Window) describing the descent into Matter of pure Spirit.{{< /rl >}}\]
 
-* \[<span class="rl">"Keep your fingers out of my eye." [liner notes]  </span>\]
+* \[{{< rl >}}"Keep your fingers out of my eye." [liner notes]  {{< /rl >}}\]
 
-* \[<span class="rl">out of my "I," or "don't mess with my definition of me."</span>\]
+* \[{{< rl >}}out of my "I," or "don't mess with my definition of me."{{< /rl >}}\]
