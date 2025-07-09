@@ -20,7 +20,7 @@ ByWater's [Post Training Checklist](http://bywatersolutions.com/education/koha-p
 is a good summary of the kinds of things you might want to configure.
 Below is a more detailed list that includes real-world examples.
 Once the configuration is complete, you can test Koha using
-ByWater's [Test Plan](http://bywatersolutions.com/koha-testing-plan/complete-koha-test-plan/).
+ByWater's [Test Plan](https://libki.bywatersolutions.com/education/koha-testing-plan).
 
 ### Libraries and groups
 
@@ -223,19 +223,21 @@ after Coben).  So after the automatic modifications described above
 take place, it's necessary to check for mis-located fiction.  This can be
 done by defining a new SQL report with the following SQL:
 
-    select CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?biblionumber=',
-                  biblio.biblionumber, '\">', biblio.biblionumber, '</a>' ),
-           items.barcode,items.itemcallnumber,items.location,biblio.title,biblio.author
-	   from items left join biblio on biblio.biblionumber = items.biblionumber
-	   where location = 'FICD' and items.itemcallnumber <= 'FIC COBEN'
-	   or location = 'FICU' and items.itemcallnumber > 'FIC COBEN'
+```sql
+SELECT CONCAT('<a href=\"/cgi-bin/koha/cataloguing/additem.pl?biblionumber=',
+              biblio.biblionumber, '\">', biblio.biblionumber, '</a>' ),
+       items.barcode,items.itemcallnumber,items.location,biblio.title,biblio.author
+       FROM items LEFT JOIN biblio ON biblio.biblionumber = items.biblionumber
+       WHERE location = 'FICD' AND items.itemcallnumber <= 'FIC COBEN'
+       OR location = 'FICU' AND items.itemcallnumber > 'FIC COBEN'
+```
 
 This produces a list of mis-located fiction, with a link to the page for
 editing each item.
 
 Define a new SQL report at Reports / Guided Reports / Create from SQL.
 Run your new reports at Reports / Guided Reports / Use Saved.
-	
+        
 ### Preferences
 
 Koha has a very large range of preference settings that fine-tune its appearance and features.
@@ -303,11 +305,13 @@ in every staff web page.  JQuery can be used to modify web pages (see
 The example below modifies the message that is displayed when attempting
 to check out to a patron that has the "Gone no address" flag set:
 
-    $(document).ready(function(){
-      $("#circmessages li:contains('doubt')").html(
-        "<span class=\"circ-hlt\">Address:</span>Patron's address,
-        email, and phone must be verified first.");
-    });
+```js
+$(document).ready(function(){
+  $("#circmessages li:contains('doubt')").html(
+    "<span class=\"circ-hlt\">Address:</span>Patron's address,
+    email, and phone must be verified first.");
+});
+```
 
 **QueryFuzzy**: this preference controls whether searching should use
 "fuzzy" matches, which is useful for handling misspelled words.  But
@@ -396,35 +400,41 @@ Here are the ones I have modified:
 
 This report lists all loans by patron and gives a link to each loaned item:
 
-    SELECT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', biblio.biblionumber, '\">',
-         biblio.biblionumber, '</a>' ) AS biblionumber,
-         biblio.title, author, surname, firstname, borrowers.sort1, 
-         items.itemcallnumber, items.barcode, issues.issuedate, issues.lastreneweddate 
-      FROM issues 
-      LEFT JOIN borrowers ON borrowers.borrowernumber=issues.borrowernumber 
-      LEFT JOIN items ON issues.itemnumber=items.itemnumber 
-      LEFT JOIN biblio ON items.biblionumber=biblio.biblionumber 
-      WHERE issues.branchcode=<<Checked out at|branches>>
-      ORDER BY issues.branchcode, borrowers.sort1, borrowers.surname, issues.issuedate, biblio.title
+```sql
+SELECT CONCAT('<a href=\"/cgi-bin/koha/catalogue/detail.pl?biblionumber=', biblio.biblionumber, '\">',
+     biblio.biblionumber, '</a>' ) AS biblionumber,
+     biblio.title, author, surname, firstname, borrowers.sort1, 
+     items.itemcallnumber, items.barcode, issues.issuedate, issues.lastreneweddate 
+  FROM issues 
+  LEFT JOIN borrowers ON borrowers.borrowernumber=issues.borrowernumber 
+  LEFT JOIN items ON issues.itemnumber=items.itemnumber 
+  LEFT JOIN biblio ON items.biblionumber=biblio.biblionumber 
+  WHERE issues.branchcode=<<Checked out at|branches>>
+  ORDER BY issues.branchcode, borrowers.sort1, borrowers.surname, issues.issuedate, biblio.title
+```
 
 #### Checkout by Shelving Location
 
-    SELECT c.lib AS collection, l.lib AS shelving_location, t.description as item_type,
-           count(s.datetime) AS count 
-    FROM items i
-    LEFT JOIN itemtypes t on t.itemtype = i.itype
-    LEFT JOIN statistics s USING (itemnumber)
-    LEFT JOIN authorised_values l ON l.authorised_value = i.location AND l.category = 'LOC'
-    LEFT JOIN authorised_values c ON c.authorised_value = i.ccode AND c.category = 'CCODE' 
-    WHERE date(s.datetime) BETWEEN <<Date BETWEEN (yyyy-mm-dd)|date>> AND <<and (yyyy-mm-dd)|date>> 
-          AND s.type='issue'
-    GROUP BY i.ccode, i.location 
-    ORDER BY i.itype, i.ccode, i.location ASC
+```sql
+SELECT c.lib AS collection, l.lib AS shelving_location, t.description as item_type,
+       count(s.datetime) AS count 
+FROM items i
+LEFT JOIN itemtypes t on t.itemtype = i.itype
+LEFT JOIN statistics s USING (itemnumber)
+LEFT JOIN authorised_values l ON l.authorised_value = i.location AND l.category = 'LOC'
+LEFT JOIN authorised_values c ON c.authorised_value = i.ccode AND c.category = 'CCODE' 
+WHERE date(s.datetime) BETWEEN <<Date BETWEEN (yyyy-mm-dd)|date>> AND <<and (yyyy-mm-dd)|date>> 
+      AND s.type='issue'
+GROUP BY i.ccode, i.location 
+ORDER BY i.itype, i.ccode, i.location ASC
+```
 
 #### Checkout by Item Type
 
-    SELECT t.description as item_type, count(s.datetime) AS count
-       FROM items i LEFT JOIN statistics s USING (itemnumber)
-       LEFT JOIN itemtypes t ON t.itemtype = i.itype
-       WHERE date(s.datetime) BETWEEN <<Date BETWEEN (yyyy-mm-dd)|date>> AND <<and (yyyy-mm-dd)|date>>
-       AND s.type='issue' GROUP BY item_type  ORDER BY item_type ASC
+```sql
+SELECT t.description AS item_type, COUNT(s.datetime) AS count
+   FROM items i LEFT JOIN statistics s USING (itemnumber)
+   LEFT JOIN itemtypes t ON t.itemtype = i.itype
+   WHERE date(s.datetime) BETWEEN <<Date BETWEEN (yyyy-mm-dd)|date>> AND <<and (yyyy-mm-dd)|date>>
+   AND s.type='issue' GROUP BY item_type  ORDER BY item_type ASC
+```
