@@ -17,22 +17,39 @@ if I could replace it with an old
 [Linksys WRT54GL router running DD-WRT](https://wiki.dd-wrt.com/wiki/index.php/Linksys_WRT54GL).
 <!--more-->
 
-As a starting point, I used [this article about Wlan Repeater mode](https://wiki.dd-wrt.com/wiki/index.php/Wlan_Repeater).
+## Preliminaries
+
+The [Linking Routers](https://wiki.dd-wrt.com/wiki/index.php/Linking_Routers) article
+on the DD-WRT Wiki describes the various options.  Several of the options require
+linking two routers with ethernet cables, but that option was not available
+to me, since I had no access to the host router.  Repeater Bridge
+and Repeater connect the two routers using wi-fi, but I couldn't use
+Repeater Bridge because it puts the clients of both routers on the same network,
+the exact situation I was trying to avoid. That left Repeater mode.
+
+As a starting point, I used the [Wlan Repeater](https://wiki.dd-wrt.com/wiki/index.php/Wlan_Repeater) article.
 The instructions there are good, but there were a few details that were missing,
 or that turned out to be unnecessary or misleading.
 
-First, it should be noted that this old router uses a Broadcom wireless chip set,
-which is a good thing, because the article above said that Atheros chip sets
-don't support Repeater mode.  I had already installed DD-WRT version V3.0-r44715 std (11/03/20)
-a few years ago, and fortunately this version supported Repeater mode.
+First, it should be noted that the [Linksys WRT54GL](https://wiki.dd-wrt.com/wiki/index.php/Linksys_WRT54GL)
+router (version 1.1) that I used has a Broadcom wireless chip set,
+which is a good thing, because the Wlan Repeater article said that Atheros chip sets
+don't support Repeater mode.  I had already installed DD-WRT
+version V3.0-r44715 std (11/03/20) a few years ago, and fortunately this version supports Repeater mode.
+(To find this version of the firmware, visit the
+[Router Database](https://dd-wrt.com/support/router-database/), and enter
+`wrt54gl` in the search box.)
 
-For completeness, here is the procedure I used, copied and edited slightly from the article
-above:
+## DD-WRT Configuration
+
+For completeness, here is the procedure I used, copied from the
+Wlan Repater article and edited slightly:
 
 1. It was not necessary to do a hard reset.  The 30-30-30 procedure mentioned in a few
 places in the DD-WRT Wiki is non-sensical and can harm some routers.  Instead, it's
 only necessary to do a factory reset from the DD-WRT GUI, at
 **Administration** {{< icon "arrow-right" >}} **Factory Defaults**.
+After you do a factory reset, you will be prompted to set a user name and password.
 
 [![Factory Reset](/images/resized_to_600/factory-defaults.png "Factory reset")](/images/factory-defaults.png)
 
@@ -68,7 +85,7 @@ only necessary to do a factory reset from the DD-WRT GUI, at
 
       * The article says to use WPA2-AES, but I used WPA2-PSK
       * WPA Shared Key: enter your unique key
-      * The article says to make the two keys the same, but I found this wasn't necessary
+      * The article says to make the keys for `wl0` and `wl0.1` the same, but I found this wasn't necessary
       * Save 
 
    * When done, it should look like this:
@@ -98,4 +115,30 @@ only necessary to do a factory reset from the DD-WRT GUI, at
 
 [![Security](/images/resized_to_600/security.png "Security")](/images/security.png)
 
-6. Recheck each tab and section to ensure that your settings are correct. Then click APPLY to write changes. 
+6. Recheck each tab and section to ensure that your settings are correct. Then click
+Apply Settings to write changes. 
+If you changed the subnet address in step 4, you will probably need to disconnect
+and then reconnect your computer to the router.
+
+## Testing
+
+One feature of Repeater mode is that client computers can connect
+to DD-WRT using ethernet, not just wi-fi.  This was surprising,
+because in various places in the DD-WRI wiki it was hinted that only
+wireless clients might be supported by modes that connect two routers.
+So the following tests should be run using clients connected by both
+wi-fi and ethernet:
+
+* Ping: `ping 8.8.8.8`
+* DNS: `dig www.example.com`
+* Web: `xdg-open https://www.example.com`
+
+Finally, I ran [this speed test](https://testmy.net/), and the results
+were decent when connected via ethernet, with a slowdown of about 20% compared
+with a direct connection to the host router.  Connection with wi-fi
+was worse, about half the speed of a direct connection.  These results
+are not surprising, given the fact that the router I used
+is 20 years old.  (According to [Wikipedia](https://en.wikipedia.org/wiki/Linksys_WRT54G_series),
+this is the best-selling router of all time.)  In a way, this demonstrates
+the value of Linux in keeping old hardware alive, in contrast to
+the planned obsolescence of Microsoft and Apple.
