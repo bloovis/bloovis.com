@@ -6,6 +6,7 @@ tags:
 - linux
 - software
 - ubuntu
+- apache
 ---
 
 One of the common uses of Google's "free" services is the appointment

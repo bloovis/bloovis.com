@@ -5,6 +5,7 @@ tags:
 - linux
 - software
 - koha
+- apache
 ---
 
 Our library's [Koha](https://koha-community.org/) installation has been subject to unfriendly attacks by

@@ -7,6 +7,7 @@ tags:
 - software
 - bitwarden
 - vaultwarden
+- apache
 ---
 
 {{<callout type="warning" >}}

@@ -7,6 +7,7 @@ tags:
 - software
 - git
 - ubuntu
+- apache
 ---
 
 As part of my continuing work to free myself from Big Tech, I recently

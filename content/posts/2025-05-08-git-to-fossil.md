@@ -6,6 +6,7 @@ tags:
 - software
 - fossil
 - git
+- apache
 ---
 
 This article describes the procedure I used to convert

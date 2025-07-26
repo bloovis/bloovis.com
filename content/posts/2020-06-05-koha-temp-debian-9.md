@@ -7,6 +7,7 @@ tags:
 - software
 - debian
 - koha
+- apache
 ---
 
 I recently upgraded our library's Koha installation to 19.11 (from 19.05), and at the

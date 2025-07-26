@@ -7,6 +7,7 @@ tags:
 - software
 - debian
 - koha
+- apache
 ---
 
 [Koha](https://koha-community.org/) is an open source library system

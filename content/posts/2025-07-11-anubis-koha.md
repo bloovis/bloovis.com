@@ -6,6 +6,7 @@ tags:
 - software
 - koha
 - anubis
+- apache
 ---
 
 In an [earlier post](/posts/2024-04-05-blocking-koha-attacks/),

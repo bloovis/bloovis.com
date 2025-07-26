@@ -8,6 +8,7 @@ tags:
 - xbrowsersync
 - android
 - crystal
+- apache
 ---
 
 For about a year, I've used the Brave browser, mostly due to its built-in
