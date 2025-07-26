@@ -1,10 +1,11 @@
 ---
 title: Protecting a Web Site with Anubis and Apache
-date: '2025-07-24'
+date: '2025-07-23'
 tags:
 - linux
 - software
 - anubis
+- apache
 ---
 
 In an [earlier post](/posts/2025-07-11-anubis-koha.md/),
@@ -23,7 +24,8 @@ The simple configuration described there worked well for my static content.
 But things get complicated with the several web services I also use.
 Anubis presents a challenge that can only be solved by a client that can
 run Javascript, typically a modern browser.  But some of the web services
-I use have non non-browser clients, like Joplin and the Bitwarden desktop app.
+I use have non-browser clients, like [Joplin](https://joplinapp.org/)
+and the [Bitwarden desktop app](https://bitwarden.com/download/).
 So the Apache configuration must be designed to prevent Anubis from
 acting as the middleman for these services.
 
@@ -48,7 +50,7 @@ POLICY_FNAME=/etc/anubis/botPolicies.yaml
 TARGET=http://localhost:8083
 #TARGET=https://www.example.com:8083
 # random, openssl rand -hex 32
-ED25519_PRIVATE_KEY_HEX=3ff4c517876646db5f33620c7bd6e595cc86d82273d8dbc2b5677c023e3882cb
+ED25519_PRIVATE_KEY_HEX=727f7501fdbbae467ee95131ca911bb1eedadf009e2886f781a07237c6d4779c
 ```
 
 Then create the Anubis policies file `botPolicies.yaml`.  Here we are telling Anubis to
@@ -104,17 +106,24 @@ systemctl status anubis
 ## Simple Apache Configuration
 
 The Apache configuration to protect static content is fairly simple.
-We have a public-facing https site that forwards requests
+We have a public-facing HTTPS site that forwards requests
 to Anubis.  Anubis sends requests that pass its challenge
-to a local, non-public http site that does the actual serving
+to a local, non-public HTTP site that does the actual serving
 of files.
+
+![Anubis Diagram](/images/anubis-diagram.png)
 
 To implement this scheme, the following Apache configuration creates two sites:
 
-* the local, non-public http site (`VirtualHost localhost:8083`) that serves files in `/var/www/html`
-* the public-facing https site (`VirtualHost *:443`) that forwards requests to Anubis
+* the local, non-public HTTP site (`VirtualHost localhost:8083`) that serves files in `/var/www/html`
+* the public-facing HTTPS site (`VirtualHost *:443`) that forwards requests to Anubis
 
-```{filename="/etc/apache2/sites-enabled/000-default.conf"}
+{{< callout type="info" >}}
+In the following examples, the site configuration file uses Let's Encrypt certificates,
+hence the filename `000-default-le-ssl.conf`.  The actual filename may be different in your installation.
+{{< /callout >}}
+
+```{filename="/etc/apache2/sites-enabled/000-default-le-ssl.conf"}
 # Local HTTP file server
 <VirtualHost localhost:8083>
    ServerAdmin webmaster@localhost
@@ -163,7 +172,7 @@ Anubis:
 ### Web Services Not Protected by Anubis
 
 Configurations for web services that must not be protected by Anubis are
-placed in `/etc/apache2/sites-enabled/000-default.conf` in the `<VirtualHost *:443>`
+placed in `/etc/apache2/sites-enabled/000-default-le-ssl.conf` in the `<VirtualHost *:443>`
 section.
 
 #### Radicale, VaultWarden, XBrowserSync
@@ -191,7 +200,7 @@ before the Anubis proxy lines:
 #### WebDAV
 
 The WebDAV service is used by Joplin, so it must also avoid being protected by
-by Anubis.  But it is serviced by Apache itself, not by a separate service
+by Anubis.  But WebDAV is served by Apache itself, not by a separate service
 via a reverse proxy.  In fact, WebDAV will fail if it is protected by Anubis .
 So we need to tell Apache to *not* forward
 requests to `/webdav/*` to Anubis.  Do this by placing the following
@@ -211,6 +220,13 @@ from being included in the Anubis ProxyPass:
    ProxyPass "/webdav/" "!"
 ```
 
+Here we are using basic authentication (password protection) for WebDAV.
+The password file (AuthUserFile) was created using:
+
+```
+htpasswd -c /usr/local/apache/var/.htpasswd username
+```
+
 You can use the [litmus](http://www.webdav.org/neon/litmus/) program to test the WebDAV service.
 On Debian/Ubuntu, install it using:
 
@@ -227,7 +243,7 @@ litmus https://www.example.com/webdav/ username password
 ### Web Services Protected By Anubis
 
 The configurations for web services that must be protected by Anubis are
-placed in `/etc/apache2/sites-enabled/000-default.conf` in the `<VirtualHost localhost:8083>`
+placed in `/etc/apache2/sites-enabled/000-default-le-ssl.conf` in the `<VirtualHost localhost:8083>`
 section, after the `DocumentRoot` line.  These services include:
 
 * Password-protected directory
@@ -249,9 +265,15 @@ place the following lines after the `DocumentRoot` line:
    </Directory>
 ```
 
+As in the WebDAV example above, the password file (AuthUserFile) was created using:
+
+```
+htpasswd -c /usr/local/apache/var/.htpasswd username
+```
+
 #### InfCloud
 
-To protect the InfCloud calendar/contact server,
+To protect the InfCloud calendar/contact web app,
 place the following lines after the `DocumentRoot` line:
 
 
