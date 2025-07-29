@@ -27,6 +27,8 @@ and Repeater connect the two routers using wi-fi, but I couldn't use
 Repeater Bridge because it puts the clients of both routers on the same network,
 the exact situation I was trying to avoid. That left Repeater mode.
 
+![Repeater Mode](/images/repeater-diagram.png)
+
 As a starting point, I used the [Wlan Repeater](https://wiki.dd-wrt.com/wiki/index.php/Wlan_Repeater) article.
 The instructions there are good, but there were a few details that were missing,
 or that turned out to be unnecessary or misleading.
@@ -42,8 +44,17 @@ version V3.0-r44715 std (11/03/20) a few years ago, and fortunately this version
 
 ## DD-WRT Configuration
 
-For completeness, here is the procedure I used, copied from the
-Wlan Repater article and edited slightly:
+For completeness, below is the procedure I used, copied from the
+Wlan Repater article and edited slightly.
+
+{{< callout type="info" >}}
+This procedure was performed on a router that had only one physical
+wireless interface.  If your router has two interfaces, say one for 2.4 GHz
+and one for 5 GHz, perform this procedure on just one of the interfaces;
+choose the fastest one that is supported by the host router.  The repeater
+will not work if you configure it on two physical interfaces.  This was
+verified on an TP-Link Archer C8 router running DD-WRT V3.0-r44715.
+{{< /callout >}}
 
 1. It was not necessary to do a hard reset.  The 30-30-30 procedure mentioned in a few
 places in the DD-WRT Wiki is non-sensical and can harm some routers.  Instead, it's
@@ -60,9 +71,9 @@ After you do a factory reset, you will be prompted to set a user name and passwo
      * Wireless mode: Repeater
      * Wireless Network Mode: mixed
      * Wireless Network Name (SSID): match the host (`Redwood City Guest` in my case)
-     * Save
+     * Save (*very* important to do this before the next step!)
 
-   * Virtual interface `wl01`:
+   * Virtual interface `wl0.1`:
 
      * Add one virtual interface
      * Wireless mode: AP
@@ -142,3 +153,10 @@ is 20 years old.  (According to [Wikipedia](https://en.wikipedia.org/wiki/Linksy
 this is the best-selling router of all time.)  In a way, this demonstrates
 the value of Linux in keeping old hardware alive, in contrast to
 the planned obsolescence of Microsoft and Apple.
+
+*Update*: The above test was made at home using a setup that simulated the situation
+at my mother's apartment.  But when I brought the DD-WRT router
+to her apartment, the performance was very poor, no doubt due
+to the fact that old WRT54GL router doesn't support 5 GHz wi-fi.
+I now have a newer [TP-Link Archer C8 v1 router](https://wiki.dd-wrt.com/wiki/index.php/TP_Link_Archer_C8)
+running DD-WRT that should perform better.
