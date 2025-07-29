@@ -123,6 +123,21 @@ In the following examples, the site configuration file uses Let's Encrypt certif
 hence the filename `000-default-le-ssl.conf`.  The actual filename may be different in your installation.
 {{< /callout >}}
 
+First, the following Apache modules must be enabled using `a2enmod`:
+
+* headers
+* proxy
+* proxy_http
+* proxy_uwsgi
+
+Then add the following line to `/etc/apache2/ports.conf`:
+
+```
+Listen 8083
+```
+
+Finally, edit the site configuration file as follows:
+
 ```{filename="/etc/apache2/sites-enabled/000-default-le-ssl.conf"}
 # Local HTTP file server
 <VirtualHost localhost:8083>
