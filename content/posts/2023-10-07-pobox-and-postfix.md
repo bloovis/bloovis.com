@@ -43,83 +43,46 @@ SMTP servers.
 
 ## Receiving email
 
-I tried two methods for filtering incoming connections: SPF, and
-Postfix's own IP address filtering.  Later, I discovered that
-my fiddling with SPF was completely erroneous and unnecessary.  I left the SPF section in for posterity,
-but you can skip it.
+### DNS
 
+An DNS MX record is needed to tell the world which server I use to receive mail.
+Here's the relevant record:
 
-### SPF
+| Name | Type | Data |
+|------|------|------|
+| example.com | MX | 10 mail.example.com |
 
-The first requirement for receiving email with Postfix was to block
-connections from servers that are not associated with pobox.com.
-At first I used [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
-(Sender Policy Framework)
-in my DNS setup to do this.  I queried the SPF
-record for pobox.com to see how they did it:
+### Postfix
 
-    dig -t txt pobox.com
-
-This returned a string that looked like this:
-
-    "v=spf1 ip4:64.147.108.0/24 ip4:173.228.157.0/24 include:spf.messagingengine.com ?all"
-
-This gives two ranges of IP addresses where their SMTP servers reside.  I verified
-this by getting the addresses of their servers:
-
-    dig -t mx pobox.com
-
-Then I looked up a few of the results to see that they fell in the ranges described
-in the SPF record, e.g.:
-
-    dig pb-mx20.pobox.com
-
-Then I was able to add my MX and SPF records to my DNS setup.  Here
-is the MX record:
-
-    example.com	MX	10 mail.example.com.
-
-and here is the SPF record:
-
-    example.com	TXT	"v=spf1 mx ip4:64.147.108.0/24 ip4:173.228.157.0/24 -all"
-
-Add SPF processing to Postfix by installing the `postfix-policyd-spf-python`
-package on Ubuntu/Mint.  Then add the following lines to `/etc/postfix/master.cf`:
-
-    policy-spf  unix  -       n       n       -       -       spawn
-         user=nobody argv=/usr/bin/policyd-spf
-
-### Postfix IP address filtering
-
-Eventually I discovered that I didn't need to use an SPF record, because
-Postfix has its own filtering mechanism using `mynetworks`.  In `/etc/postfix/main.cf`, I 
+Postfix has IP address filtering mechanism using `mynetworks`.  I used this to tell Postfix
+to accept mail only from IP addresses used by pobox.com.  In `/etc/postfix/main.cf`, I 
 added the following line:
 
-    mynetworks = 127.0.0.0/8, 64.147.108.0/24, 173.228.157.0/24
-
-This tells Postfix to accept only local connections, or connections from pobox.com.
+```
+mynetworks = 127.0.0.0/8, 198.55.239.67, 64.147.108.0/24, 173.228.157.0/24, 103.168.172.192/26, 202.12.124.192/26
+```
 
 Here is the entirety of my `/etc/postfix/main.cf`:
 
-    myhostname = mail.example.com
-    mynetworks = 127.0.0.0/8, 64.147.108.0/24, 173.228.157.0/24
-    mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
-    home_mailbox = mail/inbox.2023/
-    compatibility_level = 3.6
-    policy-spf_time_limit = 3600s
-    smtpd_recipient_restrictions =
-	 permit_sasl_authenticated
-	 permit_mynetworks
-	 reject_unauth_destination
-	 check_policy_service unix:private/policy-spf
-    smtpd_use_tls = yes
-    smtpd_tls_security_level = encrypt
-    smtpd_tls_eckey_file = /etc/letsencrypt/live/mail.example.com/privkey.pem
-    smtpd_tls_eccert_file = /etc/letsencrypt/live/mail.example.com/fullchain.pem
+```
+myhostname = mail.example.com
+mynetworks = 127.0.0.0/8, 198.55.239.67, 64.147.108.0/24, 173.228.157.0/24, 103.168.172.192/26, 202.12.124.192/26
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+home_mailbox = mail/inbox.2023/
+compatibility_level = 3.6
+policy-spf_time_limit = 3600s
+smtpd_recipient_restrictions =
+     permit_sasl_authenticated
+     permit_mynetworks
+     reject_unauth_destination
+     check_policy_service unix:private/policy-spf
+smtpd_use_tls = yes
+smtpd_tls_security_level = encrypt
+smtpd_tls_eckey_file = /etc/letsencrypt/live/mail.example.com/privkey.pem
+smtpd_tls_eccert_file = /etc/letsencrypt/live/mail.example.com/fullchain.pem
+```
 
-I verified that the SPF policy checker in Postfix does work when `mynetworks`
-doesn't have the appropriate IP address range filtering.  I also verified
-that the `mynetworks` filter works, by attempting to connect to Postfix
+I verified that the `mynetworks` filter works, by attempting to connect to Postfix
 from a home machine using msmtp.
 
 In [another blog post](/posts/2023-10-03-postfix-maildrop-failure/),
@@ -136,22 +99,23 @@ the use of Postfix at all.  Instead, because I use pobox.com for
 sending email, I use msmtp from my email client.  Here is
 what `~/.msmtprc` looks like:
 
-    # Set default values for all following accounts.
-    defaults
-    tls on
-    tls_trust_file /etc/ssl/certs/ca-certificates.crt
-    logfile ~/.msmtp.log
+```
+# Set default values for all following accounts.
+defaults
+tls on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile ~/.msmtp.log
 
-    # Pobox service
-    account pobox
-    host smtp.pobox.com
-    port 587
-    from usera@pobox.com
-    auth on
-    tls_starttls on
-    user user@pobox.com
-    password mypassword
+# Pobox service
+account pobox
+host smtp.pobox.com
+port 587
+from usera@pobox.com
+auth on
+tls_starttls on
+user user@pobox.com
+password mypassword
 
-    # Set a default account
-    account default : pobox
-
+# Set a default account
+account default : pobox
+```
