@@ -57,7 +57,7 @@ menu:
 params:
   navbar:
     logo:
-      path: /images/linux.svg
+      path: images/linux.svg
       width: 64
       height: 64
     displayLogo: true
