@@ -14,11 +14,12 @@ and the VPS that hosts this web site was down for nearly 24 hours.  The Koha ins
 two of the libraries in Vermont that I support were down for less time, but still
 many hours; thankfully these libraries weren't open on Sunday.
 After this incident, I decided to look at Digital Ocean as a possible replacement
-for Linode.
+for Linode.  Since I use this VPS mostly for serving static content, I ran
+some Apache benchmark tests to compare the two services.
 
 <!--more-->
 
-## Digital Ocean Localhost Test Results
+## Digital Ocean Localhost Test
 
 I spun up a "Droplet" on Digital Ocean with the same specs and pricing as
 my Linode VPS: 2 GB RAM, 1 CPU (no special premium CPU), 50 GB disk, 
@@ -48,7 +49,7 @@ Transfer rate:          42407.99 [Kbytes/sec] received
 
 The results varied considerably; the worst of the results was 2017.81 requests per second.
 
-## Digital Ocean Remote Test Results
+## Digital Ocean Remote From Home Test
 
 I then ran a similar test from my laptop, which is located in a rural area
 with relatively poor internet service (AT&T U-verse via bonded copper phone lines,
@@ -74,7 +75,30 @@ Time per request:       139.213 [ms] (mean, across all concurrent requests)
 Transfer rate:          197.29 [Kbytes/sec] received
 ```
 
-## Linode Test Localhost Test Results
+## Digital Ocean Remote from Linode Test
+
+Because the results from home were so poor, I ran a test from
+the Linode VPS to the Digital Ocean VPS.  Both servers
+are in the same geographic region, and have superior internet
+connectivity, so the results should not be affected as much
+as they were by my very poor connectivity at home.
+
+Here are the relevant results:
+
+```
+Concurrency Level:      1
+Time taken for tests:   9.614 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      28124000 bytes
+HTML transferred:       27850000 bytes
+Requests per second:    104.01 [#/sec] (mean)
+Time per request:       9.614 [ms] (mean)
+Time per request:       9.614 [ms] (mean, across all concurrent requests)
+Transfer rate:          2856.68 [Kbytes/sec] received
+```
+
+## Linode Localhost Test
 
 I ran similar tests on my Linode VPS, and here are the relevant results
 for the localhost test:
@@ -96,9 +120,9 @@ Transfer rate:          59725.39 [Kbytes/sec] received
 As you can see, the localhost tests on Linode were about 40% faster
 then on Digital Ocean.
 
-## Linode Test Remote Test Results
+## Linode Remote From Home Test
 
-As I did with Digital Ocean, I ran a similar test from my laptop.
+As I did with Digital Ocean, I ran a similar test from my laptop at home.
 Here are the relevant results:
 
 ```
@@ -114,7 +138,29 @@ Time per request:       392.051 [ms] (mean, across all concurrent requests)
 Transfer rate:          70.05 [Kbytes/sec] received
 ```
 
-The remote test was much slower on Linode than on Digital Ocean.
+The remote from home test was much slower for Linode than for Digital Ocean.  But
+see [Conclusions](#conclusions) below for an interpretation of this result.
+
+## Linode Remote from DO Test
+
+Because the results from home were so poor, I ran a test from
+the Digital Ocean VPS to the Linode VPS.  Here are the relevant results:
+
+```
+Concurrency Level:      1
+Time taken for tests:   7.094 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      28124000 bytes
+HTML transferred:       27850000 bytes
+Requests per second:    140.97 [#/sec] (mean)
+Time per request:       7.094 [ms] (mean)
+Time per request:       7.094 [ms] (mean, across all concurrent requests)
+Transfer rate:          3871.65 [Kbytes/sec] received
+```
+
+Here we can see that when connectivity is good, Linode is significantly faster (about 35% better) serving
+a web page than Digital Ocean.
 
 ## Conclusions
 
@@ -122,24 +168,28 @@ I realize this is not an exhaustive test, but it is clear
 that for whatever reason (e.g. CPU speed or disk speed), Linode has
 a significant speed advantage (around 40%) over Digital Ocean.
 
-But testing web server speed from a remote host (my laptop) gave
+But testing web server speed from a remote host (my laptop at home) gave
 a very different story.  Here, Digital Ocean's VPS delivered a web 
 page more than twice as quickly as Linode.
 
 Both of the VPSs are located in the same geographical area (SF Bay
 Area).  But for some reason, traceroute from my home to the Linode VPS
 takes much longer than to the Digital Ocean VPS: 75 ms and 23 hops for Linode, vs.
-25 ms and 13 hops for Digital Ocean.  Pings showed nearly identical times.
-This could be a major factor
+25 ms and 13 hops for Digital Ocean.
+This is probably the major factor
 in the difference in performance between the two services.
-At some point, I'll need to test this again from a Bay Area location with better internet.
 
-Linode has "warm migration" feature that is missing on Digital Ocean.
+In an attempt to eliminate the problem with poor connectivity at home, I reran
+the tests by using each VPS to fetch a web page from the other VPS.
+This time, Linode was back on top, serving web pages about 35%
+faster than Digital Ocean.
+
+Linode has a "warm migration" feature that is missing on Digital Ocean.
 After the outage, I migrated my VPS to a data
 center closer to home, and there was almost no downtime.  On Digital Ocean,
 I would have had to shut down the VPS before doing a migration.
 However, since I expect migrations would be very rare, this may
 not be a significant issue.
 
-I'll continue to play with the DO droplet, and will do more tests
-from different locations before deciding whether to switch services.
+I'll continue to play with the DO droplet, but right now it looks
+like I'll stick with Linode.
