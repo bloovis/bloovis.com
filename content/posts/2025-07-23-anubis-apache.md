@@ -149,7 +149,6 @@ Finally, edit the site configuration file as follows:
 </VirtualHost>
 
 # HTTPS listener that forwards to Anubis
-<IfModule mod_proxy.c>
 <VirtualHost *:443>
    ServerAdmin webmaster@localhost
    ServerName www.example.com
@@ -190,9 +189,9 @@ Configurations for web services that must not be protected by Anubis are
 placed in `/etc/apache2/sites-enabled/000-default-le-ssl.conf` in the `<VirtualHost *:443>`
 section.
 
-#### Radicale, VaultWarden, XBrowserSync
+#### Radicale, VaultWarden, XBrowserSync, Fossil
 
-The Radicale, Vaultwarden, and XBrowserSync web services are used by non-browser apps, so
+The Radicale, Vaultwarden, XBrowserSync, and Fossil web services are used by non-browser apps, so
 they must not be protected by Anubis.  This is fine, because they are password-protected.
 They are configured in Apache as reverse proxies.  Place the following lines
 before the Anubis proxy lines:
@@ -207,10 +206,15 @@ before the Anubis proxy lines:
    </Location>
 
    ProxyPass /vaultwarden/ http://127.0.0.1:8000/vaultwarden/ upgrade=websocket
-
    ProxyPass /xbs/ http://127.0.0.1:8090/ upgrade=websocket
-
+   ProxyPass /fossil/ http://127.0.0.1:8080/ upgrade=websocket
 ```
+
+Protecting Fossil without Anubis takes some special care.  This is
+done via user permissions.  In each of my Fossil repositories, I set
+the permissions for the "nobody" user to "clone" and nothing else.  This prevents
+bots from running expensive crawls through the repository timeline and doc links, but it
+still allows Fossil users to clone a repository from the command line.
 
 #### WebDAV
 
@@ -263,7 +267,6 @@ section, after the `DocumentRoot` line.  These services include:
 
 * Password-protected directory
 * InfCloud
-* Fossil
 
 #### Password-protected Directory
 
@@ -291,7 +294,6 @@ htpasswd -c /usr/local/apache/var/.htpasswd username
 To protect the InfCloud calendar/contact web app,
 place the following lines after the `DocumentRoot` line:
 
-
 ```
    <Directory "/var/www/infcloud">
        AuthType Basic
@@ -299,16 +301,6 @@ place the following lines after the `DocumentRoot` line:
        AuthUserFile /usr/local/apache/var/.htpasswd
        Require valid-user
    </Directory>
-```
-
-#### Fossil
-
-To protect the Fossil server,
-place the following line after the `DocumentRoot` line:
-
-
-```
-   ProxyPass /fossil/ http://127.0.0.1:8080/ upgrade=websocket
 ```
 
 ## Restart Apache
@@ -325,4 +317,77 @@ Then restart Apache and check its status:
 ```
 systemctl restart apache2
 systemctl status apache2
+```
+
+## Complete Apache Configuration
+
+For reference, here is the complete Apache site configuration file,
+as described above:
+
+```{filename="/etc/apache2/sites-enabled/000-default-le-ssl.conf"}
+<VirtualHost localhost:8083>
+   ServerAdmin webmaster@localhost
+   ServerName www.example.com
+   DocumentRoot /var/www/html
+   ErrorLog ${APACHE_LOG_DIR}/error.log
+   CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+   Alias /private /var/www/private
+   <Directory "/var/www/private">
+       AuthType Basic
+       AuthName "Restricted Content"
+       AuthUserFile /usr/local/apache/var/.htpasswd
+       Require valid-user
+   </Directory>
+
+   Alias /infcloud /var/www/infcloud
+   <Directory "/var/www/infcloud">
+       AuthType Basic
+       AuthName "InfCloud"
+       AuthUserFile /usr/local/apache/var/.htpasswd
+       Require valid-user
+   </Directory>
+</VirtualHost>
+
+# HTTPS listener that forwards to Anubis
+<VirtualHost *:443>
+   ServerAdmin webmaster@localhost
+   ServerName www.example.com
+   DocumentRoot /var/www/html
+   ErrorLog ${APACHE_LOG_DIR}/error.log
+   CustomLog ${APACHE_LOG_DIR}/access.log combined
+   SSLCertificateFile /etc/letsencrypt/live/www.example.com/fullchain.pem
+   SSLCertificateKeyFile /etc/letsencrypt/live/www.example.com/privkey.pem
+   Include /etc/letsencrypt/options-ssl-apache.conf
+
+   RewriteEngine On
+   RewriteRule ^/radicale$ /radicale/ [R,L]
+   <Location "/radicale/">
+       ProxyPass        http://localhost:5232/ retry=0 upgrade=websocket
+       ProxyPassReverse http://localhost:5232/
+       RequestHeader    set X-Script-Name /radicale
+   </Location>
+
+   ProxyPass /vaultwarden/ http://127.0.0.1:8000/vaultwarden/ upgrade=websocket
+   ProxyPass /xbs/ http://127.0.0.1:8090/ upgrade=websocket
+   ProxyPass /fossil/ http://127.0.0.1:8080/ upgrade=websocket
+
+   Alias /webdav /var/www/webdav
+   <Directory "/var/www/webdav">
+       DAV On
+       AuthType Basic
+       AuthName "webdav"
+       AuthUserFile /usr/local/apache/var/.htpasswd
+       Require valid-user
+   </Directory>
+   ProxyPass "/webdav/" "!"
+
+   # Anubis forwarding
+   RequestHeader set "X-Real-Ip" expr=%{REMOTE_ADDR}
+   RequestHeader set X-Forwarded-Proto "https"
+   RequestHeader set "X-Http-Version" "%{SERVER_PROTOCOL}s"
+   ProxyPass / http://localhost:8082/
+   ProxyPassReverse / http://localhost:8082/
+</VirtualHost>
+
 ```
