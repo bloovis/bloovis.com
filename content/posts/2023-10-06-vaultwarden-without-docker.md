@@ -10,6 +10,14 @@ tags:
 - apache
 ---
 
+*Update*: This post describes how to install Vaultwarden on Ubuntu (or Debian)
+without using Docker.  I now longer use this procedure, which is somewhat complicated
+and error-prone.  Instead, I recommend installing the unofficial
+[vaultwarden](https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden)
+and [vaultwarden-webvault](https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault)
+packages.  (I used the xUbuntu 22.04 packages.)
+<!--more-->
+
 {{<callout type="warning" >}}
 The newer version of the Bitwarden Android app requires
 a newer Vaultwarden.  This required some changes in the following procedure,
