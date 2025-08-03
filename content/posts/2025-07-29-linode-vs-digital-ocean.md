@@ -211,5 +211,12 @@ I would have had to shut down the VPS before doing a migration.
 However, since I expect migrations would be very rare, this may
 not be a significant issue.
 
-I'll continue to play with the DO droplet, but right now it looks
-like I'll stick with Linode.
+More importantly, Linode allows sending emails from a VPS, which allows me
+to run an SMTP-using [old-fashioned email client](https://www.bloovis.com/fossil/home/marka/fossils/csup/doc/trunk/www/index.md)
+on my VPS.
+Digital Ocean [blocks all SMTP ports](https://docs.digitalocean.com/support/why-is-smtp-blocked/),
+and this block cannot be removed.  That means I cannot run my email client
+on DO; I'd have to use their fancy complicated EmailEngine
+REST API.
+
+So it looks like I need to stick with Linode.
