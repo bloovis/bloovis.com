@@ -217,6 +217,8 @@ on my VPS.
 Digital Ocean [blocks all SMTP ports](https://docs.digitalocean.com/support/why-is-smtp-blocked/),
 and this block cannot be removed.  That means I cannot run my email client
 on DO; I'd have to use their fancy complicated EmailEngine
-REST API.
+REST API, or possibly use a service like [SMTP2GO](https://www.smtp2go.com/).
+Supposedly new accounts on Linode have SMTP blocks, but mine is old enough to
+have escaped this block, at least for now.
 
-So it looks like I need to stick with Linode.
+I'll stick with Linode unless there is some compelling need to switch in the future.
