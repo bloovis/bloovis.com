@@ -267,6 +267,7 @@ section, after the `DocumentRoot` line.  These services include:
 
 * Password-protected directory
 * InfCloud
+* Static web content (`/var/www/html`)
 
 #### Password-protected Directory
 
@@ -295,12 +296,22 @@ To protect the InfCloud calendar/contact web app,
 place the following lines after the `DocumentRoot` line:
 
 ```
+   Alias /infcloud /var/www/infcloud
    <Directory "/var/www/infcloud">
        AuthType Basic
        AuthName "InfCloud"
        AuthUserFile /usr/local/apache/var/.htpasswd
        Require valid-user
    </Directory>
+```
+
+#### Static Web Content
+
+The following line in the `<VirtualHost localhost:8083>` section is all
+that is necessary to protect static web content:
+
+```
+   DocumentRoot /var/www/html
 ```
 
 ## Restart Apache
