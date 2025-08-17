@@ -216,6 +216,16 @@ the permissions for the "nobody" user to "clone" and nothing else.  This prevent
 bots from running expensive crawls through the repository timeline and doc links, but it
 still allows Fossil users to clone a repository from the command line.
 
+{{< callout type="info" >}}
+Since I wrote the above paragraph, I have put Fossil back under the protection of Anubis.  This
+prevents cloning, but it does allow non-logged-in users
+to view the
+docs and timeline, and to download zip files of the repository.
+This was accomplished by setting the permissions for the `nobody` user to
+`ghorjz`.  Since Fossil is now behind Anubis, bots should be prevented
+from doing what a `nobody` user can do.
+{{< /callout >}}
+
 #### WebDAV
 
 The WebDAV service is used by Joplin, so it must also avoid being protected by
