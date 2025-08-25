@@ -1,9 +1,8 @@
-+++
-title = "About"
-description = "About/Contact"
-type = "about"
-date = "2019-02-28"
-+++
+---
+title: About
+date: "2019-02-28"
+comments: true
+---
 I originally created this site as a place to write about:
 
 * Linux and related programming interests

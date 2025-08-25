@@ -88,3 +88,14 @@ params:
     list:
       displayTags: true
       pageSize: 10
+
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: "bloovis/bloovis.com"
+      repoId: "R_kgDOO_rTYg"
+      category: "Announcements"
+      categoryId: "DIC_kwDOO_rTYs4CulPW"
+      lang: "en"
