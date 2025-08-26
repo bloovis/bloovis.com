@@ -35,3 +35,9 @@ The source code for this site is here:
 
 If you dislike what you see here, and want to tell me about it,
 you can find my email address in the [About](/about/) page.
+
+As an experiment, I have enabled [Giscus](https://giscus.app) comments
+on some of the pages on this site, specifically the [About](/about/) page and all
+posts from 2025.  To save loading time, the discussions are normally hidden; to view them,
+click on the **> Discussions** link at the bottom of the page.  You will
+be asked to log into GitHub to post a comment.
