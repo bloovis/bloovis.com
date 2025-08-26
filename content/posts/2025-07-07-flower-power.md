@@ -5,6 +5,7 @@ tags:
 - sierra nevada
 - flowers
 date: 2025-07-07
+comments: true
 ---
 
 The wildflowers were out in force today on my usual weekly hike to

@@ -1,6 +1,7 @@
 ---
 title: Enlarging the Firefox Scrollbar
 date: 2025-06-28
+comments: true
 tags:
 - software
 - linux

@@ -1,6 +1,7 @@
 ---
 title: Moving from Git to Fossil
 date: '2025-05-08 09:45:00 +0000'
+comments: true
 tags:
 - linux
 - software

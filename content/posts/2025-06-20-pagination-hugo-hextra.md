@@ -1,6 +1,7 @@
 ---
 title: Pagination in Hugo Hextra theme
 date: '2025-06-20'
+comments: true
 tags:
 - linux
 - software

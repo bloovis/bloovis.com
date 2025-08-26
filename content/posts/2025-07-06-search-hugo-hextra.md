@@ -1,6 +1,7 @@
 ---
 title: Fixing Search Problems in Hugo Hextra theme
 date: '2025-07-06'
+comments: true
 tags:
 - linux
 - software

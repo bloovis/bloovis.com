@@ -1,6 +1,7 @@
 ---
 title: Using DD-WRT in Repeater Mode
 date: '2025-07-18'
+comments: true
 tags:
 - linux
 - network

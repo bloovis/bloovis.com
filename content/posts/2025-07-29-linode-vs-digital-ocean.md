@@ -1,6 +1,7 @@
 ---
 title: Comparing Linode and Digital Ocean
 date: '2025-07-29'
+comments: true
 tags:
 - linux
 - software

@@ -1,6 +1,7 @@
 ---
 title: Setting Default Browser on Linux
 date: '2025-02-27 15:53:00 +0000'
+comments: true
 tags:
 - software
 - linux

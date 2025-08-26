@@ -1,6 +1,7 @@
 ---
 title: Protecting a Web Site with Anubis and Apache
 date: '2025-07-23'
+comments: true
 tags:
 - linux
 - software

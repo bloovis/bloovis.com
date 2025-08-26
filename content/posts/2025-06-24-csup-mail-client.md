@@ -1,6 +1,7 @@
 ---
 title: Csup email client
 date: 2025-06-24
+comments: true
 tags:
 - software
 - notmuch

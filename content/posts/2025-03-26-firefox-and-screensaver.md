@@ -1,6 +1,7 @@
 ---
 title: Make Firefox Disable the Screensaver
 date: '2025-03-26 07:24:00 +0000'
+comments: true
 tags:
 - software
 - linux

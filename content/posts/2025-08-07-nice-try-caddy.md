@@ -1,6 +1,7 @@
 ---
 title: Nice Try, Caddy
 date: '2025-08-07'
+comments: true
 tags:
 - linux
 - software

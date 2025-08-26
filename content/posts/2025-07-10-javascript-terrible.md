@@ -1,6 +1,7 @@
 ---
 title: JavaScript is a Wonderful, Terrible Language
 date: '2025-07-10'
+comments: true
 draft: true
 tags:
 - linux

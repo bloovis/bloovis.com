@@ -1,6 +1,7 @@
 ---
 title: Images With Links in Markdown
 date: '2025-07-08'
+comments: true
 tags:
 - linux
 - software

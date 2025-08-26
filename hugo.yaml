@@ -99,3 +99,4 @@ params:
       category: "Announcements"
       categoryId: "DIC_kwDOO_rTYs4CulPW"
       lang: "en"
+      reactionsEnabled: 0

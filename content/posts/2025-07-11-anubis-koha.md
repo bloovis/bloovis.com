@@ -1,6 +1,7 @@
 ---
 title: Blocking Koha Attacks with Anubis
 date: '2025-07-11'
+comments: true
 tags:
 - linux
 - software

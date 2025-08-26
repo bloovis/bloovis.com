@@ -1,6 +1,7 @@
 ---
 title: Enlarging Firefox Bookmark Dialog Box
 date: '2025-03-04 06:25:00 +0000'
+comments: true
 tags:
 - software
 - linux
