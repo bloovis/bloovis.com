@@ -212,14 +212,20 @@ I would have had to shut down the VPS before doing a migration.
 However, since I expect migrations would be very rare, this may
 not be a significant issue.
 
-More importantly, Linode allows sending emails from a VPS, which allows me
-to run an SMTP-using [old-fashioned email client](https://www.bloovis.com/fossil/home/marka/fossils/csup/doc/trunk/www/index.md)
+More importantly, Linode allows sending emails via SMTP, which allows me
+to run my [old-fashioned email client](https://www.bloovis.com/fossil/home/marka/fossils/csup/doc/trunk/www/index.md)
 on my VPS.
 Digital Ocean [blocks all SMTP ports](https://docs.digitalocean.com/support/why-is-smtp-blocked/),
 and this block cannot be removed.  That means I cannot run my email client
-on DO; I'd have to use their fancy complicated EmailEngine
-REST API, or possibly use a service like [SMTP2GO](https://www.smtp2go.com/).
+on DO unless I use a service like [SMTP2GO](https://www.smtp2go.com/).
 Supposedly new accounts on Linode have SMTP blocks, but mine is old enough to
-have escaped this block, at least for now.
+have escaped this block, at least for now[^1].
 
 I'll stick with Linode unless there is some compelling need to switch in the future.
+
+[^1]: Since writing the above, I have experimented with using SMTP2GO to send
+messages, using SMTP port 2525, which is apparently not blocked by
+Linode or Digital Ocean.  I have also modified my email client to
+optionally use the SMTP2GO API to send messages,
+as a preemptive defense against the possibility that all SMTP ports, including 2525, might be blocked
+in the future.
