@@ -15,12 +15,7 @@ had a more pleasing and simpler appearance.  But one
 problem I noticed right away was that it didn't support
 pagination in the listing of posts: the summaries
 of all 283 posts for this blog appeared on one page.
-<!---more-->
-
-After examining the official Hugo documentation for
-[pagination](https://gohugo.io/templates/pagination/),
-I was able to apply a simple patch to the theme's layout,
-and create some custom CSS for the pagination controls.
+<!--more-->
 
 ## Configuration
 
@@ -39,7 +34,7 @@ params:
       displayTags: true
       pageSize: 10
 ```
-## Layout
+## Patch the Blog List Layout
 
 At the project top level directory, copy the theme's `layouts/blog/list.html`
 to the project's own layout:
@@ -49,7 +44,17 @@ mkdir layouts/blog
 cp themes/hextra/layouts/blog/list.html layouts/blog/list.html
 ```
 
-Then apply the following patch to `layouts/blog/list.html`:
+{{< callout type="info" >}}
+After I wrote the first version of this post, Hextra introduced
+support for blog list pagination in version v0.10.  Skip to
+the appropriate section, depending on which version of Hextra
+you are using.
+{{< /callout >}}
+
+### Pre-v0.10 Patch
+
+If you are using a version of Hextra prior to v0.10,
+apply the following patch to `layouts/blog/list.html`:
 
 ```diff
 --- themes/hextra/layouts/blog/list.html	2025-06-21 16:30:19.640005204 -0700
@@ -77,11 +82,33 @@ Then apply the following patch to `layouts/blog/list.html`:
      <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>
 ```
 
-Given the configuration above, this produces pages of 10 posts each on the post list page.
-It also produced the desired pagination controls at the bottom of the page,
-but its appearance is unsatisfactory, with each control on a separate line.
+### Post-v0.10 Patch
+
+Hextra now has support for pagination, but I still prefer to use
+Hugo's built-in paginator layout instead of Hextra's, because it allows me to use pagination
+controls that have buttons for first and last posts, as well as
+five numbered pages.  The patch for this is much simpler
+than the Pre-v0.10 patch:
+
+```diff
+--- themes/hextra/layouts/blog/list.html	2025-08-31 12:46:27.578030335 -0700
++++ layouts/blog/list.html	2025-08-31 18:34:56.785848760 -0700
+@@ -30,7 +30,7 @@
+         {{ end -}}
+         
+         {{- if gt $paginator.TotalPages 1 -}}
+-          {{ partial "components/blog-pager.html" $paginator }}
++          {{ partial "pagination.html" . }}
+         {{- end -}}
+       </main>
+     </article>
+```
 
 ## Custom CSS
+
+Given the configuration above, this produces pages of 10 posts each on the post list page.
+It also produces the desired pagination controls at the bottom of the page,
+but its appearance is unsatisfactory, with each control on a separate line.
 
 To fix the appearance of the controls, I added some custom CSS that reproduced the appearance of
 the pagination controls in the previous theme I'd been using.
