@@ -55,6 +55,7 @@ menu:
         type: search
 
 params:
+  externalLinkDecoration: true
   navbar:
     logo:
       path: images/linux.svg
