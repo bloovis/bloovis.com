@@ -552,7 +552,7 @@ their language to describe particularly tremendous explosions with.
 The German word for hell--Hölle--sounds more like *helly* than anything
 else; therefore, how necessary chipper, frivolous, and unimpressive it
 is. If a man were told in German to go there, could he really rise to
-thee dignity of feeling insulted?
+the dignity of feeling insulted?
 
 Having pointed out, in detail, the several vices of this language, I
 now come to the brief and pleasant task of pointing out its virtues.

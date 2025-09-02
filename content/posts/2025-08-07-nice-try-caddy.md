@@ -154,5 +154,5 @@ See debug.log for network/debug traces.
 ```
 
 After all this trouble, I had to abandon Caddy and revert back to Apache.
-Either I'm not smart enough to get it work, or it's not quite ready to do
+Either I'm not smart enough to get it to work, or it's not quite ready to do
 everything that Apache can.
