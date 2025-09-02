@@ -98,11 +98,24 @@ to limit the subsequent loop through the results:
 With this change, search finally started returning the expected number of posts *and*
 sections (i.e., paragraphs) within those posts.
 
-## Issue and Diff
+## Issue
 
 I reported these problems in [this issue](https://github.com/imfing/hextra/issues/714).
+Apparently, this issue is not important enough to be fixed, so I will continue to
+patch `flexsearch.js` with each new release of Hextra, as detailed in
+the next section.
 
-Here is the complete diff for my changes to `flexsearch.js`:
+## Patch
+
+To avoid modifying Hextra directly, copy `flexsearch.js` to your project's
+own assets:
+
+```bash
+mkdir -p assets/js
+cp themes/hextra/assets/js/flexsearch.js assets/js/flexsearch.js
+```
+
+Then apply the following patch to your copy of `flexsearch.js`:
 
 ```diff
 --- themes/hextra/assets/js/flexsearch.js	2025-07-05 11:28:42.527276630 -0700
