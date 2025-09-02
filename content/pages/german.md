@@ -30,7 +30,7 @@ about in it, hither and thither, in the most helpless way; and when at
 last he thinks he has captured a rule which offers firm ground to take
 a rest on amid the general rage and turmoil of the ten parts of
 speech, he turns over the page and reads, "Let the pupil make careful
-note of the following EXCEPTIONS." He runs his eye down and finds that
+note of the following *exceptions*." He runs his eye down and finds that
 there are more exceptions to the rule than instances of it. So
 overboard he goes again, to hunt for another Ararat and find another
 quicksand. Such has been, and continues to be, my experience. Every
@@ -44,34 +44,34 @@ answer to this question--according to the book--is that the bird is
 waiting in the blacksmith shop on account of the rain. Of course no
 bird would do that, but then you must stick to the book. Very well, I
 begin to cipher out the German for that answer. I begin at the wrong
-end, necessarily, for that is the German idea. I say to myself, "REGEN
+end, necessarily, for that is the German idea. I say to myself, "*Regen*
 (rain) is masculine--or maybe it is feminine--or possibly neuter--it
-is too much trouble to look now. Therefore, it is either DER (the)
-Regen, or DIE (the) Regen, or DAS (the) Regen, according to which
+is too much trouble to look now. Therefore, it is either *der* (the)
+Regen, or *die* (the) Regen, or *das* (the) Regen, according to which
 gender it may turn out to be when I look. In the interest of science,
 I will cipher it out on the hypothesis that it is masculine. Very
-well--then THE rain is DER Regen, if it is simply in the quiescent
-state of being MENTIONED, without enlargement or
+well--then *the* rain is *der* Regen, if it is simply in the quiescent
+state of being *mentioned*, without enlargement or
 discussion--Nominative case; but if this rain is lying around, in a
 kind of a general way on the ground, it is then definitely located, it
-is DOING SOMETHING--that is, RESTING (which is one of the German
+is *doing something*--that is, *resting* (which is one of the German
 grammar's ideas of doing something), and this throws the rain into the
-Dative case, and makes it DEM Regen. However, this rain is not
-resting, but is doing something ACTIVELY,--it is falling--to interfere
-with the bird, likely--and this indicates MOVEMENT, which has the
-effect of sliding it into the Accusative case and changing DEM Regen
-into DEN Regen." Having completed the grammatical horoscope of this
+Dative case, and makes it *dem* Regen. However, this rain is not
+resting, but is doing something *actively*,--it is falling--to interfere
+with the bird, likely--and this indicates *movement*, which has the
+effect of sliding it into the Accusative case and changing *dem* Regen
+into *den* Regen." Having completed the grammatical horoscope of this
 matter, I answer up confidently and state in German that the bird is
-staying in the blacksmith shop "wegen (on account of) DEN Regen." Then
+staying in the blacksmith shop "wegen (on account of) *den* Regen." Then
 the teacher lets me softly down with the remark that whenever the word
-"wegen" drops into a sentence, it ALWAYS throws that subject into the
-GENITIVE case, regardless of consequences--and therefore this bird
-stayed in the blacksmith shop "wegen DES Regens."
+"wegen" drops into a sentence, it *always* throws that subject into the
+*Genitive* case, regardless of consequences--and therefore this bird
+stayed in the blacksmith shop "wegen *des* Regens."
 
 N.B.--I was informed, later, by a higher authority, that there was an
-"exception" which permits one to say "wegen DEN Regen" in certain
+"exception" which permits one to say "wegen *den* Regen" in certain
 peculiar and complex circumstances, but that this exception is not
-extended to anything BUT rain.
+extended to anything *but* rain.
 
 There are ten parts of speech, and they are all troublesome. An
 average sentence, in a German newspaper, is a sublime and impressive
@@ -85,10 +85,10 @@ own, with here and there extra parentheses, making pens with pens:
 finally, all the parentheses and reparentheses are massed together
 between a couple of king-parentheses, one of which is placed in the
 first line of the majestic sentence and the other in the middle of the
-last line of it--AFTER WHICH COMES THE VERB, and you find out for the
+last line of it--*after which comes the* VERB, and you find out for the
 first time what the man has been talking about; and after the
 verb--merely by way of ornament, as far as I can make out--the writer
-shovels in "HABEN SIND GEWESEN GEHABT HAVEN GEWORDEN SEIN," or words
+shovels in "*haben sind gewesen gehabt haven geworden sein*," or words
 to that effect, and the monument is finished. I suppose that this
 closing hurrah is in the nature of the flourish to a man's
 signature--not necessary, but pretty. German books are easy enough to
@@ -111,11 +111,11 @@ the best way he can.
 
 "But when he, upon the street, the (in-satin-and-silk-covered-
 now-very-unconstrained-after-the-newest-fashioned-dressed) government
-counselor's wife MET," etc., etc. [^1]
+counselor's wife *met*," etc., etc. [^1]
 
 [^1]: Wenn er aber auf der Strasse der in Sammt und Seide gehüllten jetz sehr ungenirt nach der neusten mode gekleideten Regierungsrathin begegnet.
 
-That is from THE OLD MAMSELLE'S SECRET, by Mrs. Marlitt. And that
+That is from "The Old Mamselle's Secret," by Mrs. Marlitt. And that
 sentence is constructed upon the most approved German model. You
 observe how far that verb is from the reader's base of operations;
 well, in a German newspaper they put their verb away over on the next
@@ -131,7 +131,7 @@ is the mark and sign of an unpracticed writer or a cloudy intellect,
 whereas with the Germans it is doubtless the mark and sign of a
 practiced pen and of the presence of that sort of luminous
 intellectual fog which stands for clearness among these people. For
-surely it is NOT clearness--it necessarily can't be clearness. Even a
+surely it is *not* clearness--it necessarily can't be clearness. Even a
 jury would have penetration enough to discover that. A writer's ideas
 must be a good deal confused, a good deal out of line and sequence,
 when he starts out to say that a man met a counselor's wife in the
@@ -146,14 +146,13 @@ dentistry are in bad taste.
 
 The Germans have another kind of parenthesis, which they make by
 splitting a verb in two and putting half of it at the beginning of an
-exciting chapter and the OTHER HALF at the end of it. Can any one
+exciting chapter and the *other half* at the end of it. Can any one
 conceive of anything more confusing than that? These things are called
 "separable verbs." The German grammar is blistered all over with
 separable verbs; and the wider the two portions of one of them are
 spread apart, the better the author of the crime is pleased with his
-performance. A favorite one is REISTE AB--which means departed. Here
-is an example which I culled from a novel and reduced to English.
-
+performance. A favorite one is *reiste ab*--which means departed. Here
+is an example which I culled from a novel and reduced to English:
 "The trunks being now ready, he DE- after kissing his mother and
 sisters, and once more pressing to his bosom his adored Gretchen, who,
 dressed in simple white muslin, with a single tuberose in the ample
@@ -167,8 +166,8 @@ is sure to lose his temper early; and if he sticks to the subject, and
 will not be warned, it will at last either soften his brain or petrify
 it. Personal pronouns and adjectives are a fruitful nuisance in this
 language, and should have been left out. For instance, the same sound,
-SIE, means YOU, and it means SHE, and it means HER, and it means IT,
-and it means THEY, and it means THEM. Think of the ragged poverty of a
+*sie*, means *you*, and it means *she*, and it means *her*, and it means *it*,
+and it means *they*, and it means *them*. Think of the ragged poverty of a
 language which has to make one word do the work of six--and a poor
 little weak thing of only three letters at that. But mainly, think of
 the exasperation of never knowing which of these meanings the speaker
@@ -185,19 +184,17 @@ adjective, he declines it, and keeps on declining it until the common
 sense is all declined out of it. It is as bad as Latin. He says, for
 instance:
 
-## Singular
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SINGULAR \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Nominative*--Mein gut*er* Freund, my good friend. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Genitive*--Mein*es* Gut*en* Freund*es*, of my good friend. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Dative*--Mein*em* gut*en* Freund, to my good friend. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Accusative*--Mein*en* gut*en* Freund, my good friend.
 
-* Nominative--Mein gutER Freund, my good friend.
-* Genitives--MeinES GutEN FreundES, of my good friend.
-* Dative--MeinEM gutEN Freund, to my good friend.
-* Accusative--MeinEN gutEN Freund, my good friend. 
-
-## Plural
-
-* N.--MeinE gutEN FreundE, my good friends.
-* G.--MeinER gutEN FreundE, of my good friends.
-* D.--MeinEN gutEN FreundEN, to my good friends.
-* A.--MeinE gutEN FreundE, my good friends.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLURAL \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N.--Mein*e* gut*en* Freund*e*, my good friends. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.--Mein*er* gut*en* Freund*e*, of my good friends. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.--Mein*en* gut*en* Freund*en*, to my good friends. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A.--Mein*e* gut*en* Freund*e*, my good friends.
 
 Now let the candidate for the asylum try to memorize those variations,
 and see how soon he will be elected. One might better go without
@@ -214,11 +211,11 @@ that he would rather decline two drinks than one German adjective.
 
 The inventor of the language seems to have taken pleasure in
 complicating it in every way he could think of. For instance, if one
-is casually referring to a house, HAUS, or a horse, PFERD, or a dog,
-HUND, he spells these words as I have indicated; but if he is
+is casually referring to a house, *Haus*, or a horse, *Pferd*, or a dog,
+*Hund*, he spells these words as I have indicated; but if he is
 referring to them in the Dative case, he sticks on a foolish and
-unnecessary E and spells them HAUSE, PFERDE, HUNDE. So, as an added E
-often signifies the plural, as the S does with us, the new student is
+unnecessary *e* and spells them *Hause*, *Pferde*, *Hunde*. So, as an added *e*
+often signifies the plural, as the *s* does with us, the new student is
 likely to go on for a month making twins out of a Dative dog before he
 discovers his mistake; and on the other hand, many a new student who
 could ill afford loss, has bought and paid for two dogs and only got
@@ -237,7 +234,7 @@ a thing, and waste a good deal of time trying to dig a meaning out of
 it. German names almost always do mean something, and this helps to
 deceive the student. I translated a passage one day, which said that
 "the infuriated tigress broke loose and utterly ate up the unfortunate
-fir forest" (Tannenwald). When I was girding up my loins to doubt
+fir forest" (*Tannenwald*). When I was girding up my loins to doubt
 this, I found out that Tannenwald in this instance was a man's name.
 
 Every noun has a gender, and there is no sense or system in the
@@ -249,20 +246,17 @@ what callous disrespect for the girl. See how it looks in print--I
 translate this from a conversation in one of the best of the German
 Sunday-school books:
 
-"Gretchen. Wilhelm, where is the turnip?
-
-"Wilhelm. She has gone to the kitchen.
-
-"Gretchen. Where is the accomplished and beautiful English maiden?
-
-Wilhelm. It has gone to the opera." 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"*Gretchen*. Wilhelm, where is the turnip? \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"*Wilhelm*. She has gone to the kitchen. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"*Gretchen*. Where is the accomplished and beautiful English maiden? \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"*Wilhelm*. It has gone to the opera."
 
 To continue with the German genders: a tree is male, its buds are
 female, its leaves are neuter; horses are sexless, dogs are male, cats
 are female--tomcats included, of course; a person's mouth, neck,
 bosom, elbows, fingers, nails, feet, and body are of the male sex, and
 his head is male or neuter according to the word selected to signify
-it, and NOT according to the sex of the individual who wears it--for
+it, and *not* according to the sex of the individual who wears it--for
 in Germany all the women either male heads or sexless ones; a person's
 nose, lips, shoulders, breast, hands, and toes are of the female sex;
 and his hair, ears, eyes, chin, legs, knees, heart, and conscience
@@ -270,7 +264,7 @@ haven't any sex at all. The inventor of the language probably got what
 he knew about a conscience from hearsay.
 
 Now, by the above dissection, the reader will see that in Germany a
-man may THINK he is a man, but when he comes to look into the matter
+man may *think* he is a man, but when he comes to look into the matter
 closely, he is bound to have his doubts; he finds that in sober truth
 he is a most ridiculous mixture; and if he ends by trying to comfort
 himself with the thought that he can at least depend on a third of
@@ -279,29 +273,29 @@ will quickly remind him that in this respect he is no better off than
 any woman or cow in the land.
 
 In the German it is true that by some oversight of the inventor of the
-language, a Woman is a female; but a Wife (Weib) is not--which is
+language, a Woman is a female; but a Wife (*Weib*) is not--which is
 unfortunate. A Wife, here, has no sex; she is neuter; so, according to
-the grammar, a fish is HE, his scales are SHE, but a fishwife is
+the grammar, a fish is *he*, his scales are *she*, but a fishwife is
 neither. To describe a wife as sexless may be called
 under-description; that is bad enough, but over-description is surely
-worse. A German speaks of an Englishman as the ENGLÄNDER; to change
-the sex, he adds INN, and that stands for Englishwoman-- ENGLÄNDERINN.
+worse. A German speaks of an Englishman as the *Engländer*; to change
+the sex, he adds *inn*, and that stands for Englishwoman-- *Engländerinn*.
 That seems descriptive enough, but still it is not exact enough for a
 German; so he precedes the word with that article which indicates that
-the creature to follow is feminine, and writes it down thus: "die
-Engländerinn,"--which means "the she-Englishwoman." I consider that
+the creature to follow is feminine, and writes it down thus: "*d*ie
+Engländer*inn*,"--which means "the *she-Englishwoman*." I consider that
 that person is over-described.
 
 Well, after the student has learned the sex of a great number of
 nouns, he is still in a difficulty, because he finds it impossible to
-persuade his tongue to refer to things as "he" and "she," and "him"
-and "her," which it has been always accustomed to refer to it as "it."
+persuade his tongue to refer to things as "*he*" and "*she*," and "*him*"
+and "*her*," which it has been always accustomed to refer to it as "*it*."
 When he even frames a German sentence in his mind, with the hims and
 hers in the right places, and then works up his courage to the
 utterance-point, it is no use-- the moment he begins to speak his
 tongue files the track and all those labored males and females come
-out as "its." And even when he is reading German to himself, he always
-calls those things "it," where as he ought to read in this way:
+out as "*its*." And even when he is reading German to himself, he always
+calls those things "*it*," where as he ought to read in this way:
 
 ## Tale of the Fishwife and Its Sad Fate [^2]
 
@@ -322,13 +316,13 @@ himself, as his Reward. O, horror, the Lightning has struck the
 Fish-basket; he sets him on Fire; see the Flame, how she licks the
 doomed Utensil with her red and angry Tongue; now she attacks the
 helpless Fishwife's Foot--she burns him up, all but the big Toe, and
-even SHE is partly consumed; and still she spreads, still she waves
-her fiery Tongues; she attacks the Fishwife's Leg and destroys IT; she
-attacks its Hand and destroys HER also; she attacks the Fishwife's Leg
-and destroys HER also; she attacks its Body and consumes HIM; she
-wreathes herself about its Heart and IT is consumed; next about its
-Breast, and in a Moment SHE is a Cinder; now she reaches its Neck--He
-goes; now its Chin-- IT goes; now its Nose--SHE goes. In another
+even *she* is partly consumed; and still she spreads, still she waves
+her fiery Tongues; she attacks the Fishwife's Leg and destroys *it*; she
+attacks its Hand and destroys *her* also; she attacks the Fishwife's Leg
+and destroys *her* also; she attacks its Body and consumes *him*; she
+wreathes herself about its Heart and *it* is consumed; next about its
+Breast, and in a Moment *she* is a Cinder; now she reaches its Neck--He
+goes; now its Chin-- *it* goes; now its Nose--*she* goes. In another
 Moment, except Help come, the Fishwife will be no more. Time
 presses--is there none to succor and save? Yes! Joy, joy, with flying
 Feet the she-Englishwoman comes! But alas, the generous she-Female is
@@ -348,15 +342,15 @@ is a very awkward thing for the unaccustomed tongue. I suppose that in
 all languages the similarities of look and sound between words which
 have no similarity in meaning are a fruitful source of perplexity to
 the foreigner. It is so in our tongue, and it is notably the case in
-the German. Now there is that troublesome word VERMÄHLT: to me it has
+the German. Now there is that troublesome word *vermählt*: to me it has
 so close a resemblance--either real or fancied--to three or four other
 words, that I never know whether it means despised, painted,
 suspected, or married; until I look in the dictionary, and then I find
 it means the latter. There are lots of such words and they are a great
-torment. To increase the difficulty there are words which SEEM to
+torment. To increase the difficulty there are words which *seem* to
 resemble each other, and yet do not; but they make just as much
-trouble as if they did. For instance, there is the word VERMIETHEN (to
-let, to lease, to hire); and the word VERHEIRATHEN (another way of
+trouble as if they did. For instance, there is the word *vermiethen* (to
+let, to lease, to hire); and the word *verheirathen* (another way of
 saying to marry). I heard of an Englishman who knocked at a man's door
 in Heidelberg and proposed, in the best German he could command, to
 "verheirathen" that house. Then there are some words which mean one
@@ -364,53 +358,53 @@ thing when you emphasize the first syllable, but mean something very
 different if you throw the emphasis on the last syllable. For
 instance, there is a word which means a runaway, or the act of
 glancing through a book, according to the placing of the emphasis; and
-another word which signifies to ASSOCIATE with a man, or to AVOID him,
+another word which signifies to *associate* with a man, or to *avoid* him,
 according to where you put the emphasis--and you can generally depend
 on putting it in the wrong place and getting into trouble.
 
-There are some exceedingly useful words in this language. SCHLAG, for
-example; and ZUG. There are three-quarters of a column of SCHLAGS in
-the dictonary, and a column and a half of ZUGS. The word SCHLAG means
+There are some exceedingly useful words in this language. *Schlag*, for
+example; and *Zug*. There are three-quarters of a column of Schlags in
+the dictonary, and a column and a half of Zugs. The word Schlag means
 Blow, Stroke, Dash, Hit, Shock, Clap, Slap, Time, Bar, Coin, Stamp,
 Kind, Sort, Manner, Way, Apoplexy, Wood-cutting, Enclosure, Field,
-Forest-clearing. This is its simple and EXACT meaning--that is to say,
+Forest-clearing. This is its simple and *exact* meaning--that is to say,
 its restricted, its fettered meaning; but there are ways by which you
 can set it free, so that it can soar away, as on the wings of the
 morning, and never be at rest. You can hang any word you please to its
 tail, and make it mean anything you want to. You can begin with
-SCHLAG-ADER, which means artery, and you can hang on the whole
-dictionary, word by word, clear through the alphabet to SCHLAG-WASSER,
-which means bilge-water--and including SCHLAG-MUTTER, which means
+*Schlag-ader*, which means artery, and you can hang on the whole
+dictionary, word by word, clear through the alphabet to *Schlag-wasser*,
+which means bilge-water--and including *Schlag-mutter*, which means
 mother-in-law.
 
-Just the same with ZUG. Strictly speaking, ZUG means Pull, Tug,
+Just the same with *Zug*. Strictly speaking, Zug means Pull, Tug,
 Draught, Procession, March, Progress, Flight, Direction, Expedition,
 Train, Caravan, Passage, Stroke, Touch, Line, Flourish, Trait of
 Character, Feature, Lineament, Chess-move, Organ-stop, Team, Whiff,
 Bias, Drawer, Propensity, Inhalation, Disposition: but that thing
-which it does NOT mean--when all its legitimate pennants have been
+which it does *not* mean--when all its legitimate pennants have been
 hung on, has not been discovered yet.
 
-One cannot overestimate the usefulness of SCHLAG and ZUG. Armed just
-with these two, and the word ALSO, what cannot the foreigner on German
-soil accomplish? The German word ALSO is the equivalent of the English
-phrase "You know," and does not mean anything at all--in TALK, though
+One cannot overestimate the usefulness of Schlag and Zug. Armed just
+with these two, and the word *Also*, what cannot the foreigner on German
+soil accomplish? The German word *Also* is the equivalent of the English
+phrase "You know," and does not mean anything at all--in *talk*, though
 it sometimes does in print. Every time a German opens his mouth an
-ALSO falls out; and every time he shuts it he bites one in two that
-was trying to GET out.
+*Also* falls out; and every time he shuts it he bites one in two that
+was trying to *get* out.
 
 Now, the foreigner, equipped with these three noble words, is master
 of the situation. Let him talk right along, fearlessly; let him pour
 his indifferent German forth, and when he lacks for a word, let him
-heave a SCHLAG into the vacuum; all the chances are that it fits it
-like a plug, but if it doesn't let him promptly heave a ZUG after it;
+heave a *Schlag* into the vacuum; all the chances are that it fits it
+like a plug, but if it doesn't let him promptly heave a *Zug* after it;
 the two together can hardly fail to bung the hole; but if, by a
-miracle, they SHOULD fail, let him simply say ALSO! and this will give
+miracle, they *should* fail, let him simply say *Also*! and this will give
 him a moment's chance to think of the needful word. In Germany, when
 you load your conversational gun it is always best to throw in a
-SCHLAG or two and a ZUG or two, because it doesn't make any difference
+*Schlag* or two and a *Zug* or two, because it doesn't make any difference
 how much the rest of the charge may scatter, you are bound to bag
-something with THEM. Then you blandly say ALSO, and load up again.
+something with *them*. Then you blandly say *Also*, and load up again.
 Nothing gives such an air of grace and elegance and unconstraint to a
 German or an English conversation as to scatter it full of "Also's" or
 "You knows."
@@ -444,12 +438,12 @@ collectors, and thus increase the variety of my stock. Here rare some
 specimens which I lately bought at an auction sale of the effects of a
 bankrupt bric-a-brac hunter:
 
-* Generalstaatsverordnetenversammlungen.
-* Alterthumswissenschaften.
-* Kinderbewahrungsanstalten.
-* Unabhaengigkeitserklaerungen.
-* Wiedererstellungbestrebungen.
-* Waffenstillstandsunterhandlungen.
+* GENERALSTAATSVERORDNETENVERSAMMLUNGEN.
+* ALTERTHUMSWISSENSCHAFTEN.
+* KINDERBEWAHRUNGSANSTALTEN.
+* UNABHAENGIGKEITSERKLAERUNGEN.
+* WIEDERERSTELLUNGBESTREBUNGEN.
+* WAFFENSTILLSTANDSUNTERHANDLUNGEN.
 
 Of course when one of these grand mountain ranges goes stretching
 across the printed page, it adorns and ennobles that literary
@@ -481,13 +475,15 @@ going calmly about our business as if nothing had happened. In those
 days we were not content to embalm the thing and bury it decently, we
 wanted to build a monument over it.
 
+![A COMPLETE WORD](/images/a-complete-word.png "A COMPLETE WORD")
+
 But in our newspapers the compounding-disease lingers a little to the
 present day, but with the hyphens left out, in the German fashion.
 This is the shape it takes: instead of saying "Mr. Simmons, clerk of
 the county and district courts, was in town yesterday," the new form
 put it thus: "Clerk of the County and District Courts Simmons was in
 town yesterday." This saves neither time nor ink, and has an awkward
-sound besides. One often sees a remark like this in our papers: "MRS.
+sound besides. One often sees a remark like this in our papers: "*Mrs*.
 Assistant District Attorney Johnson returned to her city residence
 yesterday for the season." That is a case of really unjustifiable
 compounding; because it not only saves no time or trouble, but confers
@@ -501,7 +497,7 @@ illustration:
 inthistownstandingtavern called 'The Wagoner' was downburnt. When the
 fire to the onthedownburninghouseresting Stork's Nest reached, flew
 the parent Storks away. But when the bytheraging, firesurrounded Nest
-ITSELF caught Fire, straightway plunged the quickreturning
+*itself* caught Fire, straightway plunged the quickreturning
 Mother-Stork into the Flames and died, her Wings over her young ones
 outspread."
 
@@ -511,14 +507,16 @@ item is dated away back yonder months ago. I could have used it
 sooner, but I was waiting to hear from the Father-stork. I am still
 waiting.
 
-"ALSO!" If I had not shown that the German is a difficult language, I
+"*Also*!" If I had not shown that the German is a difficult language, I
 have at least intended to do so. I have heard of an American student
 who was asked how he was getting along with his German, and who
 answered promptly: "I am not getting along at all. I have worked at it
 hard for three level months, and all I have got to show for it is one
-solitary German phrase--'ZWEI GLAS'" (two glasses of beer). He paused
+solitary German phrase--'*Zwei glas*'" (two glasses of beer). He paused
 for a moment, reflectively; then added with feeling: "But I've got
-that SOLID!"
+that *solid*!"
+
+![A BEER KING](/images/a-beer-king.png)
 
 And if I have not also shown that German is a harassing and
 infuriating study, my execution has been at fault, and not my intent.
@@ -526,12 +524,12 @@ I heard lately of a worn and sorely tried American student who used to
 fly to a certain German word for relief when he could bear up under
 his aggravations no longer--the only word whose sound was sweet and
 precious to his ear and healing to his lacerated spirit. This was the
-word DAMIT. It was only the SOUND that helped him, not the meaning;
+word *Damit*. It was only the *sound* that helped him, not the meaning;
 [^3] and so, at last, when he learned that the emphasis was not on the
 first syllable, his only stay and support was gone, and he faded away
 and died.
 
-[^3]: It merely means, in its general sense, "herewith."
+[^3]: It merely means, in its general sense, "*herewith*."
 
 I think that a description of any loud, stirring, tumultuous episode
 must be tamer in German than in English. Our descriptive words of this
@@ -544,14 +542,14 @@ describe. But their German equivalents would be ever so nice to sing
 the children to sleep with, or else my awe-inspiring ears were made
 for display and not for superior usefulness in analyzing sounds. Would
 any man want to die in a battle which was called by so tame a term as
-a SCHLACHT? Or would not a comsumptive feel too much bundled up, who
+a *Schlacht*? Or would not a comsumptive feel too much bundled up, who
 was about to go out, in a shirt-collar and a seal-ring, into a storm
-which the bird-song word GEWITTER was employed to describe? And
+which the bird-song word *Gewitter* was employed to describe? And
 observe the strongest of the several German equivalents for
-explosion--AUSBRUCH. Our word Toothbrush is more powerful than that.
+explosion--*Ausbruch*. Our word Toothbrush is more powerful than that.
 It seems to me that the Germans could do worse than import it into
 their language to describe particularly tremendous explosions with.
-The German word for hell--Hölle--sounds more like HELLY than anything
+The German word for hell--Hölle--sounds more like *helly* than anything
 else; therefore, how necessary chipper, frivolous, and unimpressive it
 is. If a man were told in German to go there, could he really rise to
 thee dignity of feeling insulted?
@@ -581,7 +579,7 @@ deal with any and all forms of rest, respose, and peace; those also
 which deal with the creatures and marvels of fairyland; and lastly and
 chiefly, in those words which express pathos, is the language
 surpassingly rich and affective. There are German songs which can make
-a stranger to the language cry. That shows that the SOUND of the words
+a stranger to the language cry. That shows that the *sound* of the words
 is correct--it interprets the meanings with truth and with exactness;
 and so the ear is informed, and through the ear, the heart.
 
@@ -624,8 +622,8 @@ Thirdly, I would import some strong words from the English tongue--to
 swear with, and also to use in describing all sorts of vigorous things
 in a vigorous ways. [^4]
 
-[^4]: "Verdammt," and its variations and enlargements, are words which
-have plenty of meaning, but the SOUNDS are so mild and ineffectual
+[^4]: "*Verdammt*," and its variations and enlargements, are words which
+have plenty of meaning, but the *sounds* are so mild and ineffectual
 that German ladies can use them without sin. German ladies who could
 not be induced to commit a sin by any persuasion or compulsion,
 promptly rip out one of these harmless little words when they tear
@@ -635,7 +633,7 @@ Gott!" "Gott in Himmel!" "Herr Gott" "Der Herr Jesus!" etc. They think
 our ladies have the same custom, perhaps; for I once heard a gentle
 and lovely old German lady say to a sweet young American girl: "The
 two languages are so alike--how pleasant that is; we say 'Ach! Gott!'
-you say 'Goddamn.'"
+you say '*Goddamn*.'"
 
 Fourthly, I would reorganizes the sexes, and distribute them
 accordingly to the will of the creator. This as a tribute of respect,
@@ -687,9 +685,9 @@ vast garden of Germany, my English tongue has so often proved a
 useless piece of baggage to me, and so troublesome to carry around, in
 a country where they haven't the checking system for luggage, that I
 finally set to work, and learned the German language. Also! Es freut
-mich dass dies so ist, denn es muss, in ein haupts:achlich degree,
-h:oflich sein, dass man auf ein occasion like this, sein Rede in die
-Sprache des Landes worin he boards, aussprechen soll. Daf:ur habe ich,
+mich dass dies so ist, denn es muss, in ein hauptsãchlich degree,
+höflich sein, dass man auf ein occasion like this, sein Rede in die
+Sprache des Landes worin he boards, aussprechen soll. Dafür habe ich,
 aus reinische Verlegenheit--no, Vergangenheit--no, I mean
 Hoflichkeit--aus reinishe Hoflichkeit habe ich resolved to tackle this
 business in the German language, um Gottes willen! Also! Sie müssen so
@@ -699,8 +697,8 @@ a very copious language, and so when you've really got anything to
 say, you've got to draw on a language that can stand the strain.
 
 Wenn haber man kann nicht meinem Rede Verstehen, so werde ich ihm
-sp:ater dasselbe :ubersetz, wenn er solche Dienst verlangen wollen
-haben werden sollen sein h:atte. (I don't know what wollen haben
+spãter dasselbe übersetz, wenn er solche Dienst verlangen wollen
+haben werden sollen sein hãtte. (I don't know what wollen haben
 werden sollen sein hätte means, but I notice they always put it at the
 end of a German sentence--merely for general literary gorgeousness, I
 suppose.)
@@ -708,8 +706,8 @@ suppose.)
 This is a great and justly honored day--a day which is worthy of the
 veneration in which it is held by the true patriots of all climes and
 nationalities--a day which offers a fruitful theme for thought and
-speech; und meinem Freunde--no, meinEN FreundEN--meinES
-FreundES--well, take your choice, they're all the same price; I don't
+speech; und meinem Freunde--no, mein*en* Freund*en*--mein*es*
+Freund*es*--well, take your choice, they're all the same price; I don't
 know which one is right--also! ich habe gehabt haben worden gewesen
 sein, as Goethe says in his Paradise Lost--ich--ich--that is to
 say--ich--but let us change cars.
@@ -719,14 +717,14 @@ zusammengetroffen in Bruderliche concord, ist zwar a welcome and
 inspiriting spectacle. And what has moved you to it? Can the terse
 German tongue rise to the expression of this impulse? Is it
 Freundschaftsbezeigungenstadtverordneten-
-versammlungenfamilieneigenth:umlichkeiten? Nein, o nein! This is a
+versammlungenfamilieneigenthümlichkeiten? Nein, o nein! This is a
 crisp and noble word, but it fails to pierce the marrow of the impulse
 which has gathered this friendly meeting and produced diese
 Anblick--eine Anblich welche ist gut zu sehen--gut für die Augen in a
 foreign land and a far country--eine Anblick solche als in die
-gew:ohnliche Heidelberger phrase nennt man ein "schönes Aussicht!" Ja,
+gewöhnliche Heidelberger phrase nennt man ein "schönes Aussicht!" Ja,
 freilich natürlich wahrscheinlich ebensowohl! Also! Die Aussicht auf
-dem Konigsstuhl mehr gr:osser ist, aber geistlische sprechend nicht so
+dem Königsstuhl mehr grösser ist, aber geistlische sprechend nicht so
 schön, lob' Gott! Because sie sind hier zusammengetroffen, in
 Bruderlichem concord, ein grossen Tag zu feirn, whose high benefits
 were not for one land and one locality, but have conferred a measure
@@ -736,5 +734,7 @@ heut sind sie herzlichen Freunde, Gott sei Dank! May this
 good-fellowship endure; may these banners here blended in amity so
 remain; may they never any more wave over opposing hosts, or be
 stained with blood which was kindred, is kindred, and always will be
-kindred, until a line drawn upon a map shall be able to say: "THIS
+kindred, until a line drawn upon a map shall be able to say: "*This*
 bars the ancestral blood from flowing in the veins of the descendant!"
+
+![AP Photo](/images/mark-twain-photo.png)
