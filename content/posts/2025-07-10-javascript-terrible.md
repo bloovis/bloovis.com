@@ -1,8 +1,8 @@
 ---
 title: JavaScript is a Wonderful, Terrible Language
-date: '2025-07-10'
+date: '2025-09-03'
 comments: true
-draft: true
+draft: false
 tags:
 - linux
 - software
@@ -33,18 +33,19 @@ Ruby, the language I use the most now, after C.  To be sure, Ruby
 isn't perfect, and C is ancient and crufty.  But at least they have
 some consistency and predictability.  Surely the people
 who have improved JavaScript since the early days could have done
-better.  Here are some of the things about JavaScript that made me laugh or feel ill:
+better.  Here are some of the things about JavaScript that made me laugh or feel ill,
+just in the first couple of days of my studies.
 
 ## The Boolean Hack
 
-When I was trying debug the search function in Hextra, I came across
+When I was trying to debug the search function in Hextra, I came across
 this mysterious line:
 
 ```js
 const paragraphs = content.split('\n').filter(Boolean);
 ```
 
-The use of a type class name (Boolean) as an argument to `filter`
+The use of a type class name (`Boolean`) as an argument to `filter`
 seemed weird.  I looked up `filter` and found that it is supposed
 to take a callback function as a parameter.  So I assumed that
 passing `Boolean` as callback function was a bug.  But later I found
@@ -55,10 +56,10 @@ false if the string (i.e., paragraph) passed to it is empty.
 
 ## Hoisted Variables
 
-The three types of variable declarations (var, let, and const) made
+The three kinds of variable declarations (`var`, `let`, and `const`) made
 my head spin.  There is no way a newbie can tell just from the
 names of these three kinds what their scoping rules might be.
-But the worst part of all this the so-called "variable hoisting".
+But the worst part is the so-called "variable hoisting".
 This feature allows you to use a variable before it's declared.
 Here's an example from MDN:
 
@@ -104,7 +105,8 @@ JavaScript has taken the "interpolated string" feature of languages
 like Perl and Ruby, and added a glorious complication called "tagged
 templates".  This allows you to interpolate values in a string
 using your own specialized function.  This seems like a good idea,
-but the example in MDN made my head hurt so much that I'm not going
+but the [example in MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates)
+made my head hurt so much that I'm not going
 to repeat it here.  I suppose it will make sense eventually,
 but right now my response is a gag reflex.
 
@@ -155,3 +157,14 @@ can't expect that kind of pleasure with everything in the
 field of programming languages.  One could adapt the motto
 of the Mutt email client to Ruby: "All languages suck, but
 this one sucks less."
+
+## I'm Not Alone in This
+
+It's reassuring to learn that I'm not the only one who has these
+feelings about Javascript.  Way back in in 2014, James Mickens, who used to
+work at Microsoft, and is now at [Harvard](https://mickens.seas.harvard.edu/),
+gave a [hilarous talk](https://vimeo.com/111122950)
+about how terrible the web is.  He also wrote an
+[equally hilarious column](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)
+for Usenix about how terrible the web is.  Things haven't improved since then; in fact,
+the overuse of AI by lazy programmers is bound to make things worse -- *much, much* worse.
