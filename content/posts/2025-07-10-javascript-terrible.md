@@ -54,6 +54,15 @@ as a function that tries to return a "truthy" value for whatever object
 is passed to it.  So in the above example, `Boolean` will return
 false if the string (i.e., paragraph) passed to it is empty.
 
+In Ruby, you'd write it this way:
+
+```ruby
+paragraphs = content.split("\n").reject{|p| p.length == 0}
+```
+
+It's more verbose, but the intent is clear; we're not depending
+on implicit type coercions to determine truthiness.
+
 ## Hoisted Variables
 
 The three kinds of variable declarations (`var`, `let`, and `const`) made
