@@ -1,5 +1,5 @@
 ---
-title: Time.now missing in Ruby C API
+title: Standard methods missing in Ruby C API
 date: '2025-09-07'
 tags:
 - linux
@@ -14,10 +14,14 @@ the [Ruby C API](https://silverhammermba.github.io/emberb/c/),
 which allows Ruby code to manipulate the edit buffer.
 But when I tried to build the editor on Linux Mint 22 (Ubuntu 24.04),
 I discovered that the `Time.now` class method is no longer available in editor extensions.
+A similar issue occurred on Fedora 42: the `Symbol#to_s` instance method
+doesn't produce the expected result.
 
 <!--more-->
 
-This problem affected an extension I'd written that used `Time.new` in
+## Time.now
+
+The `Time.now` problem affected an extension I'd written that used `Time.new` in
 several places, and now I was getting an error that `Time` didn't
 have a `now` method.  This seemed weird, because outside of the editor,
 `Time.now` still worked.  After a long slog through Ruby documentation,
@@ -67,3 +71,48 @@ end
 
 This works on Linux Mint 21 (which *does* provide `Time.now` via the API) and
 Linux Mint 22 (which *does not* provide `Time.now` via the API).
+
+## Symbol#to_s
+
+I installed Fedora 42 on a spare laptop, and discovered that similar
+problem occurred: calling `to_s` on a symbol didn't produce the
+expected string, but seemed to do nothing, i.e. returned the symbol unchanged.
+This caused the editor's helper function `pe.rb` to fail when attempting to
+call a MicroEMACS command.  Also, the method `Symbol#name`,
+which works outside the editor, was undefined, so I couldn't use that.
+
+The solution was very similar to the `Time.now` solution: implement
+a helper function in C to fetch the string representation of a symbol,
+and define a `Symbol#to_s` method to use that helper function.
+
+First, in the editor's C code, define a Ruby-callable function that uses
+`rb_sym_to_s` to get the string name of a symbol:
+
+```c
+static VALUE
+my_sym2str (VALUE self, VALUE sym)
+{
+  VALUE ret;
+
+  ret = rb_sym_to_s (sym);
+  return ret;
+}
+```
+
+Then tell Ruby about this function and give it the name `sym2str`:
+
+```c
+  rb_define_global_function("sym2str", my_sym2str, 1);
+```
+
+Finally, in the Ruby helper script that the editor loads at startup,
+add some code that dynamically creates the `Symbol#to_s` instance method if
+`Symbol#name` is not available:
+
+```ruby
+class Symbol
+  unless :name.respond_to?(:name)
+    define_method(:to_s) { sym2str(self) }
+  end
+end
+```
