@@ -18,7 +18,8 @@ I ran into a similar problem when I was using Ungoogled Chromium.  There's a
 [wiki section](https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq#can-i-install-extensions-or-themes-from-the-chrome-webstore)
 for that browser that describes the solution.  Essentially, you extract the extension
 ID from the URL for the extension, insert it into another long URL, and use wget
-to fetch that URL.  I have written a simple shell script to do this:
+to fetch that URL, which gives you the extension packaged as a CRX file.
+I have written a simple shell script to do this:
 
 ```bash {filename="get-crx"}
 #!/bin/sh
