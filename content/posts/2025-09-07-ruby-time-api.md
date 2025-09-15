@@ -74,10 +74,10 @@ Linux Mint 22 (which *does not* provide `Time.now` via the API).
 
 ## Symbol#to_s
 
-I installed Fedora 42 on a spare laptop, and discovered that similar
-problem occurred: calling `to_s` on a symbol didn't produce the
-expected string, but seemed to do nothing, i.e. returned the symbol unchanged.
-This caused the editor's helper function `pe.rb` to fail when attempting to
+I installed Fedora 42 on a spare laptop, and discovered a similar
+problem: calling `to_s` on a symbol didn't produce the
+expected string, but instead seemed to do nothing, i.e. returned the symbol unchanged.
+This caused the editor's helper file `pe.rb` to fail when attempting to
 call a MicroEMACS command.  Also, the method `Symbol#name`,
 which works outside the editor, was undefined, so I couldn't use that.
 
