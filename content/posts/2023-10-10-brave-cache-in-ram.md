@@ -5,6 +5,7 @@ date: '2023-10-10 07:40:00 +0000'
 tags:
 - linux
 - software
+- brave
 ---
 
 The Brave browser is constantly writing large amounts of data to its cache,

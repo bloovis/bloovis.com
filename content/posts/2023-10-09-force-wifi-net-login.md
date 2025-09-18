@@ -5,6 +5,7 @@ date: '2023-10-09 10:11:00 +0000'
 tags:
 - linux
 - software
+- brave
 ---
 
 Some public wi-fi networks require you to log in to their network using a browser.
