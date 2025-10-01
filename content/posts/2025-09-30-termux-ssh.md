@@ -45,7 +45,7 @@ As root on the laptop, edit the file `/etc/ssh/sshd_config` and
 add a line like this:
 
 ```
-PasswordAuthentication true
+PasswordAuthentication yes
 ```
 
 Then restart the ssh server:
