@@ -148,6 +148,31 @@ ssh-copy-id -p 8022 u0_a149@192.168.0.119
 You'll be prompted for the Termux password, but after that you shouldn't
 be prompted again.
 
+## Static IP address
+
+Using ssh on your Android device will be made much easier if you can tell your router
+to assign a static IP address to the device.  How that's done depends on the router.
+But typically, the router has a page called "Assigned Addresses" or "DHCP" where
+you can find your device by its current IP address, and then assign it a fixed
+address.
+
+One potential problem with this is that some versions of Android, such as GrapheneOS,
+assign a randomly chosen MAC address (hardware address) to your device each and every
+time it is connected via wi-fi.
+(Thankfully, this won't happen if you use an ethernet dongle instead of wi-fi.)
+This will prevent your router from assigning
+a static IP address to your device, because it uses the MAC address as the index
+to its IP address tables.
+
+On GrapheneOS, you can force it to use the actual (physical) MAC address,
+but only for specific networks.  (This makes sense for security reasons.)
+First, disconnect your device from the wi-fi network.
+Then visit Settings / Network & internet / Internet / Saved networks.  Select your wi-fi network
+from the list that appears.  Tap on Privacy, then select "Use device MAC".
+Now whenever you connect to that network, the MAC address shouldn't change.
+At this point you can tell your router to assign a static IP address
+to the device.
+
 ## Conclusion
 
 This is just a small sampling of the kinds of things you can do in Termux.
