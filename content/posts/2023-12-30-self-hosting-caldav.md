@@ -78,7 +78,6 @@ text-mode browser):
 w3m http://localhost:5232
 ```
 
-
 ## InfCloud
 
 For a web client, I chose [InfCloud](https://inf-it.com/open-source/clients/infcloud/).
@@ -117,6 +116,21 @@ and add the following lines to the `VirtualHost` section:
 
 In this example, I used the same basic authentication file (`.htpasswd`)
 as in Radicale, described above.
+
+{{< callout type="info" >}}
+As of 2025-10-02, I no longer use InfCloud, due to these bugs,
+which I'm too lazy to fix because I hate JavaScript:
+
+* Duplicating an event causes error 409 (conflict).
+* A repeating event has the wrong day (off by one).
+
+I then tried these desktop CalDAV clients:
+
+* gnome-calendar: recognizes the CalDAV calendar but doesn't load it.
+* korganizer: works well, but missing the "Events in the Next N Days" feature of thunderbird.
+* thunderbird: works well. I am now using this full-time in non-email mode.
+
+{{< /callout >}}
 
 ## Try it out
 
