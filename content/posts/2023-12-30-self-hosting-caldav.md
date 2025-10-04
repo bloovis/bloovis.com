@@ -117,12 +117,29 @@ and add the following lines to the `VirtualHost` section:
 In this example, I used the same basic authentication file (`.htpasswd`)
 as in Radicale, described above.
 
+{{< callout type="warning" >}}
+*Note 2024-05-26*: I just discovered that creating a repeating
+event like "every third Thursday" doesn't work correctly in
+InfCloud.  The repeat will happen on the day before the intended
+one (i.e, Wednesday in this example), and if you attempt to delete
+the event, Infcloud produces an "Error 400" and refuses to delete
+the event.  The only solution is to visit the directory
+where the events are stored, which will be something like:
+
+    /var/lib/radicale/collections/collection-root/user/big-huge-number
+
+There you will find a bunch of .ics files.  You'll have to manually
+delete the "bad" one, then restart Apache:
+
+    systemctl restart apache2
+{{< /callout >}}
+
 {{< callout type="info" >}}
-As of 2025-10-02, I no longer use InfCloud, due to these bugs,
+*Note 2025-10-02*: I no longer use InfCloud, due to these bugs,
 which I'm too lazy to fix because I hate JavaScript:
 
 * Duplicating an event causes error 409 (conflict).
-* A repeating event has the wrong day (off by one).
+* The repeating event problem mentioned above.
 
 I then tried these desktop CalDAV clients:
 
@@ -156,20 +173,3 @@ Now you should be able to log into InfCloud at this URL:
 
 You will have to log in twice: once for Apache basic authentication,
 and once for the InfCloud login screen.
-
-{{< callout type="warning" >}}
-*Note 2024-05-26*: I just discovered that creating a repeating
-event like "every third Thursday" doesn't work correctly in
-InfCloud.  The repeat will happen on the day before the intended
-one (i.e, Wednesday in this example), and if you attempt to delete
-the event, Infcloud produces an "Error 400" and refuses to delete
-the event.  The only solution is to visit the directory
-where the events are stored, which will be something like:
-
-    /var/lib/radicale/collections/collection-root/user/big-huge-number
-
-There you will find a bunch of .ics files.  You'll have to manually
-delete the "bad" one, then restart Apache:
-
-    systemctl restart apache2
-{{< /callout >}}
