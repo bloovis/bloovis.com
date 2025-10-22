@@ -102,6 +102,22 @@ able to create a Fossil repository that approximated what the notes
 looked like in Joplin.  I made the repository private and copied it to
 my server.
 
+## Search
+
+Joplin has a handy search feature.  You can enable a search feature in your Fossil
+repository, though it will have to be done on each local copy of the repository.
+Run `fossil ui`, and in the Admin / Configuration section, add a line to main menu that looks
+like this:
+
+```
+Search    /search      *              {}
+```
+
+Then in Admin / Search, add `*.md` to the Document Glob List, and check
+the box next to Search Document.  Now when you visit the Home page,
+you should see a Search menu option (you may have to reload the page
+to see it).
+
 ## Android
 
 But what about Android?  How can you possibly live without the Joplin app?
