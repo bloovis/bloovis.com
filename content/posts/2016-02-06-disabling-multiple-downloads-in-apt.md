@@ -16,7 +16,9 @@ occurred with the corporate firewall.
 The fix is decribed in [this post](http://askubuntu.com/questions/88731/can-the-update-manager-download-only-a-single-package-at-a-time).
 As root, create the file `/etc/apt/apt.conf.d/75download` with the following single line:
 
-    Acquire::Queue-Mode "access";
+```
+Acquire::Queue-Mode "access";
+```
 
 Then the package managers will attempt to download only one file at a
 time, reducing the stress on the DSL modem.  The downside is that

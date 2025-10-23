@@ -29,7 +29,7 @@ The last of these problems is the most serious of the three;
 fortunately there is a solution, described below.  But the first step
 was to install Mint.  In order to do that, I had to enter the BIOS at
 startup by hitting the Esc key rapidly until a simple menu was
-displayed.  Then hitting F10 entered the BIOS.  In the boot options, I
+displayed, then hitting F10 entered the BIOS.  In the boot options, I
 disabled Secure Boot, enabled Legacy Support, and moved the USB Hard
 Disk up to the top of the boot order.  Then I was able to boot Mint
 from a USB stick.
@@ -55,9 +55,11 @@ I found the solution in the first answer to [this forum post](https://askubuntu.
 The solution was to boot Linux and overwrite Microsoft's UEFI boot loader with the Ubuntu one.
 I did this using these commands as root:
 
-    cd /boot/efi/EFI
-    cp Microsoft/Boot/bootmgfw.efi Microsoft/bootmgfw.efi
-    cp ubuntu/grubx64.efi Microsoft/Boot/bootmgfw.efi
+```
+cd /boot/efi/EFI
+cp Microsoft/Boot/bootmgfw.efi Microsoft/bootmgfw.efi
+cp ubuntu/grubx64.efi Microsoft/Boot/bootmgfw.efi
+```
 
 After running `update-grub`, the Grub menu now appeared upon restarting the laptop.  But then
 Windows would not boot; when the Windows option was selected in the Grub menu,

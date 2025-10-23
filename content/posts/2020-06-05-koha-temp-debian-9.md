@@ -31,8 +31,10 @@ but Apache could not see them there, because it had its own private `/tmp` direc
 The solution was to add the missing `tmp_path` entry to `koha-conf.xml`, and point it to
 somewhere other than `/tmp`.  Here is what the two related entries look like now:
 
-    <upload_path>/var/lib/koha/INSTANCE/uploads</upload_path>
-    <tmp_path>/var/lib/koha/INSTANCE/tmp</tmp_path>
+```
+<upload_path>/var/lib/koha/INSTANCE/uploads</upload_path>
+<tmp_path>/var/lib/koha/INSTANCE/tmp</tmp_path>
+```
 
 Replace INSTANCE with your actual Koha instance name.  Then reboot the server
 to make sure that Koha sees and uses the new paths correctly.

@@ -12,7 +12,9 @@ For some reason, one of my Linux Mint 18.1 machines was not able to run
 ispell, which gave this error message:
 <!--more-->
 
-    Can't open /usr/lib/ispell/default.hash
+```
+Can't open /usr/lib/ispell/default.hash
+```
 
 Comparing this installation with another machine running the same OS,
 it seemed that the missing file was supposed to be the first in a chain

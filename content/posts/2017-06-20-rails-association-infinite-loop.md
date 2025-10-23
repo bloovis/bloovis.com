@@ -36,9 +36,11 @@ with the Rails conventions.
 This led me to making the following bone-headed mistakes in my `Course`
 model:
 
-    belongs_to :professor_1, class_name: "Person", foreign_key: "professor_1"
-    belongs_to :professor_2, class_name: "Person", foreign_key: "professor_2", optional: true
-    belongs_to :greeter,     class_name: "Person", foreign_key: "greeter",     optional: true
+```
+belongs_to :professor_1, class_name: "Person", foreign_key: "professor_1"
+belongs_to :professor_2, class_name: "Person", foreign_key: "professor_2", optional: true
+belongs_to :greeter,     class_name: "Person", foreign_key: "greeter",     optional: true
+```
 
 This caused Rails to get into an infinite recursion and report a stack
 overflow when it tried to resolve the associations.  It took me a long
@@ -51,6 +53,8 @@ was to rename those foreign keys to follow Rails conventions, so that
 `professor_1` was renamed to `professor_1_id`, and so forth.  Then
 the associations could be expressed more simply (and without infinite recursion!):
 
-    belongs_to :professor_1, class_name: "Person"
-    belongs_to :professor_2, class_name: "Person", optional: true
-    belongs_to :greeter,     class_name: "Person", optional: true
+```
+belongs_to :professor_1, class_name: "Person"
+belongs_to :professor_2, class_name: "Person", optional: true
+belongs_to :greeter,     class_name: "Person", optional: true
+```

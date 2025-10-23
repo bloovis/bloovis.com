@@ -31,11 +31,15 @@ where `xxxxxxxx` will be a seemingly random sequence of letters and digits.
 In that directory, the LastPass extension is stored in the subdirectory
 `support@lastpass.com`.  Move into that directory and then execute this command:
 
-    zip -r /tmp/lastpass.xpi .
+```
+zip -r /tmp/lastpass.xpi .
+```
 
 Copy the resulting xpi file to `/tmp` on the second machine.  In Pale Moon
 on that machine, enter this URL in the address bar:
 
-    file:///tmp/lastpass.xpi
+```
+file:///tmp/lastpass.xpi
+```
 
 The extension should install and be available upon restart of Pale Moon.

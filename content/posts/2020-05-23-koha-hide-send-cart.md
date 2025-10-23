@@ -19,9 +19,11 @@ I decided to suppress the ability to send the cart by hiding the "Send" button.
 In Administration / Global system preferences, edit the OPACUserJS preference
 to look like this:
 
-    $(document).ready(function(){
-        $('#userbasket .toolbar a.send').hide();
-    });
+```
+$(document).ready(function(){
+    $('#userbasket .toolbar a.send').hide();
+});
+```
 
 If there already is a "ready" function in OPACUserJS, add the "hide" line shown above
 to that function.

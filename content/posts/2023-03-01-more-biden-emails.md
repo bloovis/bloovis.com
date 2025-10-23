@@ -157,7 +157,9 @@ places where he bought stuff.  These are mostly annoying clutter and can be dele
 (actually just labelled "deleted" so that Sup doesn't display them by default),
 using a command like the following:
 
-    notmuch tag +deleted -- from:email.bloomberg.com
+```
+notmuch tag +deleted -- from:email.bloomberg.com
+```
 
 ### Ukraine
 

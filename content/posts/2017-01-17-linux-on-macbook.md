@@ -52,10 +52,12 @@ This program recognizes multiple operating system and allows the
 user to select the one to boot upon power up.  After I downloaded the rEFInd zip file
 to the Desktop, I opened a Terminal (in Applications / Utilities), and ran these commands to install it:
 
-    cd Desktop
-    unzip refind-bin-0-10.4.zip
-    cd refind-bin-0.10.4
-    ./refind-install
+```
+cd Desktop
+unzip refind-bin-0-10.4.zip
+cd refind-bin-0.10.4
+./refind-install
+```
 
 ### Creating a Linux installation USB key
 

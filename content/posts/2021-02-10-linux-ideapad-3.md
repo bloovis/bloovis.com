@@ -76,11 +76,15 @@ need to make the touchpad fix permanent.  Edit the file `/etc/default/grub` usin
 sudo and an editor (e.g., `sudo nano /etc/default/grub`).  Find the
 line that looks like this:
 
-    GRUB_CMDLINE_LINUX=""
+```
+GRUB_CMDLINE_LINUX=""
+```
 
 and change it to look like this:
 
-    GRUB_CMDLINE_LINUX="i8042.nopnp=1 pci=nocrs"
+```
+GRUB_CMDLINE_LINUX="i8042.nopnp=1 pci=nocrs"
+```
 
 Save the file and exit the editor.  Then run `sudo update-grub` to install the
 change permanently.

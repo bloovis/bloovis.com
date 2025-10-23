@@ -28,9 +28,11 @@ and was found [here](https://download.lenovo.com/ibmdl/pub/pc/pccbbs/mobiles/6du
 
 Then I logged in as root (using `sudo su`) and performed the following steps:
 
-    apt-get install grub-imageboot
-    cp 6duj48us.iso /boot/images
-    update-grub
+```
+apt-get install grub-imageboot
+cp 6duj48us.iso /boot/images
+update-grub
+```
 
 After rebooting, I realized that I needed to force the Grub menu to appear at boot time.  (The menu
 was invisible because this machine had no other operating systems
@@ -39,7 +41,9 @@ should not have to perform these steps.)  As root, I edited the file `/etc/defau
 and commented out the line containing `GRUB_HIDDEN_TIMEOUT` so that it looked
 like this:
 
-    #GRUB_HIDDEN_TIMEOUT=0
+```
+#GRUB_HIDDEN_TIMEOUT=0
+```
 
 Finally, I ran `update-grub` and rebooted.  This time the Grub menu appeared,
 and I was able to select `6duj48us.iso` for booting.

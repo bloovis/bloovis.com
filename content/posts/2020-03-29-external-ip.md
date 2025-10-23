@@ -15,10 +15,14 @@ A quick DuckDuckGo search found
 but nearly all of the methods described there no longer work.  The only
 ones that worked for me were this:
 
-    curl -s http://whatismyip.akamai.com/ && echo
+```
+curl -s http://whatismyip.akamai.com/ && echo
+```
 
 or this:
 
-    dig +short -t txt o-o.myaddr.l.google.com @ns1.google.com | sed -e s/\"//g
+```
+dig +short -t txt o-o.myaddr.l.google.com @ns1.google.com | sed -e s/\"//g
+```
 
 Either or these commands could be placed in a one-line shell script or an alias.

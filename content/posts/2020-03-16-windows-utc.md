@@ -65,7 +65,9 @@ should display a single choice, the regedit program, so click on that choice.
 Answer "Yes" to the question about whether you want regedit to make changes
 to your computer.  In regedit, nagivate to this point in the registry tree:
 
-    HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
+```
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
+```
 
 In that set of keys, right click on an empty space and create a new key of type DWORD
 called `RealTimeIsUniversal`.  Regedit will set it to 0.  You must set it to
@@ -74,7 +76,9 @@ called `RealTimeIsUniversal`.  Regedit will set it to 0.  You must set it to
 Reboot into Linux.  Wait a minute for the correct time to be obtained via NTP.
 Then run the following command in a terminal session:
 
-    sudo hwclock -u --systohc
+```
+sudo hwclock -u --systohc
+```
 
 This writes the current system time to the hardware clock as UTC.
 You can verify that the hardware clock is set to UTC by booting into the BIOS,

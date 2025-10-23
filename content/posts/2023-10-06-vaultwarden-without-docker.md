@@ -68,102 +68,126 @@ or prefixed with `sudo`.
 
 First, create a directory to store the docker image temporarily:
 
-    mkdir vw-image
-    cd vw-image
+```
+mkdir vw-image
+cd vw-image
+```
 
 Obtain the script for extracting the needed pieces of the Docker image:
 
-    wget https://raw.githubusercontent.com/jjlin/docker-image-extract/main/docker-image-extract
-    chmod +x docker-image-extract
+```
+wget https://raw.githubusercontent.com/jjlin/docker-image-extract/main/docker-image-extract
+chmod +x docker-image-extract
+```
 
 Extract the Vaultwarden Docker image:
 
-    ./docker-image-extract vaultwarden/server:latest
+```
+./docker-image-extract vaultwarden/server:latest
+```
 
 Create directories where Vaultwarden will be stored on the server:
 
-    mkdir /opt/vaultwarden
-    mkdir /var/lib/vaultwarden
-    mkdir /var/lib/vaultwarden/data
+```
+mkdir /opt/vaultwarden
+mkdir /var/lib/vaultwarden
+mkdir /var/lib/vaultwarden/data
+```
 
 Create a vaultwarden user and make the Vaultwarden data owned by it:
 
-    useradd vaultwarden
-    chown -R vaultwarden:vaultwarden /var/lib/vaultwarden
+```
+useradd vaultwarden
+chown -R vaultwarden:vaultwarden /var/lib/vaultwarden
+```
 
 Move the Vaultwarden server program and data to their final destinations:
 
-    mv output/vaultwarden /opt/vaultwarden
-    mv output/web-vault /var/lib/vaultwarden
+```
+mv output/vaultwarden /opt/vaultwarden
+mv output/web-vault /var/lib/vaultwarden
+```
 
 If things have gone well, remove the unnecessary bits:
 
-    rm -Rf output
-    rm -Rf docker-image-extract
+```
+rm -Rf output
+rm -Rf docker-image-extract
+```
 
 Install two packages required by Vaultwarden:
 
-    apt install libmariadb3
-    apt install libpq5
+```
+apt install libmariadb3
+apt install libpq5
+```
 
 ## Configure Vaultwarden
 
 Create the hash for a Vaultwarden admin password:
 
-    /opt/vaultwarden/vaultwarden hash
+```
+/opt/vaultwarden/vaultwarden hash
+```
 
 You will be prompted for a password twice.  Save the resulting output somewhere.
 
 Create the file `/var/lib/vaultwarden/.env` with the following contents,
 substituting your own user name, domain, and SMTP details:
 
-    DOMAIN=https://www.example.com/vaultwarden/
-    ORG_CREATION_USERS=user@example.com
-    ADMIN_TOKEN='<hash produced by vaultwarden hash earlier>'
-    SIGNUPS_ALLOWED=false
-    SMTP_HOST=smtp.example.com
-    SMTP_FROM=vaultwarden@example.com
-    SMTP_FROM_NAME=Vaultwarden
-    SMTP_PORT=587          # Ports 587 (submission) and 25 (smtp) are standard without encryption and with encryption via STARTTLS (Explicit TLS). Port 465 is outdated and us>
-    SMTP_SSL=true          # (Explicit) - This variable by default configures Explicit STARTTLS, it will upgrade an insecure connection to a secure one. Unless SMTP_EXPLICIT_>
-    SMTP_EXPLICIT_TLS=false # (Implicit) - N.B. This variable configures Implicit TLS. It's currently mislabelled (see bug #851) - SMTP_SSL Needs to be set to true for this o>
-    SMTP_USERNAME=user@example.com
-    SMTP_PASSWORD=mysmtppassword
-    SMTP_TIMEOUT=15
-    # Change the following back to true to allow login on the web.
-    WEB_VAULT_ENABLED=false
-    LOG_FILE=/var/lib/vaultwarden/vaultwarden.log
+```
+DOMAIN=https://www.example.com/vaultwarden/
+ORG_CREATION_USERS=user@example.com
+ADMIN_TOKEN='<hash produced by vaultwarden hash earlier>'
+SIGNUPS_ALLOWED=false
+SMTP_HOST=smtp.example.com
+SMTP_FROM=vaultwarden@example.com
+SMTP_FROM_NAME=Vaultwarden
+SMTP_PORT=587          # Ports 587 (submission) and 25 (smtp) are standard without encryption and with encryption via STARTTLS (Explicit TLS). Port 465 is outdated and us>
+SMTP_SSL=true          # (Explicit) - This variable by default configures Explicit STARTTLS, it will upgrade an insecure connection to a secure one. Unless SMTP_EXPLICIT_>
+SMTP_EXPLICIT_TLS=false # (Implicit) - N.B. This variable configures Implicit TLS. It's currently mislabelled (see bug #851) - SMTP_SSL Needs to be set to true for this o>
+SMTP_USERNAME=user@example.com
+SMTP_PASSWORD=mysmtppassword
+SMTP_TIMEOUT=15
+# Change the following back to true to allow login on the web.
+WEB_VAULT_ENABLED=false
+LOG_FILE=/var/lib/vaultwarden/vaultwarden.log
+```
 
 Create the file `/etc/systemd/system/vaultwarden.service` with the following contents:
 
-    [Unit]
-    Description=Bitwarden Server (Rust Edition)
-    Documentation=https://github.com/dani-garcia/vaultwarden
-    After=network.target
+```
+[Unit]
+Description=Bitwarden Server (Rust Edition)
+Documentation=https://github.com/dani-garcia/vaultwarden
+After=network.target
 
-    [Service]
-    User=vaultwarden
-    Group=vaultwarden
-    EnvironmentFile=/var/lib/vaultwarden/.env
-    ExecStart=/opt/vaultwarden/vaultwarden
-    LimitNOFILE=1048576
-    LimitNPROC=64
-    PrivateTmp=true
-    PrivateDevices=true
-    ProtectHome=true
-    ProtectSystem=strict
-    WorkingDirectory=/var/lib/vaultwarden
-    ReadWriteDirectories=/var/lib/vaultwarden
-    AmbientCapabilities=CAP_NET_BIND_SERVICE
+[Service]
+User=vaultwarden
+Group=vaultwarden
+EnvironmentFile=/var/lib/vaultwarden/.env
+ExecStart=/opt/vaultwarden/vaultwarden
+LimitNOFILE=1048576
+LimitNPROC=64
+PrivateTmp=true
+PrivateDevices=true
+ProtectHome=true
+ProtectSystem=strict
+WorkingDirectory=/var/lib/vaultwarden
+ReadWriteDirectories=/var/lib/vaultwarden
+AmbientCapabilities=CAP_NET_BIND_SERVICE
 
-    [Install]
-    WantedBy=multi-user.target
+[Install]
+WantedBy=multi-user.target
+```
 
 Now you should be able to start the Vaultwarden service and check its status:
 
-    systemctl enable vaultwarden
-    systemctl start vaultwarden
-    systemctl status vaultwarden | less
+```
+systemctl enable vaultwarden
+systemctl start vaultwarden
+systemctl status vaultwarden | less
+```
 
 The status should say that vaultwarden is running and that it is listening
 at `http://127.0.0.1:8000`.
@@ -178,7 +202,9 @@ base web site URL is `https://www.example.com/` for illustration purposes.
 
 First, enable the proxy module:
 
-    a2enmod proxy_http
+```
+a2enmod proxy_http
+```
 
 Tell Apache how to redirect the URL `/vaultwarden` from your base web site to
 Vaultwarden.  Do this by adding a single line to the `<VirtualHost *:443>`
@@ -187,17 +213,23 @@ Let's Encrypt to obtain your SSL certificates, this configuration file might be 
 `/etc/apache2/sites-enabled/000-default-le-ssl.conf`.  The line you
 need to add looks like this:
 
-    ProxyPass /vaultwarden/ http://127.0.0.1:8000/vaultwarden/ upgrade=websocket
+```
+ProxyPass /vaultwarden/ http://127.0.0.1:8000/vaultwarden/ upgrade=websocket
+```
 
 Restart Apache and check its status:
 
-    systemctl restart apache2
-    systemctl status apache2
+```
+systemctl restart apache2
+systemctl status apache2
+```
 
 If all went well, you should be able to visit the admin page of your Vaultwarden site by
 going to this URL in a browser:
 
-    https://www.example.com/vaultwarden/admin
+```
+https://www.example.com/vaultwarden/admin
+```
 
 You will be prompted for a password, so enter the password you used earlier
 when prompted by `vaultwarden hash`.  The configuration page should now
@@ -247,8 +279,10 @@ to the Vaultwarden vault.
 An alert reader has informed me that the following things need to be done
 if you're using SELinux:
 
-    semanage fcontext -a -t bin_t '/opt/vaultwarden/vaultwarden'
-    restorecon -RFv /opt/vaultwarden/vaultwarden
-    setsebool -P httpd_can_network_connect on
+```
+semanage fcontext -a -t bin_t '/opt/vaultwarden/vaultwarden'
+restorecon -RFv /opt/vaultwarden/vaultwarden
+setsebool -P httpd_can_network_connect on
+```
 
 I don't use SELinux, so I'm unable to try this myself.

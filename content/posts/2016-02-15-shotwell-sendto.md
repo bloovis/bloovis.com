@@ -30,9 +30,11 @@ to the Shotwell bug is to install caja-sendto, and then fool Shotwell into runni
 caja-sendto instead of nautilus-sendto.  This is done using the following commands
 in a terminal window:
 
-    sudo apt-get install caja-sendto
-    cd /usr/bin
-    sudo ln -s caja-sendto nautilus-sendto
+```
+sudo apt-get install caja-sendto
+cd /usr/bin
+sudo ln -s caja-sendto nautilus-sendto
+```
 
 After running these commands, Shotwell will now be able to send photos via Thunderbird
 using its "send to" feature.

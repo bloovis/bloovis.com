@@ -40,15 +40,19 @@ The solution was to write a special udev rule to create a symbolic
 link to the device file.  First, use the lsusb command to determine
 the vendor and product IDs of the USB device used by the VantageVue:
 
-    % lsusb
-    ...
-    Bus 002 Device 013: ID 10c4:ea60 Cygnal Integrated Products, Inc. CP210x UART Bridge /
-     myAVR mySmartUSB light
-    ...
+```
+% lsusb
+...
+Bus 002 Device 013: ID 10c4:ea60 Cygnal Integrated Products, Inc. CP210x UART Bridge /
+ myAVR mySmartUSB light
+...
+```
 
 Then as root, create the file `/etc/udev/rules.d/90-vantage.rules` containing the following line using the IDs obtained from lsusb:
 
-    ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60",
-     SYMLINK+="vantage"
+```
+ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60",
+ SYMLINK+="vantage"
+```
 
 Then unplug and replug the VantageVue console, and the symbolic link `/dev/vantage` will be created, and this device name can be used in place of `/dev/ttyUSB?` in `/etc/weewx/weewx.conf`.

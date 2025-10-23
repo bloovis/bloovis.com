@@ -68,10 +68,12 @@ using ssh.
 We are going to install Koha from prebuilt Debian-compatible packages.
 First set up the package source:
 
-    wget -q -O- http://debian.koha-community.org/koha/gpg.asc |
-       apt-key add -
-    echo 'deb http://debian.koha-community.org/koha stable main' |
-       tee /etc/apt/sources.list.d/koha.list
+```
+wget -q -O- http://debian.koha-community.org/koha/gpg.asc |
+   apt-key add -
+echo 'deb http://debian.koha-community.org/koha stable main' |
+   tee /etc/apt/sources.list.d/koha.list
+```
 
 (Note that the two commands shown above have been split into two lines each for formatting
 in this post.  You should type these commands on single lines, not split as shown.)
@@ -81,15 +83,19 @@ If you want to use the previous stable release, replace "stable" with "oldstable
 
 Now update the package list and install the Koha package:
 
-    apt-get update
-    apt-get install koha-common
+```
+apt-get update
+apt-get install koha-common
+```
 
 This will take several minutes as apt-get installs a large number of prerequisite packages
 needed by Koha.
 
 Now you need to install the MySQL database:
 
-    apt-get install mysql-server
+```
+apt-get install mysql-server
+```
 
 During the installation, MySQL will ask you for a root password.  For simplicity,
 use the same password that you chose for your Linode account and ssh access.
@@ -127,22 +133,28 @@ change some of Apache's settings.  First, we need to tell Apache to listen on th
 Edit the file `/etc/apache2/ports.conf`.  There should already be a line like
 this in the file:
 
-    Listen 80
+```
+Listen 80
+```
 
 Below that line, add these two lines:
 
-    Listen 81
-    Listen 82
+```
+Listen 81
+Listen 82
+```
 
 If necessary, change these port numbers to the same ones you chose earlier when
 editing `/etc/koha/koha-sites.conf`.  Then save the file and exit the editor.
 
 Next, we need to enable certain Apache modules, then restart it:
 
-    a2enmod rewrite
-    a2enmod cgi
-    a2enmod headers proxy_http
-    service apache2 restart
+```
+a2enmod rewrite
+a2enmod cgi
+a2enmod headers proxy_http
+service apache2 restart
+```
 
 ### Create a Koha instance
 
@@ -150,7 +162,9 @@ Now it is time to create a Koha instance for your library.  In the following
 command, replace `LIBRARYNAME` with the name of your library (typically, an
 easy-to-type abbreviation):
 
-    koha-create --create-db --use-memcached LIBRARYNAME
+```
+koha-create --create-db --use-memcached LIBRARYNAME
+```
 
 ### Access the web interface
 
@@ -159,11 +173,15 @@ from Firefox on another machine.  To do this, you'll need to know the domain nam
 for your Linode host.  If you don't have a domain name yet, you can use
 its IP address.  To determine the IP address, run this command:
 
-    ifconfig eth0 | grep "inet addr:"
+```
+ifconfig eth0 | grep "inet addr:"
+```
 
 The output will look something like this:
 
-    inet addr:12.345.67.89  Bcast:23.239.9.255  Mask:255.255.255.0
+```
+inet addr:12.345.67.89  Bcast:23.239.9.255  Mask:255.255.255.0
+```
 
 The IP address is the first set of four numbers (12.345.67.89 in this
 made-up example).
@@ -171,10 +189,12 @@ made-up example).
 To determine the user name and password that you will need to log into
 Koha, type the following commands:
 
-    xmlstarlet sel -t -v 'yazgfs/config/user'
-       /etc/koha/sites/LIBRARYNAME/koha-conf.xml && echo
-    xmlstarlet sel -t -v 'yazgfs/config/pass'
-       /etc/koha/sites/LIBRARYNAME/koha-conf.xml && echo
+```
+xmlstarlet sel -t -v 'yazgfs/config/user'
+   /etc/koha/sites/LIBRARYNAME/koha-conf.xml && echo
+xmlstarlet sel -t -v 'yazgfs/config/pass'
+   /etc/koha/sites/LIBRARYNAME/koha-conf.xml && echo
+```
 
 (Note that the two commands shown above have been split into two lines each for formatting
 in this post.  You should type these commands on single lines, not split as shown.
@@ -201,9 +221,11 @@ it can improve Koha's response time by a factor of three in some common operatio
 
 Enabling plack is now quite simple in Koha.  Run these commands:
 
-    koha-plack --enable LIBRARYNAME
-    koha-plack --start  LIBRARYNAME
-    service apache2 restart
+```
+koha-plack --enable LIBRARYNAME
+koha-plack --start  LIBRARYNAME
+service apache2 restart
+```
 
 As always, change LIBRARYNAME to the name you chose when you created your
 Koha instance earlier.  It's possible that `koha-plack` may require you to
@@ -218,8 +240,10 @@ after installation.  It used to be sufficient
 to add the following lines to both VirtualHost sections of
 `/etc/apache2/sites-available/LIBRARYNAME.conf`:
 
-    SetEnv MEMCACHED_SERVERS "127.0.0.1:11211"
-    SetEnv MEMCACHED_NAMESPACE "koha"
+```
+SetEnv MEMCACHED_SERVERS "127.0.0.1:11211"
+SetEnv MEMCACHED_NAMESPACE "koha"
+```
 
 But now those lines seem to be ignored, apparently due to a bad interaction
 with Plack (see [this bug](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=11921)
@@ -227,8 +251,10 @@ for more information).  The
 solution is to add the following lines to the `<config>` section of
 `/etc/koha/sites/LIBRARYNAME/koha-conf.xml`:
 
-    <memcached_servers>127.0.0.1:11211</memcached_servers>
-    <memcached_namespace>koha</memcached_namespace>
+```
+<memcached_servers>127.0.0.1:11211</memcached_servers>
+<memcached_namespace>koha</memcached_namespace>
+```
 
 After making this change, restarting Apache is not sufficient; I rebooted
 the machine to get the change to take effect.  In retrospect,
@@ -236,7 +262,9 @@ the machine to get the change to take effect.  In retrospect,
 
 You can check if Memcached is working using this command:
 
-    telnet localhost 11211
+```
+telnet localhost 11211
+```
 
 If Memcached is running, you will get a "Connected to localhost" message.
 Exit telnet by hitting Control-], followed by Enter, followed by Control-D.
@@ -244,13 +272,17 @@ Exit telnet by hitting Control-], followed by Enter, followed by Control-D.
 Now play around with Koha a little by loading different pages.  Then check
 if caching is actually taking place using this:
 
-    memcdump --servers 127.0.0.1
+```
+memcdump --servers 127.0.0.1
+```
 
 You should see a large list of cache items.
 
 If memcdump is not available, install it using:
 
-    sudo apt-get install libmemcached-tools
+```
+sudo apt-get install libmemcached-tools
+```
 
 ### Enable Z39.50
 
@@ -260,7 +292,9 @@ where LIBRARYNAME is the name you chose when you created your Koha instance.
 
 Near the top of that file is a line that looks like this:
 
-    <listen id="publicserver">tcp:@:nnn</listen>
+```
+<listen id="publicserver">tcp:@:nnn</listen>
+```
 
 Uncomment that line by removing the `<!--` and `-->` lines before and after it.
 Then replace `nnn` with an unused port number, preferably something greater
@@ -269,17 +303,23 @@ than 1023.  I chose 9998.
 Farther down in the file, around line 180, is a section starting with a line that
 looks like this:
 
-    <!-- PUBLICSERVER'S BIBLIOGRAPHIC RECORDS -->
+```
+<!-- PUBLICSERVER'S BIBLIOGRAPHIC RECORDS -->
+```
 
 Below that is a line that looks like this:
 
-    <server id="publicserver"  listenref="publicserver">
+```
+<server id="publicserver"  listenref="publicserver">
+```
 
 Remove the start-of-comment line (`<!--`) before that line.
 
 Now move down to around line 260, where you will see this line:
 
-    </serverinfo>
+```
+</serverinfo>
+```
 
 Remove the end-of-comment line (`-->`) after that line.
 
@@ -287,36 +327,50 @@ Finally, save the file and exit the editor.
 
 Restart Zebra (the program that handles searches in Koha):
 
-    koha-restart-zebra LIBRARYNAME
+```
+koha-restart-zebra LIBRARYNAME
+```
 
 where LIBRARYNAME is the name you chose when you created your Koha instance.
 Verify that Zebra is now listening on the port you chose (9998 in the
 example above) by doing this:
 
-    netstat -pn --tcp --listen | grep 9998
+```
+netstat -pn --tcp --listen | grep 9998
+```
 
 If things are working, you should see a line that looks like this:
 
-    tcp        0      0 0.0.0.0:9998            0.0.0.0:*               LISTEN      6986/zebrasrv   
+```
+tcp        0      0 0.0.0.0:9998            0.0.0.0:*               LISTEN      6986/zebrasrv   
+```
 
 If things are not working, you won't see any output.
 
 As a final check, you can try making a Z39.50 connection:
 
-    yaz-client tcp:127.0.0.1:9998/biblios
+```
+yaz-client tcp:127.0.0.1:9998/biblios
+```
 
 If things are working, you should see a few lines of output, including a line
 that looks like this:
 
-    Connection accepted by v3 target.
+```
+Connection accepted by v3 target.
+```
 
 and then a prompt line:
 
-    Z> 
+```
+Z> 
+```
 
 If things aren't working, you'll see an error message like this:
 
-    Connecting...error = System (lower-layer) error: Connection refused
+```
+Connecting...error = System (lower-layer) error: Connection refused
+```
 
 Exit the `yaz-client` program by hitting Ctrl-D or typing `exit` followed by Enter.
 
@@ -336,18 +390,24 @@ Enabling a template cache can significantly improve Koha's performance.  To do t
 add the following line to the `<config>` section of
 `/etc/koha/sites/LIBRARYNAME/koha-conf.xml`:
 
-    <template_cache_dir>/var/cache/koha/LIBRARYNAME/templates</template_cache_dir>
+```
+<template_cache_dir>/var/cache/koha/LIBRARYNAME/templates</template_cache_dir>
+```
 
 Then create the template cache directory and make it writeable by Koha:
 
-    mkdir -p /var/cache/koha/LIBRARYNAME/templates
-    chown LIBRARYNAME-koha:LIBRARYNAME-koha /var/cache/koha/LIBRARYNAME/templates
+```
+mkdir -p /var/cache/koha/LIBRARYNAME/templates
+chown LIBRARYNAME-koha:LIBRARYNAME-koha /var/cache/koha/LIBRARYNAME/templates
+```
 
 Finally, restart Apache and Koha:
 
-    service memcached restart
-    service apache2 reload
-    koha-plack --restart LIBRARYNAME
+```
+service memcached restart
+service apache2 reload
+koha-plack --restart LIBRARYNAME
+```
 
 As always, change LIBRARYNAME to the name you chose when you created your
 Koha instance earlier.
@@ -371,7 +431,9 @@ By default, Koha deletes backup files older than two days.  If you would like to
 the number of days that backups are kept around, edit the file `/etc/cron.daily/koha-common`.
 At the bottom of that file, you will see a line that looks like this:
 
-    koha-run-backups --days 2 --output /var/spool/koha
+```
+koha-run-backups --days 2 --output /var/spool/koha
+```
 
 Change the 2 to the number of days you'd like to keep backups, then save the file and
 exit the editor.
@@ -390,13 +452,17 @@ the following:
 
 After following the steps in the tutorial, restart the mail server:
 
-    /etc/init.d/exim4 restart
+```
+/etc/init.d/exim4 restart
+```
 
 You may have to repeat the "restart" step if you reboot your Linode.
 
 Then enable email for your Koha instance:
 
-    koha-email-enable LIBRARYNAME
+```
+koha-email-enable LIBRARYNAME
+```
 
 Finally, it may be necessary to make sure that Reverse DNS works for your Linode
 in both IPV4 and IPV6 modes; otherwise, Gmail may not accept mail from exim4.  See
@@ -411,21 +477,23 @@ To prevent search engines from indexing your entire OPAC site, include
 the bibliographic records, as root create the file `/usr/share/koha/opac/htdocs/robots.txt`
 with the following contents:
 
-    Crawl-delay: 60
+```
+Crawl-delay: 60
 
-    User-agent: *
-    Disallow: /
+User-agent: *
+Disallow: /
 
-    User-agent: Googlebot
-    Disallow: /cgi-bin/koha/opac-search.pl
-    Disallow: /cgi-bin/koha/opac-showmarc.pl
-    Disallow: /cgi-bin/koha/opac-detailprint.pl
-    Disallow: /cgi-bin/koha/opac-ISBDdetail.pl
-    Disallow: /cgi-bin/koha/opac-MARCdetail.pl
-    Disallow: /cgi-bin/koha/opac-reserve.pl
-    Disallow: /cgi-bin/koha/opac-export.pl
-    Disallow: /cgi-bin/koha/opac-detail.pl
-    Disallow: /cgi-bin/koha/opac-authoritiesdetail.pl
+User-agent: Googlebot
+Disallow: /cgi-bin/koha/opac-search.pl
+Disallow: /cgi-bin/koha/opac-showmarc.pl
+Disallow: /cgi-bin/koha/opac-detailprint.pl
+Disallow: /cgi-bin/koha/opac-ISBDdetail.pl
+Disallow: /cgi-bin/koha/opac-MARCdetail.pl
+Disallow: /cgi-bin/koha/opac-reserve.pl
+Disallow: /cgi-bin/koha/opac-export.pl
+Disallow: /cgi-bin/koha/opac-detail.pl
+Disallow: /cgi-bin/koha/opac-authoritiesdetail.pl
+```
 
 See [this bug](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=4042)
 for a discussion of robots.txt in Koha.

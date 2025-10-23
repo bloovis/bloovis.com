@@ -85,7 +85,9 @@ Log out and log back in to your administrator account.
 
 In a terminal session, execute this command:
 
-    sudo ln -v -s /home/hospitality /etc/guest-session/skel
+```
+sudo ln -v -s /home/hospitality /etc/guest-session/skel
+```
 
 This causes the Hospitality account to be used as the template
 for the guest account.

@@ -38,8 +38,10 @@ called authdaemon, and that fails with a permission denied error.
 I was able to verify this problem manually by running
 maildrop as my normal user:
 
-    % maildrop -d marka
-    ERR: authdaemon: s_connect() failed: Permission denied
+```
+% maildrop -d marka
+ERR: authdaemon: s_connect() failed: Permission denied
+```
 
 This error does not occur if maildrop is run from a root account.
 
@@ -62,7 +64,9 @@ I've resorted to letting postfix deliver emails directly to my
 maildir by removing all of postfix's maildrop configuration options,
 and instead using something like this line in `/etc/postfix/main.cf`:
 
-    home_mailbox = mail/inbox.2023/
+```
+home_mailbox = mail/inbox.2023/
+```
 
 Then `notmuch new` finds the new emails there and processes them.
 

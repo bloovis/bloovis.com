@@ -20,5 +20,7 @@ after a very long delay.
 The fix is described in this [forum post](https://forums.linuxmint.com/viewtopic.php?p=1904811#p1904811).
 The following two commands are all that is necessary:
 
-    sudo apt-get install apparmor-utils
-    sudo aa-complain /usr/lib/lightdm/lightdm-guest-session
+```
+sudo apt-get install apparmor-utils
+sudo aa-complain /usr/lib/lightdm/lightdm-guest-session
+```

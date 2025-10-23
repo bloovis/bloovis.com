@@ -14,4 +14,6 @@ the printer, power-cycling the printer, and disconnecting and reconnecting
 the USB cable.  In the end, restarting CUPS
 seems to be the only way to eliminate the "out of paper" indicator:
 
-    sudo systemctl restart cups
+```
+sudo systemctl restart cups
+```

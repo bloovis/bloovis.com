@@ -21,12 +21,14 @@ with the text for that item that may appear on subsequent lines.
 To fix this problem, insert a preamble in the source Markdown document that
 looks like this:
 
-    ---
-    geometry: margin=.75in
-    header-includes:
-        - \usepackage{enumitem}
-        - \setlist[description]{leftmargin=!,labelwidth=1.5in}
-    ---
+```
+---
+geometry: margin=.75in
+header-includes:
+    - \usepackage{enumitem}
+    - \setlist[description]{leftmargin=!,labelwidth=1.5in}
+---
+```
 
 The `geometry` line reduces the margins so that more content can appear on the output pages.
 The `setlist` line fixes the alignment problem in description lists: it sets
@@ -35,25 +37,27 @@ text to be aligned vertically.  This improves the output appearance greatly.
 
 The subsequent lines in the sample resume look like this:
 
-    # JOE BLOW
+```
+# JOE BLOW
 
-    **CONTACT**
+**CONTACT**
 
-    :   123 Main Street, Podunk, ND 34567.  800-555-1212. `joeblow@example.com`
+:   123 Main Street, Podunk, ND 34567.  800-555-1212. `joeblow@example.com`
 
-    **SUMMARY**
+**SUMMARY**
 
-    :   Thirty years experience playing video games in my mom's basement\:
+:   Thirty years experience playing video games in my mom's basement\:
 
-        * Stood in line for four hours to buy the first Nintendo 64.
+    * Stood in line for four hours to buy the first Nintendo 64.
 
-        * Still have a working Atari Pong console.
+    * Still have a working Atari Pong console.
 
-        * Exercise my wrists on a daily basis using a WII.
+    * Exercise my wrists on a daily basis using a WII.
 
-        * Played Adventure nearly every day in 1979 on an ASR-33 teletype.
+    * Played Adventure nearly every day in 1979 on an ASR-33 teletype.
 
-    ...
+...
+```
 
 The full source document can be found [here](../../../sample-resume.md), and the generated
 PDF can be found [here](../../../sample-resume.pdf).

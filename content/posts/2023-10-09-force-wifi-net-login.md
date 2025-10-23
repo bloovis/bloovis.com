@@ -20,7 +20,9 @@ will then redirect to the login page.
 
 To find the gateway's IP address on Linux, use this command:
 
-    ip route | sed -n -e "s/default via \([0-9.]\+\).*/\1/p"
+```
+ip route | sed -n -e "s/default via \([0-9.]\+\).*/\1/p"
+```
 
 Then copy and paste the IP address into the address bar of the browser,
 and hit Enter.  This should redirect the browser to the login page.
