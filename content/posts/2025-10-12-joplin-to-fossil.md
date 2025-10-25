@@ -137,10 +137,8 @@ Once that's working, you can clone a remote Fossil repository, but you have to
 make sure that you insert the correct user name in the ssh URL, e.g.:
 
 ```
-fossil clone --no-open ssh://joeuser@example.com/fossils/mynotes.fossil
-mkdir mynotes  # create working directory
-cd mynotes     # move to working directory
-fossil open ../mynotes.fossil   # check out mynotes
+fossil clone ssh://joeuser@example.com/fossils/mynotes.fossil
+cd mynotes
 ```
 
 Then can you can use `fossil ui` in your working directory to view it
