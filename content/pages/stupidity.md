@@ -16,7 +16,7 @@ The first basic law of human stupidity asserts without ambiguity that:
 **Always and inevitably everyone underestimates the number of stupid
 individuals in circulation.**
 
-![](/images/stupid1.png)
+![](/images/stupid1.jpg)
 
 At first, the statement sounds trivial, vague and horribly ungenerous.
 Closer scrutiny will however reveal its realistic veracity. No matter
@@ -37,7 +37,7 @@ the fraction of stupid people within a population by the symbol σ.
 
 ## The Second Basic Law
 
-![](/images/stupid2.png)
+![](/images/stupid2.jpg)
 
 Cultural trends now fashionable in the West favour an egalitarian
 approach to life. People like to think of human beings as the output
@@ -119,7 +119,7 @@ beings fall into four basic categories: the helpless, the intelligent, the bandi
 the stupid. It will be easily recognized by the perspicacious reader that these four
 categories correspond to the four areas *I*, *H*, *S*, *B*, of the basic graph (see below).
 
-![Figure 1](/images/stupid3.png "Figure 1")
+![Figure 1](/images/stupid3.jpg "Figure 1")
 
 If Tom takes an action and suffers a loss while producing a gain to Dick, Tom's
 mark will fall in field *H*: Tom acted helplessly. If Tom takes an action by which
@@ -180,7 +180,7 @@ lose 100 pounds, he gains 100 pounds. In the basic graph the perfect bandits
 would appear on a 45-degree diagonal line that divides the area *B* into two
 perfectly symmetrical sub-areas (line *OM* of figure 2).
 
-![Figure 2](/images/stupid4.png "Figure 2")
+![Figure 2](/images/stupid4.jpg "Figure 2")
 
 However the "perfect" bandits are relatively few. The line *OM* divides the area
 *B* into two sub-areas, *B<sub>1</sub>*, and *B<sub>2</sub>*, and by far the largest majority of the bandits
@@ -324,7 +324,7 @@ falling to the right of the line *POM* (see fig. 3) add to the welfare of a soci
 although in different degrees, the actions of all individuals falling to the left of
 the same line *POM* cause a deterioration.
 
-![Figure 2](/images/stupid5.png "Figure 3")
+![Figure 2](/images/stupid5.jpg "Figure 3")
 
 In other words the helpless with overtones of intelligence (area *H<sub>1</sub>*), the bandits
 with overtones of intelligence (area *B<sub>1</sub>*) and above all the intelligent (area *I*) all
