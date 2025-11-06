@@ -3,11 +3,11 @@ title: "The Basic Laws of Human Stupidity"
 date: 2025-11-06
 ---
 
-by **Carlo M. Cipolla**  
+by [Carlo M. Cipolla](https://en.wikipedia.org/wiki/Carlo_M._Cipolla)
+
 illustrations by **James Donnelly**
 
-source: <http://wwwcsif.cs.ucdavis.edu/~leeey/stupidity/basic.htm>  
-original: Whole Earth Review. Spring 1987, p. 2-7
+source: [Whole Earth Review. Spring 1987, p. 2-7](https://wholeearth.info/p/whole-earth-review-spring-1987?format=spreads&index=5)
 
 ## The First Basic Law
 
@@ -33,7 +33,7 @@ inconvenient places and at the most improbable moments.
 The First Basic Law prevents me from attributing a specific numerical value to
 the fraction of stupid people within the total population: any numerical estimate
 would turn out to be an underestimate. Thus in the following pages I will denote
-the fraction of stupid people within a population by the symbol å.
+the fraction of stupid people within a population by the symbol σ.
 
 ## The Second Basic Law
 
@@ -51,7 +51,9 @@ experimentation, that men are not equal, that some are stupid and others are not
 and that the difference is determined by nature and not by cultural forces or
 factors. One is stupid in the same way one is red-haired; one belongs to the
 stupid set as one belongs to a blood group. A stupid man is born a stupid man by
-an act of Providence. Although convinced that fraction of human beings are
+an act of Providence.
+
+Although convinced that fraction σ of human beings are
 stupid and that they are so because of genetic traits, I am not a reactionary trying
 to reintroduce surreptitiously class or race discrimination. I firmly believe that
 stupidity is an indiscriminate privilege of all human groups and is uniformly
@@ -70,30 +72,30 @@ female to male ratio among the newly born is a constant, with a very slight
 prevalence of males. We do not know how Nature achieves this remarkable
 result but we know that in order to achieve it Nature must operate with large
 numbers. The most remarkable fact about the frequency of stupidity is that
-Nature succeeds in making this frequency equal to the probability quite
+Nature succeeds in making this frequency equal to the probability σ quite
 independently from the size of the group.
 
 Thus one finds the same percentage of stupid people whether one is considering
 very large groups or one is dealing with very small ones. No other set of
 observable phenomena offers such striking proof of the powers of Nature.
 
-The evidence that education has nothing to do with the probability was provided
+The evidence that education has nothing to do with the probability σ was provided
 by experiments carried on in a large number of universities all over the world.
 One may distinguish the composite population which constitutes a university in
 five major groups, namely the blue-collar workers, the white-collar employees,
 the students, the administrators and the professors.
 
-Whenever I analyzed the blue-collar workers I found that the fraction å of them
-were stupid. As å's value was higher than I expected (First Law), paying my
+Whenever I analyzed the blue-collar workers I found that the fraction σ of them
+were stupid. As σ's value was higher than I expected (First Law), paying my
 tribute to fashion I thought at first that segregation, poverty, lack of education
 were to be blamed. But moving up the social ladder I found that the same ratio
 was prevalent among the white-collar employees and among the students. More
 impressive still were the results among the professors. Whether I considered a
 large university or a small college, a famous institution or an obscure one, I
-found that the same fraction å of the professors are stupid. So bewildered was I
+found that the same fraction σ of the professors are stupid. So bewildered was I
 by the results, that I made a special point to extend my research to a specially
 selected group, to a real elite, the Nobel laureates. The result confirmed Nature's
-supreme powers: å fraction of the Nobel laureates are stupid.
+supreme powers: σ fraction of the Nobel laureates are stupid.
 
 This idea was hard to accept and digest but too many experimental results
 proved its fundamental veracity. The Second Basic Law is an iron law, and it
@@ -115,16 +117,16 @@ expectations.
 The Third Basic Law assumes, although it does not state it explicitly, that human
 beings fall into four basic categories: the helpless, the intelligent, the bandit and
 the stupid. It will be easily recognized by the perspicacious reader that these four
-categories correspond to the four areas I, H, S, B, of the basic graph (see below).
+categories correspond to the four areas *I*, *H*, *S*, *B*, of the basic graph (see below).
 
-[![Figure 1](/images/stupid3.png "Figure 1")](/images/stupid3-large.png)
+![Figure 1](/images/stupid3.png "Figure 1")
 
 If Tom takes an action and suffers a loss while producing a gain to Dick, Tom's
-mark will fall in field H: Tom acted helplessly. If Tom takes an action by which
-he makes a gain while yielding a gain also to Dick, Tom's mark will fall in area I:
+mark will fall in field *H*: Tom acted helplessly. If Tom takes an action by which
+he makes a gain while yielding a gain also to Dick, Tom's mark will fall in area *I*:
 Tom acted intelligently. If Tom takes an action by which he makes a gain causing
-Dick a loss, Tom's mark will fall in area B: Tom acted as a bandit. Stupidity is
-related to area S and to all positions on axis Y below point O. As the Third Basic
+Dick a loss, Tom's mark will fall in area *B*: Tom acted as a bandit. Stupidity is
+related to area S and to all positions on axis *Y* below point *O*. As the Third Basic
 Law explicitly clarifies:
 
 **A stupid person is a person who causes losses to another person or to a
@@ -165,7 +167,7 @@ inconsistency. A helpless person may occasionally behave intelligently and on
 occasion he may perform a bandit's action. But since the person in question is
 fundamentally helpless most of his action will have the characteristics of
 helplessness. Thus the overall weighted average position of all the actions of
-such a person will place him in the H quadrant of the basic graph.
+such a person will place him in the *H* quadrant of the basic graph.
 
 The fact that it is possible to place on the graph individuals instead of their
 actions allows some digression about the frequency of the bandit and stupid
@@ -175,34 +177,34 @@ The perfect bandit is one who, with his actions, causes to other individuals los
 equal to his gains. The crudest type of banditry is theft. A person who robs you
 of 100 pounds without causing you an extra loss or harm is a perfect bandit: you
 lose 100 pounds, he gains 100 pounds. In the basic graph the perfect bandits
-would appear on a 45-degree diagonal line that divides the area B into two
-perfectly symmetrical sub-areas (line OM of figure 2).
+would appear on a 45-degree diagonal line that divides the area *B* into two
+perfectly symmetrical sub-areas (line *OM* of figure 2).
 
-[![Figure 2](/images/stupid4.png "Figure 2")](/images/stupid4-large.png)
+![Figure 2](/images/stupid4.png "Figure 2")
 
-However the "perfect" bandits are relatively few. The line OM divides the area
-B into two sub-areas, B1, and B2, and by far the largest majority of the bandits
+However the "perfect" bandits are relatively few. The line *OM* divides the area
+*B* into two sub-areas, *B<sub>1</sub>*, and *B<sub>2</sub>*, and by far the largest majority of the bandits
 falls somewhere in one of these two sub-areas.
-The bandits who fall in area B1 are those individuals whose actions yield to them
+The bandits who fall in area *B<sub>1</sub>* are those individuals whose actions yield to them
 profits which are larger than the losses they cause to other people. All bandits
-who are entitled to a position in area B1 are bandits with overtones of
-intelligence and as they get closer to the right side of the X axis they share more
+who are entitled to a position in area *B<sub>1</sub>* are bandits with overtones of
+intelligence and as they get closer to the right side of the *X* axis they share more
 and more the characteristics of the intelligent person.
 
-Unfortunately the individuals entitled to a position in the B1 area are not very
-numerous. Most bandits actually fall in area B2. The individuals who fall in this
+Unfortunately the individuals entitled to a position in the *B<sub>1</sub>* area are not very
+numerous. Most bandits actually fall in area *B<sub>2</sub>*. The individuals who fall in this
 area are those whose actions yield to them gains inferior to the losses inflicted to
 other people. If someone kills you in order to rob you of fifty pounds or if he
 murders you in order to spend a weekend with your wife at Monte Carlo, we can
-be sure that he is not a perfect bandit. Even by using his values to measure his
-gains (but still using your values to measure your losses) he falls in the B2 area
+be sure that he is not a perfect bandit. Even by using *his* values to measure *his*
+gains (but still using *your* values to measure *your* losses) he falls in the *B<sub>2</sub>* area
 very close to the border of sheer stupidity. Generals who cause vast destruction
 and innumerable casualties in return for a promotion or a medal fall in the same
 area.
 
 The frequency distribution of the stupid people is totally different from that of
 the bandit. While bandits are mostly scattered over an area stupid people are
-heavily concentrated along one line, specifically on the Y axis below point O.
+heavily concentrated along one line, specifically on the *Y* axis below point *O*.
 The reason for this is that by far the majority of stupid people are basically and
 unwaveringly stupid - in other words they perseveringly insist in causing harm
 and losses to other people without deriving any gain, whether positive or
@@ -211,7 +213,7 @@ negative.
 There are however people who by their improbable actions not only cause
 damages to other people but in addition hurt themselves. They are a sort of
 super-stupid who, in our system of accounting, will appear somewhere in the
-area S to the left of the Y axis.
+area *S* to the left of the *Y* axis.
 
 ### The Power of Stupidity
 
@@ -239,7 +241,9 @@ attacks. When confronted with a stupid individual you are completely at his
 mercy. Because the stupid person's actions do not conform to the rules of
 rationality, it follows that:
 
-a) one is generally caught by surprise by the attack; b) even when one becomes
+a) one is generally caught by surprise by the attack;
+
+b) even when one becomes
 aware of the attack, one cannot organize a rational defense, because the attack
 itself lacks any rational structure.
 
@@ -253,7 +257,7 @@ the very Gods fight in vain."
 
 ## The Fourth Basic Law
 
-That helpless people, namely those who in our accounting system fall into the H
+That helpless people, namely those who in our accounting system fall into the *H*
 area, do not normally recognize how dangerous stupid people are, is not at all
 surprising. Their failure is just another expression of their helplessness. The truly
 amazing fact, however, is that also intelligent people and bandits often fail to
@@ -301,7 +305,7 @@ The corollary of the Law is that:
 
 **A stupid person is more dangerous than a bandit.**
 
-The result of the action of a perfect bandit (the person who falls on line OM of
+The result of the action of a perfect bandit (the person who falls on line *OM* of
 figure 2 is purely and simply a transfer of wealth and/or welfare. After the
 action of a perfect bandit, the bandit has a plus on his account which plus is
 exactly equivalent to the minus he has caused to another person. The society as
@@ -316,48 +320,51 @@ When stupid people are at work, the story is totally different. Stupid people
 cause losses to other people with no counterpart of gains on their own account.
 Thus the society as a whole is impoverished. The system of accounting which
 finds expression in the basic graphs shows that while all actions of individuals
-falling to the right of the line POM (see fig. 3) add to the welfare of a society;
+falling to the right of the line *POM* (see fig. 3) add to the welfare of a society;
 although in different degrees, the actions of all individuals falling to the left of
-the same line POM cause a deterioration.
+the same line *POM* cause a deterioration.
 
-[![Figure 2](/images/stupid5.png "Figure 3")](/images/stupid5-large.png)
+![Figure 2](/images/stupid5.png "Figure 3")
 
-In other words the helpless with overtones of intelligence (area H1), the bandits
-with overtones of intelligence (area B1) and above all the intelligent (area I) all
+In other words the helpless with overtones of intelligence (area *H<sub>1</sub>*), the bandits
+with overtones of intelligence (area *B<sub>1</sub>*) and above all the intelligent (area *I*) all
 contribute, though in different degrees, to accrue to the welfare of a society. On
-the other hand the bandits with overtones of stupidity (area B2) and the helpless
-with overtones of stupidity (area H1) manage to add losses to those caused by
+the other hand the bandits with overtones of stupidity (area *B<sub>2</sub>*) and the helpless
+with overtones of stupidity (area *H<sub>1</sub>*) manage to add losses to those caused by
 stupid people thus enhancing the nefarious destructive power of the latter group.
 
 All this suggests some reflection on the performance of societies. According to
-the Second Basic Law, the fraction of stupid people is a constant å which is not
-affected by time, space, race, class or any other socio- cultural or historical
+the Second Basic Law, the fraction of stupid people is a constant σ which is not
+affected by time, space, race, class or any other socio-cultural or historical
 variable. It would be a profound mistake to believe the number of stupid people
 in a declining society is greater than in a developing society. Both such societies
 are plagued by the same percentage of stupid people. The difference between
 the two societies is that in the society which performs poorly:
 
 a) the stupid members of the society are allowed by the other members to
-become more active and take more actions; b) there is a change in the
+become more active and take more actions;
+
+b) there is a change in the
 composition of the non-stupid section with a relative decline of populations of
-areas I, H1 and B1 and a proportionate increase of populations H2 and B2.
+areas *I*, *H<sub>1</sub>* and *B<sub>1</sub>* and a proportionate increase of
+populations *H<sub>2</sub>* and *B<sub>2</sub>*.
 
 This theoretical presumption is abundantly confirmed by an exhaustive analysis
 of historical cases. In fact the historical analysis allows us to reformulate the
 theoretical conclusions in a more factual way and with more realistic detail.
 
 Whether one considers classical, or medieval, or modern or contemporary times
-one is impressed by the fact that any country moving uphill has its unavoidable å
+one is impressed by the fact that any country moving uphill has its unavoidable σ
 fraction of stupid people. However the country moving uphill also has an
-unusually high fraction of intelligent people who manage to keep the å fraction
+unusually high fraction of intelligent people who manage to keep the σ fraction
 at bay and at the same time produce enough gains for themselves and the other
 members of the community to make progress a certainty.
 
 In a country which is moving downhill, the fraction of stupid people is still equal
-to å; however in the remaining population one notices among those in power an
-alarming proliferation of the bandits with overtones of stupidity (sub-area B1 of
-quadrant B in figure 3) and among those not in power an equally alarming
-growth in the number of helpless individuals (area H in basic graph, fig.1). Such
+to σ; however in the remaining population one notices among those in power an
+alarming proliferation of the bandits with overtones of stupidity (sub-area *B<sub>1</sub>* of
+quadrant *B* in figure 3) and among those not in power an equally alarming
+growth in the number of helpless individuals (area *H* in basic graph, fig.1). Such
 change in the composition of the non-stupid population inevitably strengthens
-the destructive power of the å fraction and makes decline a certainty. And the
+the destructive power of the σ fraction and makes decline a certainty. And the
 country goes to Hell.
