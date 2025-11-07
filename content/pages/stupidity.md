@@ -33,7 +33,7 @@ inconvenient places and at the most improbable moments.
 The First Basic Law prevents me from attributing a specific numerical value to
 the fraction of stupid people within the total population: any numerical estimate
 would turn out to be an underestimate. Thus in the following pages I will denote
-the fraction of stupid people within a population by the symbol σ.
+the fraction of stupid people within a population by the symbol **σ**.
 
 ## The Second Basic Law
 
@@ -53,7 +53,7 @@ factors. One is stupid in the same way one is red-haired; one belongs to the
 stupid set as one belongs to a blood group. A stupid man is born a stupid man by
 an act of Providence.
 
-Although convinced that fraction σ of human beings are
+Although convinced that fraction **σ** of human beings are
 stupid and that they are so because of genetic traits, I am not a reactionary trying
 to reintroduce surreptitiously class or race discrimination. I firmly believe that
 stupidity is an indiscriminate privilege of all human groups and is uniformly
@@ -72,30 +72,30 @@ female to male ratio among the newly born is a constant, with a very slight
 prevalence of males. We do not know how Nature achieves this remarkable
 result but we know that in order to achieve it Nature must operate with large
 numbers. The most remarkable fact about the frequency of stupidity is that
-Nature succeeds in making this frequency equal to the probability σ quite
+Nature succeeds in making this frequency equal to the probability **σ** quite
 independently from the size of the group.
 
 Thus one finds the same percentage of stupid people whether one is considering
 very large groups or one is dealing with very small ones. No other set of
 observable phenomena offers such striking proof of the powers of Nature.
 
-The evidence that education has nothing to do with the probability σ was provided
+The evidence that education has nothing to do with the probability **σ** was provided
 by experiments carried on in a large number of universities all over the world.
 One may distinguish the composite population which constitutes a university in
 five major groups, namely the blue-collar workers, the white-collar employees,
 the students, the administrators and the professors.
 
-Whenever I analyzed the blue-collar workers I found that the fraction σ of them
-were stupid. As σ's value was higher than I expected (First Law), paying my
+Whenever I analyzed the blue-collar workers I found that the fraction **σ** of them
+were stupid. As **σ**'s value was higher than I expected (First Law), paying my
 tribute to fashion I thought at first that segregation, poverty, lack of education
 were to be blamed. But moving up the social ladder I found that the same ratio
 was prevalent among the white-collar employees and among the students. More
 impressive still were the results among the professors. Whether I considered a
 large university or a small college, a famous institution or an obscure one, I
-found that the same fraction σ of the professors are stupid. So bewildered was I
+found that the same fraction **σ** of the professors are stupid. So bewildered was I
 by the results, that I made a special point to extend my research to a specially
 selected group, to a real elite, the Nobel laureates. The result confirmed Nature's
-supreme powers: σ fraction of the Nobel laureates are stupid.
+supreme powers: **σ** fraction of the Nobel laureates are stupid.
 
 This idea was hard to accept and digest but too many experimental results
 proved its fundamental veracity. The Second Basic Law is an iron law, and it
@@ -334,7 +334,7 @@ with overtones of stupidity (area *H<sub>1</sub>*) manage to add losses to those
 stupid people thus enhancing the nefarious destructive power of the latter group.
 
 All this suggests some reflection on the performance of societies. According to
-the Second Basic Law, the fraction of stupid people is a constant σ which is not
+the Second Basic Law, the fraction of stupid people is a constant **σ** which is not
 affected by time, space, race, class or any other socio-cultural or historical
 variable. It would be a profound mistake to believe the number of stupid people
 in a declining society is greater than in a developing society. Both such societies
@@ -354,17 +354,17 @@ of historical cases. In fact the historical analysis allows us to reformulate th
 theoretical conclusions in a more factual way and with more realistic detail.
 
 Whether one considers classical, or medieval, or modern or contemporary times
-one is impressed by the fact that any country moving uphill has its unavoidable σ
+one is impressed by the fact that any country moving uphill has its unavoidable **σ**
 fraction of stupid people. However the country moving uphill also has an
-unusually high fraction of intelligent people who manage to keep the σ fraction
+unusually high fraction of intelligent people who manage to keep the **σ** fraction
 at bay and at the same time produce enough gains for themselves and the other
 members of the community to make progress a certainty.
 
 In a country which is moving downhill, the fraction of stupid people is still equal
-to σ; however in the remaining population one notices among those in power an
+to **σ**; however in the remaining population one notices among those in power an
 alarming proliferation of the bandits with overtones of stupidity (sub-area *B<sub>1</sub>* of
 quadrant *B* in figure 3) and among those not in power an equally alarming
 growth in the number of helpless individuals (area *H* in basic graph, fig.1). Such
 change in the composition of the non-stupid population inevitably strengthens
-the destructive power of the σ fraction and makes decline a certainty. And the
+the destructive power of the **σ** fraction and makes decline a certainty. And the
 country goes to Hell.
