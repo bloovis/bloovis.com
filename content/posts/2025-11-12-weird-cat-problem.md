@@ -47,7 +47,7 @@ fcntl(1, F_GETFL)                       = 0x2 (flags O_RDWR)
 Here is where `cat` is getting the file access mode for standard output (see `man fcntl`
 for details).  For some reason, standard output on the "bad" `cat` had an extra
 flag: `O_APPEND`.  I don't know how or why this would happen, but it seemed to
-be the cause of the divergence.  This problem wasn't unique to ghosttty;
+be the cause of the divergence.  This problem wasn't unique to ghostty;
 I also saw it with [alacritty](https://alacritty.org/).  I don't remember seeing it before
 I switched to Niri.
 
