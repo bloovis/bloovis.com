@@ -33,6 +33,8 @@ The source code for this site is here:
 * [Main Site](https://github.com/bloovis/bloovis.com): the main portion of the site
 * [Gallery](https://github.com/bloovis/gallery): the gallery portion of the site (minus the images)
 
+I do not use and will never use AI to write anything on this web site.
+
 If you dislike what you see here, and want to tell me about it,
 you can find my email address in the [About](/about/) page.
 
