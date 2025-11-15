@@ -19,6 +19,12 @@ doesn't produce the expected result.
 
 <!--more-->
 
+{{< callout type="info" >}}
+Since writing this post, I asked about the problem on Stackoverflow and received this
+[very helpful reply](https://stackoverflow.com/questions/79816264/), which provided a workable solution.
+{{< /callout >}}
+
+
 ## Time.now
 
 The `Time.now` problem affected an extension I'd written that used `Time.new` in
