@@ -7,7 +7,7 @@ tags:
 - software
 ---
 
-Here are some notes I jotted down while solving problem with
+Here are some notes I jotted down while solving some minor problems with
 [Niri](https://github.com/YaLTeR/niri?tab=readme-ov-file),
 the tiling compositor for Wayland. (I am running Niri
 on Fedora 43 KDE Edition.)  I've also included some tips for programs associated with Niri,
@@ -29,7 +29,7 @@ In the `input / keyboard / xkb` section of the config file, uncomment the `optio
 
 ### Toggle laptop screen
 
-To add a command to toggle the laptop screen power, bound to Mod+Ctrl+P, first modify the `off` line
+To add a command to toggle the laptop screen power, bound to Mod+P, first modify the `off` line
 in the section for output eDP-1 so that it has a `// laptop` comment as a marker:
 
 ```
@@ -48,7 +48,7 @@ sed -i -E \
 Then add this line to the `binds` section of the config file:
 
 ```
-    Mod+Ctrl+P { spawn "/home/USER/bin/toggle-laptop-screen"; }
+    Mod+P { spawn "/home/USER/bin/toggle-laptop-screen"; }
 ```
 
 Change the path to the actual path of the script.
@@ -75,7 +75,7 @@ Add this line to the config file:
 spawn-at-startup "swaybg" "-m" "fill" "-i" "/usr/share/wallpapers/Path/contents/images/2560x1600.jpg"
 ```
 
-Then restart Niri for it to take effect.
+Change the path for your favorite background image. Then restart Niri for it to take effect.
 
 ### Brave Browser dialogs don't appear
 
@@ -90,7 +90,7 @@ appear.  After the first run, you can close Nautilus.
 [Waybar](https://github.com/Alexays/Waybar/tree/master)
 is the status/app bar used by default in Niri.
 
-To add a CPU fan widget, add this custom module to the end of`~/.config/waybar/config.jsonc`:
+To add a CPU fan widget for a ThinkPad, add this custom module to the end of`~/.config/waybar/config.jsonc`:
 
 ```
     "custom/fan": {
@@ -100,7 +100,8 @@ To add a CPU fan widget, add this custom module to the end of`~/.config/waybar/c
     }
 ```
 
-Then add it to `modules-right` after the temperature widget:
+For other laptops, you'll have to determine which proc device gives you the fan speed.
+Then add this module to `modules-right` after the temperature widget:
 
 ```
     "modules-right": [
@@ -113,8 +114,8 @@ Then add it to `modules-right` after the temperature widget:
 
 ### Disappearing waybar tray
 
-The little tray box on the far right disappeared. (The tray is useful for
-killing Zoom after a sesson.)  [This issue](https://github.com/Alexays/Waybar/issues/3468)
+At one point, perhaps after running a KDE app, the little tray box on the far right of the waybar
+disappeared. (The tray is useful for killing Zoom after a sesson.)  [This issue](https://github.com/Alexays/Waybar/issues/3468)
 explains why.  I verified that kded6 had taken over the status notifier using this:
 
 ```
@@ -139,7 +140,8 @@ launcher used by default in Niri.
 ### Add Sioyek to the list of apps
 
 [Sioyek](https://sioyek.info/) is a very fast and capable PDF viewer that I like
-to use sometimes instead of Evince or Okular.
+to use sometimes instead of Evince or Okular.  In order to make it visible
+to Fuzzel, use the following steps.
 
 Install (and rename) the sioyek appimage file to `/usr/local/bin/sioyek`.
 
@@ -174,14 +176,18 @@ magic /usr/share/icons/breeze-dark/mimetypes/64/viewpdf.svg ~/.local/share/icons
 
 ## Alacritty
 
+[Alacritty](https://github.com/alacritty/alacritty) is the terminal emulator used
+by default in Niri.
+
 ### Font
 
-The default font is "monospace regular".  Find which font is monospace using `fc-match monospace`.
+The default font in Alacritty is "monospace regular".  To find which font is monospace, use `fc-match monospace`.
 On Fedora, this is NotoSansMono.
 
-Display list of fonts: `fc-list`
+To display the list of all fonts use `fc-list` .
 
-DejaVuSansMono isn't installed by default in Fedora.  Install it using `sudo dnf install dejavu-sans-mono-fonts.noarch`.
+I prefer using DejaVuSansMono, but it isn't installed by default in Fedora.
+Install it using `sudo dnf install dejavu-sans-mono-fonts.noarch`.
 
 Then edit `~/.config/alacritty/alacritty.toml` and add these lines:
 
@@ -193,7 +199,7 @@ normal = { family = "DejaVuSansMono", style = "Regular" }
 
 ## Virtualization
 
-virt-manager complains that it can't connect to libvirtd.  Running `sudo systemctl status libvirtd`
+When run under Niri, virt-manager complains that it can't connect to libvirtd.  Running `sudo systemctl status libvirtd`
 shows the message:
 
 ```
@@ -222,8 +228,8 @@ I will try to find a way to start this automatically when Niri starts, per the a
 
 ## Ghostty
 
-[Ghostty](https://ghostty.org/) is a very fast and capable terminal emulator.
-The config file is `~/.config/ghostty/config`.
+[Ghostty](https://ghostty.org/) is a very fast and capable terminal emulator
+that I now use instead of Alacritty.  The config file is `~/.config/ghostty/config`.
 
 For some reason, Ctrl-I and Ctrl-[ aren't mapped to Tab and Esc.  Fix this using:
 
