@@ -26,3 +26,8 @@ ip route | sed -n -e "s/default via \([0-9.]\+\).*/\1/p"
 
 Then copy and paste the IP address into the address bar of the browser,
 and hit Enter.  This should redirect the browser to the login page.
+
+*Update*: Sometimes the above method doesn't work for some hotel
+captive portals.  In those cases, it sometimes works to ask your
+browser to visit a non-SSL (i.e., insecure) web site, like
+<http://example.com/>.
