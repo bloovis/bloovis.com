@@ -53,3 +53,6 @@ necessary to add it to NetworkManager:
 ```
 sudo nmcli con add type ethernet con-name mifi ifname eth1
 ```
+
+On the Pi, you can see which DHCP leases NetworkManager has given out on `eth0` by examining
+the file `/var/lib/NetworkManager/dnsmasq-eth0.leases`.
