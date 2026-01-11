@@ -171,7 +171,7 @@ mkdir -p ~/.local/share/icons/hicolor/64x64/apps
 Convert the viewpdf SVG file to a PNG, rename it, and install it in the directory just created:
 
 ```
-magic /usr/share/icons/breeze-dark/mimetypes/64/viewpdf.svg ~/.local/share/icons/hicolor/64x64/apps/sioyek.png
+magick /usr/share/icons/breeze-dark/mimetypes/64/viewpdf.svg ~/.local/share/icons/hicolor/64x64/apps/sioyek.png
 ```
 
 ## Alacritty
