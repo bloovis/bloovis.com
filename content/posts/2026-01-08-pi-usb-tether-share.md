@@ -54,5 +54,52 @@ necessary to add it to NetworkManager:
 sudo nmcli con add type ethernet con-name mifi ifname eth1
 ```
 
-On the Pi, you can see which DHCP leases NetworkManager has given out on `eth0` by examining
-the file `/var/lib/NetworkManager/dnsmasq-eth0.leases`.
+## Sharing via Ethernet
+
+As mentioned above, the USB tethered connection can be shared via ethernet.
+It's simplest to do this using `nmtui`.  In `nmtui`, select "Edit a connection", then select the
+ethernet connection ("netplan-eth0" on my Pi), then "Edit...".  Change
+"IPv4 Configuration" to "Shared" and hit "OK".
+
+## Sharing via wi-fi
+
+To turn the Pi into a wi-fi hotspot, set it up the first time
+using these commands:
+
+```
+sudo nmcli radio wifi on
+sudo nmcli device wifi hotspot ssid MyCoolSsId password PaSsWoRd
+```
+
+Change the ssid and password to the values of your choice.  These commands
+need to be run only once; NetworkManager should remember these settings
+even after a power cycle.
+
+To disable the hotspot in the future, use this command:
+
+```
+sudo nmcli radio wifi off
+```
+
+Then to re-enable the hotspot:
+
+```
+sudo nmcli radio wifi on
+sudo nmcli connection up Hotspot
+```
+
+## Leases
+
+You can see which DHCP leases NetworkManager has given out via ethernet using this
+command:
+
+```
+sudo cat /var/lib/NetworkManager/dnsmasq-eth0.leases
+```
+
+Similarly, you can see the wi-fi leases using this command:
+
+```
+sudo cat /var/lib/NetworkManager/dnsmasq-wlan0.leases
+```
+
