@@ -161,3 +161,10 @@ to her apartment, the performance was very poor, no doubt due
 to the fact that old WRT54GL router doesn't support 5 GHz wi-fi.
 I now have a newer [TP-Link Archer C8 v1 router](https://wiki.dd-wrt.com/wiki/index.php/TP_Link_Archer_C8)
 running DD-WRT that should perform better.
+
+*Update 2*: I have had to abandon this entire scheme of using a router
+piggy-backing on the building's public wi-fi network.  For some reason,
+in this particular building, the wi-fi is not reliable and the router
+keeps entering a state where it's not able to reach the outside world.
+For a while, rebooting the router would fix the problem, but eventually
+even this stopped working.
