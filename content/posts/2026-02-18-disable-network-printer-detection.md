@@ -14,7 +14,7 @@ was trying to print to her own USB-connected printer.  I tried two solutions.
 <!--more-->
 
 I used to think that all it took to prevent the detection of network printers
-was to disable the `cups-browsed daemon with something like this:
+was to disable the `cups-browsed` daemon with something like this:
 
 ```
 sudo systemctl disable cups-browsed
