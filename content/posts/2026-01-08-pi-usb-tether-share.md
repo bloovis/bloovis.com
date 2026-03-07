@@ -18,6 +18,16 @@ using a Raspberry Pi 4 instead of a laptop, and ran into a problem.
 
 <!--more-->
 
+{{< callout type="info" >}}
+*Update 2026-03-07*: Since writing the following post, I discovered that
+I'm unable to get the Pi to provide a wi-fi hotspot *and* a shared ethernet
+connection at the same time.  My attempts to provide both simultaneously
+resulted in both network connections going down for a while.  At one point
+I lost both connections permanently, which is a disaster when you're trying to use
+the Pi in headless mode.  I was forced to connect the Pi to a keyboard/mouse and monitor,
+and use the Network Manager GUI to restore the ethernet shared mode. 
+{{< /callout >}}
+
 The latest version of Raspberry Pi OS is a variant of Debian 13 "Trixie", which now
 uses NetworkManager, as did that aforementioned laptop years ago, so I assumed that
 I could use the same setup on the Pi.  I used `nmtui` to set the ethernet port
