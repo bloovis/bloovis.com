@@ -18,16 +18,6 @@ using a Raspberry Pi 4 instead of a laptop, and ran into a problem.
 
 <!--more-->
 
-{{< callout type="info" >}}
-*Update 2026-03-07*: Since writing the following post, I discovered that
-I'm unable to get the Pi to provide a wi-fi hotspot *and* a shared ethernet
-connection at the same time.  My attempts to provide both simultaneously
-resulted in both network connections going down for a while.  At one point
-I lost both connections permanently, which is a disaster when you're trying to use
-the Pi in headless mode.  I was forced to connect the Pi to a keyboard/mouse and monitor,
-and use the Network Manager GUI to restore the ethernet shared mode. 
-{{< /callout >}}
-
 The latest version of Raspberry Pi OS is a variant of Debian 13 "Trixie", which now
 uses NetworkManager, as did that aforementioned laptop years ago, so I assumed that
 I could use the same setup on the Pi.  I used `nmtui` to set the ethernet port
@@ -78,12 +68,20 @@ using these commands:
 
 ```
 sudo nmcli radio wifi on
-sudo nmcli device wifi hotspot ssid MyCoolSsId password PaSsWoRd
+sudo nmcli con add con-name hotspot ifname wlan0 type wifi ssid MySSID
+sudo nmcli con modify hotspot wifi-sec.key-mgmt wpa-psk
+sudo nmcli con modify hotspot wifi-sec.psk "MyPassword!"
+sudo nmcli con modify hotspot 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
+sudo nmcli con modify hotspot 802-11-wireless.powersave 2
 ```
 
 Change the ssid and password to the values of your choice.  These commands
 need to be run only once; NetworkManager should remember these settings
 even after a power cycle.
+
+Note the last command above, which disables wifi power-save mode.
+Without that command, wifi may be unreliable, and could stop working after a
+minute or two. More information [here](https://forums.raspberrypi.com/viewtopic.php?t=357629).
 
 To disable the hotspot in the future, use this command:
 
@@ -95,7 +93,6 @@ Then to re-enable the hotspot:
 
 ```
 sudo nmcli radio wifi on
-sudo nmcli connection up Hotspot
 ```
 
 ## Leases
@@ -112,4 +109,3 @@ Similarly, you can see the wi-fi leases using this command:
 ```
 sudo cat /var/lib/NetworkManager/dnsmasq-wlan0.leases
 ```
-
