@@ -11,7 +11,7 @@ tags:
 ---
 
 *Update*: This post describes how to install Vaultwarden on Ubuntu (or Debian)
-without using Docker.  I now longer use this procedure, which is somewhat complicated
+without using Docker.  I no longer use this procedure, which is somewhat complicated
 and error-prone.  Instead, I recommend installing the unofficial
 [vaultwarden](https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden)
 and [vaultwarden-webvault](https://build.opensuse.org/package/show/home:Masgalor:Vaultwarden/vaultwarden-webvault)
