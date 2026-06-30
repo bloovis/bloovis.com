@@ -129,6 +129,12 @@ ip -o route get 8.8.8.8 | sed -e 's/^.* src \([^ ]*\) .*$/\1/'
 Or run `ip -o route get 8.8.8.8` by itself, without the pipe to sed,
 and examine the output for the IP address.
 
+{{< callout type="info" >}}
+Recent versions of Android do *not* allow the use of the `ip` command due
+to SELinux permissions.  Instead, use the `ifconfig` command to determine
+the IP address.
+{{< /callout >}}
+
 Then on the laptop, ssh into Termux using this command (change `192.168.0.119`
 to the actual IP address of Termux that you learned earlier):
 

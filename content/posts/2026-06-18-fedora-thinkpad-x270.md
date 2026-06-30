@@ -8,7 +8,7 @@ tags:
 ---
 
 I recently installed Fedora 43 KDE on a ThinkPad X270, and ran into three problems,
-both of which seemed to be related to the TrackPoint.  I think I may have solved
+all of which seemed to be related to the TrackPoint.  I think I may have solved
 the problems, but time will tell.
 
 <!--more-->
