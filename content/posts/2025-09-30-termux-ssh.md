@@ -8,7 +8,7 @@ tags:
 
 [Termux](https://wiki.termux.com/wiki/Main_Page) is an app that brings
 a terminal emulator and a full-fledged Linux development environment to
-Android (version 12 and below).  It's easily installed from
+Android.  It's easily installed from
 [F-Droid](https://f-droid.org/en/).  But once it's installed, you
 will probably want to bring files from your normal Linux machine
 (say, a laptop) into the Termux environment, or ssh from Termux to another machine,
