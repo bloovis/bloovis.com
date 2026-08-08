@@ -41,7 +41,7 @@ sudo swapon -U beef-face-1234
 ```
 
 To check if the swap partition size is large enough to hold the Linux image,
-using this command to print the image size in GB:
+use this command to print the image size in GB:
 
 ```
 dc -e "2 k `cat /sys/power/image_size` 1073741824 / p"
