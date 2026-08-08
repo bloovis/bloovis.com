@@ -12,36 +12,27 @@ a stock installation with btrfs and no swap partition.  I use ext4 and swap
 partitions, but making hibernate work with this setup was reasonably simple
 <!--more-->
 
-First, find out the device name of the swap partition:
+First, find out the device name and UUID of the swap partition:
 
 ```
-lsblk -p
+lsblk -p -o +UUID
 ```
 
 Here is the output on my system:
 
 ```
-NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS UUID
 /dev/sda      8:0    0 931.5G  0 disk
-├─/dev/sda1   8:1    0  47.5G  0 part /
+├─/dev/sda1   8:1    0  47.5G  0 part /           92aeffb5-3456-49eb-8320-e6a0849a61d8
 ├─/dev/sda2   8:2    0     1K  0 part
-├─/dev/sda5   8:5    0 872.9G  0 part /home
-└─/dev/sda6   8:6    0  11.2G  0 part [SWAP]
-/dev/zram0  251:0    0     8G  0 disk [SWAP]
+├─/dev/sda5   8:5    0 872.9G  0 part /home       2a48ff97-f2d4-489e-b15a-23c20314f55b
+└─/dev/sda6   8:6    0  11.2G  0 part [SWAP]      3cac23fe-13b4-4cae-af1b-00d6ce7e970d
+/dev/zram0  251:0    0     8G  0 disk [SWAP]      ec5f01d1-73c2-4d9a-a1b2-d803a36d5600
 ```
 
-From this we can see that the swap partition device is `/dev/sda6`.  Ignore
-`/dev/zram0`.
-
-Find out the UUID of the swap partition:
-
-```
-sudo swaplabel /dev/sda6
-```
-
-This will display a UUID consisting of a long sequence of hex digits and
-dashes.  Let's say it's `beef-face-1234` (this example is too short for
-a real UUID but I'm using it for brevity).
+From this we can see that the swap partition device is `/dev/sda6`, and its
+UUID is the very long string starting with `3cac...`.   For brevity
+we'll pretend that the UUID is `beef-face-1234`.
 
 Enable the swap partition using:
 
