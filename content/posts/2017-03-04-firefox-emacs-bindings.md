@@ -38,7 +38,7 @@ the same effect:
 gsettings set org.gnome.desktop.interface gtk-key-theme 'Emacs'
 ```
 
-## Fedora 42 KDE
+## Fedora KDE
 
 On Fedora KDE, this command will work for Firefox:
 
@@ -51,3 +51,6 @@ identical to the setting that worked in Mate.  I haven't discovered an easy work
 for this problem, though there is a rather complicated way using
 [xremap](https://github.com/xremap/xremap?tab=readme-ov-file#kde-plasma-wayland)
 that I did not try.
+
+However, Brave on Niri does honor this setting, even when Niri is
+running on a Fedora KDE installation.
