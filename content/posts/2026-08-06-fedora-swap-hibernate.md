@@ -120,3 +120,14 @@ systemctl --user daemon-reload
 ```
 
 Without this command, bitwarden will re-create the autostart file at login.
+
+Another solution that doesn't require disabling autostart, and
+allows Bitwarden to be running, is to modify the Bitwarden .desktop file.  As root, edit the file
+`/usr/share/applications/bitwarden.desktop`, and change
+the Exec line to look like this:
+
+```
+Exec=env SECURE_KEY_CONTAINER_BACKEND=mlock /opt/Bitwarden/bitwarden %U
+```
+
+This fix was suggested by the aforementioned bug report.
