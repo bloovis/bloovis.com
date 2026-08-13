@@ -72,7 +72,10 @@ sudo systemctl hibernate
 
 The system will shut down.  Hit the power button to restart it.  You should
 see Fedora rebooting, then after a few seconds, Fedora will restore the saved state.
-If a fresh boot happens instead, it may be that
+
+## initramfs problem
+
+If a fresh boot happens instead of a restored state, it may be that
 `dracut` (the tool that creates the initramfs) needs to be configured and run.
 
 Check if the `resume` module is in the initramfs:
@@ -96,3 +99,24 @@ sudo dracut --regenerate-all --force
 
 Use `lsinitrd -m` again to check that resume got added to the modules.  Hibernate
 should work correctly now.
+
+## Call to Hibernate Failed
+
+If `sudo systemctl hibernate` produces a long message starting with `Call to Hibernate failed`,
+make sure that Secure Boot is disabled in the BIOS; use the `bootctl` command to verify.
+
+If Secure Boot is disabled but you're still seeing the error message,
+another possible cause is the Bitwarden app for Linux.  It interferes with hibernate
+by modifying `/sys/power/disk`.
+See this [bug report](https://github.com/bitwarden/clients/issues/21661) for details.
+
+You must make sure that Bitwarden is *not* running before hibernating.  Unfortunately,
+Bitwarden autostarts in the background at login, so you must open the app, and then tell it
+to quit.  To prevent autostarting on future logins, remove the file
+`~/.config/autostart/bitwarden.desktop`.  Then run this command:
+
+```
+systemctl --user daemon-reload
+```
+
+Without this command, bitwarden will re-create the autostart file at login.
